@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Oman"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Oman"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Oman"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Oman"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Oman"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Oman"/>
 		<property name="strHomelands" value="Oman"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Oman"/>
@@ -12,14 +17,17 @@
 			<property name="strName" value="Oman"/>
 			<property name="strOwner" value="Oman"/>
 			<property name="strController" value="Oman"/>
+			<property name="sidName" value="SID.Game.Region.Name.Oman"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="500000"/>
 			<property name="strCulture" value="Arabian"/>
 			<object type="City" name="objGOs">
 				<property name="strName" value="Muscat"/>
 				<property name="strOwner" value="Oman"/>
+				<property name="strController" value="Oman"/>
 				<property name="vecPosition" value="[58.6300010681, 23.6200008392, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Muscat"/>
 				<property name="nPopulation" value="4500"/>
 				<property name="strPortForRegion" value="Gulf of Oman"/>
 				<property name="strInitialWorkOrder" value=""/>

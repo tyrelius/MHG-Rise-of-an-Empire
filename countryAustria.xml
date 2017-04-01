@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Austria"/>
 		<property name="strGovType" value="Fascist"/>
+		<property name="sidName" value="SID.Game.Country.Name.Austria"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Austria"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Austria"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Austria"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Austria"/>
 		<property name="strHomelands" value="Austria"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>
@@ -13,6 +18,7 @@
 			<property name="strName" value="Ostmark"/>
 			<property name="strOwner" value="Austria"/>
 			<property name="strController" value="Austria"/>
+			<property name="sidName" value="SID.Game.Region.Name.Ostmark"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="5600000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -21,6 +27,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Ostmark Mines"/>
 				<property name="strOwner" value="Austria"/>
+				<property name="strController" value="Austria"/>
 				<property name="vecPosition" value="[14.0165948868, 48.1471710205, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -28,6 +35,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Ostmark Foundry"/>
 				<property name="strOwner" value="Austria"/>
+				<property name="strController" value="Austria"/>
 				<property name="vecPosition" value="[15.9799995422, 47.3899993896, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="2"/>
@@ -35,8 +43,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Vienna"/>
 				<property name="strOwner" value="Austria"/>
+				<property name="strController" value="Austria"/>
 				<property name="vecPosition" value="[16.3700008392, 48.2200012207, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Vienna"/>
 				<property name="nPopulation" value="1936000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -47,8 +57,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Graz"/>
 				<property name="strOwner" value="Austria"/>
+				<property name="strController" value="Austria"/>
 				<property name="vecPosition" value="[15.4399995804, 47.0699996948, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Graz"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
 					<property name="nIPUs" value="6"/>
@@ -59,6 +71,7 @@
 			<property name="strName" value="Tyrol"/>
 			<property name="strOwner" value="Austria"/>
 			<property name="strController" value="Austria"/>
+			<property name="sidName" value="SID.Game.Region.Name.Tyrol"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="1155000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -67,6 +80,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Tyrol Mines"/>
 				<property name="strOwner" value="Austria"/>
+				<property name="strController" value="Austria"/>
 				<property name="vecPosition" value="[13.6220684052, 46.9748191833, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -74,6 +88,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Tyrol Foundry"/>
 				<property name="strOwner" value="Austria"/>
+				<property name="strController" value="Austria"/>
 				<property name="vecPosition" value="[12.4577732086, 47.3416061401, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -81,8 +96,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Salzburg"/>
 				<property name="strOwner" value="Austria"/>
+				<property name="strController" value="Austria"/>
 				<property name="vecPosition" value="[13.19581604, 47.4324378967, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Salzburg"/>
 				<property name="nPopulation" value="40232"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

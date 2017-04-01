@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MESharedData" name="">
+		<object type="ResearchProjectSet" name="objResearchProjectSet">
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="Militia"/>
+				<property name="strIconName" value="Militia"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.ConscriptInfantry"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.ConscriptInfantry"/>
+				<property name="bCompletedByDefault" value="true"/>
+				<property name="nCost" value="500000"/>
+				<property name="nResearchPoints" value="30"/>
+				<property name="nNeededIPUs" value="30"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_INFANTRY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.Militia"/>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="Militia"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="strIconName" value="PreWarInfantry"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.BasicInfantry"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.BasicInfantry"/>
+				<property name="bCompletedByDefault" value="true"/>
+				<property name="nCost" value="1000000"/>
+				<property name="nResearchPoints" value="30"/>
+				<property name="nNeededIPUs" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_INFANTRY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.PreWarInfantry"/>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="PreWarInfantry"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="ImprovedSmallArms"/>
+				<property name="strIconName" value="ImprovedSmallArms"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.ImprovedInfantry"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.ImprovedInfantry"/>
+				<property name="nCost" value="2000000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_INFANTRY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.ImprovedSmallArms"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="PreWarInfantry"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="SmallArmsInfantry"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="PreWarInfantry"/>
+					<property name="strReplacementFactoryOutputName" value="SmallArmsInfantry"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="AdvancedWeapons"/>
+				<property name="strIconName" value="AdvancedWeapons"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.AdvancedInfantry"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.AdvancedInfantry"/>
+				<property name="nCost" value="3000000"/>
+				<property name="nResearchPoints" value="50"/>
+				<property name="nNeededIPUs" value="80"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_INFANTRY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.AdvancedWeapons"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="ImprovedSmallArms"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="AdvancedWeaponsInfantry"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="SmallArmsInfantry"/>
+					<property name="strReplacementFactoryOutputName" value="AdvancedWeaponsInfantry"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="EarlyTanks"/>
+				<property name="strIconName" value="EarlyTanks"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.EarlyTanks"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.EarlyTanks"/>
+				<property name="nCost" value="1000000"/>
+				<property name="nResearchPoints" value="35"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ARMORED"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.EarlyTanks"/>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="EarlyTank"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="LightTanks"/>
+				<property name="strIconName" value="LightTanks"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.LightTanks"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.LightTanks"/>
+				<property name="nCost" value="1500000"/>
+				<property name="nResearchPoints" value="35"/>
+				<property name="nNeededIPUs" value="80"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ARMORED"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.LightTanks"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="EarlyTanks"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="LightTank"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="EarlyTank"/>
+					<property name="strReplacementFactoryOutputName" value="LightTank"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="MediumTanks"/>
+				<property name="strIconName" value="MediumTanks"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.MediumTanks"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.MediumTanks"/>
+				<property name="nCost" value="2500000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="nNeededIPUs" value="90"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ARMORED"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.MediumTanks"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="LightTanks"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="MediumTank"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="HeavyTanks"/>
+				<property name="strIconName" value="HeavyTanks"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.HeavyTanks"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.HeavyTanks"/>
+				<property name="nCost" value="3000000"/>
+				<property name="nResearchPoints" value="45"/>
+				<property name="nNeededIPUs" value="90"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ARMORED"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.HeavyTanks"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="LightTanks"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="HeavyTank"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="AdvancedTanks"/>
+				<property name="strIconName" value="AdvancedTanks"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.AdvancedTanks"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.AdvancedTanks"/>
+				<property name="nCost" value="5000000"/>
+				<property name="nResearchPoints" value="50"/>
+				<property name="nNeededIPUs" value="100"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ARMORED"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.AdvancedTanks"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="HeavyTanks"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="AdvancedTank"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="HeavyTank"/>
+					<property name="strReplacementFactoryOutputName" value="AdvancedTank"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="MountedInfantry"/>
+				<property name="strIconName" value="MountedInfantry"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.MountedInfantry"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.MountedInfantry"/>
+				<property name="bCompletedByDefault" value="true"/>
+				<property name="nCost" value="500000"/>
+				<property name="nResearchPoints" value="25"/>
+				<property name="nNeededIPUs" value="30"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_MOBILE_INFANTRY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.MountedInfantry"/>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="Cavalry"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="MotorizedInfantry"/>
+				<property name="strIconName" value="MotorizedInfantry"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.MotorizedInfantry"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.MotorizedInfantry"/>
+				<property name="nCost" value="2500000"/>
+				<property name="nResearchPoints" value="35"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_MOBILE_INFANTRY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.MotorizedInfantry"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="MountedInfantry"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="MotorizedInfantry"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="Cavalry"/>
+					<property name="strReplacementFactoryOutputName" value="MotorizedInfantry"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="MotorizedInfantry2"/>
+				<property name="strIconName" value="MotorizedInfantry2"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.MotorizedInfantry2"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.MotorizedInfantry2"/>
+				<property name="nCost" value="1000000"/>
+				<property name="nResearchPoints" value="45"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_MOBILE_INFANTRY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.MotorizedInfantry2"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="MotorizedInfantry"/>
+				</object>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="ImprovedSmallArms"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="MotorizedInfantry2"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="MotorizedInfantry"/>
+					<property name="strReplacementFactoryOutputName" value="MotorizedInfantry2"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="MotorizedInfantry3"/>
+				<property name="strIconName" value="MotorizedInfantry3"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.MotorizedInfantry3"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.MotorizedInfantry3"/>
+				<property name="nCost" value="1000000"/>
+				<property name="nResearchPoints" value="55"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_MOBILE_INFANTRY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.MotorizedInfantry3"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="MotorizedInfantry2"/>
+				</object>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="AdvancedWeapons"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="MotorizedInfantry3"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="MotorizedInfantry2"/>
+					<property name="strReplacementFactoryOutputName" value="MotorizedInfantry3"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="MechanizedInfantry"/>
+				<property name="strIconName" value="MechanizedInfantry"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.MechanizedInfantry"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.MechanizedInfantry"/>
+				<property name="nCost" value="3000000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="nNeededIPUs" value="70"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_MOBILE_INFANTRY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.MechanizedInfantry"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="MountedInfantry"/>
+				</object>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="LightTanks"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="MechanizedInfantry"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="MechanizedInfantry2"/>
+				<property name="strIconName" value="MechanizedInfantry2"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.MechanizedInfantry2"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.MechanizedInfantry2"/>
+				<property name="nCost" value="3000000"/>
+				<property name="nResearchPoints" value="50"/>
+				<property name="nNeededIPUs" value="70"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_MOBILE_INFANTRY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.MechanizedInfantry2"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="MechanizedInfantry"/>
+				</object>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="ImprovedSmallArms"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="MechanizedInfantry2"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="MechanizedInfantry"/>
+					<property name="strReplacementFactoryOutputName" value="MechanizedInfantry2"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="MechanizedInfantry3"/>
+				<property name="strIconName" value="MechanizedInfantry3"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.MechanizedInfantry3"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.MechanizedInfantry3"/>
+				<property name="nCost" value="3000000"/>
+				<property name="nResearchPoints" value="60"/>
+				<property name="nNeededIPUs" value="70"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_MOBILE_INFANTRY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.MechanizedInfantry3"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="MechanizedInfantry2"/>
+				</object>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="AdvancedWeapons"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="MechanizedInfantry3"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="MechanizedInfantry2"/>
+					<property name="strReplacementFactoryOutputName" value="MechanizedInfantry3"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="strIconName" value="FieldArtillery"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.FieldArtillery"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.FieldArtillery"/>
+				<property name="nCost" value="500000"/>
+				<property name="nResearchPoints" value="35"/>
+				<property name="nNeededIPUs" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ARTILLERY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.FieldArtillery"/>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="FieldArtillery"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="40mmGun"/>
+				<property name="strIconName" value="40mmGun"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.LightArtillery"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.LightArtillery"/>
+				<property name="nCost" value="1000000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="nNeededIPUs" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ARTILLERY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.40mmGun"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="FieldArtillery"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="40mmGun"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="88mmGun"/>
+				<property name="strIconName" value="88mmGun"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.HeavyArtillery"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.HeavyArtillery"/>
+				<property name="nCost" value="1500000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ARTILLERY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.88mmGun"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="40mmGun"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="88mmGun"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="SelfPropelledArtillery"/>
+				<property name="strIconName" value="SelfPropelledArtillery"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.SelfPropelledGun"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.SelfPropelledGun"/>
+				<property name="nCost" value="2500000"/>
+				<property name="nResearchPoints" value="50"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ARTILLERY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.SelfPropelledArtillery"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="FieldArtillery"/>
+				</object>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="MediumTanks"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="SelfPropelledArtillery"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="RocketArtillery"/>
+				<property name="strIconName" value="RocketArtillery"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.RocketArtillery"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.RocketArtillery"/>
+				<property name="nCost" value="3000000"/>
+				<property name="nResearchPoints" value="50"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ARTILLERY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.RocketArtillery"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="FieldArtillery"/>
+				</object>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="RocketryResearchLab"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="RocketArtillery"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="strIconName" value="PreWarFighters"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.BasicFighters"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.BasicFighters"/>
+				<property name="nCost" value="1500000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_AIRFORCE"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_FIGHTER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.PreWarFighters"/>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="PreWarFighters"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="ImprovedFighters"/>
+				<property name="strIconName" value="ImprovedFighters"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.ImprovedFighters"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.ImprovedFighters"/>
+				<property name="nCost" value="2500000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_AIRFORCE"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_FIGHTER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.ImprovedFighters"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="PreWarFighters"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="ImprovedFighters"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="PreWarFighters"/>
+					<property name="strReplacementFactoryOutputName" value="ImprovedFighters"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="AdvancedFighters"/>
+				<property name="strIconName" value="AdvancedFighters"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.AdvancedFighters"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.AdvancedFighters"/>
+				<property name="nCost" value="3500000"/>
+				<property name="nResearchPoints" value="45"/>
+				<property name="nNeededIPUs" value="70"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_AIRFORCE"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_FIGHTER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.AdvancedFighters"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="ImprovedFighters"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="AdvancedFighters"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="ImprovedFighters"/>
+					<property name="strReplacementFactoryOutputName" value="AdvancedFighters"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="JetFighters"/>
+				<property name="strIconName" value="JetFighters"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.JetFighters"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.JetFighters"/>
+				<property name="nCost" value="5000000"/>
+				<property name="nResearchPoints" value="50"/>
+				<property name="nNeededIPUs" value="80"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_AIRFORCE"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_FIGHTER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.JetFighters"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="AdvancedFighters"/>
+				</object>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="JetEngines"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="JetFighters"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="EarlyBombers"/>
+				<property name="strIconName" value="EarlyBombers"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.EarlyBombers"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.EarlyBombers"/>
+				<property name="nCost" value="2000000"/>
+				<property name="nResearchPoints" value="30"/>
+				<property name="nNeededIPUs" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_AIRFORCE"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_BOMBER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.EarlyBombers"/>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="EarlyBombers"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="LightBombers"/>
+				<property name="strIconName" value="LightBombers"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.LightBombers"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.LightBombers"/>
+				<property name="nCost" value="2000000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_AIRFORCE"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_BOMBER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.LightBombers"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="EarlyBombers"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="LightBombers"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="EarlyBombers"/>
+					<property name="strReplacementFactoryOutputName" value="LightBombers"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="MediumBombers"/>
+				<property name="strIconName" value="MediumBombers"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.MediumBombers"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.MediumBombers"/>
+				<property name="nCost" value="3000000"/>
+				<property name="nResearchPoints" value="45"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_AIRFORCE"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_BOMBER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.MediumBombers"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="LightBombers"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="MediumBombers"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="HeavyBombers"/>
+				<property name="strIconName" value="HeavyBombers"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.HeavyBombers"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.HeavyBombers"/>
+				<property name="nCost" value="4000000"/>
+				<property name="nResearchPoints" value="50"/>
+				<property name="nNeededIPUs" value="70"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_AIRFORCE"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_BOMBER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.HeavyBombers"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="MediumBombers"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="HeavyBombers"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="AdvancedStrategicBombers"/>
+				<property name="strIconName" value="AdvancedStrategicBombers"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.StrategicBombers"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.StrategicBombers"/>
+				<property name="nCost" value="5000000"/>
+				<property name="nResearchPoints" value="60"/>
+				<property name="nNeededIPUs" value="90"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_AIRFORCE"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_BOMBER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.AdvancedStrategicBombers"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="HeavyBombers"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="AdvancedStrategicBombers"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="HeavyBombers"/>
+					<property name="strReplacementFactoryOutputName" value="AdvancedStrategicBombers"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="PreWarBattleships"/>
+				<property name="strIconName" value="PreWarBattleships"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.BasicBattleships"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.BasicBattleships"/>
+				<property name="nCost" value="3000000"/>
+				<property name="nResearchPoints" value="50"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_NAVY"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_BATTLESHIP"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.PreWarBattleships"/>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="PreWarBattleship"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="FastBattleships"/>
+				<property name="strIconName" value="FastBattleships"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.FastBattleships"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.FastBattleships"/>
+				<property name="nCost" value="4000000"/>
+				<property name="nResearchPoints" value="60"/>
+				<property name="nNeededIPUs" value="80"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_NAVY"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_BATTLESHIP"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.FastBattleships"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="PreWarBattleships"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="FastBattleship"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="SuperClassBattleships"/>
+				<property name="strIconName" value="SuperClassBattleships"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.AdvancedBattleships"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.AdvancedBattleships"/>
+				<property name="nCost" value="5000000"/>
+				<property name="nResearchPoints" value="70"/>
+				<property name="nNeededIPUs" value="90"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_NAVY"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_BATTLESHIP"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.SuperClassBattleships"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="FastBattleships"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="SuperClassBattleship"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="FastBattleship"/>
+					<property name="strReplacementFactoryOutputName" value="SuperClassBattleship"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="EarlyCruisers"/>
+				<property name="strIconName" value="BattleCruisers"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.EarlyCruisers"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.EarlyCruisers"/>
+				<property name="nCost" value="2000000"/>
+				<property name="nResearchPoints" value="30"/>
+				<property name="nNeededIPUs" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_NAVY"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_CRUISER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.EarlyCruisers"/>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="EarlyCruiser"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="BattleCruisers"/>
+				<property name="strIconName" value="BattleCruisers"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.LightCruisers"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.LightCruisers"/>
+				<property name="nCost" value="2000000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_NAVY"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_CRUISER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.BattleCruisers"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="EarlyCruisers"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="BattleCruiser"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="EarlyCruiser"/>
+					<property name="strReplacementFactoryOutputName" value="BattleCruiser"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="HeavyCruisers"/>
+				<property name="strIconName" value="HeavyCruisers"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.HeavyCruisers"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.HeavyCruisers"/>
+				<property name="nCost" value="3000000"/>
+				<property name="nResearchPoints" value="45"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_NAVY"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_CRUISER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.HeavyCruisers"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="BattleCruisers"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="HeavyCruiser"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="LargeCruisers"/>
+				<property name="strIconName" value="LargeCruisers"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.LargeCruisers"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.LargeCruisers"/>
+				<property name="nCost" value="4000000"/>
+				<property name="nResearchPoints" value="50"/>
+				<property name="nNeededIPUs" value="70"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_NAVY"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_CRUISER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.LargeCruisers"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="HeavyCruisers"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="LargeCruiser"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="HeavyCruiser"/>
+					<property name="strReplacementFactoryOutputName" value="LargeCruiser"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="EarlyCarriers"/>
+				<property name="strIconName" value="EarlyCarriers"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.EarlyCarriers"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.EarlyCarriers"/>
+				<property name="nCost" value="3000000"/>
+				<property name="nResearchPoints" value="50"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_NAVY"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_CARRIER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.EarlyCarriers"/>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="EarlyCarrier"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="LightCarriers"/>
+				<property name="strIconName" value="LightCarriers"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.LightCarriers"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.LightCarriers"/>
+				<property name="nCost" value="4000000"/>
+				<property name="nResearchPoints" value="60"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_NAVY"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_CARRIER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.LightCarriers"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="EarlyCarriers"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="LightCarrier"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="EarlyCarrier"/>
+					<property name="strReplacementFactoryOutputName" value="LightCarrier"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="FleetCarriers"/>
+				<property name="strIconName" value="FleetCarriers"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.FleetCarriers"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.FleetCarriers"/>
+				<property name="nCost" value="5000000"/>
+				<property name="nResearchPoints" value="70"/>
+				<property name="nNeededIPUs" value="80"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_NAVY"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_CARRIER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.FleetCarriers"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="EarlyCarriers"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="FleetCarrier"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="SuperCarriers"/>
+				<property name="strIconName" value="SuperCarriers"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.SuperCarriers"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.SuperCarriers"/>
+				<property name="nCost" value="6000000"/>
+				<property name="nResearchPoints" value="80"/>
+				<property name="nNeededIPUs" value="100"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_NAVY"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_CARRIER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.SuperCarriers"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="FleetCarriers"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="SuperCarrier"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="FleetCarrier"/>
+					<property name="strReplacementFactoryOutputName" value="SuperCarrier"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="Corvettes"/>
+				<property name="strIconName" value="Corvettes"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.Corvettes"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.Corvettes"/>
+				<property name="bCompletedByDefault" value="true"/>
+				<property name="nCost" value="2000000"/>
+				<property name="nResearchPoints" value="35"/>
+				<property name="nNeededIPUs" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_NAVY"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_DESTROYER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.Corvettes"/>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="Corvette"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="Destroyers"/>
+				<property name="strIconName" value="Destroyers"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.Destroyers"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.Destroyers"/>
+				<property name="nCost" value="3000000"/>
+				<property name="nResearchPoints" value="35"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_NAVY"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_DESTROYER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.Destroyers"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="Corvettes"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="Destroyer"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="EscortDestroyers"/>
+				<property name="strIconName" value="EscortDestroyers"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.EscortDestroyers"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.EscortDestroyers"/>
+				<property name="nCost" value="4000000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_NAVY"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_DESTROYER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.Destroyers"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="Destroyers"/>
+				</object>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="AdvancedSonar"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="EscortDestroyer"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="Destroyer"/>
+					<property name="strReplacementFactoryOutputName" value="EscortDestroyer"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="EarlySubmarines"/>
+				<property name="strIconName" value="ElectricDieselSubmarines"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.EarlySubmarines"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.EarlySubmarines"/>
+				<property name="nCost" value="2000000"/>
+				<property name="nResearchPoints" value="30"/>
+				<property name="nNeededIPUs" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_NAVY"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_SUBMARINE"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.EarlySubmarines"/>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="EarlySubmarine"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="ElectricDieselSubmarines"/>
+				<property name="strIconName" value="ElectricDieselSubmarines"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.BasicSubmarines"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.BasicSubmarines"/>
+				<property name="nCost" value="2000000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_NAVY"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_SUBMARINE"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.ElectricDieselSubmarines"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="EarlySubmarines"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="ElectricDieselSubmarine"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="EarlySubmarine"/>
+					<property name="strReplacementFactoryOutputName" value="ElectricDieselSubmarine"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="AdvancedSubmarines"/>
+				<property name="strIconName" value="AdvancedSubmarines"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.AdvancedSubmarines"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.AdvancedSubmarines"/>
+				<property name="nCost" value="4000000"/>
+				<property name="nResearchPoints" value="60"/>
+				<property name="nNeededIPUs" value="70"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_NAVY"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_SUBMARINE"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.AdvancedSubmarines"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="ElectricDieselSubmarines"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="AdvancedSubmarine"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="ElectricDieselSubmarine"/>
+					<property name="strReplacementFactoryOutputName" value="AdvancedSubmarine"/>
+				</object>
+			</object>
+			<object type="ResearchProjNoOp" name="objResearchProjects">
+				<property name="strName" value="NuclearResearchLab"/>
+				<property name="strIconName" value="NuclearResearchLab"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.NuclearResearchLab"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.NuclearResearchLab"/>
+				<property name="nCost" value="10000000"/>
+				<property name="nResearchPoints" value="60"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_ADVANCED"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_NUKE"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.NuclearResearchLab"/>
+			</object>
+			<object type="ResearchProjNoOp" name="objResearchProjects">
+				<property name="strName" value="NuclearChainReaction"/>
+				<property name="strIconName" value="NuclearChainReaction"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.NuclearChainReaction"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.NuclearChainReaction"/>
+				<property name="nCost" value="8000000"/>
+				<property name="nResearchPoints" value="70"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_ADVANCED"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_NUKE"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.NuclearChainReaction"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="NuclearResearchLab"/>
+				</object>
+			</object>
+			<object type="ResearchProjNoOp" name="objResearchProjects">
+				<property name="strName" value="UraniumEnrichment"/>
+				<property name="strIconName" value="UraniumEnrichment"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.UraniumEnrichment"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.UraniumEnrichment"/>
+				<property name="nCost" value="8000000"/>
+				<property name="nResearchPoints" value="80"/>
+				<property name="nNeededIPUs" value="80"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_ADVANCED"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_NUKE"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.UraniumEnrichment"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="NuclearChainReaction"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="FissionBomb"/>
+				<property name="strIconName" value="FissionBomb"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.FissionBomb"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.FissionBomb"/>
+				<property name="nCost" value="8000000"/>
+				<property name="nResearchPoints" value="90"/>
+				<property name="nNeededIPUs" value="90"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_ADVANCED"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_NUKE"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.FissionBomb"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="UraniumEnrichment"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="AtomicBombers"/>
+				</object>
+			</object>
+			<object type="ResearchProjNoOp" name="objResearchProjects">
+				<property name="strName" value="RocketryResearchLab"/>
+				<property name="strIconName" value="RocketryResearchLab"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.RocketryResearchLab"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.RocketryResearchLab"/>
+				<property name="nCost" value="8000000"/>
+				<property name="nResearchPoints" value="50"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_ADVANCED"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ROCKETRY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.RocketryResearchLab"/>
+			</object>
+			<object type="ResearchProjNoOp" name="objResearchProjects">
+				<property name="strName" value="RocketEngines"/>
+				<property name="strIconName" value="RocketEngines"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.RocketEngines"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.RocketEngines"/>
+				<property name="nCost" value="6000000"/>
+				<property name="nResearchPoints" value="50"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_ADVANCED"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ROCKETRY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.RocketEngines"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="RocketryResearchLab"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="FlyingRockets"/>
+				<property name="strIconName" value="FlyingRockets"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.FlyingRockets"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.FlyingRockets"/>
+				<property name="nCost" value="5000000"/>
+				<property name="nResearchPoints" value="50"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_ADVANCED"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ROCKETRY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.FlyingRockets"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="RocketEngines"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="GuidedMissile"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="BallisticMissiles"/>
+				<property name="strIconName" value="BallisticMissiles"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.BallisticMissiles"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.BallisticMissiles"/>
+				<property name="nCost" value="7000000"/>
+				<property name="nResearchPoints" value="60"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_ADVANCED"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ROCKETRY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.BallisticMissiles"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="FlyingRockets"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="BallisticMissile"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="ICBMs"/>
+				<property name="strIconName" value="ICBMs"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.ICBMs"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.ICBMs"/>
+				<property name="nCost" value="9000000"/>
+				<property name="nResearchPoints" value="70"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_ADVANCED"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ROCKETRY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.ICBMs"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="BallisticMissiles"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="ICBM"/>
+				</object>
+			</object>
+			<object type="ResearchProjNoOp" name="objResearchProjects">
+				<property name="strName" value="JetPropulsionLab"/>
+				<property name="strIconName" value="JetPropulsionLab"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.JetPropulsionLab"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.JetPropulsionLab"/>
+				<property name="nCost" value="8000000"/>
+				<property name="nResearchPoints" value="30"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_AIRFORCE"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_JET"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.JetPropulsionLab"/>
+			</object>
+			<object type="ResearchProjNoOp" name="objResearchProjects">
+				<property name="strName" value="JetEngines"/>
+				<property name="strIconName" value="JetEngines"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.JetEngines"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.JetEngines"/>
+				<property name="nCost" value="5000000"/>
+				<property name="nResearchPoints" value="30"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_AIRFORCE"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_JET"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.JetEngines"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="JetPropulsionLab"/>
+				</object>
+			</object>
+			<object type="ResearchProjUpgradeUnits" name="objResearchProjects">
+				<property name="strName" value="VehicleRadios"/>
+				<property name="strIconName" value="VehicleRadios"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.VehicleRadios"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.VehicleRadios"/>
+				<property name="nCost" value="1000000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="nNeededIPUs" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_ADVANCED"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ELECTONICS"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.VehicleRadios"/>
+				<object type="ResearchUnitUpgradeByCategory" name="objUpgrades">
+					<property name="strUpgradeName" value="VehicleRadios"/>
+					<property name="eUnitCategory" value="UNIT_CATEGORY_ARMORED"/>
+				</object>
+				<object type="ResearchUnitUpgradeByCategory" name="objUpgrades">
+					<property name="strUpgradeName" value="VehicleRadios"/>
+					<property name="eUnitCategory" value="UNIT_CATEGORY_MOBILE_INFANTRY"/>
+				</object>
+			</object>
+			<object type="ResearchProjUpgradeUnits" name="objResearchProjects">
+				<property name="strName" value="AdvancedRadar"/>
+				<property name="strIconName" value="AdvancedRadar"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.AdvancedRadar"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.AdvancedRadar"/>
+				<property name="nCost" value="3000000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_ADVANCED"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ELECTONICS"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.AdvancedRadar"/>
+				<object type="ResearchUnitUpgradeByCategory" name="objUpgrades">
+					<property name="strUpgradeName" value="AdvancedRadar"/>
+					<property name="eUnitCategory" value="UNIT_CATEGORY_ARTILLERY"/>
+				</object>
+			</object>
+			<object type="ResearchProjNoOp" name="objResearchProjects">
+				<property name="strName" value="AdvancedSonar"/>
+				<property name="strIconName" value="AdvancedSonar"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.AdvancedSonar"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.AdvancedSonar"/>
+				<property name="nCost" value="3000000"/>
+				<property name="nResearchPoints" value="35"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_ADVANCED"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ELECTONICS"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.AdvancedSonar"/>
+			</object>
+			<object type="ResearchProjUpgradeDataTemplateRef" name="objResearchProjects">
+				<property name="strName" value="AmphibiousAssaults"/>
+				<property name="strIconName" value="AmphibiousAssaults"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.AmphibiousAssaults"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.AmphibiousAssaults"/>
+				<property name="nCost" value="3000000"/>
+				<property name="nResearchPoints" value="50"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_TACTICAL"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_TRAINING"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.AmphibiousAssaults"/>
+				<property name="otTemplateType" value="AmphibiousAssaultTemplate"/>
+				<property name="strOldTemplateName" value="Level 1"/>
+				<property name="strNewTemplateName" value="Level 2"/>
+			</object>
+			<object type="ResearchProjUpgradeDataTemplateRef" name="objResearchProjects">
+				<property name="strName" value="MountainTroops"/>
+				<property name="strIconName" value="MountainTroops"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.MountainTroops"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.MountainTroops"/>
+				<property name="nCost" value="2000000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_TACTICAL"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_TRAINING"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.MountainTroops"/>
+				<property name="otTemplateType" value="MountainWarfareTemplate"/>
+				<property name="strOldTemplateName" value="Level 1"/>
+				<property name="strNewTemplateName" value="Level 2"/>
+			</object>
+			<object type="ResearchProjUpgradeDataTemplateRef" name="objResearchProjects">
+				<property name="strName" value="JungleWarfare"/>
+				<property name="strIconName" value="JungleWarfare"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.JungleWarfare"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.JungleWarfare"/>
+				<property name="nCost" value="2000000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="nNeededIPUs" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_TACTICAL"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_TRAINING"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.JungleWarfare"/>
+				<property name="otTemplateType" value="JungleWarfareTemplate"/>
+				<property name="strOldTemplateName" value="Level 1"/>
+				<property name="strNewTemplateName" value="Level 2"/>
+			</object>
+			<object type="ResearchProjUpgradeDataTemplateRef" name="objResearchProjects">
+				<property name="strName" value="ManeuverWarfare"/>
+				<property name="strIconName" value="ManeuverWarfare"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.ManeuverWarfare"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.ManeuverWarfare"/>
+				<property name="nCost" value="1000000"/>
+				<property name="nResearchPoints" value="30"/>
+				<property name="nNeededIPUs" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_TACTICAL"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_OFFENSIVE"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.ManeuverWarfare"/>
+				<property name="otTemplateType" value="OffensiveTacticTemplate"/>
+				<property name="strOldTemplateName" value="Normal"/>
+				<property name="strNewTemplateName" value="Maneuver Warfare"/>
+			</object>
+			<object type="ResearchProjUpgradeDataTemplateRef" name="objResearchProjects">
+				<property name="strName" value="Infiltration"/>
+				<property name="strIconName" value="Infiltration"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.Infiltration"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.Infiltration"/>
+				<property name="nCost" value="2000000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_TACTICAL"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_OFFENSIVE"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.Infiltration"/>
+				<property name="otTemplateType" value="OffensiveTacticTemplate"/>
+				<property name="strOldTemplateName" value="Maneuver Warfare"/>
+				<property name="strNewTemplateName" value="Infiltration"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="ManeuverWarfare"/>
+				</object>
+			</object>
+			<object type="ResearchProjUpgradeDataTemplateRef" name="objResearchProjects">
+				<property name="strName" value="CombinedArms"/>
+				<property name="strIconName" value="CombinedArms"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.CombinedArms"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.CombinedArms"/>
+				<property name="nCost" value="3000000"/>
+				<property name="nResearchPoints" value="50"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_TACTICAL"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_OFFENSIVE"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.CombinedArms"/>
+				<property name="otTemplateType" value="OffensiveTacticTemplate"/>
+				<property name="strOldTemplateName" value="Infiltration"/>
+				<property name="strNewTemplateName" value="Combined Arms"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="Infiltration"/>
+				</object>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="VehicleRadios"/>
+				</object>
+			</object>
+			<object type="ResearchProjUpgradeDataTemplateRef" name="objResearchProjects">
+				<property name="strName" value="AttritionWarfare"/>
+				<property name="strIconName" value="AttritionWarfare"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.AttritionWarfare"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.AttritionWarfare"/>
+				<property name="nCost" value="500000"/>
+				<property name="nResearchPoints" value="30"/>
+				<property name="nNeededIPUs" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_TACTICAL"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_DEFENSE"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.AttritionWarfare"/>
+				<property name="otTemplateType" value="DefensiveTacticTemplate"/>
+				<property name="strOldTemplateName" value="Normal"/>
+				<property name="strNewTemplateName" value="Attrition Warfare"/>
+			</object>
+			<object type="ResearchProjUpgradeDataTemplateRef" name="objResearchProjects">
+				<property name="strName" value="DeepDefense"/>
+				<property name="strIconName" value="DeepDefense"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.DeepDefense"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.DeepDefense"/>
+				<property name="nCost" value="1000000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_TACTICAL"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_DEFENSE"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.DeepDefense"/>
+				<property name="otTemplateType" value="DefensiveTacticTemplate"/>
+				<property name="strOldTemplateName" value="Attrition Warfare"/>
+				<property name="strNewTemplateName" value="Deep Defense"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="AttritionWarfare"/>
+				</object>
+			</object>
+			<object type="ResearchProjUpgradeDataTemplateRef" name="objResearchProjects">
+				<property name="strName" value="HedgehogDefense"/>
+				<property name="strIconName" value="HedgehogDefense"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.HedgehogDefense"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.HedgehogDefense"/>
+				<property name="nCost" value="2000000"/>
+				<property name="nResearchPoints" value="50"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_TACTICAL"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_DEFENSE"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.HedgehogDefense"/>
+				<property name="otTemplateType" value="DefensiveTacticTemplate"/>
+				<property name="strOldTemplateName" value="Deep Defense"/>
+				<property name="strNewTemplateName" value="Hedgehog Defense"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="DeepDefense"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="FischerTropschProcess"/>
+				<property name="strIconName" value="FischerTropschProcess"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.FischerTropschProcess"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.FischerTropschProcess"/>
+				<property name="nCost" value="2000000"/>
+				<property name="nResearchPoints" value="35"/>
+				<property name="nNeededIPUs" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_ADVANCED"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_OIL"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.FischerTropschProcess"/>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="Level_1_CoalGasification"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="HydrogenationPlants"/>
+				<property name="strIconName" value="HydrogenationPlants"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.HydrogenationPlants"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.HydrogenationPlants"/>
+				<property name="nCost" value="3000000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_ADVANCED"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_OIL"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.HydrogenationPlants"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="FischerTropschProcess"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="Level_2_CoalGasification"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="Level_1_CoalGasification"/>
+					<property name="strReplacementFactoryOutputName" value="Level_2_CoalGasification"/>
+				</object>
+			</object>
+			<object type="ResearchProjFactoryOutput" name="objResearchProjects">
+				<property name="strName" value="HighOctaneFuels"/>
+				<property name="strIconName" value="HighOctaneFuels"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.HighOctaneFuels"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.HighOctaneFuels"/>
+				<property name="nCost" value="4000000"/>
+				<property name="nResearchPoints" value="45"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_ADVANCED"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_OIL"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.HighOctaneFuels"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="HydrogenationPlants"/>
+				</object>
+				<object type="ResearchFactoryOutputAvailableData" name="objAvailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="Level_3_CoalGasification"/>
+				</object>
+				<object type="ResearchFactoryOutputUnavailableData" name="objUnavailableFactoryOutputs">
+					<property name="strFactoryOutputName" value="Level_2_CoalGasification"/>
+					<property name="strReplacementFactoryOutputName" value="Level_3_CoalGasification"/>
+				</object>
+			</object>
+			<object type="ResearchProjUpgradeUnits" name="objResearchProjects">
+				<property name="strName" value="AutomatedTargeting"/>
+				<property name="strIconName" value="AutomatedTargeting"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.AutomatedTargeting"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.AutomatedTargeting"/>
+				<property name="nCost" value="1500000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="nNeededIPUs" value="40"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_LAND"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_ARTILLERY"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.AutomatedTargeting"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="40mmGun"/>
+				</object>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="88mmGun"/>
+				</object>
+				<object type="ResearchUnitUpgradeByCategory" name="objUpgrades">
+					<property name="strUpgradeName" value="AutomatedTargetting"/>
+					<property name="eUnitCategory" value="UNIT_CATEGORY_ARTILLERY"/>
+				</object>
+			</object>
+			<object type="ResearchProjUpgradeUnits" name="objResearchProjects">
+				<property name="strName" value="ImprovedCarrierFighters"/>
+				<property name="strIconName" value="ImprovedCarrierFighters"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.ImprovedCarrierFighter"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.ImprovedCarrierFighter"/>
+				<property name="nCost" value="2500000"/>
+				<property name="nResearchPoints" value="40"/>
+				<property name="nNeededIPUs" value="60"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_AIRFORCE"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_FIGHTER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.ImprovedCarrierFighters"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="PreWarFighters"/>
+				</object>
+				<object type="ResearchUnitUpgradeByCategory" name="objUpgrades">
+					<property name="strUpgradeName" value="ImprovedCarrierFighters"/>
+					<property name="eUnitCategory" value="UNIT_CATEGORY_CARRIER"/>
+				</object>
+			</object>
+			<object type="ResearchProjUpgradeUnits" name="objResearchProjects">
+				<property name="strName" value="AdvancedCarrierFighters"/>
+				<property name="strIconName" value="AdvancedCarrierFighters"/>
+				<property name="sidDisplayName" value="SID.Game.ResearchProject.Name.AdvancedCarrierFighter"/>
+				<property name="sidDescription" value="SID.Game.ResearchProject.Desc.AdvancedCarrierFighter"/>
+				<property name="nCost" value="3500000"/>
+				<property name="nResearchPoints" value="50"/>
+				<property name="nNeededIPUs" value="70"/>
+				<property name="strBranchName" value="RESEARCH_BRANCH_AIRFORCE"/>
+				<property name="strProgramName" value="RESEARCH_PROGRAM_FIGHTER"/>
+				<property name="sidEffect" value="SID.Game.ResearchProject.Effect.AdvancedCarrierFighters"/>
+				<object type="ResearchProjectPreReq" name="objPreReqs">
+					<property name="strProjectName" value="ImprovedCarrierFighters"/>
+				</object>
+				<object type="ResearchUnitUpgradeByCategory" name="objUpgrades">
+					<property name="strUpgradeName" value="AdvancedCarrierFighters"/>
+					<property name="eUnitCategory" value="UNIT_CATEGORY_CARRIER"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</objects>

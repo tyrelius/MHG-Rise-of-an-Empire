@@ -2,7 +2,12 @@
 <objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<object type="MECountry" name="">
 		<property name="strName" value="United States"/>
-		<property name="strGovType" value="Democratic"/>
+		<property name="strGovType" value="Communist"/>
+		<property name="sidName" value="SID.Game.Country.Name.UnitedStates"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.UnitedStates"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.UnitedStates"/>
+		<property name="sidPeople" value="SID.Game.Country.People.UnitedStates"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.UnitedStates"/>
 		<property name="strHomelands" value="United States"/>
 		<property name="bIsScored" value="true"/>
 		<property name="eCountryType" value="COUNTRYTYPE_PLAYABLE"/>
@@ -11,10 +16,12 @@
 		<property name="strFlagName" value="United States"/>
 		<property name="strCapital" value="Washington DC"/>
 		<property name="strOriginalCapital" value="Washington DC"/>
+		<property name="nTransportCredits" value="5"/>
 		<object type="Region" name="objGOs">
 			<property name="strName" value="Alaska"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Alaska"/>
 			<property name="strTerrain" value="Tundra"/>
 			<property name="nPopulation" value="59278"/>
 			<property name="strCulture" value="American"/>
@@ -24,6 +31,7 @@
 			<property name="strName" value="Aleutian Islands"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.AleutianIslands"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="5000"/>
 			<property name="strCulture" value="American"/>
@@ -33,6 +41,7 @@
 			<property name="strName" value="Canal Zone"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.CanalZone"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="28707"/>
 			<property name="strCulture" value="American"/>
@@ -42,6 +51,7 @@
 			<property name="strName" value="Hawaii"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Hawaii"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="368336"/>
 			<property name="nFortification" value="1"/>
@@ -51,8 +61,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Honolulu"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-157.850006104, 21.2999992371, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Honolulu"/>
 				<property name="nPopulation" value="147450"/>
 				<property name="strPortForRegion" value="Kauai Channel"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -66,6 +78,7 @@
 			<property name="strName" value="Midway"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Midway"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="strCulture" value="American"/>
 			<property name="bColony" value="true"/>
@@ -74,155 +87,17 @@
 			<property name="strName" value="Near Islands"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.NearIslands"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="1000"/>
 			<property name="strCulture" value="American"/>
 			<property name="bColony" value="true"/>
 		</object>
 		<object type="Region" name="objGOs">
-			<property name="strName" value="Puerto Rico"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Plains"/>
-			<property name="nPopulation" value="1723534"/>
-			<property name="strCulture" value="Hispanic"/>
-			<property name="bColony" value="true"/>
-			<property name="nAgriculture" value="1"/>
-			<object type="City" name="objGOs">
-				<property name="strName" value="San Juan"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-66.1299972534, 18.4799995422, 0]"/>
-				<property name="nDirection" value="0"/>
-				<property name="nPopulation" value="137215"/>
-				<property name="strPortForRegion" value="Milwaukee Deep"/>
-				<property name="strInitialWorkOrder" value=""/>
-				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="2"/>
-				</object>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="US Virgin Islands"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Hills"/>
-			<property name="nPopulation" value="22012"/>
-			<property name="strCulture" value="Caribbean"/>
-			<property name="bColony" value="true"/>
-		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="Luzon"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Jungle"/>
-			<property name="nPopulation" value="8665765"/>
-			<property name="nTransInfrastructure" value="1"/>
-			<property name="nFortification" value="1"/>
-			<property name="strCulture" value="Filipino"/>
-			<property name="bColony" value="true"/>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="Luzon Foundry"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[120.577056885, 15.7622756958, 0]"/>
-				<property name="strResource" value="Metals"/>
-				<property name="nBaseOutputRate" value="1"/>
-			</object>
-			<object type="City" name="objGOs">
-				<property name="strName" value="Manila"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[120.970001221, 14.6199998856, 0]"/>
-				<property name="nDirection" value="0"/>
-				<property name="nPopulation" value="355485"/>
-				<property name="strPortForRegion" value="South China Sea"/>
-				<property name="strInitialWorkOrder" value=""/>
-				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="6"/>
-				</object>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="Mindanao"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Jungle"/>
-			<property name="nPopulation" value="2244421"/>
-			<property name="nTransInfrastructure" value="1"/>
-			<property name="strCulture" value="Filipino"/>
-			<property name="bColony" value="true"/>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="Mindanao Foundry"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[124.654006958, 6.78537034988, 0]"/>
-				<property name="strResource" value="Metals"/>
-				<property name="nBaseOutputRate" value="1"/>
-			</object>
-			<object type="City" name="objGOs">
-				<property name="strName" value="Davao"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[125.599998474, 7.07999992371, 0]"/>
-				<property name="nDirection" value="0"/>
-				<property name="strPortForRegion" value="Philippine Trench"/>
-				<property name="strInitialWorkOrder" value=""/>
-				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="1"/>
-				</object>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="Southern Tagalog"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Jungle"/>
-			<property name="nPopulation" value="225242"/>
-			<property name="strCulture" value="Filipino"/>
-			<property name="bColony" value="true"/>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="South Tagalog Foundry"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[120.75177002, 13.4660024643, 0]"/>
-				<property name="strResource" value="Metals"/>
-				<property name="nBaseOutputRate" value="1"/>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="Visayas"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Jungle"/>
-			<property name="nPopulation" value="4241383"/>
-			<property name="strCulture" value="Filipino"/>
-			<property name="bColony" value="true"/>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="Visayas Foundry"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[122.823677063, 9.73104190826, 0]"/>
-				<property name="strResource" value="Metals"/>
-				<property name="nBaseOutputRate" value="1"/>
-			</object>
-			<object type="City" name="objGOs">
-				<property name="strName" value="Cebu"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[123.930000305, 10.279999733, 0]"/>
-				<property name="nDirection" value="0"/>
-				<property name="strInitialWorkOrder" value=""/>
-				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="1"/>
-				</object>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="Guam"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Jungle"/>
-			<property name="nPopulation" value="22137"/>
-			<property name="strCulture" value="Micronesian"/>
-			<property name="bColony" value="true"/>
-		</object>
-		<object type="Region" name="objGOs">
 			<property name="strName" value="Wake Island"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.WakeIsland"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="strCulture" value="Micronesian"/>
 			<property name="bColony" value="true"/>
@@ -231,6 +106,7 @@
 			<property name="strName" value="American Samoa"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.AmericanSamoa"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="10055"/>
 			<property name="strCulture" value="Polynesian"/>
@@ -240,59 +116,17 @@
 			<property name="strName" value="Line Islands"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.LineIslands"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="4000"/>
 			<property name="strCulture" value="Polynesian"/>
 			<property name="bColony" value="true"/>
 		</object>
 		<object type="Region" name="objGOs">
-			<property name="strName" value="Kentucky"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Hills"/>
-			<property name="nPopulation" value="2846000"/>
-			<property name="nTransInfrastructure" value="3"/>
-			<property name="strCulture" value="American"/>
-			<property name="nAgriculture" value="2"/>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="Appalachia Mines"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-83.2006072998, 37.3018264771, 0]"/>
-				<property name="strResource" value="Coal"/>
-				<property name="nBaseOutputRate" value="112"/>
-			</object>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="Kentucky Oil Field"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-87.3756027222, 37.3623046875, 0]"/>
-				<property name="strResource" value="Oil"/>
-				<property name="nBaseOutputRate" value="12"/>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="Tennessee"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Hills"/>
-			<property name="nPopulation" value="2916000"/>
-			<property name="nTransInfrastructure" value="3"/>
-			<property name="strCulture" value="American"/>
-			<property name="nAgriculture" value="2"/>
-			<object type="City" name="objGOs">
-				<property name="strName" value="Nashville"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-86.7799987793, 36.1599998474, 0]"/>
-				<property name="nDirection" value="0"/>
-				<property name="strInitialWorkOrder" value=""/>
-				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="7"/>
-				</object>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
 			<property name="strName" value="West Virginia"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.WestVirginia"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="1902000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -301,6 +135,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="West Virginia Mines"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-80.6603088379, 38.4453010559, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="156"/>
@@ -310,6 +145,7 @@
 			<property name="strName" value="Northern California"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.NorthernCalifornia"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="2762800"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -318,8 +154,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="San Francisco"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-122.419998169, 37.7700004578, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.SanFrancisco"/>
 				<property name="nPopulation" value="775000"/>
 				<property name="strPortForRegion" value="Monterey Bay"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -333,6 +171,7 @@
 			<property name="strName" value="Southern California"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.SouthernCalifornia"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="4144200"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -341,6 +180,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="California Oil Field"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-115.679374695, 33.1547889709, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="66"/>
@@ -348,6 +188,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Southern California Foundry"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-119.503463745, 34.6966171265, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="23"/>
@@ -355,8 +196,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Los Angeles"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-118.230003357, 34.0499992371, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.LosAngeles"/>
 				<property name="nPopulation" value="2916000"/>
 				<property name="strPortForRegion" value="Gulf of Santa Catalina"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -370,6 +213,7 @@
 			<property name="strName" value="Colorado"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Colorado"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="499000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -378,6 +222,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Colorado Mines"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-105.249008179, 38.8584136963, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="45"/>
@@ -385,6 +230,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Colorado Oil Field"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-102.87562561, 38.6717948914, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="13"/>
@@ -392,6 +238,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Colorado Foundry"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-104.89225769, 37.8327102661, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="24"/>
@@ -399,8 +246,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Denver"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-104.980003357, 39.7299995422, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Denver"/>
 				<property name="nPopulation" value="408000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -413,6 +262,7 @@
 			<property name="strName" value="Kansas"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Kansas"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="1801000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -421,6 +271,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Central Plains Oil Field"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-99.4507827759, 38.2170982361, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="25"/>
@@ -430,33 +281,44 @@
 			<property name="strName" value="Nebraska"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Nebraska"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="1316000"/>
 			<property name="nTransInfrastructure" value="2"/>
 			<property name="strCulture" value="American"/>
 			<property name="nAgriculture" value="3"/>
 		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="Oklahoma"/>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Atlantic Fleet"/>
 			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Plains"/>
-			<property name="nPopulation" value="2336000"/>
-			<property name="nTransInfrastructure" value="2"/>
-			<property name="strCulture" value="American"/>
-			<property name="nAgriculture" value="3"/>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="Oklahoma Oil Field"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-98.3032913208, 35.6183052063, 0]"/>
-				<property name="strResource" value="Oil"/>
-				<property name="nBaseOutputRate" value="50"/>
+			<property name="vecPosition" value="[-74.430015564, 38.4341278076, -9.53674316406e-007]"/>
+			<property name="strRegion" value="Chesapeake Bay"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="BattleCruiser"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="2"/>
 			</object>
 		</object>
 		<object type="Region" name="objGOs">
 			<property name="strName" value="North Dakota"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.NorthDakota"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="642000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -467,6 +329,7 @@
 			<property name="strName" value="South Dakota"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.SouthDakota"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="643000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -475,8 +338,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Sioux Falls"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-96.7300033569, 43.5499992371, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.SiouxFalls"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
 					<property name="nIPUs" value="5"/>
@@ -487,6 +352,7 @@
 			<property name="strName" value="Nevada"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Nevada"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="110000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -495,6 +361,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="South West Foundry"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-114.952590942, 36.8384094238, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="16"/>
@@ -504,6 +371,7 @@
 			<property name="strName" value="Utah"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Utah"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="550000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -512,6 +380,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Utah Mines"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-111.890563965, 38.7673110962, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="36"/>
@@ -519,8 +388,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Salt Lake City"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-111.879997253, 40.75, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.SaltLakeCity"/>
 				<property name="nPopulation" value="212000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -533,6 +404,7 @@
 			<property name="strName" value="Iowa"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Iowa"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="2583000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -541,6 +413,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Iowa Mines"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-91.6344528198, 42.7523574829, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="26"/>
@@ -550,6 +423,7 @@
 			<property name="strName" value="Minnesota"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Minnesota"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="2792000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -558,6 +432,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Minnesota Foundry"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-92.321105957, 44.1890907288, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="91"/>
@@ -565,8 +440,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Minneapolis"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-93.2600021362, 44.9799995422, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Minneapolis"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
 					<property name="nIPUs" value="8"/>
@@ -577,6 +454,7 @@
 			<property name="strName" value="Wisconsin"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Wisconsin"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="3138000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -585,44 +463,17 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Great Lakes Foundry"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-88.3069992065, 43.1530570984, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="64"/>
 			</object>
 		</object>
 		<object type="Region" name="objGOs">
-			<property name="strName" value="Maryland"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Hills"/>
-			<property name="nPopulation" value="2088000"/>
-			<property name="nTransInfrastructure" value="3"/>
-			<property name="strCulture" value="American"/>
-			<property name="nAgriculture" value="3"/>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="Mid Atlantic Mines"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-79.2137374878, 39.5285568237, 0]"/>
-				<property name="strResource" value="Coal"/>
-				<property name="nBaseOutputRate" value="43"/>
-			</object>
-			<object type="City" name="objGOs">
-				<property name="strName" value="Washington DC"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-76.7500152588, 39.2492103577, 0]"/>
-				<property name="nDirection" value="0"/>
-				<property name="nPopulation" value="483689"/>
-				<property name="strInitialWorkOrder" value=""/>
-				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="15"/>
-					<property name="nTechLevel" value="2"/>
-				</object>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
 			<property name="strName" value="New Jersey"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.NewJersey"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="4160000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -631,6 +482,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Mid Atlantic Foundry"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-74.2834320068, 39.8975028992, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="26"/>
@@ -640,6 +492,7 @@
 			<property name="strName" value="New York"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.NewYork"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="13479000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -648,6 +501,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="New York Foundry"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-77.7955856323, 42.9459037781, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="42"/>
@@ -655,8 +509,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="New York"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-73.8521881104, 41.2966995239, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.NewYork"/>
 				<property name="nPopulation" value="8707000"/>
 				<property name="strPortForRegion" value="Long Island Sound"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -670,6 +526,7 @@
 			<property name="strName" value="Pennsylvania"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Pennsylvania"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="9900000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -678,6 +535,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Pennsylvania Mines"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-77.3516235352, 40.7447509766, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="112"/>
@@ -685,6 +543,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Pennsylvania Foundry"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-79.0654602051, 41.2177314758, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="15"/>
@@ -692,8 +551,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Pittsburgh"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-79.9000015259, 40.4399986267, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Pittsburgh"/>
 				<property name="nPopulation" value="671659"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -704,94 +565,57 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Philadelphia"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-75.1600036621, 39.9599990845, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Philadelphia"/>
 				<property name="strPortForRegion" value="Chesapeake Bay"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="27"/>
+					<property name="nIPUs" value="32"/>
 					<property name="nTechLevel" value="2"/>
 				</object>
 			</object>
 		</object>
 		<object type="Region" name="objGOs">
-			<property name="strName" value="Arkansas"/>
+			<property name="strName" value="Maryland"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Maryland"/>
 			<property name="strTerrain" value="Hills"/>
-			<property name="nPopulation" value="1949000"/>
+			<property name="nPopulation" value="2088000"/>
 			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="1"/>
 			<property name="strCulture" value="American"/>
 			<property name="nAgriculture" value="3"/>
 			<object type="Producer" name="objGOs">
-				<property name="strName" value="Arkansas Mines"/>
+				<property name="strName" value="Mid Atlantic Mines"/>
 				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-91.2335205078, 35.3313026428, 0]"/>
+				<property name="strController" value="United States"/>
+				<property name="vecPosition" value="[-79.2137374878, 39.5285568237, 0]"/>
 				<property name="strResource" value="Coal"/>
-				<property name="nBaseOutputRate" value="26"/>
+				<property name="nBaseOutputRate" value="43"/>
 			</object>
 			<object type="City" name="objGOs">
-				<property name="strName" value="Little Rock"/>
+				<property name="strName" value="Washington DC"/>
 				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-92.2900009155, 34.75, 0]"/>
+				<property name="strController" value="United States"/>
+				<property name="vecPosition" value="[-76.7500152588, 39.2492103577, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.WashingtonDC"/>
+				<property name="nPopulation" value="483689"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="6"/>
-				</object>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="Louisiana"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Plains"/>
-			<property name="nPopulation" value="2364000"/>
-			<property name="nTransInfrastructure" value="3"/>
-			<property name="strCulture" value="American"/>
-			<property name="nAgriculture" value="3"/>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="Loiusiana Oil Field"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-92.6344680786, 30.1595916748, 0]"/>
-				<property name="strResource" value="Oil"/>
-				<property name="nBaseOutputRate" value="127"/>
-			</object>
-			<object type="City" name="objGOs">
-				<property name="strName" value="New Orleans"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-90.0699996948, 29.9500007629, 0]"/>
-				<property name="nDirection" value="0"/>
-				<property name="nPopulation" value="552000"/>
-				<property name="strPortForRegion" value="Mississippi Sound"/>
-				<property name="strInitialWorkOrder" value=""/>
-				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="20"/>
+					<property name="nIPUs" value="15"/>
 					<property name="nTechLevel" value="2"/>
 				</object>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="Mississippi"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Plains"/>
-			<property name="nPopulation" value="2184000"/>
-			<property name="nTransInfrastructure" value="3"/>
-			<property name="strCulture" value="American"/>
-			<property name="nAgriculture" value="3"/>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="Mississippi Oil Field"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-89.1194381714, 31.1579666138, 0]"/>
-				<property name="strResource" value="Oil"/>
-				<property name="nBaseOutputRate" value="18"/>
 			</object>
 		</object>
 		<object type="Region" name="objGOs">
 			<property name="strName" value="Missouri"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Missouri"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="3785000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -800,6 +624,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Ozarks Foundry"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-90.6764450073, 37.6628341675, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="15"/>
@@ -807,8 +632,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="St.Louis"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-90.5492858887, 38.5018615723, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.StLouis"/>
 				<property name="nPopulation" value="1432000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -819,8 +646,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Kansas City"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-94.5899963379, 39.0999984741, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.KansasCity"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
 					<property name="nIPUs" value="10"/>
@@ -831,6 +660,7 @@
 			<property name="strName" value="Connecticut"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Connecticut"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="2422000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -841,6 +671,7 @@
 			<property name="strName" value="Maine"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Maine"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="847000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -851,6 +682,7 @@
 			<property name="strName" value="Massachusetts"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Massachusetts"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="4317000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -859,8 +691,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Boston"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-71.0500030518, 42.3499984741, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Boston"/>
 				<property name="nPopulation" value="2178000"/>
 				<property name="strPortForRegion" value="Massachusetts Bay"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -874,6 +708,7 @@
 			<property name="strName" value="New Hampshire"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.NewHampshire"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="492000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -884,6 +719,7 @@
 			<property name="strName" value="Vermont"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Vermont"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="359000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -894,6 +730,7 @@
 			<property name="strName" value="Idaho"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Idaho"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="525000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -902,6 +739,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Idaho Mines"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-114.145996094, 44.7450904846, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="45"/>
@@ -909,6 +747,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Idaho Foundry"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-116.276069641, 44.8611984253, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="12"/>
@@ -916,8 +755,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Boise"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-116.199996948, 43.6199989319, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Boise"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
 					<property name="nIPUs" value="5"/>
@@ -928,6 +769,7 @@
 			<property name="strName" value="Montana"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Montana"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="559000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -938,6 +780,7 @@
 			<property name="strName" value="Wyoming"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Wyoming"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="251000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -946,6 +789,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Northern Plains Oil Field"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-105.375808716, 42.2340278625, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="31"/>
@@ -955,6 +799,7 @@
 			<property name="strName" value="Illinois"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Illinois"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="7897000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -963,6 +808,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Midwest Mines"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-89.4344558716, 42.1210250854, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="86"/>
@@ -970,6 +816,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Midwest Oil Field"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-90.6279907227, 39.7293777466, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="18"/>
@@ -977,8 +824,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Chicago"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-87.6500015259, 41.8499984741, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Chicago"/>
 				<property name="nPopulation" value="4826000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -991,6 +840,7 @@
 			<property name="strName" value="Indiana"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Indiana"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="3428000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -1001,6 +851,7 @@
 			<property name="strName" value="Michigan"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Michigan"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="5256000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -1009,8 +860,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Detroit"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-83.407585144, 42.4817237854, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Detroit"/>
 				<property name="nPopulation" value="2377000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -1023,6 +876,7 @@
 			<property name="strName" value="Ohio"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Ohio"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="6908000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -1031,6 +885,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Ohio Mines"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-81.7851333618, 39.9687385559, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="69"/>
@@ -1038,8 +893,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Cincinnati"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-84.4499969482, 39.1500015259, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Cincinnati"/>
 				<property name="nPopulation" value="787000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -1050,8 +907,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Cleveland"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-81.6800003052, 41.4799995422, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Cleveland"/>
 				<property name="nPopulation" value="1267000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -1064,6 +923,7 @@
 			<property name="strName" value="Oregon"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Oregon"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="1090000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -1072,8 +932,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Portland"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-122.63999939, 45.5200004578, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Portland"/>
 				<property name="nPopulation" value="305394"/>
 				<property name="strPortForRegion" value="Columbia River Bay"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -1087,6 +949,7 @@
 			<property name="strName" value="Washington"/>
 			<property name="strOwner" value="United States"/>
 			<property name="strController" value="United States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Washington"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="1736000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -1095,8 +958,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Seattle"/>
 				<property name="strOwner" value="United States"/>
+				<property name="strController" value="United States"/>
 				<property name="vecPosition" value="[-122.319999695, 47.5999984741, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Seattle"/>
 				<property name="nPopulation" value="505000"/>
 				<property name="strPortForRegion" value="San Juan de Fuca Strait"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -1106,455 +971,169 @@
 				</object>
 			</object>
 		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="Alabama"/>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Pacific Fleet"/>
 			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Hills"/>
-			<property name="nPopulation" value="2833000"/>
-			<property name="nTransInfrastructure" value="3"/>
-			<property name="strCulture" value="American"/>
-			<property name="nAgriculture" value="2"/>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="South East Mines"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-86.1310577393, 33.8545379639, 0]"/>
-				<property name="strResource" value="Coal"/>
-				<property name="nBaseOutputRate" value="43"/>
-			</object>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="South East Foundry"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-87.2503051758, 31.3730773926, 0]"/>
-				<property name="strResource" value="Metals"/>
-				<property name="nBaseOutputRate" value="53"/>
-			</object>
-			<object type="City" name="objGOs">
-				<property name="strName" value="Mobile"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-88.0400009155, 30.6900005341, 0]"/>
-				<property name="nDirection" value="0"/>
-				<property name="nPopulation" value="78720"/>
-				<property name="strPortForRegion" value="Mississippi Sound"/>
-				<property name="strInitialWorkOrder" value=""/>
-				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="23"/>
-					<property name="nTechLevel" value="2"/>
-				</object>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="Florida"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Plains"/>
-			<property name="nPopulation" value="1897000"/>
-			<property name="nTransInfrastructure" value="3"/>
-			<property name="strCulture" value="American"/>
-			<property name="nAgriculture" value="2"/>
-			<object type="City" name="objGOs">
-				<property name="strName" value="Miami"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-80.1800003052, 25.7700004578, 0]"/>
-				<property name="nDirection" value="0"/>
-				<property name="nPopulation" value="268000"/>
-				<property name="strPortForRegion" value="Florida Straits"/>
-				<property name="strInitialWorkOrder" value=""/>
-				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="30"/>
-					<property name="nTechLevel" value="2"/>
-				</object>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="Georgia"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Hills"/>
-			<property name="nPopulation" value="3124000"/>
-			<property name="nTransInfrastructure" value="3"/>
-			<property name="strCulture" value="American"/>
-			<property name="nAgriculture" value="2"/>
-			<object type="City" name="objGOs">
-				<property name="strName" value="Atlanta"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-84.3799972534, 33.7299995422, 0]"/>
-				<property name="nDirection" value="0"/>
-				<property name="nPopulation" value="518000"/>
-				<property name="strInitialWorkOrder" value=""/>
-				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="26"/>
-					<property name="nTechLevel" value="2"/>
-				</object>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="Arizona"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Desert"/>
-			<property name="nPopulation" value="499000"/>
-			<property name="nTransInfrastructure" value="3"/>
-			<property name="strCulture" value="American"/>
-			<property name="nAgriculture" value="2"/>
-			<object type="City" name="objGOs">
-				<property name="strName" value="Phoenix"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-112.069999695, 33.4300003052, 0]"/>
-				<property name="nDirection" value="0"/>
-				<property name="strInitialWorkOrder" value=""/>
-				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="6"/>
-				</object>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="New Mexico"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Desert"/>
-			<property name="nPopulation" value="532000"/>
-			<property name="nTransInfrastructure" value="3"/>
-			<property name="strCulture" value="American"/>
-			<property name="nAgriculture" value="2"/>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="New Mexico Oil Field"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-104.188751221, 33.889465332, 0]"/>
-				<property name="strResource" value="Oil"/>
-				<property name="nBaseOutputRate" value="24"/>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="Texas"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Desert"/>
-			<property name="nPopulation" value="6415000"/>
-			<property name="nTransInfrastructure" value="2"/>
-			<property name="strCulture" value="American"/>
-			<property name="nAgriculture" value="2"/>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="Texas Oil Field"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-99.8185958862, 32.7580337524, 0]"/>
-				<property name="strResource" value="Oil"/>
-				<property name="nBaseOutputRate" value="233"/>
-			</object>
-			<object type="City" name="objGOs">
-				<property name="strName" value="Dallas-Fort Worth"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-96.8000030518, 32.7799987793, 0]"/>
-				<property name="nDirection" value="0"/>
-				<property name="nPopulation" value="625000"/>
-				<property name="strInitialWorkOrder" value=""/>
-				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="14"/>
-					<property name="nTechLevel" value="2"/>
-				</object>
-			</object>
-			<object type="City" name="objGOs">
-				<property name="strName" value="Houston"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-95.3899993896, 29.7700004578, 0]"/>
-				<property name="nDirection" value="0"/>
-				<property name="strPortForRegion" value="Gulf Coast"/>
-				<property name="strInitialWorkOrder" value=""/>
-				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="6"/>
-				</object>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="North Carolina"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Hills"/>
-			<property name="nPopulation" value="3572000"/>
-			<property name="nTransInfrastructure" value="3"/>
-			<property name="strCulture" value="American"/>
-			<property name="nAgriculture" value="2"/>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="Carolina Mines"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-81.6392211914, 35.8613510132, 0]"/>
-				<property name="strResource" value="Coal"/>
-				<property name="nBaseOutputRate" value="17"/>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="South Carolina"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Hills"/>
-			<property name="nPopulation" value="1900000"/>
-			<property name="nTransInfrastructure" value="3"/>
-			<property name="strCulture" value="American"/>
-			<property name="nAgriculture" value="2"/>
-		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="Virginia"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strController" value="United States"/>
-			<property name="strTerrain" value="Hills"/>
-			<property name="nPopulation" value="2678000"/>
-			<property name="nTransInfrastructure" value="3"/>
-			<property name="strCulture" value="American"/>
-			<property name="nAgriculture" value="2"/>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="Shenandoah Mines"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-78.820274353, 38.0922775269, 0]"/>
-				<property name="strResource" value="Coal"/>
-				<property name="nBaseOutputRate" value="52"/>
-			</object>
-			<object type="City" name="objGOs">
-				<property name="strName" value="Norfolk"/>
-				<property name="strOwner" value="United States"/>
-				<property name="vecPosition" value="[-76.25, 36.8800010681, 0]"/>
-				<property name="nDirection" value="0"/>
-				<property name="nPopulation" value="144332"/>
-				<property name="strPortForRegion" value="Chesapeake Bay"/>
-				<property name="strInitialWorkOrder" value=""/>
-				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="41"/>
-					<property name="nTechLevel" value="2"/>
-				</object>
-			</object>
-		</object>
-		<object type="Army" name="objGOs">
-			<property name="strName" value="1st Army"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strRegion" value="New York"/>
+			<property name="vecPosition" value="[-120.237304688, 33.215461731, -9.53674316406e-007]"/>
+			<property name="strRegion" value="Gulf of Santa Catalina"/>
 			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="PreWarInfantry"/>
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
 				<property name="nNumber" value="3"/>
 			</object>
 			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="Cavalry"/>
+				<property name="strName" value="BattleCruiser"/>
 				<property name="nNumber" value="1"/>
 			</object>
 			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="FieldArtillery"/>
-				<property name="nNumber" value="1"/>
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="2"/>
 			</object>
 		</object>
-		<object type="Army" name="objGOs">
-			<property name="strName" value="2nd Army"/>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="4th Pacific Fleet"/>
 			<property name="strOwner" value="United States"/>
+			<property name="vecPosition" value="[-122.419998169, 37.7700004578, 0]"/>
 			<property name="strRegion" value="Northern California"/>
+			<property name="strCity" value="San Francisco"/>
 			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="PreWarInfantry"/>
-				<property name="nNumber" value="3"/>
-			</object>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="Cavalry"/>
-				<property name="nNumber" value="1"/>
-			</object>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="FieldArtillery"/>
-				<property name="nNumber" value="1"/>
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="2"/>
 			</object>
 		</object>
-		<object type="Army" name="objGOs">
-			<property name="strName" value="3rd Army"/>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="3rd Atlantic Fleet"/>
 			<property name="strOwner" value="United States"/>
-			<property name="strRegion" value="Texas"/>
+			<property name="vecPosition" value="[-71.0500030518, 42.3499984741, 0]"/>
+			<property name="strRegion" value="Massachusetts"/>
+			<property name="strCity" value="Boston"/>
 			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="PreWarInfantry"/>
-				<property name="nNumber" value="3"/>
-			</object>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="Cavalry"/>
+				<property name="strName" value="PreWarBattleship"/>
 				<property name="nNumber" value="1"/>
 			</object>
 			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="FieldArtillery"/>
+				<property name="strName" value="BattleCruiser"/>
 				<property name="nNumber" value="1"/>
 			</object>
-		</object>
-		<object type="Army" name="objGOs">
-			<property name="strName" value="1st Phillipine Army"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strRegion" value="Luzon"/>
 			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="PreWarInfantry"/>
-				<property name="nNumber" value="1"/>
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="2"/>
 			</object>
-		</object>
-		<object type="Army" name="objGOs">
-			<property name="strName" value="2nd Phillipine Army"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strRegion" value="Mindanao"/>
 			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="PreWarInfantry"/>
-				<property name="nNumber" value="1"/>
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="4"/>
 			</object>
-		</object>
-		<object type="Army" name="objGOs">
-			<property name="strName" value="Canal Zone Force"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strRegion" value="Canal Zone"/>
 			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="PreWarInfantry"/>
+				<property name="strName" value="Destroyer"/>
 				<property name="nNumber" value="1"/>
 			</object>
 		</object>
 		<object type="Fleet" name="objGOs">
-			<property name="strName" value="1st Atlantic"/>
+			<property name="strName" value="2nd Atlantic Fleet"/>
 			<property name="strOwner" value="United States"/>
-			<property name="strRegion" value="Massachusetts"/>
-			<property name="strCity" value="Boston"/>
+			<property name="vecPosition" value="[-75.1600036621, 39.9599990845, 0]"/>
+			<property name="strRegion" value="Pennsylvania"/>
+			<property name="strCity" value="Philadelphia"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="4"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="4th Atlantic Fleet"/>
+			<property name="strOwner" value="United States"/>
+			<property name="vecPosition" value="[-67.8176193237, 42.1098251343, 0]"/>
+			<property name="strRegion" value="Massachusetts Bay"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="BattleCruiser"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="3"/>
+			</object>
 			<object type="UnitSummary" name="objUnits">
 				<property name="strName" value="EarlyCarrier"/>
 				<property name="nNumber" value="1"/>
 			</object>
 			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="PreWarBattleship"/>
-				<property name="nNumber" value="7"/>
-			</object>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="EarlyCruiser"/>
-				<property name="nNumber" value="2"/>
-			</object>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="Destroyer"/>
-				<property name="nNumber" value="8"/>
-			</object>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="EarlySubmarine"/>
-				<property name="nNumber" value="6"/>
-			</object>
-		</object>
-		<object type="Fleet" name="objGOs">
-			<property name="strName" value="2nd Atlantic"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strRegion" value="New York"/>
-			<property name="strCity" value="New York"/>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="Destroyer"/>
-				<property name="nNumber" value="4"/>
-			</object>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="EarlySubmarine"/>
-				<property name="nNumber" value="1"/>
-			</object>
-		</object>
-		<object type="Fleet" name="objGOs">
-			<property name="strName" value="3rd Atlantic"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strRegion" value="Florida Straits"/>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="PreWarBattleship"/>
-				<property name="nNumber" value="1"/>
-			</object>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="EarlyCruiser"/>
-				<property name="nNumber" value="2"/>
-			</object>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="Destroyer"/>
-				<property name="nNumber" value="6"/>
-			</object>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="EarlySubmarine"/>
-				<property name="nNumber" value="2"/>
-			</object>
-		</object>
-		<object type="Fleet" name="objGOs">
-			<property name="strName" value="4th Atlantic"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strRegion" value="Northern Atlantic"/>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="EarlyCruiser"/>
-				<property name="nNumber" value="2"/>
-			</object>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="Destroyer"/>
-				<property name="nNumber" value="4"/>
-			</object>
-		</object>
-		<object type="Fleet" name="objGOs">
-			<property name="strName" value="1st Asiatic"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strRegion" value="Luzon"/>
-			<property name="strCity" value="Manila"/>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="EarlyCruiser"/>
-				<property name="nNumber" value="3"/>
-			</object>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="Destroyer"/>
-				<property name="nNumber" value="4"/>
-			</object>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="EarlySubmarine"/>
-				<property name="nNumber" value="3"/>
-			</object>
-		</object>
-		<object type="Fleet" name="objGOs">
-			<property name="strName" value="Malay Group"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strRegion" value="Malay Sea"/>
-			<object type="UnitSummary" name="objUnits">
 				<property name="strName" value="EarlyCruiser"/>
 				<property name="nNumber" value="1"/>
 			</object>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="Destroyer"/>
-				<property name="nNumber" value="4"/>
-			</object>
 		</object>
 		<object type="Fleet" name="objGOs">
-			<property name="strName" value="1st Pacific"/>
+			<property name="strName" value="3rd Pacific Fleet"/>
 			<property name="strOwner" value="United States"/>
+			<property name="vecPosition" value="[-157.850006104, 21.2999992371, 0]"/>
 			<property name="strRegion" value="Hawaii"/>
 			<property name="strCity" value="Honolulu"/>
 			<object type="UnitSummary" name="objUnits">
 				<property name="strName" value="EarlyCarrier"/>
-				<property name="nNumber" value="2"/>
+				<property name="nNumber" value="1"/>
 			</object>
 			<object type="UnitSummary" name="objUnits">
 				<property name="strName" value="PreWarBattleship"/>
-				<property name="nNumber" value="7"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="BattleCruiser"/>
+				<property name="nNumber" value="1"/>
 			</object>
 			<object type="UnitSummary" name="objUnits">
 				<property name="strName" value="EarlyCruiser"/>
-				<property name="nNumber" value="4"/>
+				<property name="nNumber" value="3"/>
 			</object>
 			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="Destroyer"/>
-				<property name="nNumber" value="8"/>
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="2"/>
 			</object>
 			<object type="UnitSummary" name="objUnits">
 				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
 				<property name="nNumber" value="2"/>
 			</object>
 		</object>
 		<object type="Fleet" name="objGOs">
-			<property name="strName" value="2nd Pacific"/>
+			<property name="strName" value="2nd Pacific Fleet"/>
 			<property name="strOwner" value="United States"/>
-			<property name="strRegion" value="Northern California"/>
-			<property name="strCity" value="San Francisco"/>
+			<property name="vecPosition" value="[-123.679138184, 37.1628494263, 0]"/>
+			<property name="strRegion" value="Monterey Bay"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCarrier"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="BattleCruiser"/>
+				<property name="nNumber" value="1"/>
+			</object>
 			<object type="UnitSummary" name="objUnits">
 				<property name="strName" value="EarlyCruiser"/>
 				<property name="nNumber" value="2"/>
 			</object>
 			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="Destroyer"/>
-				<property name="nNumber" value="4"/>
-			</object>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="EarlySubmarine"/>
-				<property name="nNumber" value="2"/>
-			</object>
-		</object>
-		<object type="Fleet" name="objGOs">
-			<property name="strName" value="5th Atlantic"/>
-			<property name="strOwner" value="United States"/>
-			<property name="strRegion" value="Central Atlantic"/>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="EarlyCruiser"/>
+				<property name="strName" value="Corvette"/>
 				<property name="nNumber" value="3"/>
 			</object>
 			<object type="UnitSummary" name="objUnits">
@@ -1565,24 +1144,35 @@
 		<object type="AirForce" name="objGOs">
 			<property name="strName" value="1st Air Force"/>
 			<property name="strOwner" value="United States"/>
-			<property name="strRegion" value="Massachusetts"/>
+			<property name="vecPosition" value="[-75.6511611938, 39.1740875244, 0]"/>
+			<property name="strRegion" value="Maryland"/>
 			<object type="UnitSummary" name="objUnits">
 				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyBombers"/>
 				<property name="nNumber" value="1"/>
 			</object>
 		</object>
 		<object type="AirForce" name="objGOs">
 			<property name="strName" value="2nd Air Force"/>
 			<property name="strOwner" value="United States"/>
-			<property name="strRegion" value="Northern California"/>
+			<property name="vecPosition" value="[-117.621078491, 35.3382072449, 0]"/>
+			<property name="strRegion" value="Southern California"/>
 			<object type="UnitSummary" name="objUnits">
 				<property name="strName" value="PreWarFighters"/>
 				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyBombers"/>
+				<property name="nNumber" value="1"/>
 			</object>
 		</object>
 		<object type="AirForce" name="objGOs">
 			<property name="strName" value="3rd Air Force"/>
 			<property name="strOwner" value="United States"/>
+			<property name="vecPosition" value="[-158.805130005, 21.8707485199, 0]"/>
 			<property name="strRegion" value="Hawaii"/>
 			<object type="UnitSummary" name="objUnits">
 				<property name="strName" value="PreWarFighters"/>
@@ -1592,18 +1182,90 @@
 		<object type="AirForce" name="objGOs">
 			<property name="strName" value="4th Air Force"/>
 			<property name="strOwner" value="United States"/>
-			<property name="strRegion" value="Texas"/>
+			<property name="vecPosition" value="[-115.091705322, 43.8196105957, 0]"/>
+			<property name="strRegion" value="Idaho"/>
 			<object type="UnitSummary" name="objUnits">
 				<property name="strName" value="PreWarFighters"/>
 				<property name="nNumber" value="1"/>
 			</object>
 		</object>
-		<object type="AirForce" name="objGOs">
-			<property name="strName" value="Phillipine Air Wing"/>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
 			<property name="strOwner" value="United States"/>
-			<property name="strRegion" value="Luzon"/>
+			<property name="vecPosition" value="[-75.6511611938, 39.1740875244, 0]"/>
+			<property name="strRegion" value="Maryland"/>
 			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="PreWarFighters"/>
+				<property name="strName" value="EarlyTank"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="2nd Army"/>
+			<property name="strOwner" value="United States"/>
+			<property name="vecPosition" value="[-89.2221221924, 40.2852363586, 0]"/>
+			<property name="strRegion" value="Illinois"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="3rd Army"/>
+			<property name="strOwner" value="United States"/>
+			<property name="vecPosition" value="[-74.7498550415, 43.1726608276, 0]"/>
+			<property name="strRegion" value="New York"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="4th Army"/>
+			<property name="strOwner" value="United States"/>
+			<property name="vecPosition" value="[-117.621078491, 35.3382072449, 0]"/>
+			<property name="strRegion" value="Southern California"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="5th Army"/>
+			<property name="strOwner" value="United States"/>
+			<property name="vecPosition" value="[-158.805130005, 21.8707485199, 0]"/>
+			<property name="strRegion" value="Hawaii"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="6th Army"/>
+			<property name="strOwner" value="United States"/>
+			<property name="vecPosition" value="[-79.8567581177, 8.88161563873, 0]"/>
+			<property name="strRegion" value="Canal Zone"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
 				<property name="nNumber" value="1"/>
 			</object>
 		</object>
@@ -1617,43 +1279,43 @@
 			<property name="strName" value="United States"/>
 			<property name="strRegionList" value="UnitedStatesGreenlandTrigger1939"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
-			<property name="nWarSensitivity" value="35"/>
+			<property name="nWarSensitivity" value="15"/>
 			<property name="nEmbargoSensitivity" value="75"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
 			<property name="strName" value="Australia"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
-			<property name="nWarSensitivity" value="35"/>
+			<property name="nWarSensitivity" value="25"/>
 			<property name="nEmbargoSensitivity" value="75"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
 			<property name="strName" value="Panama"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
-			<property name="nWarSensitivity" value="60"/>
+			<property name="nWarSensitivity" value="15"/>
 			<property name="nEmbargoSensitivity" value="75"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
 			<property name="strName" value="Cuba"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
-			<property name="nWarSensitivity" value="50"/>
+			<property name="nWarSensitivity" value="20"/>
 			<property name="nEmbargoSensitivity" value="75"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
 			<property name="strName" value="Mexico"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
-			<property name="nWarSensitivity" value="90"/>
+			<property name="nWarSensitivity" value="5"/>
 			<property name="nEmbargoSensitivity" value="90"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
 			<property name="strName" value="Costa Rica"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
-			<property name="nWarSensitivity" value="35"/>
+			<property name="nWarSensitivity" value="5"/>
 			<property name="nEmbargoSensitivity" value="75"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
 			<property name="strName" value="Canada"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
-			<property name="nWarSensitivity" value="90"/>
+			<property name="nWarSensitivity" value="65"/>
 			<property name="nEmbargoSensitivity" value="90"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
@@ -1665,68 +1327,80 @@
 		<object type="TriggerCountry" name="objTriggerCountries">
 			<property name="strName" value="Salvador"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
-			<property name="nWarSensitivity" value="35"/>
+			<property name="nWarSensitivity" value="5"/>
 			<property name="nEmbargoSensitivity" value="75"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
 			<property name="strName" value="Iceland"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
-			<property name="nWarSensitivity" value="20"/>
+			<property name="nWarSensitivity" value="5"/>
 			<property name="nEmbargoSensitivity" value="75"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
 			<property name="strName" value="Haiti"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
-			<property name="nWarSensitivity" value="35"/>
+			<property name="nWarSensitivity" value="5"/>
 			<property name="nEmbargoSensitivity" value="75"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
 			<property name="strName" value="Honduras"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
-			<property name="nWarSensitivity" value="35"/>
+			<property name="nWarSensitivity" value="5"/>
 			<property name="nEmbargoSensitivity" value="75"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
 			<property name="strName" value="Guatemala"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
-			<property name="nWarSensitivity" value="35"/>
+			<property name="nWarSensitivity" value="5"/>
 			<property name="nEmbargoSensitivity" value="75"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
 			<property name="strName" value="Nicaragua"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
-			<property name="nWarSensitivity" value="35"/>
+			<property name="nWarSensitivity" value="5"/>
 			<property name="nEmbargoSensitivity" value="75"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
 			<property name="strName" value="Dominican Republic"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
-			<property name="nWarSensitivity" value="35"/>
+			<property name="nWarSensitivity" value="5"/>
 			<property name="nEmbargoSensitivity" value="75"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
 			<property name="strName" value="Brazil"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
-			<property name="nWarSensitivity" value="25"/>
+			<property name="nWarSensitivity" value="10"/>
 			<property name="nEmbargoSensitivity" value="65"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
 			<property name="strName" value="Venezuela"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
-			<property name="nWarSensitivity" value="30"/>
+			<property name="nWarSensitivity" value="5"/>
 			<property name="nEmbargoSensitivity" value="70"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
 			<property name="strName" value="Colombia"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
-			<property name="nWarSensitivity" value="30"/>
+			<property name="nWarSensitivity" value="5"/>
+			<property name="nEmbargoSensitivity" value="75"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Confederate States"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="65"/>
+			<property name="nEmbargoSensitivity" value="95"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Confederate States"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
+			<property name="nWarSensitivity" value="35"/>
 			<property name="nEmbargoSensitivity" value="75"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
 			<property name="strName" value="United Kingdom"/>
 			<property name="strRegionList" value="UnitedStatesUnitedKingdomTrigger1939"/>
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
-			<property name="nWarSensitivity" value="35"/>
+			<property name="nWarSensitivity" value="25"/>
 			<property name="nEmbargoSensitivity" value="90"/>
 		</object>
 		<object type="TriggerCountry" name="objTriggerCountries">
@@ -1734,12 +1408,27 @@
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
 			<property name="nEmbargoSensitivity" value="50"/>
 		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="France"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="15"/>
+			<property name="nEmbargoSensitivity" value="95"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="USSR"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
+			<property name="nWarSensitivity" value="35"/>
+			<property name="nEmbargoSensitivity" value="85"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="USSR"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="40"/>
+			<property name="nEmbargoSensitivity" value="95"/>
+		</object>
 		<object type="CultureSet" name="objCultureSet">
 			<object type="Culture" name="objCultures">
 				<property name="strCultureName" value="American"/>
-			</object>
-			<object type="Culture" name="objCultures">
-				<property name="strCultureName" value="Anglo-Celtic"/>
 			</object>
 		</object>
 	</object>

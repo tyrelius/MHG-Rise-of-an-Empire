@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="USSR"/>
 		<property name="strGovType" value="Communist"/>
+		<property name="sidName" value="SID.Game.Country.Name.USSR"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.USSR"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.USSR"/>
+		<property name="sidPeople" value="SID.Game.Country.People.USSR"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.USSR"/>
 		<property name="strHomelands" value="USSR"/>
 		<property name="bIsScored" value="true"/>
 		<property name="eCountryType" value="COUNTRYTYPE_PLAYABLE"/>
@@ -15,6 +20,7 @@
 			<property name="strName" value="Polatsk"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Polatsk"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="2598274"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -24,8 +30,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Minsk"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[27.5, 53.8499984741, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Minsk"/>
 				<property name="nPopulation" value="239000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -37,6 +45,7 @@
 			<property name="strName" value="Turov"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Turov"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="2598274"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -48,6 +57,7 @@
 			<property name="strName" value="Daghestan"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Daghestan"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="1864204"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -56,6 +66,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Daghestan Oil Field"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[46.3332061768, 44.7557868958, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -63,8 +74,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Grozny"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[45.7000007629, 43.3499984741, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Grozny"/>
 				<property name="nPopulation" value="172468"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -76,6 +89,7 @@
 			<property name="strName" value="Ladoga Karelia"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.LadogaKarelia"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="512554"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -86,6 +100,7 @@
 			<property name="strName" value="Circassia"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Circassia"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="5635787"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -94,6 +109,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Circassia Oil Field"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[43.7106781006, 44.6327590942, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -101,6 +117,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Circassia Foundry"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[44.3684844971, 43.055519104, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="4"/>
@@ -108,8 +125,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Tbilisi"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[44.8199996948, 41.7200012207, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Tbilisi"/>
 				<property name="nPopulation" value="519175"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -121,6 +140,7 @@
 			<property name="strName" value="Amur"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Amur"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="379596"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -129,6 +149,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Amur Foundry"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[127.863578796, 52.3021087646, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="4"/>
@@ -136,8 +157,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Blagoveshchensk"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[127.824867249, 50.7206611633, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Blagoveshchensk"/>
 				<property name="nPopulation" value="58761"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -149,6 +172,7 @@
 			<property name="strName" value="Archangelsk"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Archangelsk"/>
 			<property name="strTerrain" value="Tundra"/>
 			<property name="nPopulation" value="524910"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -156,8 +180,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Archangel"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[40.6699981689, 64.5299987793, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Archangel"/>
 				<property name="nPopulation" value="281000"/>
 				<property name="strPortForRegion" value="White Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -170,6 +196,7 @@
 			<property name="strName" value="Astrakhan Oblast"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.AstrakhanOblast"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="278387"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -178,6 +205,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Astrakhan Oil Field"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[47.4901771545, 47.3674850464, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="12"/>
@@ -185,8 +213,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Astrakhan"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[48.0699996948, 46.3699989319, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Astrakhan"/>
 				<property name="nPopulation" value="225400"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -198,6 +228,7 @@
 			<property name="strName" value="Chita"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Chita"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="569115"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -208,6 +239,7 @@
 			<property name="strName" value="Chukota"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Chukota"/>
 			<property name="strTerrain" value="Tundra"/>
 			<property name="nPopulation" value="124060"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -217,6 +249,7 @@
 			<property name="strName" value="Crimea"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Crimea"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="994798"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -226,8 +259,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Sevastopol"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[33.5299987793, 44.5999984741, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Sevastopol"/>
 				<property name="nPopulation" value="111946"/>
 				<property name="strPortForRegion" value="Western Black Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -241,6 +276,7 @@
 			<property name="strName" value="Ingermanland"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Ingermanland"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="6148568"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -250,8 +286,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Leningrad"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[30.25, 59.8800010681, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Leningrad"/>
 				<property name="nPopulation" value="3191304"/>
 				<property name="strPortForRegion" value="Gulf of Finland"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -265,6 +303,7 @@
 			<property name="strName" value="Irkutsk Oblast"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.IrkutskOblast"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="948525"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -273,8 +312,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Irkutsk"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[104.25, 52.2999992371, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Irkutsk"/>
 				<property name="nPopulation" value="243000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -286,6 +327,7 @@
 			<property name="strName" value="Kamchatka"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Kamchatka"/>
 			<property name="strTerrain" value="Tundra"/>
 			<property name="nPopulation" value="744356"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -295,6 +337,7 @@
 			<property name="strName" value="Kola"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Kola"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="524910"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -303,8 +346,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Murmansk"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[33.1300010681, 68.9869995117, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Murmansk"/>
 				<property name="nPopulation" value="117054"/>
 				<property name="strPortForRegion" value="Barents Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -317,6 +362,7 @@
 			<property name="strName" value="Kuban"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Kuban"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="444285"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -325,8 +371,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Krasnodar"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[39, 45.0299987793, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Krasnodar"/>
 				<property name="nPopulation" value="203946"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -336,8 +384,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Novorossiysk"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[37.7299995422, 44.7400016785, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Novorossiysk"/>
 				<property name="strPortForRegion" value="Eastern Black Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -350,6 +400,7 @@
 			<property name="strName" value="Kursk"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Kursk"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="4166636"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -358,6 +409,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Kursk Mines"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[36.1181373596, 51.6885681152, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="16"/>
@@ -365,6 +417,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Kursk Foundry"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[36.2649917603, 49.8528938293, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="25"/>
@@ -372,8 +425,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Voronezh"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[39.2200012207, 51.6699981689, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Voronezh"/>
 				<property name="nPopulation" value="212400"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -385,6 +440,7 @@
 			<property name="strName" value="Magadan"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Magadan"/>
 			<property name="strTerrain" value="Tundra"/>
 			<property name="nPopulation" value="124060"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -395,6 +451,7 @@
 			<property name="strName" value="Middle Volga"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.MiddleVolga"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="11586553"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -403,6 +460,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Middle Volga Oil Field"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[50.40467453, 54.6937026978, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="6"/>
@@ -410,8 +468,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Kazan"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[49.1699981689, 55.75, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Kazan"/>
 				<property name="nPopulation" value="402000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -424,6 +484,7 @@
 			<property name="strName" value="Muscovy"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Muscovy"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="11971367"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -433,6 +494,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Muscovy Foundry"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[39.1449127197, 55.3206481934, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="6"/>
@@ -440,8 +502,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Moscow"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[37.7000007629, 55.75, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Moscow"/>
 				<property name="nPopulation" value="4137018"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -454,6 +518,7 @@
 			<property name="strName" value="North Sakhalin"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.NorthSakhalin"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="100000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -461,6 +526,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="North Sakhalin Mines"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[142.886886597, 51.5264549255, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="9"/>
@@ -468,6 +534,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Sakhalin Oil Field"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[142.288879395, 52.1095123291, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -475,6 +542,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="North Sakhalin Foundry"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[142.67010498, 52.991569519, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="4"/>
@@ -484,6 +552,7 @@
 			<property name="strName" value="Novgorod"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Novgorod"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="3683008"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -495,12 +564,14 @@
 			<property name="strName" value="Pechora"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Pechora"/>
 			<property name="strTerrain" value="Tundra"/>
 			<property name="nPopulation" value="350115"/>
 			<property name="strCulture" value="Russian"/>
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Pechora Oil Field"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[54.40650177, 67.2275390625, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -510,6 +581,7 @@
 			<property name="strName" value="Pskov"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Pskov"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="683174"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -521,6 +593,7 @@
 			<property name="strName" value="Rostov Oblast"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.RostovOblast"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="5589374"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -529,8 +602,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Rostov"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[39.3800010681, 47.1800003052, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Rostov"/>
 				<property name="nPopulation" value="510253"/>
 				<property name="strPortForRegion" value="Sea of Azov"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -543,6 +618,7 @@
 			<property name="strName" value="Ryazan"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Ryazan"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="1508070"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -553,6 +629,7 @@
 			<property name="strName" value="Siberia"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Siberia"/>
 			<property name="strTerrain" value="Tundra"/>
 			<property name="nPopulation" value="1828746"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -563,6 +640,7 @@
 			<property name="strName" value="Sikhote"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Sikhote"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="1488711"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -571,6 +649,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Sikhote Mines"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[137.644210815, 50.9281005859, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="9"/>
@@ -578,6 +657,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Sikhote Foundry"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[137.001358032, 48.1398925781, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="4"/>
@@ -585,8 +665,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Vladivostok"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[131.880004883, 43.1500015259, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Vladivostok"/>
 				<property name="nPopulation" value="206000"/>
 				<property name="strPortForRegion" value="East Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -597,8 +679,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Khabarovsk"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[135.100006104, 48.4599990845, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Khabarovsk"/>
 				<property name="nPopulation" value="199364"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -610,6 +694,7 @@
 			<property name="strName" value="Smolensk Oblast"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.SmolenskOblast"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="284277"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -619,6 +704,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Smolensk Foundry"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[34.1368865967, 53.254119873, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="6"/>
@@ -626,8 +712,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Smolensk"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[32.0699996948, 54.8199996948, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Smolensk"/>
 				<property name="nPopulation" value="156677"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -639,6 +727,7 @@
 			<property name="strName" value="Tobolsk"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Tobolsk"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="3098671"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -647,8 +736,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Omsk"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[73.3700027466, 55, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Omsk"/>
 				<property name="nPopulation" value="281000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -660,6 +751,7 @@
 			<property name="strName" value="Tomsk"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Tomsk"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="2478936"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -668,6 +760,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Tomsk Mines"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[79.5441665649, 57.147567749, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="17"/>
@@ -675,8 +768,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Novo-Sibirsk"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[83.0800018311, 55.0699996948, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.NovoSibirsk"/>
 				<property name="nPopulation" value="278000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -688,6 +783,7 @@
 			<property name="strName" value="Tver"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Tver"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="3220664"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -697,8 +793,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Kalinin"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[35.9500007629, 56.8199996948, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Kalinin"/>
 				<property name="nPopulation" value="216000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -710,6 +808,7 @@
 			<property name="strName" value="Tyumen"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Tyumen"/>
 			<property name="strTerrain" value="Tundra"/>
 			<property name="nPopulation" value="619734"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -720,6 +819,7 @@
 			<property name="strName" value="Urals"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Urals"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="11417803"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -728,6 +828,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Urals Mines"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[58.9711456299, 57.1326141357, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="17"/>
@@ -735,6 +836,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Urals Oil Field"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[55.8988876343, 55.5703239441, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="6"/>
@@ -742,6 +844,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Urals Foundry"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[56.7510490417, 57.3045425415, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="27"/>
@@ -749,8 +852,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Sverdlovsk"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[56.8100013733, 52.3199996948, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Sverdlovsk"/>
 				<property name="nPopulation" value="425244"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -760,8 +865,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Orenburg"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[55.0999984741, 51.7799987793, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Orenburg"/>
 				<property name="nPopulation" value="133300"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -771,8 +878,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Magnitogorsk"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[58.9599990845, 53.4099998474, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Magnitogorsk"/>
 				<property name="nPopulation" value="145900"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -784,6 +893,7 @@
 			<property name="strName" value="Vladmir"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Vladmir"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="8556694"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -792,8 +902,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Gorki"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[45.0699996948, 57.5999984741, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Gorki"/>
 				<property name="nPopulation" value="644116"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -806,6 +918,7 @@
 			<property name="strName" value="Volgograd"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Volgograd"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="4367417"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -814,8 +927,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Stalingrad"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[44.5, 48.75, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Stalingrad"/>
 				<property name="nPopulation" value="445476"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -828,6 +943,7 @@
 			<property name="strName" value="Vologda"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Vologda"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="350115"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -838,6 +954,7 @@
 			<property name="strName" value="Yakutsk"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Yakutsk"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="360621"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -848,6 +965,7 @@
 			<property name="strName" value="Yenisisk"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Yenisisk"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="236186"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -858,6 +976,7 @@
 			<property name="strName" value="Bactria"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Bactria"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="8167995"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -866,6 +985,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Bactria Foundry"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[66.7820053101, 37.9569969177, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="4"/>
@@ -875,6 +995,7 @@
 			<property name="strName" value="Kara Kum"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.KaraKum"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="3135878"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -885,6 +1006,7 @@
 			<property name="strName" value="Semipalatinsk"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Semipalatinsk"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="1792060"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -895,6 +1017,7 @@
 			<property name="strName" value="South Caucasus"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.SouthCaucasus"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="4226231"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -903,6 +1026,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="South Caucas Oil Field"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[47.541179657, 40.4216041565, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="78"/>
@@ -910,8 +1034,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Baku"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[49.8800010681, 40.3699989319, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Baku"/>
 				<property name="nPopulation" value="809347"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -924,6 +1050,7 @@
 			<property name="strName" value="Ust Urt"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.UstUrt"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="1024035"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -934,6 +1061,7 @@
 			<property name="strName" value="Chernigov"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Chernigov"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="2522371"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -942,6 +1070,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Chernigov Foundry"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[39.081943512, 52.8953170776, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="6"/>
@@ -949,8 +1078,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Tula"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[37.6300010681, 54.1800003052, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Tula"/>
 				<property name="nPopulation" value="272000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -962,6 +1093,7 @@
 			<property name="strName" value="Donetska"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Donetska"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="13353328"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -970,6 +1102,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Donetska Mines"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[37.4949951172, 47.7827072144, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="110"/>
@@ -977,6 +1110,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Donetska Foundry"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[34.2508087158, 48.2611122131, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="33"/>
@@ -984,8 +1118,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Kharkov"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[36.1800003052, 48.6100006104, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Kharkov"/>
 				<property name="nPopulation" value="833432"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -998,6 +1134,7 @@
 			<property name="strName" value="Jedisan"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Jedisan"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="569534"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -1007,8 +1144,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Odessa"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[30.7700004578, 46.5, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Odessa"/>
 				<property name="nPopulation" value="604223"/>
 				<property name="strPortForRegion" value="Western Black Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -1021,6 +1160,7 @@
 			<property name="strName" value="Kherson"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Kherson"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="2925399"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -1029,6 +1169,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Kherson Mines"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[32.7409591675, 47.3504943848, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="17"/>
@@ -1036,6 +1177,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Kherson Foundry"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[32.9726867676, 46.5132865906, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="9"/>
@@ -1045,6 +1187,7 @@
 			<property name="strName" value="Podelia"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Podelia"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="7432527"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -1053,8 +1196,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Vinnytsia"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[28.5300006866, 49.1899986267, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Vinnytsia"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
 					<property name="nIPUs" value="7"/>
@@ -1065,6 +1210,7 @@
 			<property name="strName" value="Poltava"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Poltava"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="2522371"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -1074,6 +1220,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Poltava Mines"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[31.52592659, 51.4714660645, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="110"/>
@@ -1081,6 +1228,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Poltava Foundry"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[34.2468566895, 50.5894050598, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="33"/>
@@ -1090,6 +1238,7 @@
 			<property name="strName" value="Ukraina"/>
 			<property name="strOwner" value="USSR"/>
 			<property name="strController" value="USSR"/>
+			<property name="sidName" value="SID.Game.Region.Name.Ukraina"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="5098241"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -1098,6 +1247,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Ukraina Mines"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[32.4624214172, 48.6794433594, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="16"/>
@@ -1105,6 +1255,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Ukraina Foundry"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[31.8569393158, 49.867980957, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="9"/>
@@ -1112,8 +1263,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Kiev"/>
 				<property name="strOwner" value="USSR"/>
+				<property name="strController" value="USSR"/>
 				<property name="vecPosition" value="[30.5200004578, 50.4300003052, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Kiev"/>
 				<property name="nPopulation" value="846293"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -1516,6 +1669,18 @@
 			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
 			<property name="nWarSensitivity" value="25"/>
 			<property name="nEmbargoSensitivity" value="40"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="United States"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
+			<property name="nWarSensitivity" value="35"/>
+			<property name="nEmbargoSensitivity" value="65"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="United States"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="40"/>
+			<property name="nEmbargoSensitivity" value="95"/>
 		</object>
 		<object type="CultureSet" name="objCultureSet">
 			<object type="Culture" name="objCultures">

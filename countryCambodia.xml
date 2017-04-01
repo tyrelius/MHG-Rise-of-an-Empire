@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Cambodia"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Cambodia"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Cambodia"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Cambodia"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Cambodia"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Cambodia"/>
 		<property name="strHomelands" value="Cambodia"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Cambodia"/>

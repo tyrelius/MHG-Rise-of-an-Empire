@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Egypt"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Egypt"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Egypt"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Egypt"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Egypt"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Egypt"/>
 		<property name="strHomelands" value="Egypt"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>
@@ -13,6 +18,7 @@
 			<property name="strName" value="Lower Egypt"/>
 			<property name="strOwner" value="Egypt"/>
 			<property name="strController" value="Egypt"/>
+			<property name="sidName" value="SID.Game.Region.Name.LowerEgypt"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="6999094"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -21,6 +27,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Egyptian Coal Mines"/>
 				<property name="strOwner" value="Egypt"/>
+				<property name="strController" value="Egypt"/>
 				<property name="vecPosition" value="[31.5367202759, 31.0358543396, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -28,8 +35,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Cairo"/>
 				<property name="strOwner" value="Egypt"/>
+				<property name="strController" value="Egypt"/>
 				<property name="vecPosition" value="[31.6764583588, 30.2175674438, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Cairo"/>
 				<property name="nPopulation" value="1307000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -39,8 +48,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Alexandria"/>
 				<property name="strOwner" value="Egypt"/>
+				<property name="strController" value="Egypt"/>
 				<property name="vecPosition" value="[29.9500007629, 31.2199993134, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Alexandria"/>
 				<property name="nPopulation" value="685736"/>
 				<property name="strPortForRegion" value="Levantine Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -53,6 +64,7 @@
 			<property name="strName" value="Red Sea Coasts"/>
 			<property name="strOwner" value="Egypt"/>
 			<property name="strController" value="Egypt"/>
+			<property name="sidName" value="SID.Game.Region.Name.RedSeaCoasts"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="9906"/>
 			<property name="strCulture" value="Egyptian"/>
@@ -62,6 +74,7 @@
 			<property name="strName" value="Sinai"/>
 			<property name="strOwner" value="Egypt"/>
 			<property name="strController" value="Egypt"/>
+			<property name="sidName" value="SID.Game.Region.Name.Sinai"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="29951"/>
 			<property name="nFortification" value="1"/>
@@ -72,6 +85,7 @@
 			<property name="strName" value="Southern Desert"/>
 			<property name="strOwner" value="Egypt"/>
 			<property name="strController" value="Egypt"/>
+			<property name="sidName" value="SID.Game.Region.Name.SouthernDesert"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="29092"/>
 			<property name="strCulture" value="Egyptian"/>
@@ -81,6 +95,7 @@
 			<property name="strName" value="Upper Egypt"/>
 			<property name="strOwner" value="Egypt"/>
 			<property name="strController" value="Egypt"/>
+			<property name="sidName" value="SID.Game.Region.Name.UpperEgypt"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="6417385"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -89,8 +104,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Faiyum"/>
 				<property name="strOwner" value="Egypt"/>
+				<property name="strController" value="Egypt"/>
 				<property name="vecPosition" value="[30.8299999237, 29.3199996948, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Faiyum"/>
 				<property name="nPopulation" value="63582"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -102,6 +119,7 @@
 			<property name="strName" value="Western Desert"/>
 			<property name="strOwner" value="Egypt"/>
 			<property name="strController" value="Egypt"/>
+			<property name="sidName" value="SID.Game.Region.Name.WesternDesert"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="52544"/>
 			<property name="strCulture" value="Egyptian"/>

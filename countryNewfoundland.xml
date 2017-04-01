@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Newfoundland"/>
+		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Newfoundland"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Newfoundland"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Newfoundland"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Newfoundland"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Newfoundland"/>
+		<property name="strHomelands" value="Newfoundland"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Newfoundland"/>
+		<property name="strCapital" value=""/>
+		<property name="strOriginalCapital" value="Halifax"/>
+		<property name="bSurrendered" value="true"/>
+		<object type="WarList" name="objWarList">
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Anglo-Celtic"/>
+			</object>
+		</object>
+	</object>
+</objects>

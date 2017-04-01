@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MESharedData" name="">
+		<object type="CultureTemplateSet" name="objCultureTemplateSet">
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Afghani"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Afghani"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Afro-Arab"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.AfroArab"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Akan"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Akan"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Albanian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Albanian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="American"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.American"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Anglo-Celtic"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.AngloCeltic"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Arab-Berber"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.ArabBerber"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Arabian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Arabian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Argentine"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Argentine"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Assamese"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Assamese"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Austrian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Austrian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Baloch"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Baloch"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Banda"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Banda"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Bantu"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Bantu"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Basotho"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Basotho"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Basque"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Basque"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Bengali"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Bengali"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Brazilian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Brazilian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Bulgarian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Bulgarian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Burmese"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Burmese"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Byelorussian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Byelorussian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Cambodian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Cambodian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Caribbean"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Caribbean"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Caucasian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Caucasian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Chewa"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Chewa"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Chinese"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Chinese"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Corsican"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Corsican"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Creole"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Creole"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Croatian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Croatian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Czech"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Czech"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Danish"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Danish"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Dravidian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Dravidian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Dutch"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Dutch"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Egyptian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Egyptian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="English"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.English"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Estonian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Estonian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Ethiopian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Ethiopian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Ewe"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Ewe"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Fang"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Fang"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Filipino"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Filipino"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Finnish"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Finnish"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Flemish"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Flemish"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="French"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.French"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="French-German"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.FrenchGerman"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Fulani"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Fulani"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Georgian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Georgian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="German"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.German"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Greek"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Greek"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Greenlandic"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Greenlandic"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Gujarati"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Gujarati"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Hausa"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Hausa"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Hispanic"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Hispanic"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Hungarian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Hungarian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Indian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Indian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Indo-Aryan"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.IndoAryan"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Indonesian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Indonesian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Iraqi"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Iraqi"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Irish"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Irish"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Italian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Italian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Japanese"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Japanese"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Kongo"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Kongo"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Korean"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Korean"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Laotian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Laotian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Latvian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Latvian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Lithuanian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Lithuanian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Malagasy"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Malagasy"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Malaysian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Malaysian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Maltese"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Maltese"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Mande"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Mande"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Marathi"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Marathi"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Melanesian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Melanesian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Mexican"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Mexican"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Micronesian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Micronesian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Mongolian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Mongolian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Moroccan"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Moroccan"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Mossi"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Mossi"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Nepalese"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Nepalese"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Norwegian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Norwegian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Persian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Persian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Polish"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Polish"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Polish-German"/>
+				<property name="sidDisplayName" value="String.Polish-German"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Polynesian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Polynesian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Portuguese"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Portuguese"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Romanian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Romanian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Russian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Russian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Ruthenian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Ruthenian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Saudi"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Saudi"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Scandinavian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Scandinavian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Scottish"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Scottish"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Serbian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Serbian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Sindhi"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Sindhi"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Sinhalese"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Sinhalese"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Slavic"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Slavic"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Slovakian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Slovakian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Somali"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Somali"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="South African"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.SouthAfrican"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="South Asian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.SouthAsian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Spanish"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Spanish"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Swazi"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Swazi"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Swedish"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Swedish"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Swiss"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Swiss"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Thai"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Thai"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Tibetan"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Tibetan"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Tigrinya"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Tigrinya"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Turkic"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Turkic"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Turkish"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Turkish"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Ukrainian"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Ukrainian"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Vietnamese"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Vietnamese"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Walloon"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Walloon"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Welsh"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Welsh"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Wolof"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Wolof"/>
+			</object>
+			<object type="CultureTemplate" name="objCultureTemplates">
+				<property name="strCultureName" value="Yoruba"/>
+				<property name="sidDisplayName" value="SID.Game.CultureTemplate.Name.Yoruba"/>
+			</object>
+		</object>
+	</object>
+</objects>

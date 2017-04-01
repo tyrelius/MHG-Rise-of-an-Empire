@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Panama"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Panama"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Panama"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Panama"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Panama"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Panama"/>
 		<property name="strHomelands" value="Panama"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Panama"/>
@@ -12,14 +17,17 @@
 			<property name="strName" value="Lower Isthmus"/>
 			<property name="strOwner" value="Panama"/>
 			<property name="strController" value="Panama"/>
+			<property name="sidName" value="SID.Game.Region.Name.LowerIsthmus"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="233729"/>
 			<property name="strCulture" value="Hispanic"/>
 			<object type="City" name="objGOs">
 				<property name="strName" value="Panama City"/>
 				<property name="strOwner" value="Panama"/>
+				<property name="strController" value="Panama"/>
 				<property name="vecPosition" value="[-78.9421920776, 9.25853157043, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.PanamaCity"/>
 				<property name="nPopulation" value="82827"/>
 				<property name="strPortForRegion" value="Gulf of Panama"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -32,6 +40,7 @@
 			<property name="strName" value="Upper Isthmus"/>
 			<property name="strOwner" value="Panama"/>
 			<property name="strController" value="Panama"/>
+			<property name="sidName" value="SID.Game.Region.Name.UpperIsthmus"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="233729"/>
 			<property name="strCulture" value="Hispanic"/>

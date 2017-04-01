@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Ecuador"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Ecuador"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Ecuador"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Ecuador"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Ecuador"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Ecuador"/>
 		<property name="strHomelands" value="Ecuador"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Ecuador"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="Ecuador"/>
 			<property name="strOwner" value="Ecuador"/>
 			<property name="strController" value="Ecuador"/>
+			<property name="sidName" value="SID.Game.Region.Name.Ecuador"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="2756552"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -19,6 +25,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Ecuador Oil Field"/>
 				<property name="strOwner" value="Ecuador"/>
+				<property name="strController" value="Ecuador"/>
 				<property name="vecPosition" value="[-79.5524597168, -1.25282716751, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -26,8 +33,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Quito"/>
 				<property name="strOwner" value="Ecuador"/>
+				<property name="strController" value="Ecuador"/>
 				<property name="vecPosition" value="[-78.5, -0.230000004172, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Quito"/>
 				<property name="nPopulation" value="118350"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -39,6 +48,7 @@
 			<property name="strName" value="Galapagos"/>
 			<property name="strOwner" value="Ecuador"/>
 			<property name="strController" value="Ecuador"/>
+			<property name="sidName" value="SID.Game.Region.Name.Galapagos"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="2868"/>
 			<property name="strCulture" value="Hispanic"/>

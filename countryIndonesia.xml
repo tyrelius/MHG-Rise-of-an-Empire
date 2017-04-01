@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Indonesia"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Indonesia"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Indonesia"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Indonesia"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Indonesia"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Indonesia"/>
 		<property name="strHomelands" value="Indonesia"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>

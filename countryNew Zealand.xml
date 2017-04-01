@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="New Zealand"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.NewZealand"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.NewZealand"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.NewZealand"/>
+		<property name="sidPeople" value="SID.Game.Country.People.NewZealand"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.NewZealand"/>
 		<property name="strHomelands" value="New Zealand"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="New Zealand"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="North Island"/>
 			<property name="strOwner" value="New Zealand"/>
 			<property name="strController" value="New Zealand"/>
+			<property name="sidName" value="SID.Game.Region.Name.NorthIsland"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="944286"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -20,6 +26,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="North Island Mines"/>
 				<property name="strOwner" value="New Zealand"/>
+				<property name="strController" value="New Zealand"/>
 				<property name="vecPosition" value="[177.236923218, -38.5235061646, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -27,8 +34,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Wellington"/>
 				<property name="strOwner" value="New Zealand"/>
+				<property name="strController" value="New Zealand"/>
 				<property name="vecPosition" value="[174.779998779, -41.2799987793, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Wellington"/>
 				<property name="nPopulation" value="151700"/>
 				<property name="strPortForRegion" value="Cook Strait"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -41,6 +50,7 @@
 			<property name="strName" value="South Island"/>
 			<property name="strOwner" value="New Zealand"/>
 			<property name="strController" value="New Zealand"/>
+			<property name="sidName" value="SID.Game.Region.Name.SouthIsland"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="629524"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -49,6 +59,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="South Island Mines"/>
 				<property name="strOwner" value="New Zealand"/>
+				<property name="strController" value="New Zealand"/>
 				<property name="vecPosition" value="[170.952606201, -43.6610336304, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -56,8 +67,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Christchurch"/>
 				<property name="strOwner" value="New Zealand"/>
+				<property name="strController" value="New Zealand"/>
 				<property name="vecPosition" value="[172.669998169, -43.5499992371, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Christchurch"/>
 				<property name="nPopulation" value="133200"/>
 				<property name="strPortForRegion" value="Foveaux Strait"/>
 				<property name="strInitialWorkOrder" value=""/>

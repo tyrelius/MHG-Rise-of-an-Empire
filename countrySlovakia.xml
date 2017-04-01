@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Slovakia"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Slovakia"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Slovakia"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Slovakia"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Slovakia"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Slovakia"/>
 		<property name="strHomelands" value="Slovakia"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Slovakia"/>

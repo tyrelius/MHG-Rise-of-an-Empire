@@ -17,11 +17,19 @@
 		<object type="MEAIData" name="objAIData">
 		</object>
 		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
-			<property name="strProjectName" value="MountedInfantry"/>
+			<property name="strProjectName" value="FieldArtillery"/>
 			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
 		</object>
 		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
-			<property name="strProjectName" value="FieldArtillery"/>
+			<property name="strProjectName" value="EarlyTanks"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="PreWarFighters"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="AttritionWarfare"/>
 			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
 		</object>
 		<object type="DipRelInitialValueList" name="objDipRelInitialValueList">

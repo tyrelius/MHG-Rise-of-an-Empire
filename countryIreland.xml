@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Ireland"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Ireland"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Ireland"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Ireland"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Ireland"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Ireland"/>
 		<property name="strHomelands" value="Ireland"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>
@@ -13,6 +18,7 @@
 			<property name="strName" value="Connaught"/>
 			<property name="strOwner" value="Ireland"/>
 			<property name="strController" value="Ireland"/>
+			<property name="sidName" value="SID.Game.Region.Name.Connaught"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="524847"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -23,6 +29,7 @@
 			<property name="strName" value="Leinster"/>
 			<property name="strOwner" value="Ireland"/>
 			<property name="strController" value="Ireland"/>
+			<property name="sidName" value="SID.Game.Region.Name.Leinster"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="1219501"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -31,6 +38,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Leinster Mines"/>
 				<property name="strOwner" value="Ireland"/>
+				<property name="strController" value="Ireland"/>
 				<property name="vecPosition" value="[-6.74582767487, 52.5436286926, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -38,8 +46,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Dublin"/>
 				<property name="strOwner" value="Ireland"/>
+				<property name="strController" value="Ireland"/>
 				<property name="vecPosition" value="[-6.25, 53.3300018311, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Dublin"/>
 				<property name="nPopulation" value="618137"/>
 				<property name="strPortForRegion" value="Irish Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -52,6 +62,7 @@
 			<property name="strName" value="Munster"/>
 			<property name="strOwner" value="Ireland"/>
 			<property name="strController" value="Ireland"/>
+			<property name="sidName" value="SID.Game.Region.Name.Munster"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="941392"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -60,8 +71,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Cork"/>
 				<property name="strOwner" value="Ireland"/>
+				<property name="strController" value="Ireland"/>
 				<property name="vecPosition" value="[-8.47000026703, 51.9000015259, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Cork"/>
 				<property name="nPopulation" value="428839"/>
 				<property name="strPortForRegion" value="Celtic Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -74,6 +87,7 @@
 			<property name="strName" value="Ulster"/>
 			<property name="strOwner" value="Ireland"/>
 			<property name="strController" value="Ireland"/>
+			<property name="sidName" value="SID.Game.Region.Name.Ulster"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="280114"/>
 			<property name="nTransInfrastructure" value="1"/>

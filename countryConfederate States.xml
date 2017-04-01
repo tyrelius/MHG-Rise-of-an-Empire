@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Confederate States"/>
+		<property name="strGovType" value="Fascist"/>
+		<property name="sidName" value="SID.Game.Country.Name.ConfederateStates"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.ConfederateStates"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.ConfederateStates"/>
+		<property name="sidPeople" value="SID.Game.Country.People.ConfederateStates"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.ConfederateStates"/>
+		<property name="strHomelands" value="Confederate States"/>
+		<property name="eCountryType" value="COUNTRYTYPE_PLAYABLE"/>
+		<property name="bNonPlayable" value="false"/>
+		<property name="strFlagName" value="Confederate States"/>
+		<property name="strCapital" value="Richmond"/>
+		<property name="strOriginalCapital" value="Richmond"/>
+		<property name="nTransportCredits" value="12"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Virginia"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Virginia"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="2978000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="American"/>
+			<property name="nAgriculture" value="3"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Shenandoah Mines"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-78.820274353, 38.0922775269, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="52"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Norfolk"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-76.25, 36.8800010681, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Norfolk"/>
+				<property name="nPopulation" value="144332"/>
+				<property name="strPortForRegion" value="Chesapeake Bay"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="41"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Richmond"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-77.5222549438, 37.5345115662, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Richmond"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="37"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Northern Mexico"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.NorthernMexico"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="5665816"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="American"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Mexico Mines"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-100.67791748, 26.7795944214, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="17"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Mexico Oil Field"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-102.21031189, 26.3684654236, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="22"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Mexico Foundry"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-103.765129089, 27.3776016235, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Monterrey"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-100.309997559, 25.6700000763, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Monterrey"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="8"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Tijuana"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-116.85243988, 32.4047546387, 2.38418579102e-007]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Tijuana"/>
+				<property name="strPortForRegion" value="Gulf of Santa Catalina"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="24"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Kentucky"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Kentucky"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="3146000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="American"/>
+			<property name="nAgriculture" value="3"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Appalachia Mines"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-83.2006072998, 37.3018264771, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="112"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Kentucky Oil Field"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-87.3756027222, 37.3623046875, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="12"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Louisville"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-85.7183914185, 38.1009559631, -1.90734863281e-006]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Louisville"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="24"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="North Carolina"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.NorthCarolina"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="3872000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="American"/>
+			<property name="nAgriculture" value="3"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Carolina Mines"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-81.6392211914, 35.8613510132, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="43"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Raleigh"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-78.1590042114, 35.6965713501, 9.53674316406e-007]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Raleigh"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="18"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Tennessee"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Tennessee"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="3316000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="American"/>
+			<property name="nAgriculture" value="3"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Nashville"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-86.7799987793, 36.1599998474, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Nashville"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="18"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="South Carolina"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.SouthCarolina"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="2100000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="American"/>
+			<property name="nAgriculture" value="3"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Charleston"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-79.9607391357, 32.9545173645, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Charleston"/>
+				<property name="strPortForRegion" value="St. Helena Sound"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="27"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Georgia"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Georgia"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="3524000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="American"/>
+			<property name="nAgriculture" value="3"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Atlanta"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-84.3799972534, 33.7299995422, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Atlanta"/>
+				<property name="nPopulation" value="518000"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="35"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Savannah"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-81.1513519287, 31.9441814423, -4.76837158203e-007]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Savannah"/>
+				<property name="strPortForRegion" value="St. Helena Sound"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="32"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Alabama"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Alabama"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="3033000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="American"/>
+			<property name="nAgriculture" value="3"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="South East Mines"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-86.1310577393, 33.8545379639, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="43"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="South East Foundry"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-87.2503051758, 31.3730773926, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="53"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Mobile"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-88.0400009155, 30.6900005341, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Mobile"/>
+				<property name="nPopulation" value="78720"/>
+				<property name="strPortForRegion" value="Mississippi Sound"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="23"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Mississippi"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Mississippi"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2384000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="American"/>
+			<property name="nAgriculture" value="3"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Mississippi Oil Field"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-89.1194381714, 31.1579666138, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="18"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Florida"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Florida"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2097000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="American"/>
+			<property name="nAgriculture" value="3"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Miami"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-80.1800003052, 25.7700004578, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Miami"/>
+				<property name="nPopulation" value="268000"/>
+				<property name="strPortForRegion" value="Florida Straits"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="30"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Louisiana"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Louisiana"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2664000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="American"/>
+			<property name="nAgriculture" value="3"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Loiusiana Oil Field"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-92.6344680786, 30.1595916748, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="127"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="New Orleans"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-90.0699996948, 29.9500007629, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.NewOrleans"/>
+				<property name="nPopulation" value="552000"/>
+				<property name="strPortForRegion" value="Mississippi Sound"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="29"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Arkansas"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Arkansas"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="2149000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="American"/>
+			<property name="nAgriculture" value="3"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Arkansas Mines"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-91.2335205078, 35.3313026428, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="52"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Little Rock"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-92.2900009155, 34.75, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.LittleRock"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="6"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Arizona"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Arizona"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="1199000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="American"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Tucson"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-110.83190155, 32.6777038574, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Tucson"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="8"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="New Mexico"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.NewMexico"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="932000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="American"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="New Mexico Oil Field"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-104.188751221, 33.889465332, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="24"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Albuquerque"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-106.70413208, 35.0840835571, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Albuquerque"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="12"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Texas"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Texas"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="7115000"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="American"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Texas Oil Field"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-99.8185958862, 32.7580337524, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="233"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Dallas-Fort Worth"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-96.8000030518, 32.7799987793, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.DallasFortWorth"/>
+				<property name="nPopulation" value="625000"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="14"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Houston"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-95.3899993896, 29.7700004578, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Houston"/>
+				<property name="strPortForRegion" value="Gulf Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="10"/>
+				</object>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Texas Mines"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-103.407821655, 30.4442081451, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="26"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Oklahoma"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Oklahoma"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2436000"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="American"/>
+			<property name="nAgriculture" value="3"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Oklahoma Oil Field"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-98.3032913208, 35.6183052063, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="50"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Cuba"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.Cuba"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="7011088"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="American"/>
+			<property name="nAgriculture" value="3"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Cuba Foundry"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-77.8563766479, 21.3498363495, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Havana"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-82.3499984741, 23.1200008392, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Havana"/>
+				<property name="nPopulation" value="550088"/>
+				<property name="strPortForRegion" value="Apalachee Bay"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="12"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Puerto Rico"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.PuertoRico"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2323534"/>
+			<property name="strCulture" value="American"/>
+			<property name="bColony" value="true"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="San Juan"/>
+				<property name="strOwner" value="Confederate States"/>
+				<property name="strController" value="Confederate States"/>
+				<property name="vecPosition" value="[-66.1299972534, 18.4799995422, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.SanJuan"/>
+				<property name="nPopulation" value="137215"/>
+				<property name="strPortForRegion" value="Milwaukee Deep"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="US Virgin Islands"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="strController" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Region.Name.USVirginIslands"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="52012"/>
+			<property name="strCulture" value="Caribbean"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Pacific Fleet"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="vecPosition" value="[-118.009773254, 31.9535121918, 0]"/>
+			<property name="strRegion" value="Gulf of Santa Catalina"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="BattleCruiser"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Atlantic Fleet"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="vecPosition" value="[-74.9041976929, 37.3375663757, 0]"/>
+			<property name="strRegion" value="Chesapeake Bay"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="BattleCruiser"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCarrier"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="5"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="3rd Atlantic"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="vecPosition" value="[-78.9744033813, 24.068731308, 0]"/>
+			<property name="strRegion" value="Florida Straits"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCarrier"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="2nd Atlantic Fleet"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="vecPosition" value="[-76.25, 36.8800010681, 0]"/>
+			<property name="strRegion" value="Virginia"/>
+			<property name="strCity" value="Norfolk"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="4"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="4th Atlantic Fleet"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="vecPosition" value="[-90.0699996948, 29.9500007629, 0]"/>
+			<property name="strRegion" value="Louisiana"/>
+			<property name="strCity" value="New Orleans"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="4"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="5th Atlantic"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="vecPosition" value="[-90.7281265259, 28.5688858032, 0]"/>
+			<property name="strRegion" value="Mississippi Sound"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="1st Air Force"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="vecPosition" value="[-78.3604660034, 37.6835098267, 0]"/>
+			<property name="strRegion" value="Virginia"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyBombers"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="2nd Air Force"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="vecPosition" value="[-108.100067139, 26.9144630432, 0]"/>
+			<property name="strRegion" value="Northern Mexico"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyBombers"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="3rd Air Force"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="vecPosition" value="[-80.290435791, 22.3564243317, 0]"/>
+			<property name="strRegion" value="Cuba"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="vecPosition" value="[-78.3604660034, 37.6835098267, 0]"/>
+			<property name="strRegion" value="Virginia"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyTank"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="MotorizedInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="2nd Army"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="vecPosition" value="[-108.100067139, 26.9144630432, 0]"/>
+			<property name="strRegion" value="Northern Mexico"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="3rd Army"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="vecPosition" value="[-84.4531555176, 37.7486228943, 0]"/>
+			<property name="strRegion" value="Kentucky"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="4th Army"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="vecPosition" value="[-92.8673400879, 34.6904373169, 0]"/>
+			<property name="strRegion" value="Arkansas"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="5th Army"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="vecPosition" value="[-106.547439575, 34.5000495911, 0]"/>
+			<property name="strRegion" value="New Mexico"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="6th Army"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="vecPosition" value="[-80.290435791, 22.3564243317, 0]"/>
+			<property name="strRegion" value="Cuba"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="7th Army"/>
+			<property name="strOwner" value="Confederate States"/>
+			<property name="vecPosition" value="[-82.9245910645, 32.325969696, 0]"/>
+			<property name="strRegion" value="Georgia"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="WarList" name="objWarList">
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Germany"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
+			<property name="nWarSensitivity" value="35"/>
+			<property name="nEmbargoSensitivity" value="65"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Germany"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="45"/>
+			<property name="nEmbargoSensitivity" value="95"/>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="American"/>
+			</object>
+		</object>
+	</object>
+</objects>

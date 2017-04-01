@@ -3,480 +3,662 @@
 	<object type="GameState" name="">
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Afghanistan"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Afghanistan"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#30302EFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Albania"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Albania"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#C65437FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Argentina"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Argentina"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#C5F0EFFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Australia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Australia"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#3F908AFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Austria"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Austria"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#A8A130FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Belgium"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Belgium"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#E7A4C9FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Bhutan"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Bhutan"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#F3F3D1FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Bolivia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Bolivia"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#CCCD39FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Brazil"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Brazil"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#47902AFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Bulgaria"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Bulgaria"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#AAD171FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Burma"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Burma"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#599055FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Canada"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Canada"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#D88D8EFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Chile"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Chile"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#4D458DFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="China"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.China"/>
 			<property name="bNonPlayable" value="false"/>
 			<property name="colCountryColor" value="#336C9FFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Colombia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Colombia"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#CDBD39FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Communist China"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.CommunistChina"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#9F3B39FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Costa Rica"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.CostaRica"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#B86D6CFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Cuba"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Cuba"/>
 			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
 			<property name="colCountryColor" value="#C4BF64FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Czechoslovakia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Czechoslovakia"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#7BABD3FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Danzig"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Danzig"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#D2A74FFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Denmark"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Denmark"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#D4595AFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Dominican Republic"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.DominicanRepublic"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#A47837FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Ecuador"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Ecuador"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#D69FBDFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Egypt"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Egypt"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#EBEBEBFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Estonia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Estonia"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#D9F3F4FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Finland"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Finland"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#32839DFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="France"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.France"/>
 			<property name="bNonPlayable" value="false"/>
 			<property name="colCountryColor" value="#3EC0C8FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Germany"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Germany"/>
 			<property name="bNonPlayable" value="false"/>
 			<property name="colCountryColor" value="#91918DFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Greece"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Greece"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#3E3EC8FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Guatemala"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Guatemala"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#BB3AB3FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Haiti"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Haiti"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#572A28FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Honduras"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Honduras"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#C0EFEDFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Hungary"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Hungary"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#267348FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Iceland"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Iceland"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#4A3680FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="India"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.India"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#CD9139FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Indonesia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Indonesia"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#CF4865FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Iraq"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Iraq"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#3C90C0FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Ireland"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Ireland"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#205D21FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Italy"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Italy"/>
 			<property name="bNonPlayable" value="false"/>
 			<property name="colCountryColor" value="#35AD31FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Japan"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Japan"/>
 			<property name="bNonPlayable" value="false"/>
 			<property name="colCountryColor" value="#E5E59BFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Korea"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Korea"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#73529CFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Kuwait"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Kuwait"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#83DFB8FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Latvia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Latvia"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#E9C1ABFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Liberia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Liberia"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#ACADE7FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Lithuania"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Lithuania"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#E8F2CBFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Luxembourg"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Luxembourg"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#6BC073FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Malaysia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Malaysia"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#D2517CFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Manchuria"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Manchuria"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#AB9D91FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Mexico"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Mexico"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#2C8A41FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Mongolia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Mongolia"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#ADE4DFFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Nationalist Spain"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.NationalistSpain"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#D2A74FFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Nepal"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Nepal"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#546E36FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Netherlands"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Netherlands"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#D58A59FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="New Zealand"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.NewZealand"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#8E3DA8FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Nicaragua"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Nicaragua"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#8B89B8FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Norway"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Norway"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#264174FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Oman"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Oman"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#9C452DFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Panama"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Panama"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#34A786FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Paraguay"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Paraguay"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#E1B38AFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Persia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Persia"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#1F5C54FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Peru"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Peru"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#92483EFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Philippines"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Philippines"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#DBBBDBFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Poland"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Poland"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#FFFFFFFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Portugal"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Portugal"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#1F5B36FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Republican Spain"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.RepublicanSpain"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#662561FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Romania"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Romania"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#9B5294FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Salvador"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Salvador"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#2C2C97FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Saudi Arabia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.SaudiArabia"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#9EB37BFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Siam"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Siam"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#3C3DC0FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="South Africa"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.SouthAfrica"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#E5D198FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Sweden"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Sweden"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#CCCD39FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Switzerland"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Switzerland"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#E09B84FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Turkey"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Turkey"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#B9AE89FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Tuva"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Tuva"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#33A465FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="United Kingdom"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.UnitedKingdom"/>
 			<property name="bNonPlayable" value="false"/>
 			<property name="colCountryColor" value="#675F57FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="United States"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.UnitedStates"/>
 			<property name="bNonPlayable" value="false"/>
-			<property name="colCountryColor" value="#3B3BB9FF"/>
+			<property name="colCountryColor" value="#4848B2FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Uruguay"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Uruguay"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#7F8A91FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="USSR"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.USSR"/>
 			<property name="bNonPlayable" value="false"/>
 			<property name="colCountryColor" value="#CD3E39FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Venezuela"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Venezuela"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#251C4DFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Yemen"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Yemen"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#976B68FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Yugoslavia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Yugoslavia"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="colCountryColor" value="#29677CFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Algeria"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Algeria"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="bAIDisabled" value="true"/>
 			<property name="colCountryColor" value="#B7D14CFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Cambodia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Cambodia"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="bAIDisabled" value="true"/>
 			<property name="colCountryColor" value="#EAF4F9FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Croatia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Croatia"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="bAIDisabled" value="true"/>
 			<property name="colCountryColor" value="#D45954FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Ethiopia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Ethiopia"/>
 			<property name="bNonPlayable" value="true"/>
-			<property name="bAIDisabled" value="true"/>
 			<property name="colCountryColor" value="#677EA7FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Laos"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Laos"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="bAIDisabled" value="true"/>
 			<property name="colCountryColor" value="#CF4843FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Libya"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Libya"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="bAIDisabled" value="true"/>
 			<property name="colCountryColor" value="#533F6CFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Morocco"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Morocco"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="bAIDisabled" value="true"/>
 			<property name="colCountryColor" value="#C87350FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Slovakia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Slovakia"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="bAIDisabled" value="true"/>
 			<property name="colCountryColor" value="#8489DBFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Syria"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Syria"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="bAIDisabled" value="true"/>
 			<property name="colCountryColor" value="#447B54FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Tibet"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Tibet"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="bAIDisabled" value="true"/>
 			<property name="colCountryColor" value="#EFEFBEFF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Ukraine"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Ukraine"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="bAIDisabled" value="true"/>
 			<property name="colCountryColor" value="#ECECB4FF"/>
 		</object>
 		<object type="Player" name="objPlayers">
 			<property name="strName" value="Vietnam"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Vietnam"/>
 			<property name="bNonPlayable" value="true"/>
 			<property name="bAIDisabled" value="true"/>
 			<property name="colCountryColor" value="#A8CD39FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Vichy France"/>
+			<property name="sidName" value="SID.Game.Country.Name.VichyFrance"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.VichyFrance"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#264174FF"/>
+			<property name="strFlagName" value="Vichy France"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Quebec"/>
+			<property name="sidName" value="SID.Game.Country.Name.Quebec"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Quebec"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#3B4F75FF"/>
+			<property name="strFlagName" value="Quebec"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Newfoundland"/>
+			<property name="sidName" value="SID.Game.Country.Name.Newfoundland"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Newfoundland"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#205D21FF"/>
+			<property name="strFlagName" value="Newfoundland"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Confederate States"/>
+			<property name="sidName" value="SID.Game.Country.Name.ConfederateStates"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.ConfederateStates"/>
+			<property name="bNonPlayable" value="false"/>
+			<property name="colCountryColor" value="#773D3DFF"/>
+			<property name="strFlagName" value="Confederate States"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Palestine"/>
+			<property name="sidName" value="SID.Game.Country.Name.Palestine"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Palestine"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#084209FF"/>
+			<property name="strFlagName" value="Palestine"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Israel"/>
+			<property name="sidName" value="SID.Game.Country.Name.Israel"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Israel"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#77B9DFFF"/>
+			<property name="strFlagName" value="Israel"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Jordan"/>
+			<property name="sidName" value="SID.Game.Country.Name.Jordan"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Jordan"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#9C3D3DFF"/>
+			<property name="strFlagName" value="Jordan"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Lebanon"/>
+			<property name="sidName" value="SID.Game.Country.Name.Lebanon"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Lebanon"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#62B270FF"/>
+			<property name="strFlagName" value="Lebanon"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Abyssinia"/>
+			<property name="sidName" value="SID.Game.Country.Name.Abyssinia"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.Abyssinia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#677EA7FF"/>
+			<property name="strFlagName" value="Abyssinia"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Socialist Italy"/>
+			<property name="sidName" value="SID.Game.Country.Name.SocialistItaly"/>
+			<property name="sidShortDescription" value="SID.Game.Country.Description.RiseOfTheReichRedEdition.SocialistItaly"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#268E23FF"/>
+			<property name="strFlagName" value="Socialist Italy"/>
 		</object>
 		<object type="AllianceManager" name="objAllianceManager">
 			<object type="Alliance" name="objAllAlliances">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<object type="MEGame" name="">
-		<property name="strScenario" value="Rise of the Reich"/>
+		<property name="strScenario" value="Rise of the Reich (Red Edition)"/>
 		<property name="strContentPack" value="Modern Europe"/>
 		<object type="GameState" name="objGameState" fromFile="gamestate.xml">
 		</object>
@@ -383,6 +383,46 @@
 		</object>
 		<object type="GO" name="objGOs" fromFile="playerVietnam.xml">
 		</object>
+		<object type="GO" name="objGOs" fromFile="countryVichy France.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerVichy France.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryQuebec.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerQuebec.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryNewfoundland.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerNewfoundland.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryConfederate States.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerConfederate States.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryPalestine.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerPalestine.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryIsrael.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerIsrael.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryJordan.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerJordan.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryLebanon.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerLebanon.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryAbyssinia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerAbyssinia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countrySocialist Italy.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerSocialist Italy.xml">
+		</object>
 		<object type="View" name="objViews">
 			<property name="strName" value="minor"/>
 			<property name="strAliases" value="Afghanistan"/>
@@ -478,6 +518,16 @@
 			<property name="strAliases" value="Tibet"/>
 			<property name="strAliases" value="Ukraine"/>
 			<property name="strAliases" value="Vietnam"/>
+			<property name="strAliases" value="Vichy France"/>
+			<property name="strAliases" value="Quebec"/>
+			<property name="strAliases" value="Newfoundland"/>
+			<property name="strAliases" value="Confederate States"/>
+			<property name="strAliases" value="Palestine"/>
+			<property name="strAliases" value="Israel"/>
+			<property name="strAliases" value="Jordan"/>
+			<property name="strAliases" value="Lebanon"/>
+			<property name="strAliases" value="Abyssinia"/>
+			<property name="strAliases" value="Socialist Italy"/>
 		</object>
 	</object>
 </objects>

@@ -330,6 +330,10 @@
 				<property name="strTargetCountry" value="Nationalist Spain"/>
 				<property name="nValue" value="500"/>
 			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Confederate States"/>
+				<property name="nValue" value="760"/>
+			</object>
 		</object>
 	</object>
 </objects>

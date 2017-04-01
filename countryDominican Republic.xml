@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Dominican Republic"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.DominicanRepublic"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.DominicanRepublic"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.DominicanRepublic"/>
+		<property name="sidPeople" value="SID.Game.Country.People.DominicanRepublic"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.DominicanRepublic"/>
 		<property name="strHomelands" value="Dominican Republic"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Dominican Republic"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="Dominican Republic"/>
 			<property name="strOwner" value="Dominican Republic"/>
 			<property name="strController" value="Dominican Republic"/>
+			<property name="sidName" value="SID.Game.Region.Name.DominicanRepublic"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="1544549"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -20,8 +26,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Ciudad Trujillo"/>
 				<property name="strOwner" value="Dominican Republic"/>
+				<property name="strController" value="Dominican Republic"/>
 				<property name="vecPosition" value="[-69.9499969482, 18.5, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.CiudadTrujillo"/>
 				<property name="nPopulation" value="71259"/>
 				<property name="strPortForRegion" value="Eastern Caribbean"/>
 				<property name="strInitialWorkOrder" value=""/>

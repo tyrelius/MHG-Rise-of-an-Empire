@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MKDNode" name="objNodes">
+		<property name="strKey" value="SPRITE_MAP_TABLE_UNIT_TEMPLATES_PLANES"/>
+		<property name="strSubNodeKeyName" value="UnitTemplate"/>
+
+	<!-- Show a Improved Fighter if unit template can't be found -->
+		<object type="SpriteRefMKDTable" name="objDefault">
+			<object type="MKDSRKValue" name="objKeys">
+				<property name="strKeyName" value="SpriteMapTable"/>
+				<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_AIR"/>
+			</object>
+			<object type="MKDSRKSpriteMapMode" name="objKeys">
+				<property name="strKeyName" value="SpriteMapMode"/>
+			</object>
+			<object type="MKDSRKValue" name="objKeys">
+				<property name="strKeyName" value="TemplateAliasAir"/>
+				<property name="strKeyValue" value="ALIAS_AIR_FIGHTERS_IMPROVED"/>
+			</object>
+		</object>
+
+	<!-- Fighters -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="PreWarFighters"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_AIR"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasAir"/>
+					<property name="strKeyValue" value="ALIAS_AIR_FIGHTERS_BASIC"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ImprovedFighters"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_AIR"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasAir"/>
+					<property name="strKeyValue" value="ALIAS_AIR_FIGHTERS_IMPROVED"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="AdvancedFighters"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_AIR"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasAir"/>
+					<property name="strKeyValue" value="ALIAS_AIR_FIGHTERS_ADVANCED"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="JetFighters"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_AIR"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasAir"/>
+					<property name="strKeyValue" value="ALIAS_AIR_FIGHTERS_JET"/>
+				</object>
+			</object>
+		</object>
+
+	<!-- Bombers -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="EarlyBombers"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_AIR"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasAir"/>
+					<property name="strKeyValue" value="ALIAS_AIR_BOMBERS_EARLY"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="LightBombers"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_AIR"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasAir"/>
+					<property name="strKeyValue" value="ALIAS_AIR_BOMBERS_LIGHT"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="MediumBombers"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_AIR"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasAir"/>
+					<property name="strKeyValue" value="ALIAS_AIR_BOMBERS_MEDIUM"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="HeavyBombers"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_AIR"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasAir"/>
+					<property name="strKeyValue" value="ALIAS_AIR_BOMBERS_HEAVY"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="AdvancedStrategicBombers"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_AIR"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasAir"/>
+					<property name="strKeyValue" value="ALIAS_AIR_BOMBERS_STRATEGIC"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="AtomicBombers"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_AIR"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasAir"/>
+					<property name="strKeyValue" value="ALIAS_AIR_BOMBERS_ATOMIC"/>
+				</object>
+			</object>
+		</object>
+
+	<!-- Carriers -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="EarlyCarrier"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_CARRIER_PLANES"/>
+				</object>
+				<object type="MKDSRKUnitCategoryUpgradeName" name="objKeys">
+					<property name="strKeyName" value="CarrierFightersUpgradeLevel"/>
+					<property name="eUnitCategory" value="UNIT_CATEGORY_CARRIER"/>
+					<property name="strUpgradeNames" value="AdvancedCarrierFighters"/>
+					<property name="strUpgradeNames" value="ImprovedCarrierFighters"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="LightCarrier"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_CARRIER_PLANES"/>
+				</object>
+				<object type="MKDSRKUnitCategoryUpgradeName" name="objKeys">
+					<property name="strKeyName" value="CarrierFightersUpgradeLevel"/>
+					<property name="eUnitCategory" value="UNIT_CATEGORY_CARRIER"/>
+					<property name="strUpgradeNames" value="AdvancedCarrierFighters"/>
+					<property name="strUpgradeNames" value="ImprovedCarrierFighters"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="FleetCarrier"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_CARRIER_PLANES"/>
+				</object>
+				<object type="MKDSRKUnitCategoryUpgradeName" name="objKeys">
+					<property name="strKeyName" value="CarrierFightersUpgradeLevel"/>
+					<property name="eUnitCategory" value="UNIT_CATEGORY_CARRIER"/>
+					<property name="strUpgradeNames" value="AdvancedCarrierFighters"/>
+					<property name="strUpgradeNames" value="ImprovedCarrierFighters"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="SuperCarrier"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_CARRIER_PLANES"/>
+				</object>
+				<object type="MKDSRKUnitCategoryUpgradeName" name="objKeys">
+					<property name="strKeyName" value="CarrierFightersUpgradeLevel"/>
+					<property name="eUnitCategory" value="UNIT_CATEGORY_CARRIER"/>
+					<property name="strUpgradeNames" value="AdvancedCarrierFighters"/>
+					<property name="strUpgradeNames" value="ImprovedCarrierFighters"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</objects>

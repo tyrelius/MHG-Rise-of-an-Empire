@@ -24,7 +24,7 @@
 			</object>
 		</object>
 		<object type="DipRelInitialValueList" name="objDipRelInitialValueList">
-			<property name="nDefault" value="0"/>
+			<property name="nDefault" value="100"/>
 			<object type="DipRelInitialValue" name="objDipRelInitialValues">
 				<property name="strTargetCountry" value="China"/>
 				<property name="nValue" value="0"/>

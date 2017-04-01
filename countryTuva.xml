@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Tuva"/>
 		<property name="strGovType" value="Communist"/>
+		<property name="sidName" value="SID.Game.Country.Name.Tuva"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Tuva"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Tuva"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Tuva"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Tuva"/>
 		<property name="strHomelands" value="Tuva"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Tuva"/>
@@ -13,14 +18,17 @@
 			<property name="strName" value="Tannu Tuva"/>
 			<property name="strOwner" value="Tuva"/>
 			<property name="strController" value="Tuva"/>
+			<property name="sidName" value="SID.Game.Region.Name.TannuTuva"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="65000"/>
 			<property name="strCulture" value="Turkic"/>
 			<object type="City" name="objGOs">
 				<property name="strName" value="Kysylchoto"/>
 				<property name="strOwner" value="Tuva"/>
+				<property name="strController" value="Tuva"/>
 				<property name="vecPosition" value="[94.4700012207, 51.75, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Kysylchoto"/>
 				<property name="nPopulation" value="10000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

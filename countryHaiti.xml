@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Haiti"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Haiti"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Haiti"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Haiti"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Haiti"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Haiti"/>
 		<property name="strHomelands" value="Haiti"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Haiti"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="Haiti"/>
 			<property name="strOwner" value="Haiti"/>
 			<property name="strController" value="Haiti"/>
+			<property name="sidName" value="SID.Game.Region.Name.Haiti"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="3000000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -19,8 +25,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Port-au-Prince"/>
 				<property name="strOwner" value="Haiti"/>
+				<property name="strController" value="Haiti"/>
 				<property name="vecPosition" value="[-72.3300018311, 18.5499992371, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.PortAuPrince"/>
 				<property name="nPopulation" value="115000"/>
 				<property name="strPortForRegion" value="Western Caribbean"/>
 				<property name="strInitialWorkOrder" value=""/>

@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Costa Rica"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.CostaRica"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.CostaRica"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.CostaRica"/>
+		<property name="sidPeople" value="SID.Game.Country.People.CostaRica"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.CostaRica"/>
 		<property name="strHomelands" value="Costa Rica"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Costa Rica"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="Costa Rica"/>
 			<property name="strOwner" value="Costa Rica"/>
 			<property name="strController" value="Costa Rica"/>
+			<property name="sidName" value="SID.Game.Region.Name.CostaRica"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="591862"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -20,8 +26,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="San Jose"/>
 				<property name="strOwner" value="Costa Rica"/>
+				<property name="strController" value="Costa Rica"/>
 				<property name="vecPosition" value="[-84.0800018311, 9.93000030518, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.SanJose"/>
 				<property name="nPopulation" value="63635"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

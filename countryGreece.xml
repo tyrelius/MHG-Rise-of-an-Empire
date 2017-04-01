@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Greece"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Greece"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Greece"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Greece"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Greece"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Greece"/>
 		<property name="strHomelands" value="Greece"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>
@@ -14,6 +19,7 @@
 			<property name="strName" value="Aegean Islands"/>
 			<property name="strOwner" value="Greece"/>
 			<property name="strController" value="Greece"/>
+			<property name="sidName" value="SID.Game.Region.Name.AegeanIslands"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="823863"/>
 			<property name="strCulture" value="Greek"/>
@@ -23,6 +29,7 @@
 			<property name="strName" value="Crete"/>
 			<property name="strOwner" value="Greece"/>
 			<property name="strController" value="Greece"/>
+			<property name="sidName" value="SID.Game.Region.Name.Crete"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="386427"/>
 			<property name="strCulture" value="Greek"/>
@@ -32,6 +39,7 @@
 			<property name="strName" value="Ionian Islands"/>
 			<property name="strOwner" value="Greece"/>
 			<property name="strController" value="Greece"/>
+			<property name="sidName" value="SID.Game.Region.Name.IonianIslands"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="213157"/>
 			<property name="strCulture" value="Greek"/>
@@ -41,6 +49,7 @@
 			<property name="strName" value="Macedonia"/>
 			<property name="strOwner" value="Greece"/>
 			<property name="strController" value="Greece"/>
+			<property name="sidName" value="SID.Game.Region.Name.Macedonia"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="1411769"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -49,8 +58,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Salonika"/>
 				<property name="strOwner" value="Greece"/>
+				<property name="strController" value="Greece"/>
 				<property name="vecPosition" value="[22.9300003052, 40.6300010681, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Salonika"/>
 				<property name="nPopulation" value="236524"/>
 				<property name="strPortForRegion" value="Aegean Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -63,6 +74,7 @@
 			<property name="strName" value="Peloponnesus"/>
 			<property name="strOwner" value="Greece"/>
 			<property name="strController" value="Greece"/>
+			<property name="sidName" value="SID.Game.Region.Name.Peloponnesus"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="1257930"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -73,6 +85,7 @@
 			<property name="strName" value="Thessaly"/>
 			<property name="strOwner" value="Greece"/>
 			<property name="strController" value="Greece"/>
+			<property name="sidName" value="SID.Game.Region.Name.Thessaly"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="2407243"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -81,6 +94,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Thessaly Mines"/>
 				<property name="strOwner" value="Greece"/>
+				<property name="strController" value="Greece"/>
 				<property name="vecPosition" value="[22.6257839203, 39.5837669373, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -88,8 +102,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Athens"/>
 				<property name="strOwner" value="Greece"/>
+				<property name="strController" value="Greece"/>
 				<property name="vecPosition" value="[23.7299995422, 38, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Athens"/>
 				<property name="nPopulation" value="392781"/>
 				<property name="strPortForRegion" value="Aegean Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -102,6 +118,7 @@
 			<property name="strName" value="Thrace"/>
 			<property name="strOwner" value="Greece"/>
 			<property name="strController" value="Greece"/>
+			<property name="sidName" value="SID.Game.Region.Name.Thrace"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="308879"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -110,6 +127,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Thrace Foundry"/>
 				<property name="strOwner" value="Greece"/>
+				<property name="strController" value="Greece"/>
 				<property name="vecPosition" value="[25.3078460693, 41.1710739136, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>

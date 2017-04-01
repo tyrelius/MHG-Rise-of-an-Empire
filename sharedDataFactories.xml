@@ -1,0 +1,1409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MESharedData" name="">
+		<object type="EconomicSystemParams" name="objEconomicSystemParams">
+			<property name="nFoodPerThousandMPUs" value="6"/>
+			<property name="fPopGrowthRateMax" value="0.000269999989541"/>
+			<property name="fPopGrowthRateMin" value="-0.000269999989541"/>
+			<property name="nMaxArmsPenalty" value="50"/>
+			<property name="nMaxGoodsPenalty" value="25"/>
+			<property name="nMaxFoodPenalty" value="100"/>
+			<property name="nMaxDeficitPenalty" value="25"/>
+			<property name="n64MaxDeficitPenaltyAmount" value="25000000000"/>
+		</object>
+		<object type="FactoryTemplateSet" name="objFactoryTemplateSet">
+			<object type="FactoryTemplate" name="objFactoryTemplates">
+				<property name="nTechLevel" value="0"/>
+				<property name="strIconName" value="Preindustrial"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryTemplate.Name.Destroyed"/>
+				<property name="nMPUsPerIPU" value="0"/>
+				<property name="nMaintCostPerIPU" value="0"/>
+				<property name="nMaxIPUs" value="0"/>
+			</object>
+			<object type="FactoryTemplate" name="objFactoryTemplates">
+				<property name="nTechLevel" value="1"/>
+				<property name="strIconName" value="Preindustrial"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryTemplate.Name.Preindustrial"/>
+				<property name="nMPUsPerIPU" value="30"/>
+				<property name="nMaintCostPerIPU" value="50000"/>
+				<property name="nMaxIPUs" value="10"/>
+			</object>
+			<object type="FactoryTemplate" name="objFactoryTemplates">
+				<property name="nTechLevel" value="2"/>
+				<property name="strIconName" value="Industrial"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryTemplate.Name.Industrial"/>
+				<property name="nMPUsPerIPU" value="25"/>
+				<property name="nMaintCostPerIPU" value="50000"/>
+				<property name="nMaxIPUs" value="50"/>
+			</object>
+			<object type="FactoryTemplate" name="objFactoryTemplates">
+				<property name="nTechLevel" value="3"/>
+				<property name="strIconName" value="Advanced"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryTemplate.Name.Advanced"/>
+				<property name="nMPUsPerIPU" value="20"/>
+				<property name="nMaintCostPerIPU" value="50000"/>
+				<property name="nMaxIPUs" value="250"/>
+			</object>
+		</object>
+		<object type="FactoryOutputSet" name="objFactoryOutputSet">
+			<object type="FactoryOutputResource" name="objFactoryOutputs">
+				<property name="strName" value="Armaments"/>
+				<property name="strIconName" value="Armaments"/>
+				<property name="strDisplayCategory" value="Arms"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.Arms"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.Arms"/>
+				<property name="nTechLevel" value="1"/>
+				<property name="bAvailableByDefault" value="true"/>
+				<property name="nIPUsRequired" value="1"/>
+				<property name="nBuildCost" value="0"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_NON_UNIT"/>
+				<property name="strResource" value="Armaments"/>
+				<property name="nAmountPerOutputUnit" value="1"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Oil"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputResource" name="objFactoryOutputs">
+				<property name="strName" value="Consumer"/>
+				<property name="strIconName" value="Consumer"/>
+				<property name="strDisplayCategory" value="Goods"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.Goods"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.Goods"/>
+				<property name="nTechLevel" value="1"/>
+				<property name="bAvailableByDefault" value="true"/>
+				<property name="nIPUsRequired" value="1"/>
+				<property name="nBuildCost" value="0"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_NON_UNIT"/>
+				<property name="strResource" value="Consumer"/>
+				<property name="nAmountPerOutputUnit" value="1"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputResource" name="objFactoryOutputs">
+				<property name="strName" value="Level_1_CoalGasification"/>
+				<property name="strIconName" value="CoalGasification"/>
+				<property name="strDisplayCategory" value="Basic Coal Gasification"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.SyntheticOil1"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.SyntheticOil1"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="nIPUsRequired" value="1"/>
+				<property name="nBuildCost" value="0"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_NON_UNIT"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nAmountPerOutputUnit" value="1"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="20"/>
+				</object>
+			</object>
+			<object type="FactoryOutputResource" name="objFactoryOutputs">
+				<property name="strName" value="Level_2_CoalGasification"/>
+				<property name="strIconName" value="CoalGasification"/>
+				<property name="strDisplayCategory" value="Coal Gasification"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.SyntheticOil2"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.SyntheticOil2"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="nIPUsRequired" value="1"/>
+				<property name="nBuildCost" value="0"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_NON_UNIT"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nAmountPerOutputUnit" value="2"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="20"/>
+				</object>
+			</object>
+			<object type="FactoryOutputResource" name="objFactoryOutputs">
+				<property name="strName" value="Level_3_CoalGasification"/>
+				<property name="strIconName" value="CoalGasification"/>
+				<property name="strDisplayCategory" value="Advanced Coal Gasification"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.SyntheticOil3"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.SyntheticOil3"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="nIPUsRequired" value="1"/>
+				<property name="nBuildCost" value="0"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_NON_UNIT"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nAmountPerOutputUnit" value="3"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="20"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="Militia"/>
+				<property name="strIconName" value="Infantry"/>
+				<property name="strDisplayCategory" value="Infantry Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.ConscriptInfantry"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.ConscriptInfantry"/>
+				<property name="nTechLevel" value="1"/>
+				<property name="nIPUsRequired" value="50"/>
+				<property name="nMPUsRequired" value="40"/>
+				<property name="nBuildCost" value="200000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="Militia"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="strIconName" value="Infantry"/>
+				<property name="strDisplayCategory" value="Infantry Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.BasicInfantry"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.BasicInfantry"/>
+				<property name="nTechLevel" value="1"/>
+				<property name="nIPUsRequired" value="100"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="600000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="PreWarInfantry"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="SmallArmsInfantry"/>
+				<property name="strIconName" value="Infantry"/>
+				<property name="strDisplayCategory" value="Infantry Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.ImprovedInfantry"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.ImprovedInfantry"/>
+				<property name="nTechLevel" value="1"/>
+				<property name="nIPUsRequired" value="100"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="600000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="SmallArmsInfantry"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="AdvancedWeaponsInfantry"/>
+				<property name="strIconName" value="Infantry"/>
+				<property name="strDisplayCategory" value="Infantry Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.AdvancedInfantry"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.AdvancedInfantry"/>
+				<property name="nTechLevel" value="1"/>
+				<property name="nIPUsRequired" value="100"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="600000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="AdvancedWeaponsInfantry"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="EarlyTank"/>
+				<property name="strIconName" value="Armored"/>
+				<property name="strDisplayCategory" value="Armored Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.EarlyTank"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.EarlyTank"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="nIPUsRequired" value="150"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="1200000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="EarlyTank"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="LightTank"/>
+				<property name="strIconName" value="Armored"/>
+				<property name="strDisplayCategory" value="Armored Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.LightTank"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.LightTank"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="nIPUsRequired" value="150"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="1200000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="LightTank"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="MediumTank"/>
+				<property name="strIconName" value="Armored"/>
+				<property name="strDisplayCategory" value="Armored Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.MediumTank"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.MediumTank"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="nIPUsRequired" value="200"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="1200000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="MediumTank"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="HeavyTank"/>
+				<property name="strIconName" value="Armored"/>
+				<property name="strDisplayCategory" value="Armored Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.HeavyTank"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.HeavyTank"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="nIPUsRequired" value="250"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="1200000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="HeavyTank"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="AdvancedTank"/>
+				<property name="strIconName" value="Armored"/>
+				<property name="strDisplayCategory" value="Armored Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.AdvancedTank"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.AdvancedTank"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="nIPUsRequired" value="250"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="1200000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="AdvancedTank"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="Cavalry"/>
+				<property name="strIconName" value="Cavalry"/>
+				<property name="strDisplayCategory" value="Mounted Infantry Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.MountedInfantry"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.MountedInfantry"/>
+				<property name="nTechLevel" value="1"/>
+				<property name="nIPUsRequired" value="120"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="600000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="Cavalry"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="MotorizedInfantry"/>
+				<property name="strIconName" value="Cavalry"/>
+				<property name="strDisplayCategory" value="Mounted Infantry Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.MotorizedInfantry"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.MotorizedInfantry"/>
+				<property name="nTechLevel" value="1"/>
+				<property name="nIPUsRequired" value="120"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="800000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="MotorizedInfantry"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="MotorizedInfantry2"/>
+				<property name="strIconName" value="Cavalry"/>
+				<property name="strDisplayCategory" value="Mounted Infantry Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.MotorizedInfantry2"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.MotorizedInfantry2"/>
+				<property name="nTechLevel" value="1"/>
+				<property name="nIPUsRequired" value="120"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="800000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="MotorizedInfantry2"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="MotorizedInfantry3"/>
+				<property name="strIconName" value="Cavalry"/>
+				<property name="strDisplayCategory" value="Mounted Infantry Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.MotorizedInfantry3"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.MotorizedInfantry3"/>
+				<property name="nTechLevel" value="1"/>
+				<property name="nIPUsRequired" value="120"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="800000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="MotorizedInfantry3"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="MechanizedInfantry"/>
+				<property name="strIconName" value="Cavalry"/>
+				<property name="strDisplayCategory" value="Mounted Infantry Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.MechanizedInfantry"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.MechanizedInfantry"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="nIPUsRequired" value="150"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="1000000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="MechanizedInfantry"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="MechanizedInfantry2"/>
+				<property name="strIconName" value="Cavalry"/>
+				<property name="strDisplayCategory" value="Mounted Infantry Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.MechanizedInfantry2"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.MechanizedInfantry2"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="nIPUsRequired" value="150"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="1000000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="MechanizedInfantry2"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="MechanizedInfantry3"/>
+				<property name="strIconName" value="Cavalry"/>
+				<property name="strDisplayCategory" value="Mounted Infantry Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.MechanizedInfantry3"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.MechanizedInfantry3"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="nIPUsRequired" value="150"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="1000000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="MechanizedInfantry3"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="strIconName" value="Artillery"/>
+				<property name="strDisplayCategory" value="Artillery Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.FieldArtillery"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.FieldArtillery"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="nIPUsRequired" value="100"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="800000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="FieldArtillery"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="40mmGun"/>
+				<property name="strIconName" value="Artillery"/>
+				<property name="strDisplayCategory" value="Artillery Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.LightArtillery"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.LightArtillery"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="nIPUsRequired" value="150"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="800000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="40mmGun"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="88mmGun"/>
+				<property name="strIconName" value="Artillery"/>
+				<property name="strDisplayCategory" value="Artillery Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.HeavyArtillery"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.HeavyArtillery"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="nIPUsRequired" value="200"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="800000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="88mmGun"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="SelfPropelledArtillery"/>
+				<property name="strIconName" value="Artillery"/>
+				<property name="strDisplayCategory" value="Artillery Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.SelfPropelledGun"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.SelfPropelledGun"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="nIPUsRequired" value="200"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="1200000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="SelfPropelledArtillery"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="RocketArtillery"/>
+				<property name="strIconName" value="Artillery"/>
+				<property name="strDisplayCategory" value="Artillery Division"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.RocketArtillery"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.RocketArtillery"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="nIPUsRequired" value="200"/>
+				<property name="nMPUsRequired" value="10"/>
+				<property name="nBuildCost" value="800000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="RocketArtillery"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="GuidedMissile"/>
+				<property name="strIconName" value="Missile"/>
+				<property name="strDisplayCategory" value="Missile"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.GuidedMissile"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.GuidedMissile"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="nIPUsRequired" value="125"/>
+				<property name="nMPUsRequired" value="1"/>
+				<property name="nBuildCost" value="1000000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="GuidedMissile"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="BallisticMissile"/>
+				<property name="strIconName" value="Missile"/>
+				<property name="strDisplayCategory" value="Missile"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.BallisticMissile"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.BallisticMissile"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="nIPUsRequired" value="625"/>
+				<property name="nMPUsRequired" value="1"/>
+				<property name="nBuildCost" value="1000000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="BallisticMissile"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="ICBM"/>
+				<property name="strIconName" value="Missile"/>
+				<property name="strDisplayCategory" value="Missile"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.ICBM"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.ICBM"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="nIPUsRequired" value="1250"/>
+				<property name="nMPUsRequired" value="1"/>
+				<property name="nBuildCost" value="1000000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_LAND_UNIT"/>
+				<property name="strUnitType" value="ICBM"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="strIconName" value="Fighter"/>
+				<property name="strDisplayCategory" value="Fighter Squadron"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.BasicFighters"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.BasicFighters"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="nIPUsRequired" value="200"/>
+				<property name="nMPUsRequired" value="1"/>
+				<property name="nBuildCost" value="600000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_AIR_UNIT"/>
+				<property name="strUnitType" value="PreWarFighters"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="ImprovedFighters"/>
+				<property name="strIconName" value="Fighter"/>
+				<property name="strDisplayCategory" value="Fighter Squadron"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.ImprovedFighters"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.ImprovedFighters"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="nIPUsRequired" value="200"/>
+				<property name="nMPUsRequired" value="1"/>
+				<property name="nBuildCost" value="600000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_AIR_UNIT"/>
+				<property name="strUnitType" value="ImprovedFighters"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="AdvancedFighters"/>
+				<property name="strIconName" value="Fighter"/>
+				<property name="strDisplayCategory" value="Fighter Squadron"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.AdvancedFighters"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.AdvancedFighters"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="nIPUsRequired" value="200"/>
+				<property name="nMPUsRequired" value="1"/>
+				<property name="nBuildCost" value="600000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_AIR_UNIT"/>
+				<property name="strUnitType" value="AdvancedFighters"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="JetFighters"/>
+				<property name="strIconName" value="Fighter"/>
+				<property name="strDisplayCategory" value="Fighter Squadron"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.JetFighters"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.JetFighters"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="nIPUsRequired" value="250"/>
+				<property name="nMPUsRequired" value="1"/>
+				<property name="nBuildCost" value="800000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_AIR_UNIT"/>
+				<property name="strUnitType" value="JetFighters"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="EarlyBombers"/>
+				<property name="strIconName" value="Bomber"/>
+				<property name="strDisplayCategory" value="Bomber Squadron"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.EarlyBombers"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.EarlyBombers"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="nIPUsRequired" value="250"/>
+				<property name="nMPUsRequired" value="2"/>
+				<property name="nBuildCost" value="800000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_AIR_UNIT"/>
+				<property name="strUnitType" value="EarlyBombers"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="LightBombers"/>
+				<property name="strIconName" value="Bomber"/>
+				<property name="strDisplayCategory" value="Bomber Squadron"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.LightBombers"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.LightBombers"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="nIPUsRequired" value="250"/>
+				<property name="nMPUsRequired" value="2"/>
+				<property name="nBuildCost" value="800000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_AIR_UNIT"/>
+				<property name="strUnitType" value="LightBombers"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="MediumBombers"/>
+				<property name="strIconName" value="Bomber"/>
+				<property name="strDisplayCategory" value="Bomber Squadron"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.MediumBombers"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.MediumBombers"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="nIPUsRequired" value="300"/>
+				<property name="nMPUsRequired" value="2"/>
+				<property name="nBuildCost" value="800000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_AIR_UNIT"/>
+				<property name="strUnitType" value="MediumBombers"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="HeavyBombers"/>
+				<property name="strIconName" value="Bomber"/>
+				<property name="strDisplayCategory" value="Bomber Squadron"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.HeavyBombers"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.HeavyBombers"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="nIPUsRequired" value="350"/>
+				<property name="nMPUsRequired" value="2"/>
+				<property name="nBuildCost" value="1000000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_AIR_UNIT"/>
+				<property name="strUnitType" value="HeavyBombers"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="AdvancedStrategicBombers"/>
+				<property name="strIconName" value="Bomber"/>
+				<property name="strDisplayCategory" value="Bomber Squadron"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.StrategicBombers"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.StrategicBombers"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="nIPUsRequired" value="350"/>
+				<property name="nMPUsRequired" value="2"/>
+				<property name="nBuildCost" value="1000000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_AIR_UNIT"/>
+				<property name="strUnitType" value="AdvancedStrategicBombers"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="AtomicBombers"/>
+				<property name="strIconName" value="Bomber"/>
+				<property name="strDisplayCategory" value="Bomber Squadron"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.AtomicBombers"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.AtomicBombers"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="nIPUsRequired" value="2500"/>
+				<property name="nMPUsRequired" value="2"/>
+				<property name="nBuildCost" value="1000000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_AIR_UNIT"/>
+				<property name="strUnitType" value="AtomicBombers"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="strIconName" value="Battleship"/>
+				<property name="strDisplayCategory" value="Battleship"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.BasicBattleship"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.BasicBattleship"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="nIPUsRequired" value="600"/>
+				<property name="nMPUsRequired" value="2"/>
+				<property name="nBuildCost" value="1400000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<property name="strUnitType" value="PreWarBattleship"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="FastBattleship"/>
+				<property name="strIconName" value="Battleship"/>
+				<property name="strDisplayCategory" value="Battleship"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.FastBattleship"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.FastBattleship"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="nIPUsRequired" value="750"/>
+				<property name="nMPUsRequired" value="2"/>
+				<property name="nBuildCost" value="1600000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<property name="strUnitType" value="FastBattleship"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="SuperClassBattleship"/>
+				<property name="strIconName" value="Battleship"/>
+				<property name="strDisplayCategory" value="Battleship"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.AdvancedBattleship"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.AdvancedBattleship"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="nIPUsRequired" value="750"/>
+				<property name="nMPUsRequired" value="2"/>
+				<property name="nBuildCost" value="1600000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<property name="strUnitType" value="SuperClassBattleship"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="strIconName" value="Cruiser"/>
+				<property name="strDisplayCategory" value="Cruiser"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.EarlyCruiser"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.EarlyCruiser"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="nIPUsRequired" value="300"/>
+				<property name="nMPUsRequired" value="1"/>
+				<property name="nBuildCost" value="1000000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<property name="strUnitType" value="EarlyCruiser"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="BattleCruiser"/>
+				<property name="strIconName" value="Cruiser"/>
+				<property name="strDisplayCategory" value="Cruiser"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.LightCruiser"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.LightCruiser"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="nIPUsRequired" value="300"/>
+				<property name="nMPUsRequired" value="1"/>
+				<property name="nBuildCost" value="1000000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<property name="strUnitType" value="BattleCruiser"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="HeavyCruiser"/>
+				<property name="strIconName" value="Cruiser"/>
+				<property name="strDisplayCategory" value="Cruiser"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.HeavyCruiser"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.HeavyCruiser"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="nIPUsRequired" value="450"/>
+				<property name="nMPUsRequired" value="1"/>
+				<property name="nBuildCost" value="1200000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<property name="strUnitType" value="HeavyCruiser"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="LargeCruiser"/>
+				<property name="strIconName" value="Cruiser"/>
+				<property name="strDisplayCategory" value="Cruiser"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.LargeCruiser"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.LargeCruiser"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="nIPUsRequired" value="450"/>
+				<property name="nMPUsRequired" value="1"/>
+				<property name="nBuildCost" value="1200000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<property name="strUnitType" value="LargeCruiser"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="EarlyCarrier"/>
+				<property name="strIconName" value="Carrier"/>
+				<property name="strDisplayCategory" value="Carrier"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.EarlyCarrier"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.EarlyCarrier"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="nIPUsRequired" value="750"/>
+				<property name="nMPUsRequired" value="3"/>
+				<property name="nBuildCost" value="1800000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<property name="strUnitType" value="EarlyCarrier"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="LightCarrier"/>
+				<property name="strIconName" value="Carrier"/>
+				<property name="strDisplayCategory" value="Carrier"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.LightCarrier"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.LightCarrier"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="nIPUsRequired" value="750"/>
+				<property name="nMPUsRequired" value="3"/>
+				<property name="nBuildCost" value="1800000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<property name="strUnitType" value="LightCarrier"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="FleetCarrier"/>
+				<property name="strIconName" value="Carrier"/>
+				<property name="strDisplayCategory" value="Carrier"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.FleetCarrier"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.FleetCarrier"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="nIPUsRequired" value="900"/>
+				<property name="nMPUsRequired" value="3"/>
+				<property name="nBuildCost" value="2000000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<property name="strUnitType" value="FleetCarrier"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="SuperCarrier"/>
+				<property name="strIconName" value="Carrier"/>
+				<property name="strDisplayCategory" value="Carrier"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.SuperCarrier"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.SuperCarrier"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="nIPUsRequired" value="900"/>
+				<property name="nMPUsRequired" value="3"/>
+				<property name="nBuildCost" value="2000000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<property name="strUnitType" value="SuperCarrier"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="Corvette"/>
+				<property name="strIconName" value="Destroyer"/>
+				<property name="strDisplayCategory" value="Destroyer Flotilla"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.Corvette"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.Corvette"/>
+				<property name="nTechLevel" value="1"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="nIPUsRequired" value="150"/>
+				<property name="nMPUsRequired" value="1"/>
+				<property name="nBuildCost" value="600000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<property name="strUnitType" value="Corvette"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="Destroyer"/>
+				<property name="strIconName" value="Destroyer"/>
+				<property name="strDisplayCategory" value="Destroyer Flotilla"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.Destroyer"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.Destroyer"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="nIPUsRequired" value="250"/>
+				<property name="nMPUsRequired" value="1"/>
+				<property name="nBuildCost" value="800000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<property name="strUnitType" value="Destroyer"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="EscortDestroyer"/>
+				<property name="strIconName" value="Destroyer"/>
+				<property name="strDisplayCategory" value="Destroyer Flotilla"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.EscortDestroyer"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.EscortDestroyer"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="nIPUsRequired" value="250"/>
+				<property name="nMPUsRequired" value="1"/>
+				<property name="nBuildCost" value="800000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<property name="strUnitType" value="EscortDestroyer"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="strIconName" value="Submarine"/>
+				<property name="strDisplayCategory" value="Submarine Flotilla"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.EarlySubmarine"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.EarlySubmarine"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="nIPUsRequired" value="200"/>
+				<property name="nMPUsRequired" value="1"/>
+				<property name="nBuildCost" value="600000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<property name="strUnitType" value="EarlySubmarine"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="ElectricDieselSubmarine"/>
+				<property name="strIconName" value="Submarine"/>
+				<property name="strDisplayCategory" value="Submarine Flotilla"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.BasicSubmarine"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.BasicSubmarine"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="nIPUsRequired" value="200"/>
+				<property name="nMPUsRequired" value="1"/>
+				<property name="nBuildCost" value="600000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<property name="strUnitType" value="ElectricDieselSubmarine"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputUnit" name="objFactoryOutputs">
+				<property name="strName" value="AdvancedSubmarine"/>
+				<property name="strIconName" value="Submarine"/>
+				<property name="strDisplayCategory" value="Submarine Flotilla"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.AdvancedSubmarine"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.AdvancedSubmarine"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="nIPUsRequired" value="200"/>
+				<property name="nMPUsRequired" value="1"/>
+				<property name="nBuildCost" value="600000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<property name="strUnitType" value="AdvancedSubmarine"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputFactory" name="objFactoryOutputs">
+				<property name="strName" value="Preindustrial"/>
+				<property name="strIconName" value="Preindustrial"/>
+				<property name="strDisplayCategory" value="Light Industry"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.LightIndustry"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.LightIndustry"/>
+				<property name="nTechLevel" value="1"/>
+				<property name="bAvailableByDefault" value="true"/>
+				<property name="nIPUsRequired" value="5"/>
+				<property name="nMPUsRequired" value="30"/>
+				<property name="nBuildCost" value="250000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_NON_UNIT"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputFactory" name="objFactoryOutputs">
+				<property name="strName" value="Industrial"/>
+				<property name="strIconName" value="Industrial"/>
+				<property name="strDisplayCategory" value="Heavy Industry"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.HeavyIndustry"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.HeavyIndustry"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="bAvailableByDefault" value="true"/>
+				<property name="nIPUsRequired" value="40"/>
+				<property name="nMPUsRequired" value="25"/>
+				<property name="nBuildCost" value="200000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_NON_UNIT"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputFactory" name="objFactoryOutputs">
+				<property name="strName" value="Advanced"/>
+				<property name="strIconName" value="Advanced"/>
+				<property name="strDisplayCategory" value="Advanced Industry"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.AdvancedIndustry"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.AdvancedIndustry"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="bAvailableByDefault" value="true"/>
+				<property name="nIPUsRequired" value="150"/>
+				<property name="nMPUsRequired" value="20"/>
+				<property name="nBuildCost" value="200000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_NON_UNIT"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputFactory" name="objFactoryOutputs">
+				<property name="strName" value="DestroyPreindustrial"/>
+				<property name="strIconName" value="Preindustrial"/>
+				<property name="strDisplayCategory" value="Light Industry"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.DismantleLightIndustry"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.DismantleLightIndustry"/>
+				<property name="nTechLevel" value="1"/>
+				<property name="bAvailableByDefault" value="true"/>
+				<property name="nIPUsRequired" value="5"/>
+				<property name="nMPUsRequired" value="-30"/>
+				<property name="nBuildCost" value="250000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_NON_UNIT"/>
+				<property name="nIPUsPerOutputUnit" value="-1"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputFactory" name="objFactoryOutputs">
+				<property name="strName" value="DestroyIndustrial"/>
+				<property name="strIconName" value="Industrial"/>
+				<property name="strDisplayCategory" value="Heavy Industry"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.DismantleHeavyIndustry"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.DismantleHeavyIndustry"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="bAvailableByDefault" value="true"/>
+				<property name="nIPUsRequired" value="40"/>
+				<property name="nMPUsRequired" value="-25"/>
+				<property name="nBuildCost" value="200000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_NON_UNIT"/>
+				<property name="nIPUsPerOutputUnit" value="-1"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputFactory" name="objFactoryOutputs">
+				<property name="strName" value="DestroyAdvanced"/>
+				<property name="strIconName" value="Advanced"/>
+				<property name="strDisplayCategory" value="Advanced Industry"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.DismantleAdvancedIndustry"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.DismantleAdvancedIndustry"/>
+				<property name="nTechLevel" value="3"/>
+				<property name="bAvailableByDefault" value="true"/>
+				<property name="nIPUsRequired" value="150"/>
+				<property name="nMPUsRequired" value="-20"/>
+				<property name="nBuildCost" value="200000"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_NON_UNIT"/>
+				<property name="nIPUsPerOutputUnit" value="-1"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputCityUpgrade" name="objFactoryOutputs">
+				<property name="strName" value="PreindustrialCityUpgrade"/>
+				<property name="strIconName" value="PreindustrialCityUpgrade"/>
+				<property name="strDisplayCategory" value="Upgrade Industries"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.UpgradeToIndustrial"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.UpgradeToIndustrial"/>
+				<property name="nTechLevel" value="1"/>
+				<property name="bAvailableByDefault" value="true"/>
+				<property name="nIPUsRequired" value="70"/>
+				<property name="nBuildCost" value="0"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_NON_UNIT"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputCityUpgrade" name="objFactoryOutputs">
+				<property name="strName" value="IndustrialCityUpgrade"/>
+				<property name="strIconName" value="IndustrialCityUpgrade"/>
+				<property name="strDisplayCategory" value="Upgrade Industries"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.UpgradeToAdvanced"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.UpgradeToAdvanced"/>
+				<property name="nTechLevel" value="2"/>
+				<property name="bAvailableByDefault" value="true"/>
+				<property name="nIPUsRequired" value="400"/>
+				<property name="nBuildCost" value="0"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_NON_UNIT"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputResearchPoints" name="objFactoryOutputs">
+				<property name="strName" value="ResearchPoints"/>
+				<property name="strIconName" value="Research"/>
+				<property name="strDisplayCategory" value="Conduct Research"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.Research"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.Research"/>
+				<property name="nTechLevel" value="1"/>
+				<property name="bAvailableByDefault" value="true"/>
+				<property name="nIPUsRequired" value="1"/>
+				<property name="nBuildCost" value="0"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_NON_UNIT"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputTransportCredits" name="objFactoryOutputs">
+				<property name="strName" value="TransportCredits"/>
+				<property name="strIconName" value="Transport"/>
+				<property name="strDisplayCategory" value="Transports"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.TransportCapacity"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.TransportCapacity"/>
+				<property name="nTechLevel" value="1"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="bAvailableByDefault" value="true"/>
+				<property name="nIPUsRequired" value="30"/>
+				<property name="nBuildCost" value="0"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+			<object type="FactoryOutputRepairShips" name="objFactoryOutputs">
+				<property name="strName" value="RepairShips"/>
+				<property name="strIconName" value="RepairShips"/>
+				<property name="strDisplayCategory" value="Repair Ships"/>
+				<property name="sidDisplayName" value="SID.Game.FactoryOutput.Name.RepairShips"/>
+				<property name="sidDescription" value="SID.Game.FactoryOutput.Desc.RepairShips"/>
+				<property name="nTechLevel" value="1"/>
+				<property name="bPortOnly" value="true"/>
+				<property name="bAvailableByDefault" value="true"/>
+				<property name="nIPUsRequired" value="50"/>
+				<property name="nBuildCost" value="0"/>
+				<property name="eDisplayFlags" value="FACTORY_OUTPUT_DISPLAY_SEA_UNIT"/>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Coal"/>
+					<property name="nAmount" value="1"/>
+				</object>
+				<object type="ResourceAmountPair" name="objResourcesRequired">
+					<property name="strResource" value="Metals"/>
+					<property name="nAmount" value="1"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</objects>

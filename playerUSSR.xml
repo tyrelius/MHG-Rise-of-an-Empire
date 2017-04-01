@@ -608,7 +608,7 @@
 			</object>
 			<object type="DipRelInitialValue" name="objDipRelInitialValues">
 				<property name="strTargetCountry" value="United States"/>
-				<property name="nValue" value="375"/>
+				<property name="nValue" value="650"/>
 			</object>
 			<object type="DipRelInitialValue" name="objDipRelInitialValues">
 				<property name="strTargetCountry" value="Yugoslavia"/>
@@ -621,6 +621,10 @@
 			<object type="DipRelInitialValue" name="objDipRelInitialValues">
 				<property name="strTargetCountry" value="Nationalist Spain"/>
 				<property name="nValue" value="150"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Confederate States"/>
+				<property name="nValue" value="260"/>
 			</object>
 		</object>
 	</object>

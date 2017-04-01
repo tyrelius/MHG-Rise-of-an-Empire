@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Japan"/>
 		<property name="strGovType" value="Fascist"/>
+		<property name="sidName" value="SID.Game.Country.Name.Japan"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Japan"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Japan"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Japan"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Japan"/>
 		<property name="strHomelands" value="Japan"/>
 		<property name="bIsScored" value="true"/>
 		<property name="eCountryType" value="COUNTRYTYPE_PLAYABLE"/>
@@ -16,6 +21,7 @@
 			<property name="strName" value="Feng Tien"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.FengTien"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="12300691"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -23,6 +29,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Feng Tien Mines"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[121.486045837, 41.7414474487, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="4"/>
@@ -30,6 +37,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Feng Tien Foundry"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[123.166381836, 40.3959846497, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -37,8 +45,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Mukden"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[123.430000305, 41.8300018311, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Mukden"/>
 				<property name="nPopulation" value="527241"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -49,8 +59,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Port Arthur"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[121.239997864, 38.8100013733, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.PortArthur"/>
 				<property name="nPopulation" value="135126"/>
 				<property name="strPortForRegion" value="Gulf of China"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -63,6 +75,7 @@
 			<property name="strName" value="Heilungkiang"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Heilungkiang"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="3672777"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -70,6 +83,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Heilungkiang Mines"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[126.007873535, 49.5994758606, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="4"/>
@@ -77,6 +91,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Heilungkiang Foundry"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[122.106819153, 48.3500289917, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -86,12 +101,14 @@
 			<property name="strName" value="Jehol"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Jehol"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="2054305"/>
 			<property name="strCulture" value="Chinese"/>
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Jehol Mines"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[118.572479248, 43.5529060364, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="4"/>
@@ -99,6 +116,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Jehol Foundry"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[121.737350464, 43.5379562378, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -108,6 +126,7 @@
 			<property name="strName" value="Kirin"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Kirin"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="8725397"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -115,6 +134,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Kirin Mines"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[126.484107971, 43.1620941162, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="4"/>
@@ -122,6 +142,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Kirin Foundry"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[128.622055054, 43.0232658386, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -129,8 +150,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Harbin"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[126.680000305, 45.75, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Harbin"/>
 				<property name="nPopulation" value="458379"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -142,6 +165,7 @@
 			<property name="strName" value="Bonin Islands"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.BoninIslands"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="176576"/>
 			<property name="strCulture" value="Japanese"/>
@@ -151,6 +175,7 @@
 			<property name="strName" value="Chubu"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Chubu"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="10603052"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -160,6 +185,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Chubu Mines"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[136.955459595, 36.2770652771, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -167,8 +193,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Nagoya"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[136.979995728, 35.3199996948, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Nagoya"/>
 				<property name="nPopulation" value="907400"/>
 				<property name="strPortForRegion" value="Inland Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -182,6 +210,7 @@
 			<property name="strName" value="Chugoku"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Chugoku"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="5718000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -191,6 +220,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Chugoku Mines"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[133.841522217, 35.0542564392, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="4"/>
@@ -198,8 +228,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Hiroshima"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[132.449996948, 34.2799987793, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Hiroshima"/>
 				<property name="nPopulation" value="310118"/>
 				<property name="strPortForRegion" value="Inland Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -213,6 +245,7 @@
 			<property name="strName" value="Hokkaido"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Hokkaido"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="3273000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -221,6 +254,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Hokkaido Mines"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[142.319976807, 44.6152915955, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="32"/>
@@ -228,6 +262,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Hokkaido Oil Field"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[144.218643188, 43.4790763855, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -235,6 +270,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Hokkaido Foundry"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[143.015151978, 42.5073165894, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -242,8 +278,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Sapporo"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[141.350006104, 43.0800018311, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Sapporo"/>
 				<property name="nPopulation" value="196539"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -255,6 +293,7 @@
 			<property name="strName" value="Izu Islands"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.IzuIslands"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="176576"/>
 			<property name="strCulture" value="Japanese"/>
@@ -264,6 +303,7 @@
 			<property name="strName" value="Kansai"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Kansai"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="12293520"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -273,8 +313,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Osaka"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[135.5, 34.6699981689, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Osaka"/>
 				<property name="nPopulation" value="2989874"/>
 				<property name="strPortForRegion" value="Inland Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -288,6 +330,7 @@
 			<property name="strName" value="Kanto"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Kanto"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="16866000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -297,6 +340,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Kanto Mines"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[139.084899902, 36.6252479553, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -304,6 +348,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Kanto Foundry"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[140.340713501, 36.5654449463, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -311,8 +356,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Tokyo"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[139.5, 35.75, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Tokyo"/>
 				<property name="nPopulation" value="5875667"/>
 				<property name="strPortForRegion" value="Sagami Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -324,8 +371,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Yokohama"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[140.100006104, 35.2599983215, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Yokohama"/>
 				<property name="nPopulation" value="620300"/>
 				<property name="strPortForRegion" value="Sagami Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -339,6 +388,7 @@
 			<property name="strName" value="Kyushu"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Kyushu"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="9937000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -347,6 +397,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Kyushu Mines"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[131.115737915, 31.7458457947, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="67"/>
@@ -354,8 +405,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Kumamoto"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[130.720001221, 32.5900001526, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Kumamoto"/>
 				<property name="nPopulation" value="187382"/>
 				<property name="strPortForRegion" value="East China Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -367,8 +420,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Nagasaki"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[129.910003662, 33.0400009155, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Nagasaki"/>
 				<property name="nPopulation" value="204600"/>
 				<property name="strPortForRegion" value="East China Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -382,6 +437,7 @@
 			<property name="strName" value="Ryukyu Islands"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.RyukyuIslands"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="2118909"/>
 			<property name="strCulture" value="Japanese"/>
@@ -391,6 +447,7 @@
 			<property name="strName" value="Shikoku"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Shikoku"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="3337000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -399,6 +456,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Shikoku Mines"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[134.049545288, 33.9220123291, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="4"/>
@@ -408,6 +466,7 @@
 			<property name="strName" value="Tohoku"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Tohoku"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="7165000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -416,6 +475,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Tohoku Mines"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[140.714859009, 37.3405456543, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -423,6 +483,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Tohoku Oil Field"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[141.118515015, 40.4726028442, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -430,6 +491,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Tohoku Foundry"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[140.31867981, 38.4991836548, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -437,8 +499,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Niigata"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[139.029998779, 37.9599990845, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Niigata"/>
 				<property name="nPopulation" value="134992"/>
 				<property name="strPortForRegion" value="Sea of Japan"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -451,6 +515,7 @@
 			<property name="strName" value="Tushima Island"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.TushimaIsland"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="176576"/>
 			<property name="strCulture" value="Japanese"/>
@@ -460,6 +525,7 @@
 			<property name="strName" value="Kuril"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Kuril"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="2000"/>
 			<property name="strCulture" value="Russian"/>
@@ -468,6 +534,7 @@
 			<property name="strName" value="Formosa"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Formosa"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="5212719"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -476,6 +543,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Formosa Mines"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[121.171676636, 24.1870670319, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -483,8 +551,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Taihoku"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[121.370002747, 25.0200004578, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Taihoku"/>
 				<property name="nPopulation" value="274157"/>
 				<property name="strPortForRegion" value="Taiwan Strait"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -497,6 +567,7 @@
 			<property name="strName" value="Karafuto"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Karafuto"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="331943"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -505,6 +576,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Karafuto Mines"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[142.634872437, 49.236415863, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="6"/>
@@ -514,6 +586,7 @@
 			<property name="strName" value="Gyeongsang"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Gyeongsang"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="7104807"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -522,6 +595,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Gyeongsang Mines"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[128.329421997, 37.8985862732, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -529,8 +603,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Pusan"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[129.029998779, 35.0800018311, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Pusan"/>
 				<property name="nPopulation" value="163814"/>
 				<property name="strPortForRegion" value="Korean Strait"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -543,6 +619,7 @@
 			<property name="strName" value="Hamgyeong"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Hamgyeong"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="2416071"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -551,6 +628,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Hamgyeong Mines"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[127.689163208, 40.3964118958, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -558,6 +636,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Hamgyeong Foundry"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[129.430862427, 42.0259780884, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -567,6 +646,7 @@
 			<property name="strName" value="Jeju"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Jeju"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="200000"/>
 			<property name="strCulture" value="Korean"/>
@@ -576,6 +656,7 @@
 			<property name="strName" value="Jeolla"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Jeolla"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="7832286"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -584,6 +665,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Jeolla Mines"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[127.044944763, 35.158416748, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -591,8 +673,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Seoul"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[127, 37.5299987793, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Seoul"/>
 				<property name="nPopulation" value="404200"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -604,6 +688,7 @@
 			<property name="strName" value="Pyeongan"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Pyeongan"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="4694672"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -612,6 +697,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Pyeongan Mines"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[126.289520264, 38.5618743896, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="5"/>
@@ -619,6 +705,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Pyeongan Foundry"/>
 				<property name="strOwner" value="Japan"/>
+				<property name="strController" value="Japan"/>
 				<property name="vecPosition" value="[125.332710266, 40.1690177917, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -628,6 +715,7 @@
 			<property name="strName" value="Caroline Islands"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.CarolineIslands"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="30915"/>
 			<property name="strCulture" value="Micronesian"/>
@@ -637,6 +725,7 @@
 			<property name="strName" value="Marianas Islands"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.MarianasIslands"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="44025"/>
 			<property name="strCulture" value="Micronesian"/>
@@ -646,6 +735,7 @@
 			<property name="strName" value="Marshall Islands"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.MarshallIslands"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="10446"/>
 			<property name="strCulture" value="Micronesian"/>
@@ -655,6 +745,7 @@
 			<property name="strName" value="Palau"/>
 			<property name="strOwner" value="Japan"/>
 			<property name="strController" value="Japan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Palau"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="12768"/>
 			<property name="strCulture" value="Micronesian"/>

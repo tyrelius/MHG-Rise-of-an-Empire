@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Korea"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Korea"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Korea"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Korea"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Korea"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Korea"/>
 		<property name="strHomelands" value="Korea"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>

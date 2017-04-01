@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Yugoslavia"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Yugoslavia"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Yugoslavia"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Yugoslavia"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Yugoslavia"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Yugoslavia"/>
 		<property name="strHomelands" value="Yugoslavia"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>
@@ -13,6 +18,7 @@
 			<property name="strName" value="Croatia"/>
 			<property name="strOwner" value="Yugoslavia"/>
 			<property name="strController" value="Yugoslavia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Croatia"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="3780000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -21,6 +27,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Croatia Mines"/>
 				<property name="strOwner" value="Yugoslavia"/>
+				<property name="strController" value="Yugoslavia"/>
 				<property name="vecPosition" value="[17.5623836517, 45.5930175781, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="2"/>
@@ -28,8 +35,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Zagreb"/>
 				<property name="strOwner" value="Yugoslavia"/>
+				<property name="strController" value="Yugoslavia"/>
 				<property name="vecPosition" value="[15.970000267, 45.7999992371, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Zagreb"/>
 				<property name="nPopulation" value="185581"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -41,6 +50,7 @@
 			<property name="strName" value="Dalmatia"/>
 			<property name="strOwner" value="Yugoslavia"/>
 			<property name="strController" value="Yugoslavia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Dalmatia"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="1144298"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -49,6 +59,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Dalmatia Foundry"/>
 				<property name="strOwner" value="Yugoslavia"/>
+				<property name="strController" value="Yugoslavia"/>
 				<property name="vecPosition" value="[15.9394416809, 44.0830612183, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -56,8 +67,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Split"/>
 				<property name="strOwner" value="Yugoslavia"/>
+				<property name="strController" value="Yugoslavia"/>
 				<property name="vecPosition" value="[16.4699993134, 43.5200004578, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Split"/>
 				<property name="nPopulation" value="43711"/>
 				<property name="strPortForRegion" value="Adriatic Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -70,6 +83,7 @@
 			<property name="strName" value="Serbia"/>
 			<property name="strOwner" value="Yugoslavia"/>
 			<property name="strController" value="Yugoslavia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Serbia"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="4154000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -78,6 +92,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Serbia Mines"/>
 				<property name="strOwner" value="Yugoslavia"/>
+				<property name="strController" value="Yugoslavia"/>
 				<property name="vecPosition" value="[21.6415672302, 41.7678642273, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -85,6 +100,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Serbia Foundry"/>
 				<property name="strOwner" value="Yugoslavia"/>
+				<property name="strController" value="Yugoslavia"/>
 				<property name="vecPosition" value="[21.3575134277, 42.5901222229, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -92,8 +108,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Belgrade"/>
 				<property name="strOwner" value="Yugoslavia"/>
+				<property name="strController" value="Yugoslavia"/>
 				<property name="vecPosition" value="[20.5, 44.8300018311, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Belgrade"/>
 				<property name="nPopulation" value="238775"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -106,6 +124,7 @@
 			<property name="strName" value="Bosnia"/>
 			<property name="strOwner" value="Yugoslavia"/>
 			<property name="strController" value="Yugoslavia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Bosnia"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="2564000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -114,6 +133,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Bosnia Mines"/>
 				<property name="strOwner" value="Yugoslavia"/>
+				<property name="strController" value="Yugoslavia"/>
 				<property name="vecPosition" value="[18.0530509949, 43.7850875854, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="2"/>
@@ -121,6 +141,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Bosnia Foundry"/>
 				<property name="strOwner" value="Yugoslavia"/>
+				<property name="strController" value="Yugoslavia"/>
 				<property name="vecPosition" value="[17.4736099243, 44.8401222229, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -130,6 +151,7 @@
 			<property name="strName" value="Carniola"/>
 			<property name="strOwner" value="Yugoslavia"/>
 			<property name="strController" value="Yugoslavia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Carniola"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="1440000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -140,6 +162,7 @@
 			<property name="strName" value="Montenegro"/>
 			<property name="strOwner" value="Yugoslavia"/>
 			<property name="strController" value="Yugoslavia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Montenegro"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="377000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -148,6 +171,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Montenegro Mines"/>
 				<property name="strOwner" value="Yugoslavia"/>
+				<property name="strController" value="Yugoslavia"/>
 				<property name="vecPosition" value="[19.4942493439, 42.990070343, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="2"/>
@@ -155,6 +179,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Montenegro Foundry"/>
 				<property name="strOwner" value="Yugoslavia"/>
+				<property name="strController" value="Yugoslavia"/>
 				<property name="vecPosition" value="[18.98412323, 42.6025543213, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>

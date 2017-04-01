@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Syria"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Syria"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Syria"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Syria"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Syria"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Syria"/>
 		<property name="strHomelands" value="Syria"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Syria"/>

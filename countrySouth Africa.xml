@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="South Africa"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.SouthAfrica"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.SouthAfrica"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.SouthAfrica"/>
+		<property name="sidPeople" value="SID.Game.Country.People.SouthAfrica"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.SouthAfrica"/>
 		<property name="strHomelands" value="South Africa"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="South Africa"/>
@@ -13,6 +18,7 @@
 			<property name="strName" value="Basutoland"/>
 			<property name="strOwner" value="South Africa"/>
 			<property name="strController" value="South Africa"/>
+			<property name="sidName" value="SID.Game.Region.Name.Basutoland"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="559377"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -22,6 +28,7 @@
 			<property name="strName" value="Cape Province"/>
 			<property name="strOwner" value="South Africa"/>
 			<property name="strController" value="South Africa"/>
+			<property name="sidName" value="SID.Game.Region.Name.CapeProvince"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="3529900"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -30,6 +37,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Cape Provine Mines"/>
 				<property name="strOwner" value="South Africa"/>
+				<property name="strController" value="South Africa"/>
 				<property name="vecPosition" value="[22.8209915161, -30.1811218262, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="23"/>
@@ -37,6 +45,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Cape Province Foundry"/>
 				<property name="strOwner" value="South Africa"/>
+				<property name="strController" value="South Africa"/>
 				<property name="vecPosition" value="[21.6249790192, -29.0075340271, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -44,8 +53,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Cape Town"/>
 				<property name="strOwner" value="South Africa"/>
+				<property name="strController" value="South Africa"/>
 				<property name="vecPosition" value="[18.4699993134, -33.9300003052, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.CapeTown"/>
 				<property name="nPopulation" value="173412"/>
 				<property name="strPortForRegion" value="Cape of Good Hope"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -58,6 +69,7 @@
 			<property name="strName" value="Natal"/>
 			<property name="strOwner" value="South Africa"/>
 			<property name="strController" value="South Africa"/>
+			<property name="sidName" value="SID.Game.Region.Name.Natal"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="1946468"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -66,6 +78,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Natal Foundry"/>
 				<property name="strOwner" value="South Africa"/>
+				<property name="strController" value="South Africa"/>
 				<property name="vecPosition" value="[32.1032676697, -27.636428833, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -73,8 +86,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Durban"/>
 				<property name="strOwner" value="South Africa"/>
+				<property name="strController" value="South Africa"/>
 				<property name="vecPosition" value="[31, -29.8799991608, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Durban"/>
 				<property name="nPopulation" value="259606"/>
 				<property name="strPortForRegion" value="Agulhas Current"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -87,6 +102,7 @@
 			<property name="strName" value="Orange Free State"/>
 			<property name="strOwner" value="South Africa"/>
 			<property name="strController" value="South Africa"/>
+			<property name="sidName" value="SID.Game.Region.Name.OrangeFreeState"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="772060"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -95,6 +111,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Orange Foundry"/>
 				<property name="strOwner" value="South Africa"/>
+				<property name="strController" value="South Africa"/>
 				<property name="vecPosition" value="[27.0046615601, -27.9890460968, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -104,6 +121,7 @@
 			<property name="strName" value="Transval"/>
 			<property name="strOwner" value="South Africa"/>
 			<property name="strController" value="South Africa"/>
+			<property name="sidName" value="SID.Game.Region.Name.Transval"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="3341470"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -112,6 +130,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Transval Foundry"/>
 				<property name="strOwner" value="South Africa"/>
+				<property name="strController" value="South Africa"/>
 				<property name="vecPosition" value="[30.6193237305, -23.5044155121, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -119,8 +138,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Johannesburg"/>
 				<property name="strOwner" value="South Africa"/>
+				<property name="strController" value="South Africa"/>
 				<property name="vecPosition" value="[28.0300006866, -26.1700000763, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Johannesburg"/>
 				<property name="nPopulation" value="257671"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -132,6 +153,7 @@
 			<property name="strName" value="Swaziland"/>
 			<property name="strOwner" value="South Africa"/>
 			<property name="strController" value="South Africa"/>
+			<property name="sidName" value="SID.Game.Region.Name.Swaziland"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="156715"/>
 			<property name="strCulture" value="Swazi"/>
@@ -140,6 +162,7 @@
 			<property name="strName" value="South West Africa"/>
 			<property name="strOwner" value="South Africa"/>
 			<property name="strController" value="South Africa"/>
+			<property name="sidName" value="SID.Game.Region.Name.SouthWestAfrica"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="358532"/>
 			<property name="nTransInfrastructure" value="1"/>

@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Nepal"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Nepal"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Nepal"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Nepal"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Nepal"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Nepal"/>
 		<property name="strHomelands" value="Nepal"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Nepal"/>
@@ -13,14 +18,17 @@
 			<property name="strName" value="Nepal"/>
 			<property name="strOwner" value="Nepal"/>
 			<property name="strController" value="Nepal"/>
+			<property name="sidName" value="SID.Game.Region.Name.Nepal"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="5600000"/>
 			<property name="strCulture" value="Nepalese"/>
 			<object type="City" name="objGOs">
 				<property name="strName" value="Katmandu"/>
 				<property name="strOwner" value="Nepal"/>
+				<property name="strController" value="Nepal"/>
 				<property name="vecPosition" value="[85.3199996948, 27.7000007629, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Katmandu"/>
 				<property name="nPopulation" value="80000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

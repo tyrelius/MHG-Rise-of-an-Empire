@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Siam"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Siam"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Siam"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Siam"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Siam"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Siam"/>
 		<property name="strHomelands" value="Siam"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>
@@ -14,6 +19,7 @@
 			<property name="strName" value="Central Siam"/>
 			<property name="strOwner" value="Siam"/>
 			<property name="strController" value="Siam"/>
+			<property name="sidName" value="SID.Game.Region.Name.CentralSiam"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="3742441"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -21,8 +27,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Bangkok"/>
 				<property name="strOwner" value="Siam"/>
+				<property name="strController" value="Siam"/>
 				<property name="vecPosition" value="[100.5, 13.7299995422, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Bangkok"/>
 				<property name="nPopulation" value="685000"/>
 				<property name="strPortForRegion" value="Gulf of Siam"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -35,6 +43,7 @@
 			<property name="strName" value="Isan"/>
 			<property name="strOwner" value="Siam"/>
 			<property name="strController" value="Siam"/>
+			<property name="sidName" value="SID.Game.Region.Name.Isan"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="5805984"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -44,6 +53,7 @@
 			<property name="strName" value="Kra Isthmus"/>
 			<property name="strOwner" value="Siam"/>
 			<property name="strController" value="Siam"/>
+			<property name="sidName" value="SID.Game.Region.Name.KraIsthmus"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="1909690"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -51,8 +61,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Phuket"/>
 				<property name="strOwner" value="Siam"/>
+				<property name="strController" value="Siam"/>
 				<property name="vecPosition" value="[98.3799972534, 7.88000011444, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Phuket"/>
 				<property name="strPortForRegion" value="Straits of Malacca"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -64,6 +76,7 @@
 			<property name="strName" value="Lanna"/>
 			<property name="strOwner" value="Siam"/>
 			<property name="strController" value="Siam"/>
+			<property name="sidName" value="SID.Game.Region.Name.Lanna"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="3005990"/>
 			<property name="nTransInfrastructure" value="1"/>

@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Italy"/>
 		<property name="strGovType" value="Fascist"/>
+		<property name="sidName" value="SID.Game.Country.Name.Italy"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Italy"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Italy"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Italy"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Italy"/>
 		<property name="strHomelands" value="Italy"/>
 		<property name="bIsScored" value="true"/>
 		<property name="bColonialPower" value="true"/>
@@ -17,6 +22,7 @@
 			<property name="strName" value="Dodecanse"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.Dodecanse"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="140948"/>
 			<property name="strCulture" value="Greek"/>
@@ -25,6 +31,7 @@
 			<property name="strName" value="Emilia Romagna"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.EmiliaRomagna"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="3339000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -33,6 +40,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Emilia Romagna Mines"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[10.3753938675, 44.6459197998, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -40,8 +48,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Bologna"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[11.3299999237, 44.5, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Bologna"/>
 				<property name="nPopulation" value="266945"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -53,6 +63,7 @@
 			<property name="strName" value="Istria"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.Istria"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="963371"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -62,8 +73,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Trieste"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[13.779999733, 45.6500015259, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Trieste"/>
 				<property name="nPopulation" value="248379"/>
 				<property name="strPortForRegion" value="Adriatic Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -76,6 +89,7 @@
 			<property name="strName" value="Lazio Umbria"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.LazioUmbria"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="3373000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -85,6 +99,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Lazio Umbria Mines"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[13.4591245651, 41.5160446167, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -92,8 +107,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Rome"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[12.5, 41.8800010681, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Rome"/>
 				<property name="nPopulation" value="1155722"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -106,6 +123,7 @@
 			<property name="strName" value="Lombardy"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.Lombardy"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="5836000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -115,6 +133,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Lombardy Mines"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[10.4978351593, 45.3567237854, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -122,6 +141,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Lombardy Foundry"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[10.2137813568, 46.1939353943, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -129,8 +149,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Milan"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[9.19999980927, 45.4700012207, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Milan"/>
 				<property name="nPopulation" value="1103960"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -143,6 +165,7 @@
 			<property name="strName" value="Marche"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.Marche"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="2879000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -152,8 +175,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Ancona"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[13.5200004578, 43.6199989319, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Ancona"/>
 				<property name="strPortForRegion" value="Adriatic Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -165,6 +190,7 @@
 			<property name="strName" value="Napoli"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.Napoli"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="6007588"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -173,8 +199,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Naples"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[14.25, 40.8300018311, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Naples"/>
 				<property name="nPopulation" value="860176"/>
 				<property name="strPortForRegion" value="Tyrrhenian Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -184,60 +212,20 @@
 				</object>
 			</object>
 		</object>
-		<object type="Region" name="objGOs">
-			<property name="strName" value="Piedmont"/>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="1st Air Command"/>
 			<property name="strOwner" value="Italy"/>
-			<property name="strController" value="Italy"/>
-			<property name="strTerrain" value="Hills"/>
-			<property name="nPopulation" value="4523000"/>
-			<property name="nTransInfrastructure" value="3"/>
-			<property name="nFortification" value="2"/>
-			<property name="strCulture" value="Italian"/>
-			<property name="nAgriculture" value="2"/>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="Piedmont Mines"/>
-				<property name="strOwner" value="Italy"/>
-				<property name="vecPosition" value="[8.19661903381, 45.8874549866, 0]"/>
-				<property name="strResource" value="Coal"/>
-				<property name="nBaseOutputRate" value="1"/>
-			</object>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="Piedmont Foundry"/>
-				<property name="strOwner" value="Italy"/>
-				<property name="vecPosition" value="[8.03887462616, 44.3645019531, 0]"/>
-				<property name="strResource" value="Metals"/>
-				<property name="nBaseOutputRate" value="3"/>
-			</object>
-			<object type="City" name="objGOs">
-				<property name="strName" value="Turin"/>
-				<property name="strOwner" value="Italy"/>
-				<property name="vecPosition" value="[7.69999980927, 45.0699996948, 0]"/>
-				<property name="nDirection" value="0"/>
-				<property name="nPopulation" value="623454"/>
-				<property name="strInitialWorkOrder" value=""/>
-				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="11"/>
-					<property name="nTechLevel" value="2"/>
-				</object>
-			</object>
-			<object type="City" name="objGOs">
-				<property name="strName" value="Genoa"/>
-				<property name="strOwner" value="Italy"/>
-				<property name="vecPosition" value="[8.75, 44.5, 0]"/>
-				<property name="nDirection" value="0"/>
-				<property name="nPopulation" value="634646"/>
-				<property name="strPortForRegion" value="Catalan Sea"/>
-				<property name="strInitialWorkOrder" value=""/>
-				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="15"/>
-					<property name="nTechLevel" value="2"/>
-				</object>
+			<property name="strRegion" value="Piedmont"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="5"/>
 			</object>
 		</object>
 		<object type="Region" name="objGOs">
 			<property name="strName" value="Puglia"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.Puglia"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="2637000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -246,8 +234,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Taranto"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[17.2299995422, 40.4599990845, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Taranto"/>
 				<property name="nPopulation" value="117722"/>
 				<property name="strPortForRegion" value="Ionian Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -261,6 +251,7 @@
 			<property name="strName" value="Sardinia"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.Sardinia"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="1034000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -269,6 +260,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Sardinia Mines"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[9.38121509552, 40.7704429626, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -276,8 +268,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Cagliari"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[9.13000011444, 39.2200012207, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Cagliari"/>
 				<property name="nPopulation" value="105567"/>
 				<property name="strPortForRegion" value="Maghreb Coast"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -290,6 +284,7 @@
 			<property name="strName" value="Sicily"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.Sicily"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="4000000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -298,6 +293,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Sicily Mines"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[13.9648113251, 37.6047325134, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -305,6 +301,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Sicily Foundry"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[14.8694591522, 37.2202224731, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -312,8 +309,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Palermo"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[13.3800001144, 38.1300010681, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Palermo"/>
 				<property name="nPopulation" value="408124"/>
 				<property name="strPortForRegion" value="Tyrrhenian Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -326,6 +325,7 @@
 			<property name="strName" value="Trentino"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.Trentino"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="662504"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -337,6 +337,7 @@
 			<property name="strName" value="Tuscany"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.Tuscany"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="2974000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -345,6 +346,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Tuscany Mines"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[10.6862192154, 43.756362915, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -352,6 +354,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Tuscany Foundry"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[11.272403717, 42.6351242065, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -359,8 +362,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Florence"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[11.25, 43.7799987793, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Florence"/>
 				<property name="nPopulation" value="319141"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -372,6 +377,7 @@
 			<property name="strName" value="Veneto"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.Veneto"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="4230621"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -381,8 +387,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Venice"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[12.3299999237, 45.4300003052, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Venice"/>
 				<property name="nPopulation" value="260247"/>
 				<property name="strPortForRegion" value="Adriatic Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -395,6 +403,7 @@
 			<property name="strName" value="Cyrenacia"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.Cyrenacia"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="425203"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -403,8 +412,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Tobruk"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[23.9500007629, 32.0699996948, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Tobruk"/>
 				<property name="nPopulation" value="2500"/>
 				<property name="strPortForRegion" value="Libyan Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -417,6 +428,7 @@
 			<property name="strName" value="Tripolitania"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.Tripolitania"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="414321"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -426,8 +438,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Tripoli"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[13.1800003052, 32.9000015259, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Tripoli"/>
 				<property name="nPopulation" value="108200"/>
 				<property name="strPortForRegion" value="Gulf of Gabes"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -440,6 +454,7 @@
 			<property name="strName" value="Fezzan"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.Fezzan"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="56000"/>
 			<property name="strCulture" value="Arab-Berber"/>
@@ -449,6 +464,7 @@
 			<property name="strName" value="Italian Somaliland"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.ItalianSomaliland"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="1021572"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -457,8 +473,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Mogadiscio"/>
 				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
 				<property name="vecPosition" value="[45.3499984741, 2.02999997139, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Mogadiscio"/>
 				<property name="nPopulation" value="55000"/>
 				<property name="strPortForRegion" value="Benadir Coast"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -471,27 +489,68 @@
 			<property name="strName" value="Eritrea"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.Eritrea"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="600573"/>
 			<property name="nTransInfrastructure" value="1"/>
 			<property name="strCulture" value="Tigrinya"/>
 			<property name="bColony" value="true"/>
 		</object>
-		<object type="Army" name="objGOs">
-			<property name="strName" value="1st Army"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Piedmont"/>
 			<property name="strOwner" value="Italy"/>
-			<property name="strRegion" value="Piedmont"/>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="PreWarInfantry"/>
-				<property name="nNumber" value="4"/>
+			<property name="strController" value="Italy"/>
+			<property name="sidName" value="SID.Game.Region.Name.Piedmont"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="4523000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="2"/>
+			<property name="strCulture" value="Italian"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Piedmont Mines"/>
+				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
+				<property name="vecPosition" value="[8.19661903381, 45.8874549866, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
 			</object>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="Cavalry"/>
-				<property name="nNumber" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Piedmont Foundry"/>
+				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
+				<property name="vecPosition" value="[8.03887462616, 44.3645019531, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="3"/>
 			</object>
-			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="FieldArtillery"/>
-				<property name="nNumber" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Turin"/>
+				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
+				<property name="vecPosition" value="[7.69999980927, 45.0699996948, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Turin"/>
+				<property name="nPopulation" value="623454"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="11"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Genoa"/>
+				<property name="strOwner" value="Italy"/>
+				<property name="strController" value="Italy"/>
+				<property name="vecPosition" value="[8.75, 44.5, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Genoa"/>
+				<property name="nPopulation" value="634646"/>
+				<property name="strPortForRegion" value="Catalan Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="15"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
 			</object>
 		</object>
 		<object type="Army" name="objGOs">
@@ -732,13 +791,21 @@
 				<property name="nNumber" value="1"/>
 			</object>
 		</object>
-		<object type="AirForce" name="objGOs">
-			<property name="strName" value="1st Air Command"/>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
 			<property name="strOwner" value="Italy"/>
 			<property name="strRegion" value="Piedmont"/>
 			<object type="UnitSummary" name="objUnits">
-				<property name="strName" value="PreWarFighters"/>
-				<property name="nNumber" value="5"/>
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
 			</object>
 		</object>
 		<object type="AirForce" name="objGOs">

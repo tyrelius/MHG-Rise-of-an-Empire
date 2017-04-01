@@ -3,56 +3,21 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Mexico"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Mexico"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Mexico"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Mexico"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Mexico"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Mexico"/>
 		<property name="strHomelands" value="Mexico"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Mexico"/>
 		<property name="strCapital" value="Mexico City"/>
 		<property name="strOriginalCapital" value="Mexico City"/>
 		<object type="Region" name="objGOs">
-			<property name="strName" value="Northern Mexico"/>
-			<property name="strOwner" value="Mexico"/>
-			<property name="strController" value="Mexico"/>
-			<property name="strTerrain" value="Desert"/>
-			<property name="nPopulation" value="4965816"/>
-			<property name="nTransInfrastructure" value="2"/>
-			<property name="strCulture" value="Mexican"/>
-			<property name="nAgriculture" value="1"/>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="Mexico Mines"/>
-				<property name="strOwner" value="Mexico"/>
-				<property name="vecPosition" value="[-100.67791748, 26.7795944214, 0]"/>
-				<property name="strResource" value="Coal"/>
-				<property name="nBaseOutputRate" value="3"/>
-			</object>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="Mexico Oil Field"/>
-				<property name="strOwner" value="Mexico"/>
-				<property name="vecPosition" value="[-102.21031189, 26.3684654236, 0]"/>
-				<property name="strResource" value="Oil"/>
-				<property name="nBaseOutputRate" value="22"/>
-			</object>
-			<object type="Producer" name="objGOs">
-				<property name="strName" value="Mexico Foundry"/>
-				<property name="strOwner" value="Mexico"/>
-				<property name="vecPosition" value="[-103.765129089, 27.3776016235, 0]"/>
-				<property name="strResource" value="Metals"/>
-				<property name="nBaseOutputRate" value="1"/>
-			</object>
-			<object type="City" name="objGOs">
-				<property name="strName" value="Monterrey"/>
-				<property name="strOwner" value="Mexico"/>
-				<property name="vecPosition" value="[-100.309997559, 25.6700000763, 0]"/>
-				<property name="nDirection" value="0"/>
-				<property name="strInitialWorkOrder" value=""/>
-				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="4"/>
-				</object>
-			</object>
-		</object>
-		<object type="Region" name="objGOs">
 			<property name="strName" value="Central Mexico"/>
 			<property name="strOwner" value="Mexico"/>
 			<property name="strController" value="Mexico"/>
+			<property name="sidName" value="SID.Game.Region.Name.CentralMexico"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="9931633"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -61,8 +26,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Mexico City"/>
 				<property name="strOwner" value="Mexico"/>
+				<property name="strController" value="Mexico"/>
 				<property name="vecPosition" value="[-99.1500015259, 19.3999996185, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.MexicoCity"/>
 				<property name="nPopulation" value="960905"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -70,11 +37,25 @@
 					<property name="nTechLevel" value="2"/>
 				</object>
 			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Veracruz"/>
+				<property name="strOwner" value="Mexico"/>
+				<property name="strController" value="Mexico"/>
+				<property name="vecPosition" value="[-96.3734893799, 19.3464355469, -9.53674316406e-007]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Veracruz"/>
+				<property name="strPortForRegion" value="Gulf of Campeche"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="7"/>
+				</object>
+			</object>
 		</object>
 		<object type="Region" name="objGOs">
 			<property name="strName" value="Yucatan"/>
 			<property name="strOwner" value="Mexico"/>
 			<property name="strController" value="Mexico"/>
+			<property name="sidName" value="SID.Game.Region.Name.Yucatan"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="1655272"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -82,8 +63,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Campeche"/>
 				<property name="strOwner" value="Mexico"/>
+				<property name="strController" value="Mexico"/>
 				<property name="vecPosition" value="[-90.5, 19.9300003052, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Campeche"/>
 				<property name="strPortForRegion" value="Gulf of Campeche"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

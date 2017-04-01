@@ -1,0 +1,3046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MESharedData" name="">
+		<object type="DipRelProcessorRefList" name="objDRPRefLists">
+			<property name="strName" value="Tutorial"/>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__MAKE_PEACE"/>
+				<property name="strName" value="StatusQuoMakePeace"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__START_WAR"/>
+				<property name="strName" value="StatusQuoStartWar"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__DEFENSE_PACT_RATIFIED"/>
+				<property name="strName" value="StatusQuoDefensePactRatified"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__DEFENSE_PACT_CANCELLED"/>
+				<property name="strName" value="StatusQuoDefensePactCancelled"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__MILITARY_ACCESS_RATIFIED"/>
+				<property name="strName" value="StatusQuoMilitaryAccessRatified"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__MILITARY_ACCESS_CANCELLED"/>
+				<property name="strName" value="StatusQuoMilitaryAccessCancelled"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__NONAGGRESSION_RATIFIED"/>
+				<property name="strName" value="StatusQuoNonAggressionRatified"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__NONAGGRESSION_CANCELLED"/>
+				<property name="strName" value="StatusQuoNonAggressionCancelled"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__TERRITORIAL_TRANSFER_PROPOSED"/>
+				<property name="strName" value="StatusQuoTerritorialTransferProposed"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__EMBARGO_DECLARED"/>
+				<property name="strName" value="EmbargoDeclared"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__EMBARGO_LIFTED"/>
+				<property name="strName" value="EmbargoLifted"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__COUNTRY_LIBERATE"/>
+				<property name="strName" value="CountryLiberate"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__START_ALLIANCE_WAR"/>
+				<property name="strName" value="StatusQuoStartAllianceWar"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__JOIN_ALLIANCE_WAR"/>
+				<property name="strName" value="StatusQuoJoinAllianceWar"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__UPDATE_FOR_TRADE"/>
+				<property name="strName" value="UpdateForTrade"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__UPDATE_FOR_AID"/>
+				<property name="strName" value="UpdateForAid"/>
+			</object>
+		</object>
+		<object type="DipRelProcessorRefList" name="objDRPRefLists">
+			<property name="strName" value="StatusQuo"/>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__MAKE_PEACE"/>
+				<property name="strName" value="StatusQuoMakePeace"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__START_WAR"/>
+				<property name="strName" value="StatusQuoStartWar"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__DEFENSE_PACT_RATIFIED"/>
+				<property name="strName" value="StatusQuoDefensePactRatified"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__DEFENSE_PACT_CANCELLED"/>
+				<property name="strName" value="StatusQuoDefensePactCancelled"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__MILITARY_ACCESS_RATIFIED"/>
+				<property name="strName" value="StatusQuoMilitaryAccessRatified"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__MILITARY_ACCESS_CANCELLED"/>
+				<property name="strName" value="StatusQuoMilitaryAccessCancelled"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__NONAGGRESSION_RATIFIED"/>
+				<property name="strName" value="StatusQuoNonAggressionRatified"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__NONAGGRESSION_CANCELLED"/>
+				<property name="strName" value="StatusQuoNonAggressionCancelled"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__TERRITORIAL_TRANSFER_PROPOSED"/>
+				<property name="strName" value="StatusQuoTerritorialTransferProposed"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__EMBARGO_DECLARED"/>
+				<property name="strName" value="EmbargoDeclared"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__EMBARGO_LIFTED"/>
+				<property name="strName" value="EmbargoLifted"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__COUNTRY_LIBERATE"/>
+				<property name="strName" value="CountryLiberate"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__START_ALLIANCE_WAR"/>
+				<property name="strName" value="StatusQuoStartAllianceWar"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__JOIN_ALLIANCE_WAR"/>
+				<property name="strName" value="StatusQuoJoinAllianceWar"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__UPDATE_FOR_TRADE"/>
+				<property name="strName" value="UpdateForTrade"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__UPDATE_FOR_AID"/>
+				<property name="strName" value="UpdateForAid"/>
+			</object>
+		</object>
+		<object type="DipRelProcessorRefList" name="objDRPRefLists">
+			<property name="strName" value="Expansionist"/>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__MAKE_PEACE"/>
+				<property name="strName" value="ExpansionistMakePeace"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__START_WAR"/>
+				<property name="strName" value="ExpansionistStartWar"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__DEFENSE_PACT_RATIFIED"/>
+				<property name="strName" value="ExpansionistDefensePactRatified"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__DEFENSE_PACT_CANCELLED"/>
+				<property name="strName" value="ExpansionistDefensePactCancelled"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__MILITARY_ACCESS_RATIFIED"/>
+				<property name="strName" value="ExpansionistMilitaryAccessRatified"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__MILITARY_ACCESS_CANCELLED"/>
+				<property name="strName" value="ExpansionistMilitaryAccessCancelled"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__NONAGGRESSION_RATIFIED"/>
+				<property name="strName" value="ExpansionistNonAggressionRatified"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__NONAGGRESSION_CANCELLED"/>
+				<property name="strName" value="ExpansionistNonAggressionCancelled"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__TERRITORIAL_TRANSFER_PROPOSED"/>
+				<property name="strName" value="ExpansionistTerritorialTransferProposed"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__EMBARGO_DECLARED"/>
+				<property name="strName" value="EmbargoDeclared"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__EMBARGO_LIFTED"/>
+				<property name="strName" value="EmbargoLifted"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__COUNTRY_LIBERATE"/>
+				<property name="strName" value="CountryLiberate"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__START_ALLIANCE_WAR"/>
+				<property name="strName" value="ExpansionistStartAllianceWar"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__JOIN_ALLIANCE_WAR"/>
+				<property name="strName" value="ExpansionistJoinAllianceWar"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__UPDATE_FOR_TRADE"/>
+				<property name="strName" value="UpdateForTrade"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__UPDATE_FOR_AID"/>
+				<property name="strName" value="UpdateForAid"/>
+			</object>
+		</object>
+		<object type="DipRelProcessorRefList" name="objDRPRefLists">
+			<property name="strName" value="Neutral"/>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__MAKE_PEACE"/>
+				<property name="strName" value="NeutralMakePeace"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__START_WAR"/>
+				<property name="strName" value="NeutralStartWar"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__DEFENSE_PACT_RATIFIED"/>
+				<property name="strName" value="NeutralDefensePactRatified"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__DEFENSE_PACT_CANCELLED"/>
+				<property name="strName" value="NeutralDefensePactCancelled"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__MILITARY_ACCESS_RATIFIED"/>
+				<property name="strName" value="NeutralMilitaryAccessRatified"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__MILITARY_ACCESS_CANCELLED"/>
+				<property name="strName" value="NeutralMilitaryAccessCancelled"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__NONAGGRESSION_RATIFIED"/>
+				<property name="strName" value="NeutralNonAggressionRatified"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__NONAGGRESSION_CANCELLED"/>
+				<property name="strName" value="NeutralNonAggressionCancelled"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__TERRITORIAL_TRANSFER_PROPOSED"/>
+				<property name="strName" value="NeutralTerritorialTransferProposed"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__EMBARGO_DECLARED"/>
+				<property name="strName" value="EmbargoDeclared"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__EMBARGO_LIFTED"/>
+				<property name="strName" value="EmbargoLifted"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__COUNTRY_LIBERATE"/>
+				<property name="strName" value="CountryLiberate"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__START_ALLIANCE_WAR"/>
+				<property name="strName" value="NeutralStartAllianceWar"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__JOIN_ALLIANCE_WAR"/>
+				<property name="strName" value="NeutralJoinAllianceWar"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__UPDATE_FOR_TRADE"/>
+				<property name="strName" value="UpdateForTrade"/>
+			</object>
+			<object type="DipRelProcessorRef" name="objDipRelProcessorRefs">
+				<property name="eEventType" value="DRP_EVENT__UPDATE_FOR_AID"/>
+				<property name="strName" value="UpdateForAid"/>
+			</object>
+		</object>
+		<object type="DRPMakePeace" name="objDRPTemplateList">
+			<property name="strName" value="StatusQuoMakePeace"/>
+			<property name="eEventType" value="DRP_EVENT__MAKE_PEACE"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNoMoreWarsValueChange"/>
+					<property name="nValue" value="25"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPStartWar" name="objDRPTemplateList">
+			<property name="strName" value="StatusQuoStartWar"/>
+			<property name="eEventType" value="DRP_EVENT__START_WAR"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nAttackerNationValue"/>
+					<property name="nValue" value="-500"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="-500"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPDefensePactRatified" name="objDRPTemplateList">
+			<property name="strName" value="StatusQuoDefensePactRatified"/>
+			<property name="eEventType" value="DRP_EVENT__DEFENSE_PACT_RATIFIED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="125"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNationScoreValueChange"/>
+					<property name="nValue" value="-125"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nGetMinNationScore"/>
+					<property name="nValue" value="100"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPDefensePactCancelled" name="objDRPTemplateList">
+			<property name="strName" value="StatusQuoDefensePactCancelled"/>
+			<property name="eEventType" value="DRP_EVENT__DEFENSE_PACT_CANCELLED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="-125"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPMilitaryAccessRatified" name="objDRPTemplateList">
+			<property name="strName" value="StatusQuoMilitaryAccessRatified"/>
+			<property name="eEventType" value="DRP_EVENT__MILITARY_ACCESS_RATIFIED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNationScoreValueChange"/>
+					<property name="nValue" value="-50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nGetMinNationScore"/>
+					<property name="nValue" value="100"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPMilitaryAccessCancelled" name="objDRPTemplateList">
+			<property name="strName" value="StatusQuoMilitaryAccessCancelled"/>
+			<property name="eEventType" value="DRP_EVENT__MILITARY_ACCESS_CANCELLED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="-50"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPNonAggressionRatified" name="objDRPTemplateList">
+			<property name="strName" value="StatusQuoNonAggressionRatified"/>
+			<property name="eEventType" value="DRP_EVENT__NONAGGRESSION_RATIFIED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="50"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPNonAggressionCancelled" name="objDRPTemplateList">
+			<property name="strName" value="StatusQuoNonAggressionCancelled"/>
+			<property name="eEventType" value="DRP_EVENT__NONAGGRESSION_CANCELLED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="-50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nOtherNationValue"/>
+					<property name="nValue" value="-25"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPTerritorialTransferProposed" name="objDRPTemplateList">
+			<property name="strName" value="StatusQuoTerritorialTransferProposed"/>
+			<property name="eEventType" value="DRP_EVENT__TERRITORIAL_TRANSFER_PROPOSED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="-125"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nAlliedNationValue"/>
+					<property name="nValue" value="-75"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNonAlliedNationValue"/>
+					<property name="nValue" value="-50"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPEmbargoDeclared" name="objDRPTemplateList">
+			<property name="strName" value="EmbargoDeclared"/>
+			<property name="eEventType" value="DRP_EVENT__EMBARGO_DECLARED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="-100"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nGoodRelationsValue"/>
+					<property name="nValue" value="-50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nVeryCloseRelationsValue"/>
+					<property name="nValue" value="-100"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPEmbargoLifted" name="objDRPTemplateList">
+			<property name="strName" value="EmbargoLifted"/>
+			<property name="eEventType" value="DRP_EVENT__EMBARGO_LIFTED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nGoodRelationsValue"/>
+					<property name="nValue" value="25"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nVeryCloseRelationsValue"/>
+					<property name="nValue" value="50"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPCountryLiberate" name="objDRPTemplateList">
+			<property name="strName" value="CountryLiberate"/>
+			<property name="eEventType" value="DRP_EVENT__COUNTRY_LIBERATE"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDemocraticValue"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nFascistValue"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nCommunistValue"/>
+					<property name="nValue" value="20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nAuthoritarianValue"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nLiberatorValue"/>
+					<property name="nValue" value="500"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nLiberateeValue"/>
+					<property name="nValue" value="700"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPStartAllianceWar" name="objDRPTemplateList">
+			<property name="strName" value="StatusQuoStartAllianceWar"/>
+			<property name="eEventType" value="DRP_EVENT__START_ALLIANCE_WAR"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="-500"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nSharedWarValue"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nStableRelationsValue"/>
+					<property name="nValue" value="-20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nGoodRelationsValue"/>
+					<property name="nValue" value="-60"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nVeryCloseRelationsValue"/>
+					<property name="nValue" value="-100"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nSameGovTypeValue"/>
+					<property name="nValue" value="-50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNeutralTargetValue"/>
+					<property name="nValue" value="-50"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPStartAllianceWar" name="objDRPTemplateList">
+			<property name="strName" value="ExpansionistStartAllianceWar"/>
+			<property name="eEventType" value="DRP_EVENT__START_ALLIANCE_WAR"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="-500"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nSharedWarValue"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nStableRelationsValue"/>
+					<property name="nValue" value="-5"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nGoodRelationsValue"/>
+					<property name="nValue" value="-10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nVeryCloseRelationsValue"/>
+					<property name="nValue" value="-20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nSameGovTypeValue"/>
+					<property name="nValue" value="-50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNeutralTargetValue"/>
+					<property name="nValue" value="0"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPStartAllianceWar" name="objDRPTemplateList">
+			<property name="strName" value="NeutralStartAllianceWar"/>
+			<property name="eEventType" value="DRP_EVENT__START_ALLIANCE_WAR"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="-500"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nSharedWarValue"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nStableRelationsValue"/>
+					<property name="nValue" value="-5"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nGoodRelationsValue"/>
+					<property name="nValue" value="-10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nVeryCloseRelationsValue"/>
+					<property name="nValue" value="-20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nSameGovTypeValue"/>
+					<property name="nValue" value="-25"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNeutralTargetValue"/>
+					<property name="nValue" value="-50"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPJoinAllianceWar" name="objDRPTemplateList">
+			<property name="strName" value="StatusQuoJoinAllianceWar"/>
+			<property name="eEventType" value="DRP_EVENT__JOIN_ALLIANCE_WAR"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nAllyToAggressorValue"/>
+					<property name="nValue" value="0"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPJoinAllianceWar" name="objDRPTemplateList">
+			<property name="strName" value="ExpansionistJoinAllianceWar"/>
+			<property name="eEventType" value="DRP_EVENT__JOIN_ALLIANCE_WAR"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nAllyToAggressorValue"/>
+					<property name="nValue" value="0"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPJoinAllianceWar" name="objDRPTemplateList">
+			<property name="strName" value="NeutralJoinAllianceWar"/>
+			<property name="eEventType" value="DRP_EVENT__JOIN_ALLIANCE_WAR"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nAllyToAggressorValue"/>
+					<property name="nValue" value="0"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPMakePeace" name="objDRPTemplateList">
+			<property name="strName" value="ExpansionistMakePeace"/>
+			<property name="eEventType" value="DRP_EVENT__MAKE_PEACE"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNoMoreWarsValueChange"/>
+					<property name="nValue" value="40"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPStartWar" name="objDRPTemplateList">
+			<property name="strName" value="ExpansionistStartWar"/>
+			<property name="eEventType" value="DRP_EVENT__START_WAR"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nAttackerNationValue"/>
+					<property name="nValue" value="-500"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="-500"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPDefensePactRatified" name="objDRPTemplateList">
+			<property name="strName" value="ExpansionistDefensePactRatified"/>
+			<property name="eEventType" value="DRP_EVENT__DEFENSE_PACT_RATIFIED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="125"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNationScoreValueChange"/>
+					<property name="nValue" value="-125"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nGetMinNationScore"/>
+					<property name="nValue" value="100"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPDefensePactCancelled" name="objDRPTemplateList">
+			<property name="strName" value="ExpansionistDefensePactCancelled"/>
+			<property name="eEventType" value="DRP_EVENT__DEFENSE_PACT_CANCELLED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="-50"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPMilitaryAccessRatified" name="objDRPTemplateList">
+			<property name="strName" value="ExpansionistMilitaryAccessRatified"/>
+			<property name="eEventType" value="DRP_EVENT__MILITARY_ACCESS_RATIFIED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNationScoreValueChange"/>
+					<property name="nValue" value="-75"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nGetMinNationScore"/>
+					<property name="nValue" value="100"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPMilitaryAccessCancelled" name="objDRPTemplateList">
+			<property name="strName" value="ExpansionistMilitaryAccessCancelled"/>
+			<property name="eEventType" value="DRP_EVENT__MILITARY_ACCESS_CANCELLED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="-125"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPNonAggressionRatified" name="objDRPTemplateList">
+			<property name="strName" value="ExpansionistNonAggressionRatified"/>
+			<property name="eEventType" value="DRP_EVENT__NONAGGRESSION_RATIFIED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="25"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPNonAggressionCancelled" name="objDRPTemplateList">
+			<property name="strName" value="ExpansionistNonAggressionCancelled"/>
+			<property name="eEventType" value="DRP_EVENT__NONAGGRESSION_CANCELLED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="-50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nOtherNationValue"/>
+					<property name="nValue" value="-25"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPTerritorialTransferProposed" name="objDRPTemplateList">
+			<property name="strName" value="ExpansionistTerritorialTransferProposed"/>
+			<property name="eEventType" value="DRP_EVENT__TERRITORIAL_TRANSFER_PROPOSED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="-125"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nAlliedNationValue"/>
+					<property name="nValue" value="-50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNonAlliedNationValue"/>
+					<property name="nValue" value="0"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPMakePeace" name="objDRPTemplateList">
+			<property name="strName" value="NeutralMakePeace"/>
+			<property name="eEventType" value="DRP_EVENT__MAKE_PEACE"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNoMoreWarsValueChange"/>
+					<property name="nValue" value="40"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPStartWar" name="objDRPTemplateList">
+			<property name="strName" value="NeutralStartWar"/>
+			<property name="eEventType" value="DRP_EVENT__START_WAR"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nAttackerNationValue"/>
+					<property name="nValue" value="-500"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="-500"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPDefensePactRatified" name="objDRPTemplateList">
+			<property name="strName" value="NeutralDefensePactRatified"/>
+			<property name="eEventType" value="DRP_EVENT__DEFENSE_PACT_RATIFIED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="125"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNationScoreValueChange"/>
+					<property name="nValue" value="-50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nGetMinNationScore"/>
+					<property name="nValue" value="100"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPDefensePactCancelled" name="objDRPTemplateList">
+			<property name="strName" value="NeutralDefensePactCancelled"/>
+			<property name="eEventType" value="DRP_EVENT__DEFENSE_PACT_CANCELLED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="0"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPMilitaryAccessRatified" name="objDRPTemplateList">
+			<property name="strName" value="NeutralMilitaryAccessRatified"/>
+			<property name="eEventType" value="DRP_EVENT__MILITARY_ACCESS_RATIFIED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNationScoreValueChange"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nGetMinNationScore"/>
+					<property name="nValue" value="100"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPMilitaryAccessCancelled" name="objDRPTemplateList">
+			<property name="strName" value="NeutralMilitaryAccessCancelled"/>
+			<property name="eEventType" value="DRP_EVENT__MILITARY_ACCESS_CANCELLED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="0"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPNonAggressionRatified" name="objDRPTemplateList">
+			<property name="strName" value="NeutralNonAggressionRatified"/>
+			<property name="eEventType" value="DRP_EVENT__NONAGGRESSION_RATIFIED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="0"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPNonAggressionCancelled" name="objDRPTemplateList">
+			<property name="strName" value="NeutralNonAggressionCancelled"/>
+			<property name="eEventType" value="DRP_EVENT__NONAGGRESSION_CANCELLED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="-50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nOtherNationValue"/>
+					<property name="nValue" value="0"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPTerritorialTransferProposed" name="objDRPTemplateList">
+			<property name="strName" value="NeutralTerritorialTransferProposed"/>
+			<property name="eEventType" value="DRP_EVENT__TERRITORIAL_TRANSFER_PROPOSED"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nTargetNationValue"/>
+					<property name="nValue" value="-50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nAlliedNationValue"/>
+					<property name="nValue" value="-25"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNonAlliedNationValue"/>
+					<property name="nValue" value="-10"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPUpdateForFlows" name="objDRPTemplateList">
+			<property name="strName" value="UpdateForTrade"/>
+			<property name="eEventType" value="DRP_EVENT__UPDATE_FOR_TRADE"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nPerTurnCap"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nPerTurnMinimumPct"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nCoalUnitsPerPoint"/>
+					<property name="nValue" value="100"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nCoalPerTurnCap"/>
+					<property name="nValue" value="1"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nOilUnitsPerPoint"/>
+					<property name="nValue" value="100"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nOilPerTurnCap"/>
+					<property name="nValue" value="1"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMetalsUnitsPerPoint"/>
+					<property name="nValue" value="100"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMetalsPerTurnCap"/>
+					<property name="nValue" value="1"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nGoodsUnitsPerPoint"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nGoodsPerTurnCap"/>
+					<property name="nValue" value="2"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nArmsUnitsPerPoint"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nArmsPerTurnCap"/>
+					<property name="nValue" value="2"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nFoodUnitsPerPoint"/>
+					<property name="nValue" value="100"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nFoodPerTurnCap"/>
+					<property name="nValue" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="DRPUpdateForFlows" name="objDRPTemplateList">
+			<property name="strName" value="UpdateForAid"/>
+			<property name="eEventType" value="DRP_EVENT__UPDATE_FOR_AID"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nPerTurnCap"/>
+					<property name="nValue" value="5"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nPerTurnMinimumPct"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nCoalUnitsPerPoint"/>
+					<property name="nValue" value="600"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nCoalPerTurnCap"/>
+					<property name="nValue" value="1"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nOilUnitsPerPoint"/>
+					<property name="nValue" value="100"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nOilPerTurnCap"/>
+					<property name="nValue" value="1"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMetalsUnitsPerPoint"/>
+					<property name="nValue" value="200"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMetalsPerTurnCap"/>
+					<property name="nValue" value="1"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nGoodsUnitsPerPoint"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nGoodsPerTurnCap"/>
+					<property name="nValue" value="5"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nArmsUnitsPerPoint"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nArmsPerTurnCap"/>
+					<property name="nValue" value="5"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nFoodUnitsPerPoint"/>
+					<property name="nValue" value="1000"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nFoodPerTurnCap"/>
+					<property name="nValue" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="AIEvalRefList" name="objAITreatyEvalRefLists">
+			<property name="strName" value="Neutral"/>
+		</object>
+		<object type="AIEvalRefList" name="objAITreatyEvalRefLists">
+			<property name="strName" value="StatusQuo"/>
+		</object>
+		<object type="AIEvalRefList" name="objAITreatyEvalRefLists">
+			<property name="strName" value="Expansionist"/>
+		</object>
+		<object type="AIEvalRefList" name="objAITreatyEvalRefLists">
+			<property name="strName" value="Tutorial_Isolationist"/>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefDefensePact"/>
+				<property name="strName" value="True"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAid"/>
+				<property name="strName" value="True"/>
+			</object>
+		</object>
+		<object type="AIEvalRefList" name="objAITreatyEvalRefLists">
+			<property name="strName" value="Tutorial_Interventionist"/>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefDefensePact"/>
+				<property name="strName" value="True"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAid"/>
+				<property name="strName" value="True"/>
+			</object>
+		</object>
+		<object type="AIEvalRefList" name="objAITreatyEvalRefLists">
+			<property name="strName" value="StatusQuo_Isolationist"/>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefDefensePact"/>
+				<property name="strName" value="JoinAlliance"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ProposeAlliance"/>
+				<property name="strName" value="ProposeAlliance"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideInternalWar"/>
+				<property name="strName" value="ChooseSideInternalWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinAllianceWar"/>
+				<property name="strName" value="StatusQuo_JoinAllianceWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideNonAlliedWar"/>
+				<property name="strName" value="ChooseSideNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinNonAlliedWar"/>
+				<property name="strName" value="StatusQuo_JoinNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAid"/>
+				<property name="strName" value="ProcessAidTreaty"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeOffer"/>
+				<property name="strName" value="ProcessTradeOffer"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeRequest"/>
+				<property name="strName" value="ProcessTradeRequest"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefMilitaryAccess"/>
+				<property name="strName" value="ProcessMilitaryAccess"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTerritorialTransfer"/>
+				<property name="strName" value="ProcessTerritorialTransfer"/>
+			</object>
+		</object>
+		<object type="AIEvalRefList" name="objAITreatyEvalRefLists">
+			<property name="strName" value="StatusQuo_Interventionist"/>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefDefensePact"/>
+				<property name="strName" value="JoinAlliance"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ProposeAlliance"/>
+				<property name="strName" value="ProposeAlliance"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideInternalWar"/>
+				<property name="strName" value="ChooseSideInternalWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinAllianceWar"/>
+				<property name="strName" value="StatusQuo_JoinAllianceWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideNonAlliedWar"/>
+				<property name="strName" value="ChooseSideNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinNonAlliedWar"/>
+				<property name="strName" value="StatusQuo_JoinNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAid"/>
+				<property name="strName" value="ProcessAidTreaty"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeOffer"/>
+				<property name="strName" value="ProcessTradeOffer"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeRequest"/>
+				<property name="strName" value="ProcessTradeRequest"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefMilitaryAccess"/>
+				<property name="strName" value="ProcessMilitaryAccess"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTerritorialTransfer"/>
+				<property name="strName" value="ProcessTerritorialTransfer"/>
+			</object>
+		</object>
+		<object type="AIEvalRefList" name="objAITreatyEvalRefLists">
+			<property name="strName" value="StatusQuo_Isolationist_AtWar"/>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefDefensePact"/>
+				<property name="strName" value="JoinAlliance_AtWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ProposeAlliance"/>
+				<property name="strName" value="ProposeAlliance"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideInternalWar"/>
+				<property name="strName" value="ChooseSideInternalWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinAllianceWar"/>
+				<property name="strName" value="StatusQuo_JoinAllianceWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideNonAlliedWar"/>
+				<property name="strName" value="ChooseSideNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinNonAlliedWar"/>
+				<property name="strName" value="StatusQuo_JoinNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAid"/>
+				<property name="strName" value="ProcessAidTreaty"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeOffer"/>
+				<property name="strName" value="ProcessTradeOffer"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeRequest"/>
+				<property name="strName" value="ProcessTradeRequest"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefMilitaryAccess"/>
+				<property name="strName" value="ProcessMilitaryAccess"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTerritorialTransfer"/>
+				<property name="strName" value="ProcessTerritorialTransfer"/>
+			</object>
+		</object>
+		<object type="AIEvalRefList" name="objAITreatyEvalRefLists">
+			<property name="strName" value="StatusQuo_Interventionist_AtWar"/>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefDefensePact"/>
+				<property name="strName" value="JoinAlliance_AtWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ProposeAlliance"/>
+				<property name="strName" value="ProposeAlliance"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideInternalWar"/>
+				<property name="strName" value="ChooseSideInternalWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinAllianceWar"/>
+				<property name="strName" value="StatusQuo_JoinAllianceWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideNonAlliedWar"/>
+				<property name="strName" value="ChooseSideNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinNonAlliedWar"/>
+				<property name="strName" value="StatusQuo_JoinNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAid"/>
+				<property name="strName" value="ProcessAidTreaty"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeOffer"/>
+				<property name="strName" value="ProcessTradeOffer"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeRequest"/>
+				<property name="strName" value="ProcessTradeRequest"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefMilitaryAccess"/>
+				<property name="strName" value="ProcessMilitaryAccess"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTerritorialTransfer"/>
+				<property name="strName" value="ProcessTerritorialTransfer"/>
+			</object>
+		</object>
+		<object type="AIEvalRefList" name="objAITreatyEvalRefLists">
+			<property name="strName" value="Expansionist_Isolationist"/>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefDefensePact"/>
+				<property name="strName" value="JoinAlliance"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ProposeAlliance"/>
+				<property name="strName" value="ProposeAlliance"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideInternalWar"/>
+				<property name="strName" value="ChooseSideInternalWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinAllianceWar"/>
+				<property name="strName" value="Expansionist_JoinAllianceWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideNonAlliedWar"/>
+				<property name="strName" value="ChooseSideNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinNonAlliedWar"/>
+				<property name="strName" value="Expansionist_JoinNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAid"/>
+				<property name="strName" value="ProcessAidTreaty"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeOffer"/>
+				<property name="strName" value="ProcessTradeOffer"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeRequest"/>
+				<property name="strName" value="ProcessTradeRequest"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefMilitaryAccess"/>
+				<property name="strName" value="ProcessMilitaryAccess"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTerritorialTransfer"/>
+				<property name="strName" value="ProcessTerritorialTransfer"/>
+			</object>
+		</object>
+		<object type="AIEvalRefList" name="objAITreatyEvalRefLists">
+			<property name="strName" value="Expansionist_Isolationist_AtWar"/>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefDefensePact"/>
+				<property name="strName" value="JoinAlliance_AtWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ProposeAlliance"/>
+				<property name="strName" value="ProposeAlliance"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideInternalWar"/>
+				<property name="strName" value="ChooseSideInternalWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinAllianceWar"/>
+				<property name="strName" value="Expansionist_JoinAllianceWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideNonAlliedWar"/>
+				<property name="strName" value="ChooseSideNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinNonAlliedWar"/>
+				<property name="strName" value="Expansionist_JoinNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAid"/>
+				<property name="strName" value="ProcessAidTreaty"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeOffer"/>
+				<property name="strName" value="ProcessTradeOffer"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeRequest"/>
+				<property name="strName" value="ProcessTradeRequest"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefMilitaryAccess"/>
+				<property name="strName" value="ProcessMilitaryAccess"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTerritorialTransfer"/>
+				<property name="strName" value="ProcessTerritorialTransfer"/>
+			</object>
+		</object>
+		<object type="AIEvalRefList" name="objAITreatyEvalRefLists">
+			<property name="strName" value="Expansionist_Interventionist"/>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefDefensePact"/>
+				<property name="strName" value="JoinAlliance"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ProposeAlliance"/>
+				<property name="strName" value="ProposeAlliance"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideInternalWar"/>
+				<property name="strName" value="ChooseSideInternalWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinAllianceWar"/>
+				<property name="strName" value="Expansionist_JoinAllianceWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideNonAlliedWar"/>
+				<property name="strName" value="ChooseSideNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinNonAlliedWar"/>
+				<property name="strName" value="Expansionist_JoinNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAid"/>
+				<property name="strName" value="ProcessAidTreaty"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeOffer"/>
+				<property name="strName" value="ProcessTradeOffer"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeRequest"/>
+				<property name="strName" value="ProcessTradeRequest"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefMilitaryAccess"/>
+				<property name="strName" value="ProcessMilitaryAccess"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTerritorialTransfer"/>
+				<property name="strName" value="ProcessTerritorialTransfer"/>
+			</object>
+		</object>
+		<object type="AIEvalRefList" name="objAITreatyEvalRefLists">
+			<property name="strName" value="Expansionist_Interventionist_AtWar"/>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefDefensePact"/>
+				<property name="strName" value="JoinAlliance_AtWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ProposeAlliance"/>
+				<property name="strName" value="ProposeAlliance"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideInternalWar"/>
+				<property name="strName" value="ChooseSideInternalWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinAllianceWar"/>
+				<property name="strName" value="Expansionist_JoinAllianceWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideNonAlliedWar"/>
+				<property name="strName" value="ChooseSideNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinNonAlliedWar"/>
+				<property name="strName" value="Expansionist_JoinNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAid"/>
+				<property name="strName" value="ProcessAidTreaty"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeOffer"/>
+				<property name="strName" value="ProcessTradeOffer"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeRequest"/>
+				<property name="strName" value="ProcessTradeRequest"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefMilitaryAccess"/>
+				<property name="strName" value="ProcessMilitaryAccess"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTerritorialTransfer"/>
+				<property name="strName" value="ProcessTerritorialTransfer"/>
+			</object>
+		</object>
+		<object type="AIEvalRefList" name="objAITreatyEvalRefLists">
+			<property name="strName" value="Neutral_Isolationist"/>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefDefensePact"/>
+				<property name="strName" value="Neutral_JoinAlliance"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ProposeAlliance"/>
+				<property name="strName" value="Neutral_ProposeAlliance"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideInternalWar"/>
+				<property name="strName" value="ChooseSideInternalWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinAllianceWar"/>
+				<property name="strName" value="Neutral_JoinAllianceWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideNonAlliedWar"/>
+				<property name="strName" value="ChooseSideNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinNonAlliedWar"/>
+				<property name="strName" value="Neutral_JoinNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAid"/>
+				<property name="strName" value="ProcessAidTreatyNeutral"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeOffer"/>
+				<property name="strName" value="ProcessTradeOffer"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeRequest"/>
+				<property name="strName" value="ProcessTradeRequest"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefMilitaryAccess"/>
+				<property name="strName" value="ProcessMilitaryAccess"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTerritorialTransfer"/>
+				<property name="strName" value="ProcessTerritorialTransfer"/>
+			</object>
+		</object>
+		<object type="AIEvalRefList" name="objAITreatyEvalRefLists">
+			<property name="strName" value="Neutral_Interventionist"/>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefDefensePact"/>
+				<property name="strName" value="Neutral_JoinAlliance"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ProposeAlliance"/>
+				<property name="strName" value="Neutral_ProposeAlliance"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideInternalWar"/>
+				<property name="strName" value="ChooseSideInternalWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinAllianceWar"/>
+				<property name="strName" value="Neutral_JoinAllianceWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_ChooseSideNonAlliedWar"/>
+				<property name="strName" value="ChooseSideNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="AI_JoinNonAlliedWar"/>
+				<property name="strName" value="Neutral_JoinNonAlliedWar"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAlliancePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveEndWar"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveConcessions"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefSeparatePeaceLeaveDemands"/>
+				<property name="strName" value="Peace"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefAid"/>
+				<property name="strName" value="ProcessAidTreatyNeutral"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeOffer"/>
+				<property name="strName" value="ProcessTradeOffer"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTradeRequest"/>
+				<property name="strName" value="ProcessTradeRequest"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefMilitaryAccess"/>
+				<property name="strName" value="ProcessMilitaryAccess"/>
+			</object>
+			<object type="AIEvalRef" name="objAIEvalRefs">
+				<property name="strType" value="TreatyDefTerritorialTransfer"/>
+				<property name="strName" value="ProcessTerritorialTransfer"/>
+			</object>
+		</object>
+		<object type="TETrue" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="True"/>
+			<property name="nMinScore" value="0"/>
+			<property name="strType" value="TreatyDefAid"/>
+			<property name="nBaseScore" value="0"/>
+		</object>
+		<object type="TEJoinAlliance" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="JoinAlliance"/>
+			<property name="nMinScore" value="60"/>
+			<property name="strType" value="TreatyDefDefensePact"/>
+			<property name="nBaseScore" value="0"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nFollowerScore"/>
+					<property name="nValue" value="30"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMinInvolvementScore"/>
+					<property name="nValue" value="-10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMaxInvolvementScore"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateTerribleScore"/>
+					<property name="nValue" value="-50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStatePoorScore"/>
+					<property name="nValue" value="-20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateStableScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateGoodScore"/>
+					<property name="nValue" value="5"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateVeryCloseScore"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nAtWarScore"/>
+					<property name="nValue" value="-10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nCommonEnemyScore"/>
+					<property name="nValue" value="90"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nThreatScore"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateTerribleGoalScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStatePoorGoalScore"/>
+					<property name="nValue" value="40"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateStableGoalScore"/>
+					<property name="nValue" value="70"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateGoodGoalScore"/>
+					<property name="nValue" value="80"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateVeryCloseGoalScore"/>
+					<property name="nValue" value="100"/>
+				</object>
+			</object>
+		</object>
+		<object type="TEJoinAllianceAtWar" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="JoinAlliance_AtWar"/>
+			<property name="nMinScore" value="10"/>
+			<property name="strType" value="TreatyDefDefensePact"/>
+			<property name="nBaseScore" value="0"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMinInvolvementPct"/>
+					<property name="nValue" value="70"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nFollowerScore"/>
+					<property name="nValue" value="30"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateTerribleScore"/>
+					<property name="nValue" value="-100"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStatePoorScore"/>
+					<property name="nValue" value="-70"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateStableScore"/>
+					<property name="nValue" value="30"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateGoodScore"/>
+					<property name="nValue" value="75"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateVeryCloseScore"/>
+					<property name="nValue" value="100"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nCurrPowerRatioLevel1Score"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nCurrPowerRatioLevel2Score"/>
+					<property name="nValue" value="40"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nCurrPowerRatioLevel3Score"/>
+					<property name="nValue" value="30"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nCurrPowerRatioLevel4Score"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nCurrPowerRatioLevel5Score"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNewPowerRatioLevel1Score"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNewPowerRatioLevel2Score"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNewPowerRatioLevel3Score"/>
+					<property name="nValue" value="30"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNewPowerRatioLevel4Score"/>
+					<property name="nValue" value="40"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nNewPowerRatioLevel5Score"/>
+					<property name="nValue" value="50"/>
+				</object>
+			</object>
+		</object>
+		<object type="TEJoinAllianceNeutral" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="Neutral_JoinAlliance"/>
+			<property name="nMinScore" value="0"/>
+			<property name="strType" value="TreatyDefDefensePact"/>
+			<property name="nBaseScore" value="0"/>
+		</object>
+		<object type="TEProposeAlliance" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="ProposeAlliance"/>
+			<property name="nMinScore" value="60"/>
+			<property name="strType" value="AI_ProposeAlliance"/>
+			<property name="nBaseScore" value="0"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateTerribleCommonEnemyScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStatePoorCommonEnemyScore"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateStableCommonEnemyScore"/>
+					<property name="nValue" value="80"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateGoodCommonEnemyScore"/>
+					<property name="nValue" value="100"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateVeryCloseCommonEnemyScore"/>
+					<property name="nValue" value="100"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateTerribleGoalScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStatePoorGoalScore"/>
+					<property name="nValue" value="40"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateStableGoalScore"/>
+					<property name="nValue" value="70"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateGoodGoalScore"/>
+					<property name="nValue" value="80"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateVeryCloseGoalScore"/>
+					<property name="nValue" value="100"/>
+				</object>
+			</object>
+		</object>
+		<object type="TEProposeAllianceNeutral" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="Neutral_ProposeAlliance"/>
+			<property name="nMinScore" value="0"/>
+			<property name="strType" value="AI_ProposeAlliance"/>
+			<property name="nBaseScore" value="0"/>
+		</object>
+		<object type="TEChooseSideInternalWar" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="ChooseSideInternalWar"/>
+			<property name="nMinScore" value="0"/>
+			<property name="strType" value="AI_ChooseSideInternalWar"/>
+			<property name="nBaseScore" value="0"/>
+		</object>
+		<object type="TEJoinAllianceWar" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="Neutral_JoinAllianceWar"/>
+			<property name="nMinScore" value="0"/>
+			<property name="strType" value="AI_JoinAllianceWar"/>
+			<property name="nBaseScore" value="0"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementObject" name="objArgElements">
+					<property name="strName" value="nDipStateAllyVeryClose"/>
+					<object type="ArgumentList" name="objValue">
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetVeryClose"/>
+							<property name="nValue" value="50"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetGood"/>
+							<property name="nValue" value="60"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetStable"/>
+							<property name="nValue" value="95"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetPoor"/>
+							<property name="nValue" value="100"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetTerrible"/>
+							<property name="nValue" value="100"/>
+						</object>
+					</object>
+				</object>
+				<object type="ArgumentElementObject" name="objArgElements">
+					<property name="strName" value="nDipStateAllyGood"/>
+					<object type="ArgumentList" name="objValue">
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetVeryClose"/>
+							<property name="nValue" value="30"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetGood"/>
+							<property name="nValue" value="70"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetStable"/>
+							<property name="nValue" value="90"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetPoor"/>
+							<property name="nValue" value="100"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetTerrible"/>
+							<property name="nValue" value="100"/>
+						</object>
+					</object>
+				</object>
+				<object type="ArgumentElementObject" name="objArgElements">
+					<property name="strName" value="nDipStateAllyStable"/>
+					<object type="ArgumentList" name="objValue">
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetVeryClose"/>
+							<property name="nValue" value="10"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetGood"/>
+							<property name="nValue" value="70"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetStable"/>
+							<property name="nValue" value="90"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetPoor"/>
+							<property name="nValue" value="100"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetTerrible"/>
+							<property name="nValue" value="100"/>
+						</object>
+					</object>
+				</object>
+				<object type="ArgumentElementObject" name="objArgElements">
+					<property name="strName" value="nDipStateAllyPoor"/>
+					<object type="ArgumentList" name="objValue">
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetVeryClose"/>
+							<property name="nValue" value="5"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetGood"/>
+							<property name="nValue" value="10"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetStable"/>
+							<property name="nValue" value="50"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetPoor"/>
+							<property name="nValue" value="100"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetTerrible"/>
+							<property name="nValue" value="100"/>
+						</object>
+					</object>
+				</object>
+				<object type="ArgumentElementObject" name="objArgElements">
+					<property name="strName" value="nDipStateAllyTerrible"/>
+					<object type="ArgumentList" name="objValue">
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetVeryClose"/>
+							<property name="nValue" value="0"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetGood"/>
+							<property name="nValue" value="5"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetStable"/>
+							<property name="nValue" value="10"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetPoor"/>
+							<property name="nValue" value="50"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetTerrible"/>
+							<property name="nValue" value="100"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object type="TEJoinAllianceWar" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="StatusQuo_JoinAllianceWar"/>
+			<property name="nMinScore" value="0"/>
+			<property name="strType" value="AI_JoinAllianceWar"/>
+			<property name="nBaseScore" value="0"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementObject" name="objArgElements">
+					<property name="strName" value="nDipStateAllyVeryClose"/>
+					<object type="ArgumentList" name="objValue">
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetVeryClose"/>
+							<property name="nValue" value="50"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetGood"/>
+							<property name="nValue" value="60"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetStable"/>
+							<property name="nValue" value="95"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetPoor"/>
+							<property name="nValue" value="100"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetTerrible"/>
+							<property name="nValue" value="100"/>
+						</object>
+					</object>
+				</object>
+				<object type="ArgumentElementObject" name="objArgElements">
+					<property name="strName" value="nDipStateAllyGood"/>
+					<object type="ArgumentList" name="objValue">
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetVeryClose"/>
+							<property name="nValue" value="30"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetGood"/>
+							<property name="nValue" value="70"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetStable"/>
+							<property name="nValue" value="90"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetPoor"/>
+							<property name="nValue" value="100"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetTerrible"/>
+							<property name="nValue" value="100"/>
+						</object>
+					</object>
+				</object>
+				<object type="ArgumentElementObject" name="objArgElements">
+					<property name="strName" value="nDipStateAllyStable"/>
+					<object type="ArgumentList" name="objValue">
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetVeryClose"/>
+							<property name="nValue" value="10"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetGood"/>
+							<property name="nValue" value="70"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetStable"/>
+							<property name="nValue" value="90"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetPoor"/>
+							<property name="nValue" value="100"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetTerrible"/>
+							<property name="nValue" value="100"/>
+						</object>
+					</object>
+				</object>
+				<object type="ArgumentElementObject" name="objArgElements">
+					<property name="strName" value="nDipStateAllyPoor"/>
+					<object type="ArgumentList" name="objValue">
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetVeryClose"/>
+							<property name="nValue" value="5"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetGood"/>
+							<property name="nValue" value="10"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetStable"/>
+							<property name="nValue" value="50"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetPoor"/>
+							<property name="nValue" value="100"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetTerrible"/>
+							<property name="nValue" value="100"/>
+						</object>
+					</object>
+				</object>
+				<object type="ArgumentElementObject" name="objArgElements">
+					<property name="strName" value="nDipStateAllyTerrible"/>
+					<object type="ArgumentList" name="objValue">
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetVeryClose"/>
+							<property name="nValue" value="0"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetGood"/>
+							<property name="nValue" value="5"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetStable"/>
+							<property name="nValue" value="10"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetPoor"/>
+							<property name="nValue" value="50"/>
+						</object>
+						<object type="ArgumentElementInt" name="objArgElements">
+							<property name="strName" value="nDipStateTargetTerrible"/>
+							<property name="nValue" value="100"/>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object type="TEJoinAllianceWarExpansionist" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="Expansionist_JoinAllianceWar"/>
+			<property name="nMinScore" value="0"/>
+			<property name="strType" value="AI_JoinAllianceWar"/>
+			<property name="nBaseScore" value="0"/>
+		</object>
+		<object type="TEChooseSideNonAlliedWar" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="ChooseSideNonAlliedWar"/>
+			<property name="nMinScore" value="-100"/>
+			<property name="strType" value="AI_ChooseSideNonAlliedWar"/>
+			<property name="nBaseScore" value="0"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMatchDefGovTypeScore"/>
+					<property name="nValue" value="5"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMatchAttGovTypeScore"/>
+					<property name="nValue" value="-5"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateTerribleDefScore"/>
+					<property name="nValue" value="-5"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStatePoorDefScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateStableDefScore"/>
+					<property name="nValue" value="5"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateGoodDefScore"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateVeryCloseDefScore"/>
+					<property name="nValue" value="20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateTerribleAttScore"/>
+					<property name="nValue" value="5"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStatePoorAttScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateStableAttScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateGoodAttScore"/>
+					<property name="nValue" value="-10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateVeryCloseAttScore"/>
+					<property name="nValue" value="-20"/>
+				</object>
+			</object>
+		</object>
+		<object type="TEJoinNonAlliedWarNeutral" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="Neutral_JoinNonAlliedWar"/>
+			<property name="nMinScore" value="0"/>
+			<property name="strType" value="AI_JoinNonAlliedWar"/>
+			<property name="nBaseScore" value="0"/>
+		</object>
+		<object type="TEJoinNonAlliedWar" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="StatusQuo_JoinNonAlliedWar"/>
+			<property name="nMinScore" value="6"/>
+			<property name="strType" value="AI_JoinNonAlliedWar"/>
+			<property name="nBaseScore" value="0"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMinInvolvementPct"/>
+					<property name="nValue" value="65"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMinMilPowerScore"/>
+					<property name="nValue" value="40"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMaxNonPlayableAttackerDistance"/>
+					<property name="nValue" value="1000"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMinInvolvementScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMaxInvolvementScore"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nLowAggressionScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMidAggressionScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nHighAggressionScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nLowStabilityScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nHighStabilityScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+			</object>
+		</object>
+		<object type="TEJoinNonAlliedWar" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="Expansionist_JoinNonAlliedWar"/>
+			<property name="nMinScore" value="1"/>
+			<property name="strType" value="AI_JoinNonAlliedWar"/>
+			<property name="nBaseScore" value="0"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMinInvolvementPct"/>
+					<property name="nValue" value="88"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMinMilPowerScore"/>
+					<property name="nValue" value="70"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMaxNonPlayableAttackerDistance"/>
+					<property name="nValue" value="1000"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMinInvolvementScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMaxInvolvementScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nLowAggressionScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMidAggressionScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nHighAggressionScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nLowStabilityScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nHighStabilityScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+			</object>
+		</object>
+		<object type="TEPeace" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="Peace"/>
+			<property name="nMinScore" value="0"/>
+			<property name="strType" value="TreatyDefPeaceSeparate"/>
+			<property name="nBaseScore" value="0"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nLostCapitalScore"/>
+					<property name="nValue" value="30"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nLostHomeRegions1"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nLostHomeRegions2"/>
+					<property name="nValue" value="20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nLostHomeRegions3"/>
+					<property name="nValue" value="35"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nLostHomeRegions4"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMyMilitaryPower3x"/>
+					<property name="nValue" value="-20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMyMilitaryPower2x"/>
+					<property name="nValue" value="-10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nOtherMilitaryPower2x"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nOtherMilitaryPower3x"/>
+					<property name="nValue" value="20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMyChangeGovtFascist"/>
+					<property name="nValue" value="-10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMyChangeGovtAuthoritarian"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMyChangeGovtCommunist"/>
+					<property name="nValue" value="-10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMyChangeGovtDemocratic"/>
+					<property name="nValue" value="-10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMinTransferTerritoryScore"/>
+					<property name="nValue" value="-50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMaxTransferTerritoryScore"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nSharedEnemyScore"/>
+					<property name="nValue" value="20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nFollowerScore"/>
+					<property name="nValue" value="100"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nWinningFascistOtherChangeGovt"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nWinningAuthoritarianOtherChangeGovt"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nWinningCommunistOtherChangeGovt"/>
+					<property name="nValue" value="5"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nWinningDemocraticOtherChangeGovt"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nWinningDemocraticOtherFascist"/>
+					<property name="nValue" value="-20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nWinningDemocraticOtherAuthoritarian"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nWinningDemocraticOtherCommunist"/>
+					<property name="nValue" value="-10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nWinningDemocraticOtherDemocratic"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nWinningJoinAlliance"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nWinningMilitaryAccess"/>
+					<property name="nValue" value="5"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nWinningConquestGoalMinScore"/>
+					<property name="nValue" value="-200"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nWinningConquestGoalMaxScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nLosingStabilityLow"/>
+					<property name="nValue" value="20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nLosingStabilityMedium"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nLosingStabilityHigh"/>
+					<property name="nValue" value="-20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nLosingJoinAlliance"/>
+					<property name="nValue" value="-10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nLosingMilitaryAccess"/>
+					<property name="nValue" value="-5"/>
+				</object>
+			</object>
+		</object>
+		<object type="TEAid" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="ProcessAidTreaty"/>
+			<property name="nMinScore" value="20"/>
+			<property name="strType" value="TreatyDefAid"/>
+			<property name="nBaseScore" value="0"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nSurplusPct"/>
+					<property name="nValue" value="20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMinInvolvementScore"/>
+					<property name="nValue" value="-10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMaxInvolvementScore"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateTerribleScore"/>
+					<property name="nValue" value="-100"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStatePoorScore"/>
+					<property name="nValue" value="-10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateStableScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateGoodScore"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateVeryCloseScore"/>
+					<property name="nValue" value="30"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nCommonEnemyScore"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nSameGovTypeScore"/>
+					<property name="nValue" value="5"/>
+				</object>
+			</object>
+		</object>
+		<object type="TEAidNeutral" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="ProcessAidTreatyNeutral"/>
+			<property name="nMinScore" value="20"/>
+			<property name="strType" value="TreatyDefAid"/>
+			<property name="nBaseScore" value="0"/>
+		</object>
+		<object type="TETradeOffer" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="ProcessTradeOffer"/>
+			<property name="nMinScore" value="20"/>
+			<property name="strType" value="TreatyDefTradeOffer"/>
+			<property name="nBaseScore" value="100"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nSurplusPct"/>
+					<property name="nValue" value="20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nThreatScore"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateTerribleScore"/>
+					<property name="nValue" value="-20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStatePoorScore"/>
+					<property name="nValue" value="-10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateStableScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateGoodScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateVeryCloseScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nCommonEnemyScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+			</object>
+		</object>
+		<object type="TETradeRequest" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="ProcessTradeRequest"/>
+			<property name="nMinScore" value="20"/>
+			<property name="strType" value="TreatyDefTradeRequest"/>
+			<property name="nBaseScore" value="100"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nSurplusPct"/>
+					<property name="nValue" value="20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nThreatScore"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateTerribleScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStatePoorScore"/>
+					<property name="nValue" value="-30"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateStableScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateGoodScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateVeryCloseScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nCommonEnemyScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+			</object>
+		</object>
+		<object type="TEMilitaryAccess" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="ProcessMilitaryAccess"/>
+			<property name="nMinScore" value="30"/>
+			<property name="strType" value="TreatyDefMilitaryAccess"/>
+			<property name="nBaseScore" value="0"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMinInvolvementScore"/>
+					<property name="nValue" value="-10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMaxInvolvementScore"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateTerribleScore"/>
+					<property name="nValue" value="-100"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStatePoorScore"/>
+					<property name="nValue" value="-50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateStableScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateGoodScore"/>
+					<property name="nValue" value="5"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nDipStateVeryCloseScore"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nCommonEnemyScore"/>
+					<property name="nValue" value="20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nSameGovTypeScore"/>
+					<property name="nValue" value="5"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMilPowerRatio"/>
+					<property name="nValue" value="2"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMilPowerScore"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nGoalScore"/>
+					<property name="nValue" value="-30"/>
+				</object>
+			</object>
+		</object>
+		<object type="TETerritorialTransfer" name="objAITreatyEvalTemplateList">
+			<property name="strName" value="ProcessTerritorialTransfer"/>
+			<property name="nMinScore" value="0"/>
+			<property name="strType" value="TreatyDefTerritorialTransfer"/>
+			<property name="nBaseScore" value="0"/>
+			<object type="ArgumentList" name="objArgList">
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nRequestedHomeRegionLimit"/>
+					<property name="nValue" value="1"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nWorldPowerRatioToThreaten"/>
+					<property name="nValue" value="125"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMilPowerRatioToThreatenSmall"/>
+					<property name="nValue" value="150"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMilPowerRatioToThreatenLarge"/>
+					<property name="nValue" value="200"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nSmallMilThreatScore"/>
+					<property name="nValue" value="5"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nLargeMilThreatScore"/>
+					<property name="nValue" value="10"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nHomeRequestedThreatScore"/>
+					<property name="nValue" value="-5"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMinDealWeight"/>
+					<property name="nValue" value="50"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMinDealScore"/>
+					<property name="nValue" value="0"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nMaxDealScore"/>
+					<property name="nValue" value="20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nOfferedHomeRegionScore"/>
+					<property name="nValue" value="20"/>
+				</object>
+				<object type="ArgumentElementInt" name="objArgElements">
+					<property name="strName" value="nRequestedHomeRegionScore"/>
+					<property name="nValue" value="-40"/>
+				</object>
+			</object>
+		</object>
+		<object type="AICharElementList" name="objAICharElementList">
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="AITreatyEvalListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__TUTORIAL"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__ISOLATIONIST"/>
+				<property name="strElementName" value="Tutorial_Isolationist"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="AITreatyEvalListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__TUTORIAL"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__INTERVENTIONIST"/>
+				<property name="strElementName" value="Tutorial_Interventionist"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="AITreatyEvalListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__STATUSQUO"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__ISOLATIONIST"/>
+				<property name="strElementName" value="StatusQuo_Isolationist"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="AITreatyEvalListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__STATUSQUO"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__INTERVENTIONIST"/>
+				<property name="strElementName" value="StatusQuo_Interventionist"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="AITreatyEvalListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__STATUSQUO"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__ISOLATIONIST"/>
+				<property name="eCharacterFlag" value="CHARACTER_ELEMENT_FLAG__AT_WAR"/>
+				<property name="strElementName" value="StatusQuo_Isolationist_AtWar"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="AITreatyEvalListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__STATUSQUO"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__INTERVENTIONIST"/>
+				<property name="eCharacterFlag" value="CHARACTER_ELEMENT_FLAG__AT_WAR"/>
+				<property name="strElementName" value="StatusQuo_Interventionist_AtWar"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="AITreatyEvalListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__EXPANSIONIST"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__ISOLATIONIST"/>
+				<property name="strElementName" value="Expansionist_Isolationist"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="AITreatyEvalListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__EXPANSIONIST"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__INTERVENTIONIST"/>
+				<property name="strElementName" value="Expansionist_Interventionist"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="AITreatyEvalListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__EXPANSIONIST"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__ISOLATIONIST"/>
+				<property name="eCharacterFlag" value="CHARACTER_ELEMENT_FLAG__AT_WAR"/>
+				<property name="strElementName" value="Expansionist_Isolationist_AtWar"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="AITreatyEvalListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__EXPANSIONIST"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__INTERVENTIONIST"/>
+				<property name="eCharacterFlag" value="CHARACTER_ELEMENT_FLAG__AT_WAR"/>
+				<property name="strElementName" value="Expansionist_Interventionist_AtWar"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="AITreatyEvalListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__NEUTRAL"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__ISOLATIONIST"/>
+				<property name="strElementName" value="Neutral_Isolationist"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="AITreatyEvalListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__NEUTRAL"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__INTERVENTIONIST"/>
+				<property name="strElementName" value="Neutral_Interventionist"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="DipRelProcListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__TUTORIAL"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__ISOLATIONIST"/>
+				<property name="strElementName" value="StatusQuo"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="DipRelProcListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__TUTORIAL"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__INTERVENTIONIST"/>
+				<property name="strElementName" value="StatusQuo"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="DipRelProcListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__STATUSQUO"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__ISOLATIONIST"/>
+				<property name="strElementName" value="StatusQuo"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="DipRelProcListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__STATUSQUO"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__INTERVENTIONIST"/>
+				<property name="strElementName" value="StatusQuo"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="DipRelProcListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__EXPANSIONIST"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__ISOLATIONIST"/>
+				<property name="strElementName" value="Expansionist"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="DipRelProcListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__EXPANSIONIST"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__INTERVENTIONIST"/>
+				<property name="strElementName" value="Expansionist"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="DipRelProcListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__NEUTRAL"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__ISOLATIONIST"/>
+				<property name="strElementName" value="Neutral"/>
+			</object>
+			<object type="AICharElement" name="objAICharElements">
+				<property name="strTarget" value="DipRelProcListName"/>
+				<property name="ePosition" value="PLAYER_INTERNATIONAL_POSITION__NEUTRAL"/>
+				<property name="eInvolvement" value="PLAYER_INTERNATIONAL_INVOLVEMENT__INTERVENTIONIST"/>
+				<property name="strElementName" value="Neutral"/>
+			</object>
+		</object>
+		<object type="IssueShouldSurrender" name="objTriggerEventIssues">
+			<property name="otTriggerEventType" value="TriggerEventLostLastRegion"/>
+			<property name="pathTriggerEvent" value="{Object:Single:TriggerEventLostLastRegion}scratch.objLostLastRegionEvent"/>
+			<property name="objTargetCountry" inheritFrom="{Object:Single:TriggerEventLostLastRegion}scratch.objLostLastRegionEvent.objTargetCountry"/>
+			<property name="objLosingCountry" inheritFrom="{Object:Single:TriggerEventLostLastRegion}scratch.objLostLastRegionEvent.objLosingCountry"/>
+			<property name="objWinningCountry" inheritFrom="{Object:Single:TriggerEventLostLastRegion}scratch.objLostLastRegionEvent.objWinningCountry"/>
+			<property name="objRegionLost" inheritFrom="{Object:Single:TriggerEventLostLastRegion}scratch.objLostLastRegionEvent.objLastRegion"/>
+		</object>
+		<object type="IssueLostOriginalCapital" name="objTriggerEventIssues">
+			<property name="otTriggerEventType" value="TriggerEventConqueredCapital"/>
+			<property name="pathTriggerEvent" value="{Object:Single:TriggerEventConqueredCapital}scratch.objConqueredCapitalEvent"/>
+			<property name="objTargetCountry" inheritFrom="{Object:Single:TriggerEventConqueredCapital}scratch.objConqueredCapitalEvent.objTargetCountry"/>
+			<property name="objLosingCountry" inheritFrom="{Object:Single:TriggerEventConqueredCapital}scratch.objConqueredCapitalEvent.objLosingCountry"/>
+			<property name="objWinningCountry" inheritFrom="{Object:Single:TriggerEventConqueredCapital}scratch.objConqueredCapitalEvent.objWinningCountry"/>
+			<property name="objRegionLost" inheritFrom="{Object:Single:TriggerEventConqueredCapital}scratch.objConqueredCapitalEvent.objRegionConquered"/>
+		</object>
+		<object type="IssueLostHomeland" name="objTriggerEventIssues">
+			<property name="otTriggerEventType" value="TriggerEventLostHomeland"/>
+			<property name="pathTriggerEvent" value="{Object:Single:TriggerEventLostHomeland}scratch.objLostHomelandEvent"/>
+			<property name="objTargetCountry" inheritFrom="{Object:Single:TriggerEventLostHomeland}scratch.objLostHomelandEvent.objTargetCountry"/>
+			<property name="objLosingCountry" inheritFrom="{Object:Single:TriggerEventLostHomeland}scratch.objLostHomelandEvent.objLosingCountry"/>
+			<property name="objWinningCountry" inheritFrom="{Object:Single:TriggerEventLostHomeland}scratch.objLostHomelandEvent.objWinningCountry"/>
+			<property name="objRegionLost" inheritFrom="{Object:Single:TriggerEventLostHomeland}scratch.objLostHomelandEvent.objRegionConquered"/>
+		</object>
+		<object type="AIMilitaryPolicyMappingList" name="objAIMilitaryPolicyMappingList">
+			<object type="AIMilitaryPolicyMapping" name="objMappings">
+				<property name="bMatchesDefensiveProduction" value="true"/>
+				<property name="nMaximumIPUs" value="149"/>
+				<property name="strMilitaryPolicySetName" value="DefenseLow"/>
+			</object>
+			<object type="AIMilitaryPolicyMapping" name="objMappings">
+				<property name="bMatchesDefensiveProduction" value="true"/>
+				<property name="nMinimumIPUs" value="150"/>
+				<property name="strMilitaryPolicySetName" value="DefenseHigh"/>
+			</object>
+			<object type="AIMilitaryPolicyMapping" name="objMappings">
+				<property name="bMatchesNormalProduction" value="true"/>
+				<property name="nMaximumIPUs" value="149"/>
+				<property name="strMilitaryPolicySetName" value="OffenseLow"/>
+			</object>
+			<object type="AIMilitaryPolicyMapping" name="objMappings">
+				<property name="bMatchesNormalProduction" value="true"/>
+				<property name="nMinimumIPUs" value="150"/>
+				<property name="strMilitaryPolicySetName" value="OffenseHigh"/>
+			</object>
+		</object>
+	</object>
+</objects>

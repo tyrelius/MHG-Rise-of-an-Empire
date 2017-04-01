@@ -4,1370 +4,1644 @@
 		<property name="strName" value="Moroccan Coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MoroccanCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Canaries Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CanariesSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Cape Blanca"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CapeBlanca"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Bight of Benin"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BightOfBenin"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Grain Coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GrainCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Congolese Coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CongoleseCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Skeleton Coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SkeletonCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Benguela Current"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BenguelaCurrent"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Cape of Good Hope"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CapeOfGoodHope"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Agulhas Current"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.AgulhasCurrent"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Mozambique Channel"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MozambiqueChannel"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="East African coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.EastAfricanCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Benadir Coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BenadirCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="North Red Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.NorthRedSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="South Red Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SouthRedSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Suez Canal"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SuezCanal"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Eastern Black Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.EasternBlackSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Western Black Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.WesternBlackSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Sea of Azov"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SeaOfAzov"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Alboran Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.AlboranSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Catalan Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CatalanSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Maghreb Coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MaghrebCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Tyrrhenian Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.TyrrhenianSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Gabes"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfGabes"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Sirte"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfSirte"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Adriatic Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.AdriaticSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Ionian Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.IonianSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Libyan Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.LibyanSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Levantine Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.LevantineSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Aegean Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.AegeanSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Iberian Coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.IberianCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Cadiz"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfCadiz"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Irish Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.IrishSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Bay of Biscay"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BayOfBiscay"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Cantabrian Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CantabrianSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Celtic Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CelticSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="English Channel"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.EnglishChannel"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="North Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.NorthSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Dogger Bank"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.DoggerBank"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Shannon"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.Shannon"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Fair Isle"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.FairIsle"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Malin"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.Malin"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Vestfjord"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.Vestfjord"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="White Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.WhiteSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Barents Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BarentsSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Skagerrak Kattergat"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SkagerrakKattergat"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Bothnia"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfBothnia"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Riga"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfRiga"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Finland"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfFinland"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Bornholm Basin"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BornholmBasin"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Northern Baltic"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.NorthernBaltic"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Hudson Bay"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.HudsonBay"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Baffin Bay"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BaffinBay"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Davis Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.DavisStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Hudson Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.HudsonStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Labrador Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.LabradorSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of St. Lawrence"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfStLawrence"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Bay of Fundy"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BayOfFundy"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Long Island Sound"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.LongIslandSound"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Chesapeake Bay"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.ChesapeakeBay"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Massachusetts Bay"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MassachusettsBay"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Albemarle Sound"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.AlbemarleSound"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="St. Helena Sound"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.StHelenaSound"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Florida Straits"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.FloridaStraits"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Campeche"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfCampeche"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Mexico"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfMexico"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Mississippi Sound"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MississippiSound"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf Coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Apalachee Bay"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.ApalacheeBay"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Tehuantepec"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfTehuantepec"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of California"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfCalifornia"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="West Baja Coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.WestBajaCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Columbia River Bay"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.ColumbiaRiverBay"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="San Juan de Fuca Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SanJuanDeFucaStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Monterey Bay"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MontereyBay"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Santa Catalina"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfSantaCatalina"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Queen Charlotte Sound"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.QueenCharlotteSound"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Alaska"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfAlaska"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Honduras"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfHonduras"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Western Caribbean"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.WesternCaribbean"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Cariaco Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CariacoSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Eastern Caribbean"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.EasternCaribbean"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Panama Canal"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.PanamaCanal"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Darien"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfDarien"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Orinoco Coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.OrinocoCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Amazon Mouth"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.AmazonMouth"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Pernambuco Coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.PernambucoCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Brazilian Coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BrazilianCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Rio de La Plata"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.RioDeLaPlata"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="San Matias Gulf"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SanMatiasGulf"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Argentine Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.ArgentineSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Strait of Magellan"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.StraitOfMagellan"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Guayaquil"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfGuayaquil"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Peruvian Coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.PeruvianCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Corcovado Gulf"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CorcovadoGulf"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Limari Basin"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.LimariBasin"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Panama"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfPanama"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Sunda Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SundaStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Mentawai Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MentawaiSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Timor Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.TimorSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Arafura Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.ArafuraSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Java Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.JavaSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Flores Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.FloresSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Karimata Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.KarimataStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Makassar Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MakassarStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Banda Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BandaSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Siam"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfSiam"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Singapore Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SingaporeStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Savu Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SavuSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Celebes Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CelebesSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Sulu Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SuluSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Molucca Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MoluccaSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Halmahera Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.HalmaheraSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Straits of Malacca"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.StraitsOfMalacca"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Tonking"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfTonking"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Philippine Trench"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.PhilippineTrench"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Vietnam Coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.VietnamCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Luzon Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.LuzonStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Taiwan Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.TaiwanStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="South China Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SouthChinaSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Mekong Delta"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MekongDelta"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Malay Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MalaySea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Guangdong Coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GuangdongCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Polillo Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.PolilloStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Philippine Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.PhilippineSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of China"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfChina"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Yellow Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.YellowSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Hangzhou Bay"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.HangzhouBay"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="East China Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.EastChinaSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Tatarski Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.TatarskiStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Hokkaido Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.HokkaidoStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Sea of Japan"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SeaOfJapan"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Korean Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.KoreanStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Sagami Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SagamiSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Inland Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.InlandSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Tsugaru Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.TsugaruStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="East Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.EastSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Sakhalin Gulf"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SakhalinGulf"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Strait of La Perouse"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.StraitOfLaPerouse"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gizhiginskaya Bay"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GizhiginskayaBay"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Sea of Okhotsk"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SeaOfOkhotsk"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Lavrova Bay"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.LavrovaBay"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Anadir"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfAnadir"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Kurile Trench"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.KurileTrench"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Greenland Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GreenlandSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Denmark Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.DenmarkStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Rockall"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.Rockall"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Northern Atlantic"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.NorthernAtlantic"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Mid Atlantic North"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MidAtlanticNorth"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Western Approaches"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.WesternApproaches"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Newfoundland Banks"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.NewfoundlandBanks"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="The Azore Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.TheAzoreSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Eastern North Atlantic"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.EasternNorthAtlantic"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Trafalgar"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.Trafalgar"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Cape Verde Plain"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CapeVerdePlain"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Eastern Antilles"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.EasternAntilles"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Milwaukee Deep"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MilwaukeeDeep"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Windward Passage"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.WindwardPassage"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Demeraro Plain"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.DemeraroPlain"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Bermuda Rise"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BermudaRise"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Sohm Plain"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SohmPlain"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Cabot Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CabotStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Norwegian Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.NorwegianSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Central Atlantic"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CentralAtlantic"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Guinea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfGuinea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Mid Atlantic South"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MidAtlanticSouth"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Hunter Channel"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.HunterChannel"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Vema Channel"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.VemaChannel"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Scotia Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.ScotiaSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Drake Passage"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.DrakePassage"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Wendel Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.WendelSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Georgia Passage"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GeorgiaPassage"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Walvis Passage"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.WalvisPassage"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Eastern South Atlantic"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.EasternSouthAtlantic"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Agulhas Basin"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.AgulhasBasin"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Lazarev Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.LazarevSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Western South Atlantic"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.WesternSouthAtlantic"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Persian Gulf"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.PersianGulf"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Oman"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfOman"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Indus Delta"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.IndusDelta"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Masirah"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfMasirah"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Coromandel Coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CoromandelCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Manna"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfManna"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Arabian Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.ArabianSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Koncan Coast"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.KoncanCoast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Laccadive Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.LaccadiveSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Malabarian Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MalabarianSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Culch"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfCulch"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Mouths of the Mahanadi"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MouthsOfTheMahanadi"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Mouths of the Ganges"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MouthsOfTheGanges"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Martaban"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfMartaban"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Bay Bengal"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BayBengal"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Andaman Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.AndamanSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Cosmonaut Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CosmonautSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Mascarene Basin"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MascareneBasin"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Carlsburg Ridge"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CarlsburgRidge"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Perth Basin"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.PerthBasin"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Madagascar Basin"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MadagascarBasin"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Natal Basin"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.NatalBasin"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Crozet Basin"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CrozetBasin"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="South Indian Ocean"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SouthIndianOcean"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Kerguelen Plateau"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.KerguelenPlateau"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Wallaby Plateau"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.WallabyPlateau"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Diamantina Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.DiamantinaSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Broken Ridge"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BrokenRidge"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Central Indian Ocean"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CentralIndianOcean"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Ninety East Ridge"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.NinetyEastRidge"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Wharton Basin"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.WhartonBasin"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Davis Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.DavisSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gulf of Carpentaria"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GulfOfCarpentaria"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Great Barrier Reef"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GreatBarrierReef"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Coral Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CoralSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Great Australian Bight"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GreatAustralianBight"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Bass Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BassStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Tasman Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.TasmanSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Torres Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.TorresStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Botany Bay"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BotanyBay"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Northwest Cape"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.NorthwestCape"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Solomon Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SolomonSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Bismarck Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BismarckSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Geelvink Channel"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GeelvinkChannel"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Bay of Plenty"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BayOfPlenty"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Foveaux Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.FoveauxStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Cook Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CookStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Bering Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BeringSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Wake Passage"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.WakePassage"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Northwest Pacific"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.NorthwestPacific"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Mariana Trench"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MarianaTrench"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Emperor Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.EmperorSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Mid Pacific Basin"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MidPacificBasin"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Ryukyu Trench"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.RyukyuTrench"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Western Pacific"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.WesternPacific"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Western Central Pacific"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.WesternCentralPacific"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="East Central Pacific"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.EastCentralPacific"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="South Philippine Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SouthPhilippineSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Aleutian Trench"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.AleutianTrench"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Near Strait"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.NearStrait"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Tufts Plain"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.TuftsPlain"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Alenuihaha Channel"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.AlenuihahaChannel"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Kauai Channel"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.KauaiChannel"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Northeast Pacific"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.NortheastPacific"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Northern Pacific"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.NorthernPacific"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Murray Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MurraySea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Molokai Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MolokaiSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Clipperton Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.ClippertonSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Eastern Central Pacific"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.EasternCentralPacific"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Northern Pacific East"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.NorthernPacificEast"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Midway Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.MidwaySea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Loihi Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.LoihiSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Clarion Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.ClarionSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Central Pacific Basin"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CentralPacificBasin"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Johnston Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.JohnstonSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Bellingshausen Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BellingshausenSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Amundsen Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.AmundsenSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Ross Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.RossSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Campbell Plateau"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CampbellPlateau"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Lau Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.LauSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Kermadec Trench"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.KermadecTrench"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Bounty Trough"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.BountyTrough"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Nazca Ridge"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.NazcaRidge"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Humboldt Plain"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.HumboldtPlain"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Chile Rise"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.ChileRise"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="South Pacific Basin"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SouthPacificBasin"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Peru Basin"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.PeruBasin"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Gomez Ridge"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.GomezRidge"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Southwest Pacific"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SouthwestPacific"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Louisville Ridge"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.LouisvilleRidge"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Eastern Pacific"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.EasternPacific"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Kiribati Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.KiribatiSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Tahitian Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.TahitianSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Polynesian Sea"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.PolynesianSea"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Southeast Pacific"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SoutheastPacific"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Southern Central Pacific"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.SouthernCentralPacific"/>
 	</object>
 	<object type="Region" name="">
 		<property name="strName" value="Central Pacific"/>
 		<property name="strOwner" value=""/>
 		<property name="strController" value=""/>
+		<property name="sidName" value="SID.Game.Region.Name.CentralPacific"/>
 	</object>
 </objects>

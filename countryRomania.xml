@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Romania"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Romania"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Romania"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Romania"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Romania"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Romania"/>
 		<property name="strHomelands" value="Romania"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>
@@ -13,6 +18,7 @@
 			<property name="strName" value="Banat"/>
 			<property name="strOwner" value="Romania"/>
 			<property name="strController" value="Romania"/>
+			<property name="sidName" value="SID.Game.Region.Name.Banat"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="939958"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -21,6 +27,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Banat Mines"/>
 				<property name="strOwner" value="Romania"/>
+				<property name="strController" value="Romania"/>
 				<property name="vecPosition" value="[23.1026725769, 45.752910614, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -28,6 +35,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Banat Foundry"/>
 				<property name="strOwner" value="Romania"/>
+				<property name="strController" value="Romania"/>
 				<property name="vecPosition" value="[21.1143016815, 45.9696884155, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -37,6 +45,7 @@
 			<property name="strName" value="Bessarabia"/>
 			<property name="strOwner" value="Romania"/>
 			<property name="strController" value="Romania"/>
+			<property name="sidName" value="SID.Game.Region.Name.Bessarabia"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="2864402"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -45,6 +54,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Bessarabia Mines"/>
 				<property name="strOwner" value="Romania"/>
+				<property name="strController" value="Romania"/>
 				<property name="vecPosition" value="[28.3101425171, 47.6657180786, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -54,6 +64,7 @@
 			<property name="strName" value="Dobruja"/>
 			<property name="strOwner" value="Romania"/>
 			<property name="strController" value="Romania"/>
+			<property name="sidName" value="SID.Game.Region.Name.Dobruja"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="815475"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -62,6 +73,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Dobruja Mines"/>
 				<property name="strOwner" value="Romania"/>
+				<property name="strController" value="Romania"/>
 				<property name="vecPosition" value="[29.4175128937, 45.137348175, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -69,8 +81,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Costantza"/>
 				<property name="strOwner" value="Romania"/>
+				<property name="strController" value="Romania"/>
 				<property name="vecPosition" value="[28.3799991608, 44.1399993896, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Costantza"/>
 				<property name="nPopulation" value="59917"/>
 				<property name="strPortForRegion" value="Western Black Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -83,6 +97,7 @@
 			<property name="strName" value="Moldovia"/>
 			<property name="strOwner" value="Romania"/>
 			<property name="strController" value="Romania"/>
+			<property name="sidName" value="SID.Game.Region.Name.Moldovia"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="2433596"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -91,6 +106,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Moldovia Oil Field"/>
 				<property name="strOwner" value="Romania"/>
+				<property name="strController" value="Romania"/>
 				<property name="vecPosition" value="[26.8826751709, 47.6887435913, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="6"/>
@@ -98,6 +114,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Moldovia Foundry"/>
 				<property name="strOwner" value="Romania"/>
+				<property name="strController" value="Romania"/>
 				<property name="vecPosition" value="[26.2996177673, 47.2402381897, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -107,6 +124,7 @@
 			<property name="strName" value="Transylvania"/>
 			<property name="strOwner" value="Romania"/>
 			<property name="strController" value="Romania"/>
+			<property name="sidName" value="SID.Game.Region.Name.Transylvania"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="4608405"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -115,6 +133,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Transylvania Mines"/>
 				<property name="strOwner" value="Romania"/>
+				<property name="strController" value="Romania"/>
 				<property name="vecPosition" value="[22.4593086243, 47.1160163879, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -122,6 +141,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Transylvania Oil Field"/>
 				<property name="strOwner" value="Romania"/>
+				<property name="strController" value="Romania"/>
 				<property name="vecPosition" value="[24.634557724, 47.3103675842, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="6"/>
@@ -129,6 +149,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Transylvania Foundry"/>
 				<property name="strOwner" value="Romania"/>
+				<property name="strController" value="Romania"/>
 				<property name="vecPosition" value="[24.9933624268, 46.2264823914, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -138,6 +159,7 @@
 			<property name="strName" value="Wallachia"/>
 			<property name="strOwner" value="Romania"/>
 			<property name="strController" value="Romania"/>
+			<property name="sidName" value="SID.Game.Region.Name.Wallachia"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="5542183"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -146,6 +168,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Wallachia Mines"/>
 				<property name="strOwner" value="Romania"/>
+				<property name="strController" value="Romania"/>
 				<property name="vecPosition" value="[27.2584438324, 44.9655990601, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -153,6 +176,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Wallachia Oil Field"/>
 				<property name="strOwner" value="Romania"/>
+				<property name="strController" value="Romania"/>
 				<property name="vecPosition" value="[23.349395752, 44.73387146, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="11"/>
@@ -160,6 +184,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Wallachia Foundry"/>
 				<property name="strOwner" value="Romania"/>
+				<property name="strController" value="Romania"/>
 				<property name="vecPosition" value="[25.2476463318, 44.1209144592, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -167,8 +192,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Bucharest"/>
 				<property name="strOwner" value="Romania"/>
+				<property name="strController" value="Romania"/>
 				<property name="vecPosition" value="[26.1000003815, 44.4300003052, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Bucharest"/>
 				<property name="nPopulation" value="641421"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

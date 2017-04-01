@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Colombia"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Colombia"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Colombia"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Colombia"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Colombia"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Colombia"/>
 		<property name="strHomelands" value="Colombia"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Colombia"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="Caribbean Lowlands"/>
 			<property name="strOwner" value="Colombia"/>
 			<property name="strController" value="Colombia"/>
+			<property name="sidName" value="SID.Game.Region.Name.CaribbeanLowlands"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="2791798"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -20,8 +26,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Cartagena"/>
 				<property name="strOwner" value="Colombia"/>
+				<property name="strController" value="Colombia"/>
 				<property name="vecPosition" value="[-75.4599990845, 10.3400001526, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Cartagena"/>
 				<property name="strPortForRegion" value="Gulf of Darien"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -33,6 +41,7 @@
 			<property name="strName" value="Pacific Lowlands"/>
 			<property name="strOwner" value="Colombia"/>
 			<property name="strController" value="Colombia"/>
+			<property name="sidName" value="SID.Game.Region.Name.PacificLowlands"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="3443218"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -40,6 +49,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Colombia Mines"/>
 				<property name="strOwner" value="Colombia"/>
+				<property name="strController" value="Colombia"/>
 				<property name="vecPosition" value="[-75.0035629272, 2.48059034348, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -47,8 +57,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Bogota"/>
 				<property name="strOwner" value="Colombia"/>
+				<property name="strController" value="Colombia"/>
 				<property name="vecPosition" value="[-74.0800018311, 4.63000011444, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Bogota"/>
 				<property name="nPopulation" value="420000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -60,6 +72,7 @@
 			<property name="strName" value="Llanos"/>
 			<property name="strOwner" value="Colombia"/>
 			<property name="strController" value="Colombia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Llanos"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="3070978"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -68,6 +81,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Colombia Oil Field"/>
 				<property name="strOwner" value="Colombia"/>
+				<property name="strController" value="Colombia"/>
 				<property name="vecPosition" value="[-73.5309753418, 1.38922834396, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="11"/>

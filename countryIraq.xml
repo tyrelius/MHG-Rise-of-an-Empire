@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Iraq"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Iraq"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Iraq"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Iraq"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Iraq"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Iraq"/>
 		<property name="strHomelands" value="Iraq"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Iraq"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="Iraq"/>
 			<property name="strOwner" value="Iraq"/>
 			<property name="strController" value="Iraq"/>
+			<property name="sidName" value="SID.Game.Region.Name.Iraq"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="2857077"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -19,6 +25,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Iraq Oil Field"/>
 				<property name="strOwner" value="Iraq"/>
+				<property name="strController" value="Iraq"/>
 				<property name="vecPosition" value="[47.8165740967, 30.3303012848, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="17"/>
@@ -26,8 +33,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Baghdad"/>
 				<property name="strOwner" value="Iraq"/>
+				<property name="strController" value="Iraq"/>
 				<property name="vecPosition" value="[44.2999992371, 33.2000007629, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Baghdad"/>
 				<property name="nPopulation" value="358840"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

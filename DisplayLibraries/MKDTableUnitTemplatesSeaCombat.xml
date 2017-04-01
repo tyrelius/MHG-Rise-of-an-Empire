@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MKDNode" name="objNodes">
+		<property name="strKey" value="SPRITE_MAP_TABLE_UNIT_TEMPLATES_SEA_COMBAT"/>
+		<property name="strSubNodeKeyName" value="UnitTemplate"/>
+
+	<!-- Default -->
+		<object type="SpriteRefMKDTable" name="objDefault">
+			<object type="MKDSRKValue" name="objKeys">
+				<property name="strKeyName" value="SpriteMapTable"/>
+				<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+			</object>
+			<object type="MKDSRKSpriteMapMode" name="objKeys">
+				<property name="strKeyName" value="SpriteMapMode"/>
+			</object>
+			<object type="MKDSRKValue" name="objKeys">
+				<property name="strKeyName" value="ShipVsWake"/>
+				<property name="strKeyValue" value="SHIP"/>
+			</object>
+			<object type="MKDSRKValue" name="objKeys">
+				<property name="strKeyName" value="TemplateAliasSea"/>
+				<property name="strKeyValue" value="ALIAS_SEA_CRUISER_BATTLE"/>
+			</object>
+		</object>
+
+	<!-- Carriers -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="EarlyCarrier"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="ShipVsWake"/>
+					<property name="strKeyValue" value="SHIP"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasSea"/>
+					<property name="strKeyValue" value="ALIAS_SEA_CARRIER_EARLY"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="LightCarrier"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="ShipVsWake"/>
+					<property name="strKeyValue" value="SHIP"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasSea"/>
+					<property name="strKeyValue" value="ALIAS_SEA_CARRIER_LIGHT"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="FleetCarrier"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="ShipVsWake"/>
+					<property name="strKeyValue" value="SHIP"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasSea"/>
+					<property name="strKeyValue" value="ALIAS_SEA_CARRIER_FLEET"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="SuperCarrier"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="ShipVsWake"/>
+					<property name="strKeyValue" value="SHIP"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasSea"/>
+					<property name="strKeyValue" value="ALIAS_SEA_CARRIER_SUPER"/>
+				</object>
+			</object>
+		</object>
+
+	<!-- Battleships -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="PreWarBattleship"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="ShipVsWake"/>
+					<property name="strKeyValue" value="SHIP"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasSea"/>
+					<property name="strKeyValue" value="ALIAS_SEA_BATTLESHIP_BASIC"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="FastBattleship"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="ShipVsWake"/>
+					<property name="strKeyValue" value="SHIP"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasSea"/>
+					<property name="strKeyValue" value="ALIAS_SEA_BATTLESHIP_FAST"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="SuperClassBattleship"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="ShipVsWake"/>
+					<property name="strKeyValue" value="SHIP"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasSea"/>
+					<property name="strKeyValue" value="ALIAS_SEA_BATTLESHIP_SUPER_CLASS"/>
+				</object>
+			</object>
+		</object>
+
+	<!-- Destroyers -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="Corvette"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="ShipVsWake"/>
+					<property name="strKeyValue" value="SHIP"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasSea"/>
+					<property name="strKeyValue" value="ALIAS_SEA_DESTROYER_CORVETTE"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="Destroyer"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="ShipVsWake"/>
+					<property name="strKeyValue" value="SHIP"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasSea"/>
+					<property name="strKeyValue" value="ALIAS_SEA_DESTROYER_NORMAL"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="EscortDestroyer"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="ShipVsWake"/>
+					<property name="strKeyValue" value="SHIP"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasSea"/>
+					<property name="strKeyValue" value="ALIAS_SEA_DESTROYER_ESCORT"/>
+				</object>
+			</object>
+		</object>
+
+	<!-- Cruisers -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="EarlyCruiser"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="ShipVsWake"/>
+					<property name="strKeyValue" value="SHIP"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasSea"/>
+					<property name="strKeyValue" value="ALIAS_SEA_CRUISER_EARLY"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="BattleCruiser"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="ShipVsWake"/>
+					<property name="strKeyValue" value="SHIP"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasSea"/>
+					<property name="strKeyValue" value="ALIAS_SEA_CRUISER_BATTLE"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="HeavyCruiser"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="ShipVsWake"/>
+					<property name="strKeyValue" value="SHIP"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasSea"/>
+					<property name="strKeyValue" value="ALIAS_SEA_CRUISER_HEAVY"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="LargeCruiser"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="ShipVsWake"/>
+					<property name="strKeyValue" value="SHIP"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasSea"/>
+					<property name="strKeyValue" value="ALIAS_SEA_CRUISER_LARGE"/>
+				</object>
+			</object>
+		</object>
+
+	<!-- Submarines -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="EarlySubmarine"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="ShipVsWake"/>
+					<property name="strKeyValue" value="SHIP"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasSea"/>
+					<property name="strKeyValue" value="ALIAS_SEA_SUBMARINE_EARLY"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ElectricDieselSubmarine"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="ShipVsWake"/>
+					<property name="strKeyValue" value="SHIP"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasSea"/>
+					<property name="strKeyValue" value="ALIAS_SEA_SUBMARINE_BASIC"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="AdvancedSubmarine"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="ShipVsWake"/>
+					<property name="strKeyValue" value="SHIP"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasSea"/>
+					<property name="strKeyValue" value="ALIAS_SEA_SUBMARINE_ADVANCED"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</objects>

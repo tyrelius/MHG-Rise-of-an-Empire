@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Salvador"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Salvador"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Salvador"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Salvador"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Salvador"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Salvador"/>
 		<property name="strHomelands" value="Salvador"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Salvador"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="El Salvador"/>
 			<property name="strOwner" value="Salvador"/>
 			<property name="strController" value="Salvador"/>
+			<property name="sidName" value="SID.Game.Region.Name.ElSalvador"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="1597549"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -19,8 +25,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="San Salvador"/>
 				<property name="strOwner" value="Salvador"/>
+				<property name="strController" value="Salvador"/>
 				<property name="vecPosition" value="[-89.1699981689, 13.6700000763, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.SanSalvador"/>
 				<property name="nPopulation" value="99877"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

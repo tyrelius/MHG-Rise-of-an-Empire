@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MKDNode" name="objNodes">
+		<property name="strKey" value="SPRITE_MAP_TABLE_UNIT_TEMPLATES_LAND_DECALS"/>
+		<property name="strSubNodeKeyName" value="UnitTemplate"/>
+
+	<!-- Partisans -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="Partisans"/>
+			<object type="SpriteRefName" name="objDefault">
+				<property name="strSpriteName" value="Infantry Base"/>
+			</object>
+		</object>
+
+	<!-- Infantry -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="Militia"/>
+			<object type="SpriteRefName" name="objDefault">
+				<property name="strSpriteName" value="Infantry Base"/>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="PreWarInfantry"/>
+			<object type="SpriteRefName" name="objDefault">
+				<property name="strSpriteName" value="Infantry Base"/>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="SmallArmsInfantry"/>
+			<object type="SpriteRefName" name="objDefault">
+				<property name="strSpriteName" value="Infantry Base"/>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="AdvancedWeaponsInfantry"/>
+			<object type="SpriteRefName" name="objDefault">
+				<property name="strSpriteName" value="Infantry Base"/>
+			</object>
+		</object>
+
+	<!-- Cavalry -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="Cavalry"/>
+			<object type="SpriteRefName" name="objDefault">
+				<property name="strSpriteName" value="Infantry Base"/>
+			</object>
+		</object>
+
+	<!-- Artillery -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="FieldArtillery"/>
+			<object type="SpriteRefName" name="objDefault">
+				<property name="strSpriteName" value="Infantry Base"/>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="40mmGun"/>
+			<object type="SpriteRefName" name="objDefault">
+				<property name="strSpriteName" value="Infantry Base"/>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="88mmGun"/>
+			<object type="SpriteRefName" name="objDefault">
+				<property name="strSpriteName" value="Infantry Base"/>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="RocketArtillery"/>
+			<object type="SpriteRefName" name="objDefault">
+				<property name="strSpriteName" value="Infantry Base"/>
+			</object>
+		</object>
+
+	<!-- Missiles -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="GuidedMissile"/>
+			<object type="SpriteRefName" name="objDefault">
+				<property name="strSpriteName" value="Infantry Base"/>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="BallisticMissile"/>
+			<object type="SpriteRefName" name="objDefault">
+				<property name="strSpriteName" value="Infantry Base"/>
+			</object>
+		</object>
+	</object>
+</objects>

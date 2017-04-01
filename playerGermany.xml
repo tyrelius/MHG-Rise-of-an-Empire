@@ -820,10 +820,6 @@
 			<property name="strName" value="GoalRefHistory14"/>
 		</object>
 		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
-			<property name="strProjectName" value="MountedInfantry"/>
-			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
-		</object>
-		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
 			<property name="strProjectName" value="FieldArtillery"/>
 			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
 		</object>
@@ -856,7 +852,7 @@
 			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
 		</object>
 		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
-			<property name="strProjectName" value="Corvettes"/>
+			<property name="strProjectName" value="RocketryResearchLab"/>
 			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
 		</object>
 		<object type="DipRelInitialValueList" name="objDipRelInitialValueList">
@@ -1016,6 +1012,10 @@
 			<object type="DipRelInitialValue" name="objDipRelInitialValues">
 				<property name="strTargetCountry" value="Nationalist Spain"/>
 				<property name="nValue" value="660"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Confederate States"/>
+				<property name="nValue" value="750"/>
 			</object>
 		</object>
 	</object>

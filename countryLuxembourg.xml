@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Luxembourg"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Luxembourg"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Luxembourg"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Luxembourg"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Luxembourg"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Luxembourg"/>
 		<property name="strHomelands" value="Luxembourg"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Luxembourg"/>
@@ -12,16 +17,19 @@
 			<property name="strName" value="Gutland"/>
 			<property name="strOwner" value="Luxembourg"/>
 			<property name="strController" value="Luxembourg"/>
+			<property name="sidName" value="SID.Game.Region.Name.Gutland"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="296913"/>
 			<property name="nTransInfrastructure" value="2"/>
-			<property name="strCulture" value="German"/>
+			<property name="strCulture" value="French-German"/>
 			<property name="nAgriculture" value="2"/>
 			<object type="City" name="objGOs">
 				<property name="strName" value="Luxembourg"/>
 				<property name="strOwner" value="Luxembourg"/>
+				<property name="strController" value="Luxembourg"/>
 				<property name="vecPosition" value="[6.13000011444, 49.6199989319, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Luxembourg"/>
 				<property name="nPopulation" value="57740"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -31,10 +39,7 @@
 		</object>
 		<object type="CultureSet" name="objCultureSet">
 			<object type="Culture" name="objCultures">
-				<property name="strCultureName" value="German"/>
-			</object>
-			<object type="Culture" name="objCultures">
-				<property name="strCultureName" value="French"/>
+				<property name="strCultureName" value="French-German"/>
 			</object>
 		</object>
 	</object>

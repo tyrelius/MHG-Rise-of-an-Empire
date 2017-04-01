@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Argentina"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Argentina"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Argentina"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Argentina"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Argentina"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Argentina"/>
 		<property name="strHomelands" value="Argentina"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>
@@ -13,6 +18,7 @@
 			<property name="strName" value="Andean Northwest"/>
 			<property name="strOwner" value="Argentina"/>
 			<property name="strController" value="Argentina"/>
+			<property name="sidName" value="SID.Game.Region.Name.AndeanNorthwest"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="628068"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -22,6 +28,7 @@
 			<property name="strName" value="Cuyo"/>
 			<property name="strOwner" value="Argentina"/>
 			<property name="strController" value="Argentina"/>
+			<property name="sidName" value="SID.Game.Region.Name.Cuyo"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="989936"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -32,6 +39,7 @@
 			<property name="strName" value="Gran Chaco"/>
 			<property name="strOwner" value="Argentina"/>
 			<property name="strController" value="Argentina"/>
+			<property name="sidName" value="SID.Game.Region.Name.GranChaco"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="1351051"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -42,6 +50,7 @@
 			<property name="strName" value="Pampas"/>
 			<property name="strOwner" value="Argentina"/>
 			<property name="strController" value="Argentina"/>
+			<property name="sidName" value="SID.Game.Region.Name.Pampas"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="8918566"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -50,8 +59,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Buenos Aires"/>
 				<property name="strOwner" value="Argentina"/>
+				<property name="strController" value="Argentina"/>
 				<property name="vecPosition" value="[-58.5, -34.6699981689, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.BuenosAires"/>
 				<property name="nPopulation" value="2290788"/>
 				<property name="strPortForRegion" value="Rio de La Plata"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -63,8 +74,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Cordoba"/>
 				<property name="strOwner" value="Argentina"/>
+				<property name="strController" value="Argentina"/>
 				<property name="vecPosition" value="[-64.1900024414, -31.3899993896, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Cordoba"/>
 				<property name="nPopulation" value="302232"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -74,8 +87,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Santa Fe"/>
 				<property name="strOwner" value="Argentina"/>
+				<property name="strController" value="Argentina"/>
 				<property name="vecPosition" value="[-60.6899986267, -31.6100006104, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.SantaFe"/>
 				<property name="nPopulation" value="144781"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -87,6 +102,7 @@
 			<property name="strName" value="Patagonia"/>
 			<property name="strOwner" value="Argentina"/>
 			<property name="strController" value="Argentina"/>
+			<property name="sidName" value="SID.Game.Region.Name.Patagonia"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="602776"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -95,6 +111,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Argentina Oil Field"/>
 				<property name="strOwner" value="Argentina"/>
+				<property name="strController" value="Argentina"/>
 				<property name="vecPosition" value="[-69.4211578369, -46.633518219, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="9"/>
@@ -102,8 +119,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Veidma"/>
 				<property name="strOwner" value="Argentina"/>
+				<property name="strController" value="Argentina"/>
 				<property name="vecPosition" value="[-63.1391181946, -41.0346565247, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Veidma"/>
 				<property name="nPopulation" value="5000"/>
 				<property name="strPortForRegion" value="San Matias Gulf"/>
 				<property name="strInitialWorkOrder" value=""/>

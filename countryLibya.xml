@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Libya"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Libya"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Libya"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Libya"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Libya"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Libya"/>
 		<property name="strHomelands" value="Libya"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Libya"/>

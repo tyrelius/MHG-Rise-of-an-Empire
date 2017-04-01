@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Sweden"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Sweden"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Sweden"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Sweden"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Sweden"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Sweden"/>
 		<property name="strHomelands" value="Sweden"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>
@@ -13,6 +18,7 @@
 			<property name="strName" value="Gastrikland"/>
 			<property name="strOwner" value="Sweden"/>
 			<property name="strController" value="Sweden"/>
+			<property name="sidName" value="SID.Game.Region.Name.Gastrikland"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="549000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -21,6 +27,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Gastrikland Foundry"/>
 				<property name="strOwner" value="Sweden"/>
+				<property name="strController" value="Sweden"/>
 				<property name="vecPosition" value="[17.3813705444, 63.4780540466, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="9"/>
@@ -30,6 +37,7 @@
 			<property name="strName" value="Gotland"/>
 			<property name="strOwner" value="Sweden"/>
 			<property name="strController" value="Sweden"/>
+			<property name="sidName" value="SID.Game.Region.Name.Gotland"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="58121"/>
 			<property name="strCulture" value="Swedish"/>
@@ -39,6 +47,7 @@
 			<property name="strName" value="Jamtland"/>
 			<property name="strOwner" value="Sweden"/>
 			<property name="strController" value="Sweden"/>
+			<property name="sidName" value="SID.Game.Region.Name.Jamtland"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="308000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -47,6 +56,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Jamtland Foundry"/>
 				<property name="strOwner" value="Sweden"/>
+				<property name="strController" value="Sweden"/>
 				<property name="vecPosition" value="[13.3026037216, 63.065662384, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="9"/>
@@ -56,6 +66,7 @@
 			<property name="strName" value="Lappland"/>
 			<property name="strOwner" value="Sweden"/>
 			<property name="strController" value="Sweden"/>
+			<property name="sidName" value="SID.Game.Region.Name.Lappland"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="216000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -64,6 +75,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Lappaland Foundry"/>
 				<property name="strOwner" value="Sweden"/>
+				<property name="strController" value="Sweden"/>
 				<property name="vecPosition" value="[19.1876659393, 67.9684906006, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="12"/>
@@ -73,6 +85,7 @@
 			<property name="strName" value="Skane"/>
 			<property name="strOwner" value="Sweden"/>
 			<property name="strController" value="Sweden"/>
+			<property name="sidName" value="SID.Game.Region.Name.Skane"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="1075000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -81,8 +94,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Malmo"/>
 				<property name="strOwner" value="Sweden"/>
+				<property name="strController" value="Sweden"/>
 				<property name="vecPosition" value="[13.5, 55.6800003052, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Malmo"/>
 				<property name="nPopulation" value="144482"/>
 				<property name="strPortForRegion" value="Skagerrak Kattergat"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -95,6 +110,7 @@
 			<property name="strName" value="Smaland"/>
 			<property name="strOwner" value="Sweden"/>
 			<property name="strController" value="Sweden"/>
+			<property name="sidName" value="SID.Game.Region.Name.Smaland"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="1223000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -103,6 +119,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Smaland Mines"/>
 				<property name="strOwner" value="Sweden"/>
+				<property name="strController" value="Sweden"/>
 				<property name="vecPosition" value="[15.8823547363, 56.9257240295, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -110,6 +127,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Smaland Foundry"/>
 				<property name="strOwner" value="Sweden"/>
+				<property name="strController" value="Sweden"/>
 				<property name="vecPosition" value="[14.4471387863, 56.9631004333, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="5"/>
@@ -117,8 +135,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Norrkoping"/>
 				<property name="strOwner" value="Sweden"/>
+				<property name="strController" value="Sweden"/>
 				<property name="vecPosition" value="[16.1700000763, 58.5800018311, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Norrkoping"/>
 				<property name="nPopulation" value="61799"/>
 				<property name="strPortForRegion" value="Northern Baltic"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -131,6 +151,7 @@
 			<property name="strName" value="Svealand"/>
 			<property name="strOwner" value="Sweden"/>
 			<property name="strController" value="Sweden"/>
+			<property name="sidName" value="SID.Game.Region.Name.Svealand"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="1209000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -139,8 +160,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Stockholm"/>
 				<property name="strOwner" value="Sweden"/>
+				<property name="strController" value="Sweden"/>
 				<property name="vecPosition" value="[18.0799999237, 59.3300018311, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Stockholm"/>
 				<property name="nPopulation" value="533884"/>
 				<property name="strPortForRegion" value="Northern Baltic"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -154,6 +177,7 @@
 			<property name="strName" value="Varmland"/>
 			<property name="strOwner" value="Sweden"/>
 			<property name="strController" value="Sweden"/>
+			<property name="sidName" value="SID.Game.Region.Name.Varmland"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="517000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -162,6 +186,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Varmland Mines"/>
 				<property name="strOwner" value="Sweden"/>
+				<property name="strController" value="Sweden"/>
 				<property name="vecPosition" value="[12.865942955, 59.8037605286, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -169,6 +194,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Varmland Foundry"/>
 				<property name="strOwner" value="Sweden"/>
+				<property name="strController" value="Sweden"/>
 				<property name="vecPosition" value="[14.9290657043, 59.6991081238, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="9"/>
@@ -178,6 +204,7 @@
 			<property name="strName" value="Vesterbotten"/>
 			<property name="strOwner" value="Sweden"/>
 			<property name="strController" value="Sweden"/>
+			<property name="sidName" value="SID.Game.Region.Name.Vesterbotten"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="220000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -186,6 +213,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Vesterbotten Foundry"/>
 				<property name="strOwner" value="Sweden"/>
+				<property name="strController" value="Sweden"/>
 				<property name="vecPosition" value="[19.0262870789, 64.5427856445, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="9"/>
@@ -195,6 +223,7 @@
 			<property name="strName" value="Vestergotland"/>
 			<property name="strOwner" value="Sweden"/>
 			<property name="strController" value="Sweden"/>
+			<property name="sidName" value="SID.Game.Region.Name.Vestergotland"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="1054000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -203,6 +232,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Vestergotland Foundry"/>
 				<property name="strOwner" value="Sweden"/>
+				<property name="strController" value="Sweden"/>
 				<property name="vecPosition" value="[13.768995285, 58.365524292, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -210,8 +240,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Goteborg"/>
 				<property name="strOwner" value="Sweden"/>
+				<property name="strController" value="Sweden"/>
 				<property name="vecPosition" value="[11.980014801, 57.8989372253, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Goteborg"/>
 				<property name="nPopulation" value="262676"/>
 				<property name="strPortForRegion" value="Skagerrak Kattergat"/>
 				<property name="strInitialWorkOrder" value=""/>

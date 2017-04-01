@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Laos"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Laos"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Laos"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Laos"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Laos"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Laos"/>
 		<property name="strHomelands" value="Laos"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Laos"/>

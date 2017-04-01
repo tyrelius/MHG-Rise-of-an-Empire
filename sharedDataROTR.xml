@@ -1,0 +1,2154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MESharedData" name="">
+		<object type="PlayerDecisionTrigPlayEvent" name="objPlayerDecisionTriggers">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="ROTR_AustrianCrisisGermanDecision_PlayEvent"/>
+			<property name="strTypeToTrigger" value="ROTR_AustrianCrisisGermanDecision"/>
+			<property name="otPlayEventType" value="PlayEventNewScriptedEvent"/>
+			<property name="pathPlayEvent" value="{Object:Single:PlayEventNewScriptedEvent}scratch.objScriptEvent"/>
+			<object type="TriggerEvalRandomChance" name="objEvalRule">
+				<property name="nPercentChance" value="40"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Scripted Event is ROTR_AustrianCrisis"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:PlayEventNewScriptedEvent}scratch.objScriptEvent.strTypeLabel == 'ROTR_AustrianCrisis'"/>
+					</object>
+				</object>
+			</object>
+			<object type="PlayerGenNames" name="objPlayerGen">
+				<property name="strName" value="Germany"/>
+			</object>
+		</object>
+		<object type="PlayerDecisionTrigPlayEvent" name="objPlayerDecisionTriggers">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="ROTR_AustrianCrisisAustriaDecision_DeferToAustria_PlayEvent"/>
+			<property name="strTypeToTrigger" value="ROTR_AustrianCrisisAustriaDecision_DeferToAustria"/>
+			<property name="otPlayEventType" value="PlayEventPlayerDecisionAnswered"/>
+			<property name="pathPlayEvent" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent"/>
+			<object type="PlayerGenNames" name="objPlayerGen">
+				<property name="strName" value="Austria"/>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Germany DeferToAustria in ROTR_AustrianCrisisGermanDecision"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strTypeLabel == 'ROTR_AustrianCrisisGermanDecision'"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strPlayer == 'Germany'"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strChoiceSelected == 'DeferToAustria'"/>
+				</object>
+			</object>
+		</object>
+		<object type="PlayerDecisionTrigPlayEvent" name="objPlayerDecisionTriggers">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="ROTR_AustrianCrisisAustriaDecision_AnnexAustria_PlayEvent"/>
+			<property name="strTypeToTrigger" value="ROTR_AustrianCrisisAustriaDecision_AnnexAustria"/>
+			<property name="otPlayEventType" value="PlayEventPlayerDecisionAnswered"/>
+			<property name="pathPlayEvent" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent"/>
+			<object type="PlayerGenNames" name="objPlayerGen">
+				<property name="strName" value="Austria"/>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Germany AnnexAustria in ROTR_AustrianCrisisGermanDecision"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strTypeLabel == 'ROTR_AustrianCrisisGermanDecision'"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strPlayer == 'Germany'"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strChoiceSelected == 'AnnexAustria'"/>
+				</object>
+			</object>
+		</object>
+		<object type="PlayerDecisionTrigPlayEvent" name="objPlayerDecisionTriggers">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="TPOA_MunichConferenceDecision_PlayEvent"/>
+			<property name="strTypeToTrigger" value="TPOA_MunichConferenceDecision"/>
+			<property name="otPlayEventType" value="PlayEventNewScriptedEvent"/>
+			<property name="pathPlayEvent" value="{Object:Single:PlayEventNewScriptedEvent}scratch.objScriptEvent"/>
+			<object type="PlayerGenNames" name="objPlayerGen">
+				<property name="strName" value="Germany"/>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Scripted Event is TPOA_MunichConference"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventNewScriptedEvent}scratch.objScriptEvent.strTypeLabel == 'TPOA_MunichConference'"/>
+				</object>
+			</object>
+		</object>
+		<object type="PlayerDecisionTrigPlayEvent" name="objPlayerDecisionTriggers">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="TPOA_GermanyDemandSudetenlandDecision_PlayEvent"/>
+			<property name="strTypeToTrigger" value="TPOA_GermanyDemandSudetenlandDecision"/>
+			<property name="otPlayEventType" value="PlayEventPlayerDecisionAnswered"/>
+			<property name="pathPlayEvent" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent"/>
+			<object type="PlayerGenNames" name="objPlayerGen">
+				<property name="strName" value="United Kingdom"/>
+				<property name="strName" value="France"/>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Germany DemandTerritory in TPOA_MunichConferenceDecision"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strTypeLabel == 'TPOA_MunichConferenceDecision'"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strPlayer == 'Germany'"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strChoiceSelected == 'DemandTerritory'"/>
+				</object>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Player Not At War"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryPlayer"/>
+					<property name="strCountry" inheritFrom="{Object:Single:Player}scratch.objPlayer.objCountry.strName"/>
+				</object>
+				<object type="AccessorGetAllCountryWars" name="objAccessors">
+					<property name="pathOutput" value="{Object:Variable:War}scratch.objPlayerWars"/>
+					<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryPlayer.nCountryID"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="sizeOf({Object:Variable:War}scratch.objPlayerWars) LTE 0"/>
+				</object>
+			</object>
+		</object>
+		<object type="PlayerDecisionTrigPlayEvent" name="objPlayerDecisionTriggers">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="TPOA_MunichBetrayalDecision_PlayEvent"/>
+			<property name="strTypeToTrigger" value="TPOA_MunichBetrayalDecision"/>
+			<property name="otPlayEventType" value="PlayEventNewScriptedEvent"/>
+			<property name="pathPlayEvent" value="{Object:Single:PlayEventNewScriptedEvent}scratch.objScriptEvent"/>
+			<object type="PlayerGenNames" name="objPlayerGen">
+				<property name="strName" value="Czechoslovakia"/>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Scripted Event is TPOA_MunichBetrayal"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventNewScriptedEvent}scratch.objScriptEvent.strTypeLabel == 'TPOA_MunichBetrayal'"/>
+				</object>
+			</object>
+		</object>
+		<object type="PlayerDecisionTrigPlayEvent" name="objPlayerDecisionTriggers">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="TPOA_GermanAmbitionDecision_PlayEvent"/>
+			<property name="strTypeToTrigger" value="TPOA_GermanAmbitionDecision"/>
+			<property name="otPlayEventType" value="PlayEventNewScriptedEvent"/>
+			<property name="pathPlayEvent" value="{Object:Single:PlayEventNewScriptedEvent}scratch.objScriptEvent"/>
+			<object type="TriggerEvalUntilAnsweredPlayerDecision" name="objEvalRule">
+				<property name="strDecisionType" value="TPOA_GermanAmbitionDecision"/>
+				<property name="strChoiceLabel" value="DeclareWar"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Scripted Event is TPOA_GermanAmbition"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:PlayEventNewScriptedEvent}scratch.objScriptEvent.strTypeLabel == 'TPOA_GermanAmbition'"/>
+					</object>
+				</object>
+			</object>
+			<object type="PlayerGenNames" name="objPlayerGen">
+				<property name="strName" value="Germany"/>
+			</object>
+		</object>
+		<object type="PlayerDecisionTrigPlayEvent" name="objPlayerDecisionTriggers">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="TPOA_HungaryAmbitionDecision_PlayEvent"/>
+			<property name="strTypeToTrigger" value="TPOA_HungaryAmbitionDecision"/>
+			<property name="otPlayEventType" value="PlayEventNewScriptedEvent"/>
+			<property name="pathPlayEvent" value="{Object:Single:PlayEventNewScriptedEvent}scratch.objScriptEvent"/>
+			<object type="PlayerGenNames" name="objPlayerGen">
+				<property name="strName" value="Hungary"/>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Scripted Event is TPOA_HungaryAmbition"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventNewScriptedEvent}scratch.objScriptEvent.strTypeLabel == 'TPOA_HungaryAmbition'"/>
+				</object>
+			</object>
+		</object>
+		<object type="PlayerDecisionTrigPlayEvent" name="objPlayerDecisionTriggers">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="TPOA_AnotherWorldWarByGermanyDecision_PlayEvent_WarDeclareCountryToCountry"/>
+			<property name="strTypeToTrigger" value="TPOA_AnotherWorldWarByGermanyDecision"/>
+			<property name="otPlayEventType" value="PlayEventWarDeclareAllianceToCountry"/>
+			<property name="pathPlayEvent" value="{Object:Single:PlayEventWarDeclareAllianceToCountry}scratch.objWarEvent"/>
+			<object type="PlayerGenNames" name="objPlayerGen">
+				<property name="strName" value="France"/>
+				<property name="strName" value="United Kingdom"/>
+				<property name="strName" value="USSR"/>
+				<property name="strName" value="Italy"/>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Germany Declare War on Czechoslovakia"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+					<property name="strCountry" value="Germany"/>
+				</object>
+				<object type="AccessorGetAllianceCurrentCountries" name="objAccessors">
+					<property name="pathOutput" value="{Object:Variable:Country}scratch.objAllianceDeclaringCountries"/>
+					<property name="nAllianceID" inheritFrom="{Object:Single:PlayEventWarDeclareAllianceToCountry}scratch.objWarEvent.nAllianceIDDeclaring"/>
+				</object>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryCzechoslovakia"/>
+					<property name="strCountry" value="Czechoslovakia"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="contains({Object:Variable:Country}scratch.objAllianceDeclaringCountries, {Object:Single:Country}scratch.objCountryGermany)"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:Country}scratch.objCountryCzechoslovakia.nCountryID == {Object:Single:PlayEventWarDeclareAllianceToCountry}scratch.objWarEvent.nCountryIDTargetted"/>
+				</object>
+			</object>
+		</object>
+		<object type="PlayerDecisionDef" name="objPlayerDecisionDefs">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="ROTR_AustrianCrisisGermanDecision"/>
+			<property name="strDefaultChoice" value="AnnexAustria"/>
+			<property name="nDefaultChoicePercent" value="90"/>
+			<property name="strDefaultChoicePlayer" value="DeferToAustria"/>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Germany Exists"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+					<property name="strCountry" value="Germany"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="exists({Object:Single:Country}scratch.objCountryGermany)"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="!{Object:Single:Country}scratch.objCountryGermany.bSurrendered"/>
+				</object>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Austria Exists"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryAustria"/>
+					<property name="strCountry" value="Austria"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="exists({Object:Single:Country}scratch.objCountryAustria)"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="!{Object:Single:Country}scratch.objCountryAustria.bSurrendered"/>
+				</object>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Austria Not at War"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryAustria"/>
+					<property name="strCountry" value="Austria"/>
+				</object>
+				<object type="AccessorGetAllCountryWars" name="objAccessors">
+					<property name="pathOutput" value="{Object:Variable:War}scratch.objAustriaWars"/>
+					<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryAustria.nCountryID"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="sizeOf({Object:Variable:War}scratch.objAustriaWars) LTE 0"/>
+				</object>
+			</object>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="AnnexAustria"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisGermanDecision.AnnexAustria.strTitle)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisGermanDecision.AnnexAustria.strDesc)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+					</object>
+				</object>
+			</object>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="DeferToAustria"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisGermanDecision.DeferToAustria.strTitle)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisGermanDecision.DeferToAustria.strDesc)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+					</object>
+				</object>
+			</object>
+			<object type="ArgumentList" name="objArgLists">
+				<property name="strName" value="Display Data"/>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strTitle"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisGermanDecision.DisplayData.strTitle)"/>
+				</object>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strDesc"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisGermanDecision.DisplayData.strDesc)"/>
+				</object>
+			</object>
+		</object>
+		<object type="PlayerDecisionDef" name="objPlayerDecisionDefs">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="ROTR_AustrianCrisisAustriaDecision_DeferToAustria"/>
+			<property name="strDefaultChoice" value="Reject"/>
+			<property name="nDefaultChoicePercent" value="50"/>
+			<property name="strDefaultChoicePlayer" value="Reject"/>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Germany Exists"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+					<property name="strCountry" value="Germany"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="exists({Object:Single:Country}scratch.objCountryGermany)"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="!{Object:Single:Country}scratch.objCountryGermany.bSurrendered"/>
+				</object>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Austria Exists"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryAustria"/>
+					<property name="strCountry" value="Austria"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="exists({Object:Single:Country}scratch.objCountryAustria)"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="!{Object:Single:Country}scratch.objCountryAustria.bSurrendered"/>
+				</object>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Austria Not at War"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryAustria"/>
+					<property name="strCountry" value="Austria"/>
+				</object>
+				<object type="AccessorGetAllCountryWars" name="objAccessors">
+					<property name="pathOutput" value="{Object:Variable:War}scratch.objAustriaWars"/>
+					<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryAustria.nCountryID"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="sizeOf({Object:Variable:War}scratch.objAustriaWars) LTE 0"/>
+				</object>
+			</object>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="Accept"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisAustriaDecision_DeferToAustria.Accept.strTitle)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisAustriaDecision_DeferToAustria.Accept.strDesc)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+					</object>
+				</object>
+				<object type="CustomEffectDefActions" name="objChoiceEffects">
+					<property name="strLabel" value="Annex Austria"/>
+					<object type="ActCountrySurrender" name="objActions">
+						<property name="strLosingCountryName" value="Austria"/>
+						<property name="strWinningCountryName" value="Germany"/>
+					</object>
+				</object>
+			</object>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="Reject"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisAustriaDecision_DeferToAustria.Reject.strTitle)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisAustriaDecision_DeferToAustria.Reject.strDesc)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+					</object>
+				</object>
+			</object>
+			<object type="ArgumentList" name="objArgLists">
+				<property name="strName" value="Display Data"/>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strTitle"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisAustriaDecision_DeferToAustria.DisplayData.strTitle)"/>
+				</object>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strDesc"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisAustriaDecision_DeferToAustria.DisplayData.strDesc)"/>
+				</object>
+			</object>
+		</object>
+		<object type="PlayerDecisionDef" name="objPlayerDecisionDefs">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="ROTR_AustrianCrisisAustriaDecision_AnnexAustria"/>
+			<property name="strDefaultChoice" value="Accept"/>
+			<property name="nDefaultChoicePercent" value="90"/>
+			<property name="strDefaultChoicePlayer" value="Reject"/>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Germany Exists"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+					<property name="strCountry" value="Germany"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="exists({Object:Single:Country}scratch.objCountryGermany)"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="!{Object:Single:Country}scratch.objCountryGermany.bSurrendered"/>
+				</object>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Austria Exists"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryAustria"/>
+					<property name="strCountry" value="Austria"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="exists({Object:Single:Country}scratch.objCountryAustria)"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="!{Object:Single:Country}scratch.objCountryAustria.bSurrendered"/>
+				</object>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Austria Not at War"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryAustria"/>
+					<property name="strCountry" value="Austria"/>
+				</object>
+				<object type="AccessorGetAllCountryWars" name="objAccessors">
+					<property name="pathOutput" value="{Object:Variable:War}scratch.objAustriaWars"/>
+					<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryAustria.nCountryID"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="sizeOf({Object:Variable:War}scratch.objAustriaWars) LTE 0"/>
+				</object>
+			</object>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="Accept"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisAustriaDecision_AnnexAustria.Accept.strTitle)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisAustriaDecision_AnnexAustria.Accept.strDesc)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+					</object>
+				</object>
+				<object type="CustomEffectDefActions" name="objChoiceEffects">
+					<property name="strLabel" value="Annex Austria"/>
+					<object type="ActCountrySurrender" name="objActions">
+						<property name="strLosingCountryName" value="Austria"/>
+						<property name="strWinningCountryName" value="Germany"/>
+					</object>
+				</object>
+				<object type="CustomEffectDefActions" name="objChoiceEffects">
+					<property name="strLabel" value="Harm German French Relations"/>
+					<object type="AccessorRuleSet" name="objConditions">
+						<property name="strDebugLabel" value="Setup Countries"/>
+						<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+						<object type="AccessorGetCountry" name="objAccessors">
+							<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+							<property name="strCountry" value="Germany"/>
+						</object>
+						<object type="AccessorGetCountry" name="objAccessors">
+							<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryFrance"/>
+							<property name="strCountry" value="France"/>
+						</object>
+					</object>
+					<object type="ActIncDipRelations" name="objActions">
+						<property name="nSourceCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+						<property name="nTargetCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryFrance.nCountryID"/>
+						<property name="nAmount" value="-100"/>
+					</object>
+					<object type="ActIncDipRelations" name="objActions">
+						<property name="nSourceCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryFrance.nCountryID"/>
+						<property name="nTargetCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+						<property name="nAmount" value="-100"/>
+					</object>
+				</object>
+				<object type="CustomEffectDefActions" name="objChoiceEffects">
+					<property name="strLabel" value="Harm German UK Relations"/>
+					<object type="AccessorRuleSet" name="objConditions">
+						<property name="strDebugLabel" value="Setup Countries"/>
+						<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+						<object type="AccessorGetCountry" name="objAccessors">
+							<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+							<property name="strCountry" value="Germany"/>
+						</object>
+						<object type="AccessorGetCountry" name="objAccessors">
+							<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryUnitedKingdom"/>
+							<property name="strCountry" value="United Kingdom"/>
+						</object>
+					</object>
+					<object type="ActIncDipRelations" name="objActions">
+						<property name="nSourceCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+						<property name="nTargetCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryUnitedKingdom.nCountryID"/>
+						<property name="nAmount" value="-100"/>
+					</object>
+					<object type="ActIncDipRelations" name="objActions">
+						<property name="nSourceCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryUnitedKingdom.nCountryID"/>
+						<property name="nTargetCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+						<property name="nAmount" value="-100"/>
+					</object>
+				</object>
+				<object type="CustomEffectDefActions" name="objChoiceEffects">
+					<property name="strLabel" value="Harm German Czech Relations"/>
+					<object type="AccessorRuleSet" name="objConditions">
+						<property name="strDebugLabel" value="Setup Countries"/>
+						<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+						<object type="AccessorGetCountry" name="objAccessors">
+							<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+							<property name="strCountry" value="Germany"/>
+						</object>
+						<object type="AccessorGetCountry" name="objAccessors">
+							<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryCzechoslovakia"/>
+							<property name="strCountry" value="Czechoslovakia"/>
+						</object>
+					</object>
+					<object type="ActIncDipRelations" name="objActions">
+						<property name="nSourceCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+						<property name="nTargetCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryCzechoslovakia.nCountryID"/>
+						<property name="nAmount" value="-100"/>
+					</object>
+					<object type="ActIncDipRelations" name="objActions">
+						<property name="nSourceCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryCzechoslovakia.nCountryID"/>
+						<property name="nTargetCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+						<property name="nAmount" value="-100"/>
+					</object>
+				</object>
+			</object>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="Reject"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisAustriaDecision_AnnexAustria.Reject.strTitle)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisAustriaDecision_AnnexAustria.Reject.strDesc)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+					</object>
+				</object>
+				<object type="CustomEffectDefActions" name="objChoiceEffects">
+					<property name="strLabel" value="Germany Declares War on Austria"/>
+					<object type="ActProposeDeclareWar" name="objActions">
+						<property name="strPlayer" value="Germany"/>
+						<property name="strToCountry" value="Austria"/>
+					</object>
+				</object>
+			</object>
+			<object type="ArgumentList" name="objArgLists">
+				<property name="strName" value="Display Data"/>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strTitle"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisAustriaDecision_AnnexAustria.DisplayData.strTitle)"/>
+				</object>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strDesc"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.AustrianCrisisAustriaDecision_AnnexAustria.DisplayData.strDesc)"/>
+				</object>
+			</object>
+		</object>
+		<object type="PlayerDecisionDef" name="objPlayerDecisionDefs">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="TPOA_MunichConferenceDecision"/>
+			<property name="strDefaultChoice" value="DemandTerritory"/>
+			<property name="nDefaultChoicePercent" value="100"/>
+			<property name="strDefaultChoicePlayer" value="DemandTerritory"/>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="DemandTerritory"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.MunichConferenceDecision.DemandTerritory.strTitle)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.MunichConferenceDecision.DemandTerritory.strDesc)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.MunichConferenceDecision.DemandTerritory.strEffect)"/>
+					</object>
+				</object>
+			</object>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="DeclareWar"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.MunichConferenceDecision.DeclareWar.strTitle)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.MunichConferenceDecision.DeclareWar.strDesc)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.MunichConferenceDecision.DeclareWar.strEffect)"/>
+					</object>
+				</object>
+				<object type="CustomEffectDefActions" name="objChoiceEffects">
+					<property name="strLabel" value="Player Declare War on Czechoslovakia"/>
+					<object type="AccessorRuleSet" name="objConditions">
+						<property name="strDebugLabel" value="Setup Czechoslovakia"/>
+						<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+						<object type="AccessorGetCountry" name="objAccessors">
+							<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryCzechoslovakia"/>
+							<property name="strCountry" value="Czechoslovakia"/>
+						</object>
+					</object>
+					<object type="ActProposeDeclareWar" name="objActions">
+						<property name="strPlayer" inheritFrom="{Object:Single:Player}scratch.objPlayer.strName"/>
+						<property name="strToCountry" inheritFrom="{Object:Single:Country}scratch.objCountryCzechoslovakia.strName"/>
+					</object>
+				</object>
+			</object>
+			<object type="ArgumentList" name="objArgLists">
+				<property name="strName" value="Display Data"/>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strTitle"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.POA.MunichConferenceDecision.DisplayData.strTitle)"/>
+				</object>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strDesc"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.POA.MunichConferenceDecision.DisplayData.strDesc)"/>
+				</object>
+			</object>
+		</object>
+		<object type="PlayerDecisionDef" name="objPlayerDecisionDefs">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="TPOA_GermanyDemandSudetenlandDecision"/>
+			<property name="strDefaultChoice" value="GiveIn"/>
+			<property name="strDefaultChoicePlayer" value="GiveIn"/>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="GiveIn"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.GermanyDemandSudetenlandDecision.GiveIn.strTitle)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.GermanyDemandSudetenlandDecision.GiveIn.strDesc)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.GermanyDemandSudetenlandDecision.GiveIn.strEffect)"/>
+					</object>
+				</object>
+			</object>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="DeclareWar"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.GermanyDemandSudetenlandDecision.DeclareWar.strTitle)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.GermanyDemandSudetenlandDecision.DeclareWar.strDesc)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.GermanyDemandSudetenlandDecision.DeclareWar.strEffect)"/>
+					</object>
+				</object>
+				<object type="CustomEffectDefActions" name="objChoiceEffects">
+					<property name="strLabel" value="Player Declare War on Germany"/>
+					<object type="AccessorRuleSet" name="objConditions">
+						<property name="strDebugLabel" value="Setup Germany"/>
+						<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+						<object type="AccessorGetCountry" name="objAccessors">
+							<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+							<property name="strCountry" value="Germany"/>
+						</object>
+					</object>
+					<object type="ActProposeDeclareWar" name="objActions">
+						<property name="strPlayer" inheritFrom="{Object:Single:Player}scratch.objPlayer.strName"/>
+						<property name="strToCountry" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.strName"/>
+					</object>
+				</object>
+			</object>
+			<object type="ArgumentList" name="objArgLists">
+				<property name="strName" value="Display Data"/>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strTitle"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.POA.GermanyDemandSudetenlandDecision.DisplayData.strTitle)"/>
+				</object>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strDesc"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.POA.GermanyDemandSudetenlandDecision.DisplayData.strDesc)"/>
+				</object>
+			</object>
+		</object>
+		<object type="PlayerDecisionDef" name="objPlayerDecisionDefs">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="TPOA_MunichBetrayalDecision"/>
+			<property name="strDefaultChoice" value="GiveIn"/>
+			<property name="strDefaultChoicePlayer" value="GiveIn"/>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="GiveIn"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.MunichBetrayalDecision.GiveIn.strTitle)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+					</object>
+				</object>
+				<object type="CustomEffectDefActions" name="objChoiceEffects">
+					<property name="strLabel" value="Transfer Sudetenland Ownership to Germany"/>
+					<object type="AccessorRuleSet" name="objConditions">
+						<property name="strDebugLabel" value="Setup Sudetenland"/>
+						<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+						<object type="AccessorGetRegion" name="objAccessors">
+							<property name="pathOutput" value="{Object:Single:Region}scratch.objRegionSudetenland"/>
+							<property name="strName" value="Sudetenland"/>
+						</object>
+					</object>
+					<object type="AccessorRuleSet" name="objConditions">
+						<property name="strDebugLabel" value="Setup Germany"/>
+						<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+						<object type="AccessorGetCountry" name="objAccessors">
+							<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+							<property name="strCountry" value="Germany"/>
+						</object>
+					</object>
+					<object type="ActTransferRegionOwnership" name="objActions">
+						<property name="nRegionID" inheritFrom="{Object:Single:Region}scratch.objRegionSudetenland.nRegionID"/>
+						<property name="nNewCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+					</object>
+				</object>
+			</object>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="DeclareWar"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.MunichBetrayalDecision.DeclareWar.strTitle)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+					</object>
+				</object>
+				<object type="CustomEffectDefActions" name="objChoiceEffects">
+					<property name="strLabel" value="Player Declare War on Germany"/>
+					<object type="AccessorRuleSet" name="objConditions">
+						<property name="strDebugLabel" value="Setup Germany"/>
+						<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+						<object type="AccessorGetCountry" name="objAccessors">
+							<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+							<property name="strCountry" value="Germany"/>
+						</object>
+					</object>
+					<object type="ActProposeDeclareWar" name="objActions">
+						<property name="strPlayer" inheritFrom="{Object:Single:Player}scratch.objPlayer.strName"/>
+						<property name="strToCountry" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.strName"/>
+					</object>
+				</object>
+			</object>
+			<object type="ArgumentList" name="objArgLists">
+				<property name="strName" value="Display Data"/>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strTitle"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.POA.MunichBetrayalDecision.DisplayData.strTitle)"/>
+				</object>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strDesc"/>
+				</object>
+			</object>
+		</object>
+		<object type="PlayerDecisionDef" name="objPlayerDecisionDefs">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="TPOA_GermanAmbitionDecision"/>
+			<property name="strDefaultChoice" value="DeclareWar"/>
+			<property name="nDefaultChoicePercent" value="100"/>
+			<property name="strDefaultChoicePlayer" value="DeclareWar"/>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="DoNothing"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.GermanAmbitionDecision.DoNothing.strTitle)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.GermanAmbitionDecision.DoNothing.strDesc)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.GermanAmbitionDecision.DoNothing.strEffect)"/>
+					</object>
+				</object>
+			</object>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="DeclareWar"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" value="Declare War"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+						<property name="strValue" value="Go to war against Czechoslovakia."/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+						<property name="strValue" value="Now is the time to attack.  France and Britain did not stop you from acquiring the Sudetenland; you doubt they will stop you from conquering Czechoslovakia."/>
+					</object>
+				</object>
+				<object type="CustomEffectDefActions" name="objChoiceEffects">
+					<property name="strLabel" value="Player Declare War on Czechoslovakia"/>
+					<object type="AccessorRuleSet" name="objConditions">
+						<property name="strDebugLabel" value="Setup Czechoslovakia"/>
+						<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+						<object type="AccessorGetCountry" name="objAccessors">
+							<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryCzechoslovakia"/>
+							<property name="strCountry" value="Czechoslovakia"/>
+						</object>
+					</object>
+					<object type="ActProposeDeclareWar" name="objActions">
+						<property name="strPlayer" inheritFrom="{Object:Single:Player}scratch.objPlayer.strName"/>
+						<property name="strToCountry" inheritFrom="{Object:Single:Country}scratch.objCountryCzechoslovakia.strName"/>
+					</object>
+				</object>
+			</object>
+			<object type="ArgumentList" name="objArgLists">
+				<property name="strName" value="Display Data"/>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strTitle"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.POA.GermanAmbitionDecision.DisplayData.strTitle)"/>
+				</object>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strDesc"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.POA.GermanAmbitionDecision.DisplayData.strDesc)"/>
+				</object>
+			</object>
+		</object>
+		<object type="PlayerDecisionDef" name="objPlayerDecisionDefs">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="TPOA_HungaryAmbitionDecision"/>
+			<property name="strDefaultChoice" value="DeclareWar"/>
+			<property name="nDefaultChoicePercent" value="70"/>
+			<property name="strDefaultChoicePlayer" value="DeclareWar"/>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="DoNothing"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.HungaryAmbitionDecision.DoNothing.strTitle)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+					</object>
+				</object>
+			</object>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="DeclareWar"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.HungaryAmbitionDecision.DeclareWar.strTitle)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+					</object>
+				</object>
+				<object type="CustomEffectDefActions" name="objChoiceEffects">
+					<property name="strLabel" value="Player Declare War on Czechoslovakia"/>
+					<object type="AccessorRuleSet" name="objConditions">
+						<property name="strDebugLabel" value="Setup Czechoslovakia"/>
+						<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+						<object type="AccessorGetCountry" name="objAccessors">
+							<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryCzechoslovakia"/>
+							<property name="strCountry" value="Czechoslovakia"/>
+						</object>
+					</object>
+					<object type="ActProposeDeclareWar" name="objActions">
+						<property name="strPlayer" inheritFrom="{Object:Single:Player}scratch.objPlayer.strName"/>
+						<property name="strToCountry" inheritFrom="{Object:Single:Country}scratch.objCountryCzechoslovakia.strName"/>
+					</object>
+				</object>
+			</object>
+			<object type="ArgumentList" name="objArgLists">
+				<property name="strName" value="Display Data"/>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strTitle"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.POA.HungaryAmbitionDecision.DisplayData.strTitle)"/>
+				</object>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strDesc"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.POA.HungaryAmbitionDecision.DisplayData.strDesc)"/>
+				</object>
+			</object>
+		</object>
+		<object type="PlayerDecisionDef" name="objPlayerDecisionDefs">
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<property name="strTypeLabel" value="TPOA_AnotherWorldWarByGermanyDecision"/>
+			<property name="strDefaultChoice" value="DoNothing"/>
+			<property name="strDefaultChoicePlayer" value="DoNothing"/>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Player Not At War with Germany"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryPlayer"/>
+					<property name="strCountry" inheritFrom="{Object:Single:Player}scratch.objPlayer.objCountry.strName"/>
+				</object>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+					<property name="strCountry" value="Germany"/>
+				</object>
+				<object type="AccessorIsAtWar" name="objAccessors">
+					<property name="pathOutput" value="{bool:Single}scratch.bPlayerGermanyWar"/>
+					<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryPlayer.nCountryID"/>
+					<property name="nEnemyCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="!{bool:Single}scratch.bPlayerGermanyWar"/>
+				</object>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Player Not Allied with Germany"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryPlayer"/>
+					<property name="strCountry" inheritFrom="{Object:Single:Player}scratch.objPlayer.objCountry.strName"/>
+				</object>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+					<property name="strCountry" value="Germany"/>
+				</object>
+				<object type="AccessorIsAllied" name="objAccessors">
+					<property name="pathOutput" value="{bool:Single}scratch.bPlayerGermanyAllied"/>
+					<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryPlayer.nCountryID"/>
+					<property name="nAllyID" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="!{bool:Single}scratch.bPlayerGermanyAllied"/>
+				</object>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Player Not At War with Czechoslovakia"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryPlayer"/>
+					<property name="strCountry" inheritFrom="{Object:Single:Player}scratch.objPlayer.objCountry.strName"/>
+				</object>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryCzechoslovakia"/>
+					<property name="strCountry" value="Czechoslovakia"/>
+				</object>
+				<object type="AccessorIsAtWar" name="objAccessors">
+					<property name="pathOutput" value="{bool:Single}scratch.bPlayerCzechoslovakiaWar"/>
+					<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryPlayer.nCountryID"/>
+					<property name="nEnemyCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryCzechoslovakia.nCountryID"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="!{bool:Single}scratch.bPlayerCzechoslovakiaWar"/>
+				</object>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Player Not Allied with Czechoslovakia"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryPlayer"/>
+					<property name="strCountry" inheritFrom="{Object:Single:Player}scratch.objPlayer.objCountry.strName"/>
+				</object>
+				<object type="AccessorGetCountry" name="objAccessors">
+					<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryCzechoslovakia"/>
+					<property name="strCountry" value="Czechoslovakia"/>
+				</object>
+				<object type="AccessorIsAllied" name="objAccessors">
+					<property name="pathOutput" value="{bool:Single}scratch.bPlayerCzechoslovakiaAllied"/>
+					<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryPlayer.nCountryID"/>
+					<property name="nAllyID" inheritFrom="{Object:Single:Country}scratch.objCountryCzechoslovakia.nCountryID"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="!{bool:Single}scratch.bPlayerCzechoslovakiaAllied"/>
+				</object>
+			</object>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="DoNothing"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.AnotherWorldWarByGermanyDecision.DoNothing.strTitle)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.AnotherWorldWarByGermanyDecision.DoNothing.strDesc)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.AnotherWorldWarByGermanyDecision.DoNothing.strEffect)"/>
+					</object>
+				</object>
+			</object>
+			<object type="PlayerDecisionChoiceDefCustom" name="objChoiceDefs">
+				<property name="strLabel" value="DeclareWar"/>
+				<object type="ArgumentList" name="objArgLists">
+					<property name="strName" value="Display Data"/>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strTitle"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.AnotherWorldWarByGermanyDecision.DeclareWar.strTitle)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strDesc"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.AnotherWorldWarByGermanyDecision.DeclareWar.strDesc)"/>
+					</object>
+					<object type="ArgumentElementString" name="objArgElements">
+						<property name="strName" value="strEffect"/>
+						<property name="strValue" computeFrom="getString(SID.SharedData.POA.AnotherWorldWarByGermanyDecision.DeclareWar.strEffect)"/>
+					</object>
+				</object>
+				<object type="CustomEffectDefActions" name="objChoiceEffects">
+					<property name="strLabel" value="Player Declare War on Germany"/>
+					<object type="AccessorRuleSet" name="objConditions">
+						<property name="strDebugLabel" value="Setup Germany"/>
+						<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+						<object type="AccessorGetCountry" name="objAccessors">
+							<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+							<property name="strCountry" value="Germany"/>
+						</object>
+					</object>
+					<object type="ActProposeDeclareWar" name="objActions">
+						<property name="strPlayer" inheritFrom="{Object:Single:Player}scratch.objPlayer.strName"/>
+						<property name="strToCountry" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.strName"/>
+					</object>
+				</object>
+			</object>
+			<object type="ArgumentList" name="objArgLists">
+				<property name="strName" value="Display Data"/>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strTitle"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.POA.AnotherWorldWarByGermanyDecision.DisplayData.strTitle)"/>
+				</object>
+				<object type="ArgumentElementString" name="objArgElements">
+					<property name="strName" value="strDesc"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.POA.AnotherWorldWarByGermanyDecision.DisplayData.strDesc)"/>
+				</object>
+			</object>
+		</object>
+		<object type="ScriptedEventDef" name="objScriptedEventDefs">
+			<property name="strTypeLabel" value="ROTR_AustrianCrisis"/>
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<object type="PlayerGenNames" name="objPlayerGen">
+				<property name="strName" value="Germany"/>
+			</object>
+			<object type="TriggerEvalUntilAnsweredPlayerDecision" name="objTriggerEval">
+				<property name="strDecisionType" value="ROTR_AustrianCrisisGermanDecision"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Germany Exists"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+						<property name="strCountry" value="Germany"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="exists({Object:Single:Country}scratch.objCountryGermany)"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="!{Object:Single:Country}scratch.objCountryGermany.bSurrendered"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Germany has Score Rank 5 or Better"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountryRank" name="objAccessors">
+						<property name="pathOutput" value="{int:Single}scratch.nGermanCountryRank"/>
+						<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{int:Single}scratch.nGermanCountryRank LTE 5"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Date is later than March 01, 1938"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCurrentDate" name="objAccessors">
+						<property name="pathOutput" value="{Date:Single}scratch.dateGameDate"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Date:Single}scratch.dateGameDate GTE 03/01/1938"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Austria Exists"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryAustria"/>
+						<property name="strCountry" value="Austria"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="exists({Object:Single:Country}scratch.objCountryAustria)"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="!{Object:Single:Country}scratch.objCountryAustria.bSurrendered"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Austria Not at War"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryAustria"/>
+						<property name="strCountry" value="Austria"/>
+					</object>
+					<object type="AccessorGetAllCountryWars" name="objAccessors">
+						<property name="pathOutput" value="{Object:Variable:War}scratch.objAustriaWars"/>
+						<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryAustria.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="sizeOf({Object:Variable:War}scratch.objAustriaWars) LTE 0"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Austria has a lower score than Germany"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountryRank" name="objAccessors">
+						<property name="pathOutput" value="{int:Single}scratch.nAustrianCountryRank"/>
+						<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryAustria.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{int:Single}scratch.nAustrianCountryRank GT {int:Single}scratch.nGermanCountryRank"/>
+					</object>
+				</object>
+			</object>
+			<object type="ArgumentList" name="objArgLists">
+				<property name="strName" value="Display Data"/>
+			</object>
+		</object>
+		<object type="ScriptedEventDef" name="objScriptedEventDefs">
+			<property name="strTypeLabel" value="TPOA_MunichConference"/>
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<object type="PlayerGenNames" name="objPlayerGen">
+				<property name="strName" value="Germany"/>
+			</object>
+			<object type="TriggerEvalUntilTurn" name="objTriggerEval">
+				<property name="nTurn" value="293"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Turn is 293"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCurrentTurn" name="objAccessors">
+						<property name="pathOutput" value="{int:Single}scratch.nGameTurn"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{int:Single}scratch.nGameTurn == 292"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Germany Not At War"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+						<property name="strCountry" value="Germany"/>
+					</object>
+					<object type="AccessorGetAllCountryWars" name="objAccessors">
+						<property name="pathOutput" value="{Object:Variable:War}scratch.objGermanWars"/>
+						<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="sizeOf({Object:Variable:War}scratch.objGermanWars) LTE 0"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Czechoslovakia Not At War"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryCzechoslovakia"/>
+						<property name="strCountry" value="Czechoslovakia"/>
+					</object>
+					<object type="AccessorGetAllCountryWars" name="objAccessors">
+						<property name="pathOutput" value="{Object:Variable:War}scratch.objCzechWars"/>
+						<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryCzechoslovakia.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="sizeOf({Object:Variable:War}scratch.objCzechWars) LTE 0"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="United Kingdom Not At War"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryUnitedKingdom"/>
+						<property name="strCountry" value="United Kingdom"/>
+					</object>
+					<object type="AccessorGetAllCountryWars" name="objAccessors">
+						<property name="pathOutput" value="{Object:Variable:War}scratch.objBritishWars"/>
+						<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryUnitedKingdom.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="sizeOf({Object:Variable:War}scratch.objBritishWars) LTE 0"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="France Not At War"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryFrance"/>
+						<property name="strCountry" value="France"/>
+					</object>
+					<object type="AccessorGetAllCountryWars" name="objAccessors">
+						<property name="pathOutput" value="{Object:Variable:War}scratch.objFrenchWars"/>
+						<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryFrance.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="sizeOf({Object:Variable:War}scratch.objFrenchWars) LTE 0"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Czechoslovakia owns and controls Sudetenland"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryCzechoslovakia"/>
+						<property name="strCountry" value="Czechoslovakia"/>
+					</object>
+					<object type="AccessorGetRegion" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Region}scratch.objRegionSudetenland"/>
+						<property name="strName" value="Sudetenland"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Region}scratch.objRegionSudetenland.nOwnerID == {Object:Single:Country}scratch.objCountryCzechoslovakia.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Region}scratch.objRegionSudetenland.nControllerID == {Object:Single:Country}scratch.objCountryCzechoslovakia.nCountryID"/>
+					</object>
+				</object>
+			</object>
+			<object type="ArgumentList" name="objArgLists">
+				<property name="strName" value="Display Data"/>
+			</object>
+		</object>
+		<object type="ScriptedEventDef" name="objScriptedEventDefs">
+			<property name="strTypeLabel" value="TPOA_MunichBetrayal"/>
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<object type="PlayerGenNames" name="objPlayerGen">
+				<property name="strName" value="Czechoslovakia"/>
+			</object>
+			<object type="TriggerEvalUntilAnsweredPlayerDecision" name="objTriggerEval">
+				<property name="strDecisionType" value="TPOA_MunichBetrayalDecision"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="France Answered Player Decision TPOA_GermanyDemandSudetenlandDecision with GiveIn"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorHasPlayerDecisionBeenMade" name="objAccessors">
+						<property name="pathOutput" value="{bool:Single}scratch.bFrancePlayerDecisionMade"/>
+						<object type="PlayerDecisionRef" name="objRef">
+							<property name="strTypeLabel" value="TPOA_GermanyDemandSudetenlandDecision"/>
+							<property name="strPlayer" value="France"/>
+							<property name="strChoiceSelected" value="GiveIn"/>
+						</object>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{bool:Single}scratch.bFrancePlayerDecisionMade"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="United Kingdom Answered Player Decision TPOA_GermanyDemandSudetenlandDecision with GiveIn"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorHasPlayerDecisionBeenMade" name="objAccessors">
+						<property name="pathOutput" value="{bool:Single}scratch.bUnitedKingdomPlayerDecisionMade"/>
+						<object type="PlayerDecisionRef" name="objRef">
+							<property name="strTypeLabel" value="TPOA_GermanyDemandSudetenlandDecision"/>
+							<property name="strPlayer" value="United Kingdom"/>
+							<property name="strChoiceSelected" value="GiveIn"/>
+						</object>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{bool:Single}scratch.bUnitedKingdomPlayerDecisionMade"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Germany Not At War With Czechoslovakia"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+						<property name="strCountry" value="Germany"/>
+					</object>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryCzechoslovakia"/>
+						<property name="strCountry" value="Czechoslovakia"/>
+					</object>
+					<object type="AccessorIsAtWar" name="objAccessors">
+						<property name="pathOutput" value="{bool:Single}scratch.bGermanyCzechoslovakiaWar"/>
+						<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+						<property name="nEnemyCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryCzechoslovakia.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="!{bool:Single}scratch.bGermanyCzechoslovakiaWar"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Germany Not At War With France"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+						<property name="strCountry" value="Germany"/>
+					</object>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryFrance"/>
+						<property name="strCountry" value="France"/>
+					</object>
+					<object type="AccessorIsAtWar" name="objAccessors">
+						<property name="pathOutput" value="{bool:Single}scratch.bGermanyFranceWar"/>
+						<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+						<property name="nEnemyCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryFrance.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="!{bool:Single}scratch.bGermanyFranceWar"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Germany Not At War With United Kingdom"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+						<property name="strCountry" value="Germany"/>
+					</object>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryUnitedKingdom"/>
+						<property name="strCountry" value="United Kingdom"/>
+					</object>
+					<object type="AccessorIsAtWar" name="objAccessors">
+						<property name="pathOutput" value="{bool:Single}scratch.bGermanyUnitedKingdomWar"/>
+						<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+						<property name="nEnemyCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryUnitedKingdom.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="!{bool:Single}scratch.bGermanyUnitedKingdomWar"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Czechoslovakia owns and controls Sudetenland"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryCzechoslovakia"/>
+						<property name="strCountry" value="Czechoslovakia"/>
+					</object>
+					<object type="AccessorGetRegion" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Region}scratch.objRegionSudetenland"/>
+						<property name="strName" value="Sudetenland"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Region}scratch.objRegionSudetenland.nOwnerID == {Object:Single:Country}scratch.objCountryCzechoslovakia.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Region}scratch.objRegionSudetenland.nControllerID == {Object:Single:Country}scratch.objCountryCzechoslovakia.nCountryID"/>
+					</object>
+				</object>
+			</object>
+			<object type="ArgumentList" name="objArgLists">
+				<property name="strName" value="Display Data"/>
+			</object>
+		</object>
+		<object type="ScriptedEventDef" name="objScriptedEventDefs">
+			<property name="strTypeLabel" value="TPOA_GermanAmbition"/>
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<object type="PlayerGenNames" name="objPlayerGen">
+				<property name="strName" value="Germany"/>
+			</object>
+			<object type="TriggerEvalRandomChance" name="objTriggerEval">
+				<property name="nPercentChance" value="50"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Czechoslovakia Exists"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryCzechoslovakia"/>
+						<property name="strCountry" value="Czechoslovakia"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="exists({Object:Single:Country}scratch.objCountryCzechoslovakia)"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="!{Object:Single:Country}scratch.objCountryCzechoslovakia.bSurrendered"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Czechoslovakia Answered Player Decision TPOA_MunichBetrayalDecision with GiveIn"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorHasPlayerDecisionBeenMade" name="objAccessors">
+						<property name="pathOutput" value="{bool:Single}scratch.bCzechoslovakiaPlayerDecisionMade"/>
+						<object type="PlayerDecisionRef" name="objRef">
+							<property name="strTypeLabel" value="TPOA_MunichBetrayalDecision"/>
+							<property name="strPlayer" value="Czechoslovakia"/>
+							<property name="strChoiceSelected" value="GiveIn"/>
+						</object>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{bool:Single}scratch.bCzechoslovakiaPlayerDecisionMade"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Germany Not At War"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+						<property name="strCountry" value="Germany"/>
+					</object>
+					<object type="AccessorGetAllCountryWars" name="objAccessors">
+						<property name="pathOutput" value="{Object:Variable:War}scratch.objGermanWars"/>
+						<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="sizeOf({Object:Variable:War}scratch.objGermanWars) LTE 0"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Germany owns and controls Sudetenland"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+						<property name="strCountry" value="Germany"/>
+					</object>
+					<object type="AccessorGetRegion" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Region}scratch.objRegionSudetenland"/>
+						<property name="strName" value="Sudetenland"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Region}scratch.objRegionSudetenland.nOwnerID == {Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Region}scratch.objRegionSudetenland.nControllerID == {Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+					</object>
+				</object>
+			</object>
+			<object type="ArgumentList" name="objArgLists">
+				<property name="strName" value="Display Data"/>
+			</object>
+		</object>
+		<object type="ScriptedEventDef" name="objScriptedEventDefs">
+			<property name="strTypeLabel" value="TPOA_HungaryAmbition"/>
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<object type="PlayerGenNames" name="objPlayerGen">
+				<property name="strName" value="Hungary"/>
+			</object>
+			<object type="TriggerEvalRandomChance" name="objTriggerEval">
+				<property name="nPercentChance" value="100"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Hungary Not At War"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryHungary"/>
+						<property name="strCountry" value="Hungary"/>
+					</object>
+					<object type="AccessorGetAllCountryWars" name="objAccessors">
+						<property name="pathOutput" value="{Object:Variable:War}scratch.objHungarianWars"/>
+						<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryHungary.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="sizeOf({Object:Variable:War}scratch.objHungarianWars) LTE 0"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Hungary Has 0 or Less Allies"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryHungary"/>
+						<property name="strCountry" value="Hungary"/>
+					</object>
+					<object type="AccessorGetCountryAllianceGroup" name="objAccessors">
+						<property name="pathOutput" value="{Object:Variable:Country}scratch.objHungarianAllies"/>
+						<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryHungary.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="sizeOf({Object:Variable:Country}scratch.objHungarianAllies) LTE 1"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Germany War with Czechoslovakia"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+						<property name="strCountry" value="Germany"/>
+					</object>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryCzechoslovakia"/>
+						<property name="strCountry" value="Czechoslovakia"/>
+					</object>
+					<object type="AccessorIsAtWar" name="objAccessors">
+						<property name="pathOutput" value="{bool:Single}scratch.bGermanyCzechoslovakiaWar"/>
+						<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryCzechoslovakia.nCountryID"/>
+						<property name="nEnemyCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{bool:Single}scratch.bGermanyCzechoslovakiaWar"/>
+					</object>
+				</object>
+			</object>
+			<object type="ArgumentList" name="objArgLists">
+				<property name="strName" value="Display Data"/>
+			</object>
+		</object>
+		<object type="ScriptedEventDef" name="objScriptedEventDefs">
+			<property name="strTypeLabel" value="SpainRevolution"/>
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<object type="PlayerGenNames" name="objPlayerGen">
+				<property name="strName" value="Republican Spain"/>
+			</object>
+			<object type="TriggerEvalUntilTurn" name="objTriggerEval">
+				<property name="nTurn" value="200"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Date is later than July 01, 1936"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCurrentDate" name="objAccessors">
+						<property name="pathOutput" value="{Date:Single}scratch.dateGameDate"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Date:Single}scratch.dateGameDate GTE 07/01/1936 AND {Date:Single}scratch.dateGameDate LT 08/01/1936"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Republican Spain Exists"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryRepublicanSpain"/>
+						<property name="strCountry" value="Republican Spain"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="exists({Object:Single:Country}scratch.objCountryRepublicanSpain)"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="!{Object:Single:Country}scratch.objCountryRepublicanSpain.bSurrendered"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Nationalist Spain is Surrendered"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryNationalistSpain"/>
+						<property name="strCountry" value="Nationalist Spain"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="exists({Object:Single:Country}scratch.objCountryNationalistSpain)"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Country}scratch.objCountryNationalistSpain.bSurrendered"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Republican Spain Not At War with Germany"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryRepublicanSpain"/>
+						<property name="strCountry" value="Republican Spain"/>
+					</object>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryGermany"/>
+						<property name="strCountry" value="Germany"/>
+					</object>
+					<object type="AccessorIsAtWar" name="objAccessors">
+						<property name="pathOutput" value="{bool:Single}scratch.bCountryGermanyWar"/>
+						<property name="nCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryRepublicanSpain.nCountryID"/>
+						<property name="nEnemyCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryGermany.nCountryID"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="!{bool:Single}scratch.bCountryGermanyWar"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Republican Spain Owns Galicia"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryRepublicanSpain"/>
+						<property name="strCountry" value="Republican Spain"/>
+					</object>
+					<object type="AccessorGetRegion" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Region}scratch.objRegionAndalusia"/>
+						<property name="strName" value="Andalusia"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Region}scratch.objRegionAndalusia.strOwner == {Object:Single:Country}scratch.objCountryRepublicanSpain.strName"/>
+					</object>
+				</object>
+			</object>
+			<object type="CustomEffectDefActions" name="objEffects">
+				<property name="strLabel" value="Setup Civil War"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Nationalist Spain"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryNationalistSpain"/>
+						<property name="strCountry" value="Nationalist Spain"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Galicia"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetRegion" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Region}scratch.objRegionGalicia"/>
+						<property name="strName" value="Galicia"/>
+					</object>
+				</object>
+				<object type="ActEstablishCountry" name="objActions">
+					<property name="strCountry" value="Nationalist Spain"/>
+					<property name="strRegion" value="Galicia"/>
+				</object>
+				<object type="ActDevCreateUnits" name="objActions">
+					<property name="strCountryName" value="Nationalist Spain"/>
+					<property name="strUnitTemplate" value="PreWarInfantry"/>
+					<property name="strRegionName" value="Galicia"/>
+					<property name="strUnitName" value="Galicia Resistance"/>
+					<property name="nNumUnits" value="5"/>
+				</object>
+				<object type="ActProposeDeclareWar" name="objActions">
+					<property name="strPlayer" value="Nationalist Spain"/>
+					<property name="strToCountry" value="Republican Spain"/>
+				</object>
+			</object>
+			<object type="CustomEffectDefActions" name="objEffects">
+				<property name="strLabel" value="Run effects for Andalusia, if owned by Republican Spain"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Republican and Nationalist Spain"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryRepublicanSpain"/>
+						<property name="strCountry" value="Republican Spain"/>
+					</object>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryNationalistSpain"/>
+						<property name="strCountry" value="Nationalist Spain"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Andalusia"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetRegion" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Region}scratch.objRegionAndalusia"/>
+						<property name="strName" value="Andalusia"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Region}scratch.objRegionAndalusia.strOwner == {Object:Single:Country}scratch.objCountryRepublicanSpain.strName"/>
+					</object>
+				</object>
+				<object type="ActTransferRegionOwnership" name="objActions">
+					<property name="nRegionID" inheritFrom="{Object:Single:Region}scratch.objRegionAndalusia.nRegionID"/>
+					<property name="nNewCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryNationalistSpain.nCountryID"/>
+				</object>
+				<object type="ActDevCreateUnits" name="objActions">
+					<property name="strCountryName" value="Nationalist Spain"/>
+					<property name="strUnitTemplate" value="PreWarInfantry"/>
+					<property name="strRegionName" value="Andalusia"/>
+					<property name="strUnitName" value="Andalusia Resistance"/>
+					<property name="nNumUnits" value="5"/>
+				</object>
+			</object>
+			<object type="CustomEffectDefActions" name="objEffects">
+				<property name="strLabel" value="Run effects for Leon, if owned by Republican Spain"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Republican and Nationalist Spain"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryRepublicanSpain"/>
+						<property name="strCountry" value="Republican Spain"/>
+					</object>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryNationalistSpain"/>
+						<property name="strCountry" value="Nationalist Spain"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Leon"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetRegion" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Region}scratch.objRegionLeon"/>
+						<property name="strName" value="Leon"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Region}scratch.objRegionLeon.strOwner == {Object:Single:Country}scratch.objCountryRepublicanSpain.strName"/>
+					</object>
+				</object>
+				<object type="ActTransferRegionOwnership" name="objActions">
+					<property name="nRegionID" inheritFrom="{Object:Single:Region}scratch.objRegionLeon.nRegionID"/>
+					<property name="nNewCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryNationalistSpain.nCountryID"/>
+				</object>
+				<object type="ActDevCreateUnits" name="objActions">
+					<property name="strCountryName" value="Nationalist Spain"/>
+					<property name="strUnitTemplate" value="PreWarInfantry"/>
+					<property name="strRegionName" value="Leon"/>
+					<property name="strUnitName" value="Leon Resistance"/>
+					<property name="nNumUnits" value="5"/>
+				</object>
+			</object>
+			<object type="CustomEffectDefActions" name="objEffects">
+				<property name="strLabel" value="Run effects for Aragon, if owned by Republican Spain"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Republican and Nationalist Spain"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryRepublicanSpain"/>
+						<property name="strCountry" value="Republican Spain"/>
+					</object>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryNationalistSpain"/>
+						<property name="strCountry" value="Nationalist Spain"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Aragon"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetRegion" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Region}scratch.objRegionAragon"/>
+						<property name="strName" value="Aragon"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Region}scratch.objRegionAragon.strOwner == {Object:Single:Country}scratch.objCountryRepublicanSpain.strName"/>
+					</object>
+				</object>
+				<object type="ActTransferRegionOwnership" name="objActions">
+					<property name="nRegionID" inheritFrom="{Object:Single:Region}scratch.objRegionAragon.nRegionID"/>
+					<property name="nNewCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryNationalistSpain.nCountryID"/>
+				</object>
+				<object type="ActDevCreateUnits" name="objActions">
+					<property name="strCountryName" value="Nationalist Spain"/>
+					<property name="strUnitTemplate" value="PreWarInfantry"/>
+					<property name="strRegionName" value="Aragon"/>
+					<property name="strUnitName" value="Aragon Resistance"/>
+					<property name="nNumUnits" value="5"/>
+				</object>
+			</object>
+			<object type="CustomEffectDefActions" name="objEffects">
+				<property name="strLabel" value="Run effects for Balearic Islands, if owned by Republican Spain"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Republican and Nationalist Spain"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryRepublicanSpain"/>
+						<property name="strCountry" value="Republican Spain"/>
+					</object>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryNationalistSpain"/>
+						<property name="strCountry" value="Nationalist Spain"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Balearic Islands"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetRegion" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Region}scratch.objRegionBalearicIslands"/>
+						<property name="strName" value="Balearic Islands"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Region}scratch.objRegionBalearicIslands.strOwner == {Object:Single:Country}scratch.objCountryRepublicanSpain.strName"/>
+					</object>
+				</object>
+				<object type="ActTransferRegionOwnership" name="objActions">
+					<property name="nRegionID" inheritFrom="{Object:Single:Region}scratch.objRegionBalearicIslands.nRegionID"/>
+					<property name="nNewCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryNationalistSpain.nCountryID"/>
+				</object>
+				<object type="ActDevCreateUnits" name="objActions">
+					<property name="strCountryName" value="Nationalist Spain"/>
+					<property name="strUnitTemplate" value="PreWarInfantry"/>
+					<property name="strRegionName" value="Balearic Islands"/>
+					<property name="strUnitName" value="Balearic Islands Resistance"/>
+					<property name="nNumUnits" value="5"/>
+				</object>
+			</object>
+			<object type="CustomEffectDefActions" name="objEffects">
+				<property name="strLabel" value="Run effects for Navarre, if owned by Republican Spain"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Republican and Nationalist Spain"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryRepublicanSpain"/>
+						<property name="strCountry" value="Republican Spain"/>
+					</object>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryNationalistSpain"/>
+						<property name="strCountry" value="Nationalist Spain"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Navarre"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetRegion" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Region}scratch.objRegionNavarre"/>
+						<property name="strName" value="Navarre"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Region}scratch.objRegionNavarre.strOwner == {Object:Single:Country}scratch.objCountryRepublicanSpain.strName"/>
+					</object>
+				</object>
+				<object type="ActTransferRegionOwnership" name="objActions">
+					<property name="nRegionID" inheritFrom="{Object:Single:Region}scratch.objRegionNavarre.nRegionID"/>
+					<property name="nNewCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryNationalistSpain.nCountryID"/>
+				</object>
+				<object type="ActDevCreateUnits" name="objActions">
+					<property name="strCountryName" value="Nationalist Spain"/>
+					<property name="strUnitTemplate" value="PreWarInfantry"/>
+					<property name="strRegionName" value="Navarre"/>
+					<property name="strUnitName" value="Navarre Resistance"/>
+					<property name="nNumUnits" value="5"/>
+				</object>
+			</object>
+			<object type="CustomEffectDefActions" name="objEffects">
+				<property name="strLabel" value="Run effects for Spanish Guinea, if owned by Republican Spain"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Republican and Nationalist Spain"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryRepublicanSpain"/>
+						<property name="strCountry" value="Republican Spain"/>
+					</object>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryNationalistSpain"/>
+						<property name="strCountry" value="Nationalist Spain"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Spanish Guinea"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetRegion" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Region}scratch.objRegionSpanishGuinea"/>
+						<property name="strName" value="Spanish Guinea"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Region}scratch.objRegionSpanishGuinea.strOwner == {Object:Single:Country}scratch.objCountryRepublicanSpain.strName"/>
+					</object>
+				</object>
+				<object type="ActTransferRegionOwnership" name="objActions">
+					<property name="nRegionID" inheritFrom="{Object:Single:Region}scratch.objRegionSpanishGuinea.nRegionID"/>
+					<property name="nNewCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryNationalistSpain.nCountryID"/>
+				</object>
+				<object type="ActDevCreateUnits" name="objActions">
+					<property name="strCountryName" value="Nationalist Spain"/>
+					<property name="strUnitTemplate" value="PreWarInfantry"/>
+					<property name="strRegionName" value="Spanish Guinea"/>
+					<property name="strUnitName" value="Spanish Guinea Resistance"/>
+					<property name="nNumUnits" value="5"/>
+				</object>
+			</object>
+			<object type="CustomEffectDefActions" name="objEffects">
+				<property name="strLabel" value="Run effects for Rio del Oro, if owned by Republican Spain"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Republican and Nationalist Spain"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryRepublicanSpain"/>
+						<property name="strCountry" value="Republican Spain"/>
+					</object>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryNationalistSpain"/>
+						<property name="strCountry" value="Nationalist Spain"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Rio del Oro"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetRegion" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Region}scratch.objRegionRiodelOro"/>
+						<property name="strName" value="Rio del Oro"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Region}scratch.objRegionRiodelOro.strOwner == {Object:Single:Country}scratch.objCountryRepublicanSpain.strName"/>
+					</object>
+				</object>
+				<object type="ActTransferRegionOwnership" name="objActions">
+					<property name="nRegionID" inheritFrom="{Object:Single:Region}scratch.objRegionRiodelOro.nRegionID"/>
+					<property name="nNewCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryNationalistSpain.nCountryID"/>
+				</object>
+				<object type="ActDevCreateUnits" name="objActions">
+					<property name="strCountryName" value="Nationalist Spain"/>
+					<property name="strUnitTemplate" value="PreWarInfantry"/>
+					<property name="strRegionName" value="Rio del Oro"/>
+					<property name="strUnitName" value="Rio del Oro Resistance"/>
+					<property name="nNumUnits" value="5"/>
+				</object>
+			</object>
+			<object type="CustomEffectDefActions" name="objEffects">
+				<property name="strLabel" value="Run effects for Spanish Morocco, if owned by Republican Spain"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Republican and Nationalist Spain"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryRepublicanSpain"/>
+						<property name="strCountry" value="Republican Spain"/>
+					</object>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryNationalistSpain"/>
+						<property name="strCountry" value="Nationalist Spain"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Spanish Morocco"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetRegion" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Region}scratch.objRegionSpanishMorocco"/>
+						<property name="strName" value="Spanish Morocco"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Region}scratch.objRegionSpanishMorocco.strOwner == {Object:Single:Country}scratch.objCountryRepublicanSpain.strName"/>
+					</object>
+				</object>
+				<object type="ActTransferRegionOwnership" name="objActions">
+					<property name="nRegionID" inheritFrom="{Object:Single:Region}scratch.objRegionSpanishMorocco.nRegionID"/>
+					<property name="nNewCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryNationalistSpain.nCountryID"/>
+				</object>
+				<object type="ActDevCreateUnits" name="objActions">
+					<property name="strCountryName" value="Nationalist Spain"/>
+					<property name="strUnitTemplate" value="PreWarInfantry"/>
+					<property name="strRegionName" value="Spanish Morocco"/>
+					<property name="strUnitName" value="Spanish Morocco Resistance"/>
+					<property name="nNumUnits" value="5"/>
+				</object>
+			</object>
+			<object type="CustomEffectDefActions" name="objEffects">
+				<property name="strLabel" value="Run effects for Luzon, if owned by Republican Spain"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Republican and Nationalist Spain"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryRepublicanSpain"/>
+						<property name="strCountry" value="Republican Spain"/>
+					</object>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryNationalistSpain"/>
+						<property name="strCountry" value="Nationalist Spain"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Luzon"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetRegion" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Region}scratch.objRegionLuzon"/>
+						<property name="strName" value="Luzon"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Region}scratch.objRegionLuzon.strOwner == {Object:Single:Country}scratch.objCountryRepublicanSpain.strName"/>
+					</object>
+				</object>
+				<object type="ActTransferRegionOwnership" name="objActions">
+					<property name="nRegionID" inheritFrom="{Object:Single:Region}scratch.objRegionLuzon.nRegionID"/>
+					<property name="nNewCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryNationalistSpain.nCountryID"/>
+				</object>
+				<object type="ActDevCreateUnits" name="objActions">
+					<property name="strCountryName" value="Nationalist Spain"/>
+					<property name="strUnitTemplate" value="PreWarInfantry"/>
+					<property name="strRegionName" value="Luzon"/>
+					<property name="strUnitName" value="Luzon Resistance"/>
+					<property name="nNumUnits" value="5"/>
+				</object>
+			</object>
+			<object type="CustomEffectDefActions" name="objEffects">
+				<property name="strLabel" value="Run effects for Mindanao, if owned by Republican Spain"/>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Republican and Nationalist Spain"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryRepublicanSpain"/>
+						<property name="strCountry" value="Republican Spain"/>
+					</object>
+					<object type="AccessorGetCountry" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Country}scratch.objCountryNationalistSpain"/>
+						<property name="strCountry" value="Nationalist Spain"/>
+					</object>
+				</object>
+				<object type="AccessorRuleSet" name="objConditions">
+					<property name="strDebugLabel" value="Setup Mindanao"/>
+					<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+					<object type="AccessorGetRegion" name="objAccessors">
+						<property name="pathOutput" value="{Object:Single:Region}scratch.objRegionMindanao"/>
+						<property name="strName" value="Mindanao"/>
+					</object>
+					<object type="RuleDefExpression" name="objRules">
+						<property name="expRession" value="{Object:Single:Region}scratch.objRegionMindanao.strOwner == {Object:Single:Country}scratch.objCountryRepublicanSpain.strName"/>
+					</object>
+				</object>
+				<object type="ActTransferRegionOwnership" name="objActions">
+					<property name="nRegionID" inheritFrom="{Object:Single:Region}scratch.objRegionMindanao.nRegionID"/>
+					<property name="nNewCountryID" inheritFrom="{Object:Single:Country}scratch.objCountryNationalistSpain.nCountryID"/>
+				</object>
+				<object type="ActDevCreateUnits" name="objActions">
+					<property name="strCountryName" value="Nationalist Spain"/>
+					<property name="strUnitTemplate" value="PreWarInfantry"/>
+					<property name="strRegionName" value="Mindanao"/>
+					<property name="strUnitName" value="Mindanao Resistance"/>
+					<property name="nNumUnits" value="5"/>
+				</object>
+			</object>
+		</object>
+		<object type="FeedbackTemplateParamBlock" name="objFeedbackTemplates">
+			<property name="strType" value="Austria_Rejects_Germany"/>
+			<property name="strTemplateSet" value="PopOut"/>
+			<property name="otPlayEventType" value="PlayEventPlayerDecisionAnswered"/>
+			<property name="pathPlayEvent" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent"/>
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Player is Germany"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:Player}scratch.objPlayer.objCountry.strName == 'Germany'"/>
+				</object>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Austria Reject in ROTR_AustrianCrisisAustriaDecision_DeferToAustria"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strTypeLabel == 'ROTR_AustrianCrisisAustriaDecision_DeferToAustria'"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strPlayer == 'Austria'"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strChoiceSelected == 'Reject'"/>
+				</object>
+			</object>
+			<object type="ParameterBlock" name="objInstanceParams">
+				<object type="StringParameter" name="objStrings">
+					<property name="strName" value="strTitle"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.Austria_Rejects_Germany.strTitle)"/>
+				</object>
+				<object type="StringParameter" name="objStrings">
+					<property name="strName" value="strDesc"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.Austria_Rejects_Germany.strDesc)"/>
+				</object>
+				<object type="StringParameter" name="objStrings">
+					<property name="strName" value="strIcon"/>
+					<property name="strValue" value="notification-end-turn-scroll.tga"/>
+				</object>
+			</object>
+		</object>
+		<object type="FeedbackTemplateParamBlock" name="objFeedbackTemplates">
+			<property name="strType" value="Austria_Resists_Annex"/>
+			<property name="strTemplateSet" value="PopOut"/>
+			<property name="otPlayEventType" value="PlayEventPlayerDecisionAnswered"/>
+			<property name="pathPlayEvent" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent"/>
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Player is Germany"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:Player}scratch.objPlayer.objCountry.strName == 'Germany'"/>
+				</object>
+			</object>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Austria Reject in ROTR_AustrianCrisisAustriaDecision_AnnexAustria"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strTypeLabel == 'ROTR_AustrianCrisisAustriaDecision_AnnexAustria'"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strPlayer == 'Austria'"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strChoiceSelected == 'Reject'"/>
+				</object>
+			</object>
+			<object type="ParameterBlock" name="objInstanceParams">
+				<object type="StringParameter" name="objStrings">
+					<property name="strName" value="strTitle"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.Austria_Resists_Annex.strTitle)"/>
+				</object>
+				<object type="StringParameter" name="objStrings">
+					<property name="strName" value="strDesc"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.ROTR.Austria_Resists_Annex.strDesc)"/>
+				</object>
+				<object type="StringParameter" name="objStrings">
+					<property name="strName" value="strIcon"/>
+					<property name="strValue" value="notification-end-turn-scroll.tga"/>
+				</object>
+			</object>
+		</object>
+		<object type="FeedbackTemplateParamBlock" name="objFeedbackTemplates">
+			<property name="strType" value="TPOA_MunichAgreement"/>
+			<property name="strTemplateSet" value="PopOut"/>
+			<property name="otPlayEventType" value="PlayEventPlayerDecisionAnswered"/>
+			<property name="pathPlayEvent" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent"/>
+			<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+			<object type="AccessorRuleSet" name="objConditions">
+				<property name="strDebugLabel" value="Czechoslovakia GiveIn in TPOA_MunichBetrayalDecision"/>
+				<property name="pathPlayer" value="{Object:Single:Player}scratch.objPlayer"/>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strTypeLabel == 'TPOA_MunichBetrayalDecision'"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strPlayer == 'Czechoslovakia'"/>
+				</object>
+				<object type="RuleDefExpression" name="objRules">
+					<property name="expRession" value="{Object:Single:PlayEventPlayerDecisionAnswered}scratch.objDecisionEvent.strChoiceSelected == 'GiveIn'"/>
+				</object>
+			</object>
+			<object type="ParameterBlock" name="objInstanceParams">
+				<object type="StringParameter" name="objStrings">
+					<property name="strName" value="strTitle"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.POA.MunichAgreement.strTitle)"/>
+				</object>
+				<object type="StringParameter" name="objStrings">
+					<property name="strName" value="strDesc"/>
+					<property name="strValue" computeFrom="getString(SID.SharedData.POA.MunichAgreement.strDesc)"/>
+				</object>
+				<object type="StringParameter" name="objStrings">
+					<property name="strName" value="strIcon"/>
+					<property name="strValue" value="notification-end-turn-scroll.tga"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</objects>

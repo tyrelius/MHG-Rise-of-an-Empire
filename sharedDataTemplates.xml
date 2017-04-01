@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MESharedData" name="">
+		<object type="DataTemplateManager" name="objDataTemplateManager">
+			<object type="DataTemplateGroup" name="objTemplateGroups">
+				<property name="otContainerType" value="Country"/>
+				<object type="DataTemplateSet" name="objTemplateSets">
+					<property name="otTemplateType" value="AmphibiousAssaultTemplate"/>
+					<property name="strDefaultTemplateName" value="Level 1"/>
+					<object type="AmphibiousAssaultTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Level 1"/>
+						<property name="sidDisplayName" value="SID.Game.AmphibiousAssaultTemplate.Name.Basic"/>
+						<property name="nCombatAttackerHitPenalty" value="67"/>
+					</object>
+					<object type="AmphibiousAssaultTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Level 2"/>
+						<property name="sidDisplayName" value="SID.Game.AmphibiousAssaultTemplate.Name.Improved"/>
+						<property name="nCombatAttackerHitPenalty" value="33"/>
+					</object>
+				</object>
+				<object type="DataTemplateSet" name="objTemplateSets">
+					<property name="otTemplateType" value="MountainWarfareTemplate"/>
+					<property name="strDefaultTemplateName" value="Level 1"/>
+					<object type="MountainWarfareTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Level 1"/>
+						<property name="nCombatHitBonus" value="0"/>
+						<property name="sidDisplayName" value="SID.Game.MountainWarfareTemplate.Name.Normal"/>
+					</object>
+					<object type="MountainWarfareTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Level 2"/>
+						<property name="nCombatHitBonus" value="11"/>
+						<property name="sidDisplayName" value="SID.Game.MountainWarfareTemplate.Name.Advanced"/>
+					</object>
+				</object>
+				<object type="DataTemplateSet" name="objTemplateSets">
+					<property name="otTemplateType" value="JungleWarfareTemplate"/>
+					<property name="strDefaultTemplateName" value="Level 1"/>
+					<object type="JungleWarfareTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Level 1"/>
+						<property name="nCombatHitBonus" value="0"/>
+						<property name="sidDisplayName" value="SID.Game.JungleWarfareTemplate.Name.Normal"/>
+					</object>
+					<object type="JungleWarfareTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Level 2"/>
+						<property name="nCombatHitBonus" value="8"/>
+						<property name="sidDisplayName" value="SID.Game.JungleWarfareTemplate.Name.Advanced"/>
+					</object>
+				</object>
+				<object type="DataTemplateSet" name="objTemplateSets">
+					<property name="otTemplateType" value="OffensiveTacticTemplate"/>
+					<property name="strDefaultTemplateName" value="Normal"/>
+					<object type="OffensiveTacticTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Normal"/>
+						<property name="sidDisplayName" value="SID.Game.OffensiveTacticTemplate.Name.Standard"/>
+						<property name="nCombatAttackerHitBonus" value="0"/>
+					</object>
+					<object type="OffensiveTacticTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Maneuver Warfare"/>
+						<property name="sidDisplayName" value="SID.Game.OffensiveTacticTemplate.Name.ManeuverWarfare"/>
+						<property name="nCombatAttackerHitBonus" value="3"/>
+					</object>
+					<object type="OffensiveTacticTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Infiltration"/>
+						<property name="sidDisplayName" value="SID.Game.OffensiveTacticTemplate.Name.Infiltration"/>
+						<property name="nCombatAttackerHitBonus" value="6"/>
+					</object>
+					<object type="OffensiveTacticTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Combined Arms"/>
+						<property name="sidDisplayName" value="SID.Game.OffensiveTacticTemplate.Name.CombinedArms"/>
+						<property name="nCombatAttackerHitBonus" value="11"/>
+					</object>
+				</object>
+				<object type="DataTemplateSet" name="objTemplateSets">
+					<property name="otTemplateType" value="DefensiveTacticTemplate"/>
+					<property name="strDefaultTemplateName" value="Normal"/>
+					<object type="DefensiveTacticTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Normal"/>
+						<property name="sidDisplayName" value="SID.Game.DefensiveTacticTemplate.Name.Standard"/>
+						<property name="nCombatDefenderResistBonus" value="0"/>
+					</object>
+					<object type="DefensiveTacticTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Attrition Warfare"/>
+						<property name="sidDisplayName" value="SID.Game.DefensiveTacticTemplate.Name.AttritionWarfare"/>
+						<property name="nCombatDefenderResistBonus" value="3"/>
+					</object>
+					<object type="DefensiveTacticTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Deep Defense"/>
+						<property name="sidDisplayName" value="SID.Game.DefensiveTacticTemplate.Name.DeepDefense"/>
+						<property name="nCombatDefenderResistBonus" value="6"/>
+					</object>
+					<object type="DefensiveTacticTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Hedgehog Defense"/>
+						<property name="sidDisplayName" value="SID.Game.DefensiveTacticTemplate.Name.HedgehogDefense"/>
+						<property name="nCombatDefenderResistBonus" value="10"/>
+					</object>
+				</object>
+				<object type="DataTemplateSet" name="objTemplateSets">
+					<property name="otTemplateType" value="SupplyLinesTemplate"/>
+					<property name="strDefaultTemplateName" value="Standard"/>
+					<object type="SupplyLinesTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Standard"/>
+						<property name="strDisplayName" value="Standard Supply Lines"/>
+						<property name="nSupplyRate" value="1"/>
+					</object>
+					<object type="SupplyLinesTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Modernized"/>
+						<property name="strDisplayName" value="Modernized Supply Lines"/>
+						<property name="nSupplyRate" value="2"/>
+					</object>
+				</object>
+				<object type="DataTemplateSet" name="objTemplateSets">
+					<property name="otTemplateType" value="ShipyardTemplate"/>
+					<property name="strDefaultTemplateName" value="Standard"/>
+					<object type="ShipyardTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Standard"/>
+						<property name="strDisplayName" value="Standard Shipyards"/>
+					</object>
+					<object type="ShipyardTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Industrialized"/>
+						<property name="strDisplayName" value="Industrialized Shipyards"/>
+					</object>
+				</object>
+				<object type="DataTemplateSet" name="objTemplateSets">
+					<property name="otTemplateType" value="UndergroundFactoryTemplate"/>
+					<property name="strDefaultTemplateName" value="None"/>
+					<object type="UndergroundFactoryTemplate" name="objTemplates">
+						<property name="strTemplateName" value="None"/>
+						<property name="strDisplayName" value="No Underground Factories"/>
+					</object>
+					<object type="UndergroundFactoryTemplate" name="objTemplates">
+						<property name="strTemplateName" value="Underground"/>
+						<property name="strDisplayName" value="Underground Factories"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</objects>

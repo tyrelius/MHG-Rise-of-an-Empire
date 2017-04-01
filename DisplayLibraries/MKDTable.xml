@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MKDTable" name="">
+		<property name="otValueType" value="SpriteRef"/>
+		<property name="strSubNodeKeyName" value="SpriteMapTable"/>
+	
+		<object type="MKDNode" name="objNodes" fromFile="MKDTableCityDamageSmoke.xml"/>
+		<object type="MKDNode" name="objNodes" fromFile="MKDTableUnitTemplatesLand.xml"/>
+		<object type="MKDNode" name="objNodes" fromFile="MKDTableUnitTemplatesLandDecals.xml"/>
+		<object type="MKDNode" name="objNodes" fromFile="MKDTableUnitTemplatesLandCombat.xml"/>
+		<object type="MKDNode" name="objNodes" fromFile="MKDTableUnitTemplatesAir.xml"/>
+		<object type="MKDNode" name="objNodes" fromFile="MKDTableUnitTemplatesPlanes.xml"/>
+		<object type="MKDNode" name="objNodes" fromFile="MKDTableUnitTemplatesSea.xml"/>
+		<object type="MKDNode" name="objNodes" fromFile="MKDTableUnitTemplatesSeaWakes.xml"/>
+		<object type="MKDNode" name="objNodes" fromFile="MKDTableUnitTemplatesSeaCombat.xml"/>
+		<object type="MKDNode" name="objNodes" fromFile="MKDTableCarrierPlanes.xml"/>
+		<object type="MKDNode" name="objNodes" fromFile="MKDTablePartisansUnitOrder.xml"/>
+		<object type="MKDNode" name="objNodes" fromFile="MKDTableInfantryUnitOrder.xml"/>
+		<object type="MKDNode" name="objNodes" fromFile="MKDTableTemplateAliasesLand.xml"/>
+		<object type="MKDNode" name="objNodes" fromFile="MKDTableTemplateAliasesAir.xml"/>
+		<object type="MKDNode" name="objNodes" fromFile="MKDTableTemplateAliasesSea.xml"/>
+		<object type="MKDNode" name="objNodes" fromFile="MKDTableCountryAliasesLand.xml"/>
+		<object type="MKDNode" name="objNodes" fromFile="MKDTableCountryAliasesAir.xml"/>
+	</object>
+</objects>

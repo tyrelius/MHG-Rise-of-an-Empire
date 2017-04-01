@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Venezuela"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Venezuela"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Venezuela"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Venezuela"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Venezuela"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Venezuela"/>
 		<property name="strHomelands" value="Venezuela"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Venezuela"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="Costa Central"/>
 			<property name="strOwner" value="Venezuela"/>
 			<property name="strController" value="Venezuela"/>
+			<property name="sidName" value="SID.Game.Region.Name.CostaCentral"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="1100500"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -20,6 +26,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Venezuela Oil Field"/>
 				<property name="strOwner" value="Venezuela"/>
+				<property name="strController" value="Venezuela"/>
 				<property name="vecPosition" value="[-67.0359420776, 7.52002334595, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="87"/>
@@ -27,8 +34,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Caracas"/>
 				<property name="strOwner" value="Venezuela"/>
+				<property name="strController" value="Venezuela"/>
 				<property name="vecPosition" value="[-66.9199981689, 10.5, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Caracas"/>
 				<property name="nPopulation" value="202342"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -38,8 +47,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Maracaibo"/>
 				<property name="strOwner" value="Venezuela"/>
+				<property name="strController" value="Venezuela"/>
 				<property name="vecPosition" value="[-71.6399993896, 10.6499996185, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Maracaibo"/>
 				<property name="strPortForRegion" value="Cariaco Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -51,6 +62,7 @@
 			<property name="strName" value="Guyana Highlands"/>
 			<property name="strOwner" value="Venezuela"/>
 			<property name="strController" value="Venezuela"/>
+			<property name="sidName" value="SID.Game.Region.Name.GuyanaHighlands"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="1020000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -60,6 +72,7 @@
 			<property name="strName" value="Orinoco"/>
 			<property name="strOwner" value="Venezuela"/>
 			<property name="strController" value="Venezuela"/>
+			<property name="sidName" value="SID.Game.Region.Name.Orinoco"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="1200700"/>
 			<property name="nTransInfrastructure" value="1"/>

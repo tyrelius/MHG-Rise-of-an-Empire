@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Persia"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Persia"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Persia"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Persia"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Persia"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Persia"/>
 		<property name="strHomelands" value="Persia"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Persia"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="Northern Persia"/>
 			<property name="strOwner" value="Persia"/>
 			<property name="strController" value="Persia"/>
+			<property name="sidName" value="SID.Game.Region.Name.NorthernPersia"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="9000000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -19,8 +25,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Tehran"/>
 				<property name="strOwner" value="Persia"/>
+				<property name="strController" value="Persia"/>
 				<property name="vecPosition" value="[51.4300003052, 35.6699981689, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Tehran"/>
 				<property name="nPopulation" value="360000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -32,6 +40,7 @@
 			<property name="strName" value="Southern Persia"/>
 			<property name="strOwner" value="Persia"/>
 			<property name="strController" value="Persia"/>
+			<property name="sidName" value="SID.Game.Region.Name.SouthernPersia"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="6000000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -39,6 +48,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Persia Oil Field"/>
 				<property name="strOwner" value="Persia"/>
+				<property name="strController" value="Persia"/>
 				<property name="vecPosition" value="[49.325340271, 31.3427715302, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="40"/>
@@ -46,8 +56,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Bandar Abbas"/>
 				<property name="strOwner" value="Persia"/>
+				<property name="strController" value="Persia"/>
 				<property name="vecPosition" value="[56.3699989319, 27.1700000763, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.BandarAbbas"/>
 				<property name="strPortForRegion" value="Persian Gulf"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

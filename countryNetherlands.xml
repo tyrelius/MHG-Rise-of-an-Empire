@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Netherlands"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Netherlands"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Netherlands"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Netherlands"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Netherlands"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Netherlands"/>
 		<property name="strHomelands" value="Netherlands"/>
 		<property name="bColonialPower" value="true"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
@@ -14,6 +19,7 @@
 			<property name="strName" value="Friesland"/>
 			<property name="strOwner" value="Netherlands"/>
 			<property name="strController" value="Netherlands"/>
+			<property name="sidName" value="SID.Game.Region.Name.Friesland"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="4578199"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -23,6 +29,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Friesland Mines"/>
 				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
 				<property name="vecPosition" value="[6.9195432663, 53.0846252441, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="15"/>
@@ -30,6 +37,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Friesland Foundry"/>
 				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
 				<property name="vecPosition" value="[5.85060691833, 53.1220016479, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -39,6 +47,7 @@
 			<property name="strName" value="Holland"/>
 			<property name="strOwner" value="Netherlands"/>
 			<property name="strController" value="Netherlands"/>
+			<property name="sidName" value="SID.Game.Region.Name.Holland"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="3896307"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -48,6 +57,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Holland Mines"/>
 				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
 				<property name="vecPosition" value="[5.86158227921, 51.5160675049, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="15"/>
@@ -55,6 +65,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Holland Foundry"/>
 				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
 				<property name="vecPosition" value="[4.06008720398, 51.8524475098, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -62,8 +73,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Amsterdam"/>
 				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
 				<property name="vecPosition" value="[4.90000009537, 52.3499984741, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Amsterdam"/>
 				<property name="nPopulation" value="731645"/>
 				<property name="strPortForRegion" value="North Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -77,6 +90,7 @@
 			<property name="strName" value="Dutch Timor"/>
 			<property name="strOwner" value="Netherlands"/>
 			<property name="strController" value="Netherlands"/>
+			<property name="sidName" value="SID.Game.Region.Name.DutchTimor"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="1657376"/>
 			<property name="strCulture" value="Indonesian"/>
@@ -86,6 +100,7 @@
 			<property name="strName" value="East Borneo"/>
 			<property name="strOwner" value="Netherlands"/>
 			<property name="strController" value="Netherlands"/>
+			<property name="sidName" value="SID.Game.Region.Name.EastBorneo"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="1366214"/>
 			<property name="nFortification" value="1"/>
@@ -94,6 +109,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="East Bomeo Mines"/>
 				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
 				<property name="vecPosition" value="[114.806045532, -1.64722204208, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -101,6 +117,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Borneo Oil Field"/>
 				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
 				<property name="vecPosition" value="[116.563812256, 1.04175376892, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="2"/>
@@ -108,8 +125,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Banjarmasin"/>
 				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
 				<property name="vecPosition" value="[114.580001831, -3.32999992371, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Banjarmasin"/>
 				<property name="strPortForRegion" value="Java Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -121,6 +140,7 @@
 			<property name="strName" value="Java"/>
 			<property name="strOwner" value="Netherlands"/>
 			<property name="strController" value="Netherlands"/>
+			<property name="sidName" value="SID.Game.Region.Name.Java"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="41718364"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -130,8 +150,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Batavia"/>
 				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
 				<property name="vecPosition" value="[106.75, -6.13000011444, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Batavia"/>
 				<property name="nPopulation" value="437000"/>
 				<property name="strPortForRegion" value="Karimata Strait"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -144,6 +166,7 @@
 			<property name="strName" value="Lesser Sunda"/>
 			<property name="strOwner" value="Netherlands"/>
 			<property name="strController" value="Netherlands"/>
+			<property name="sidName" value="SID.Game.Region.Name.LesserSunda"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="5775367"/>
 			<property name="strCulture" value="Indonesian"/>
@@ -153,6 +176,7 @@
 			<property name="strName" value="North Sumatra"/>
 			<property name="strOwner" value="Netherlands"/>
 			<property name="strController" value="Netherlands"/>
+			<property name="sidName" value="SID.Game.Region.Name.NorthSumatra"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="2045645"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -161,6 +185,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="North Sumatra Mines"/>
 				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
 				<property name="vecPosition" value="[97.8178634644, 3.65323662758, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -168,6 +193,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="North Oil Field"/>
 				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
 				<property name="vecPosition" value="[99.6955718994, 1.92740774155, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="12"/>
@@ -177,6 +203,7 @@
 			<property name="strName" value="Riau Islands"/>
 			<property name="strOwner" value="Netherlands"/>
 			<property name="strController" value="Netherlands"/>
+			<property name="sidName" value="SID.Game.Region.Name.RiauIslands"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="298225"/>
 			<property name="strCulture" value="Malaysian"/>
@@ -186,6 +213,7 @@
 			<property name="strName" value="South Sumatra"/>
 			<property name="strOwner" value="Netherlands"/>
 			<property name="strController" value="Netherlands"/>
+			<property name="sidName" value="SID.Game.Region.Name.SouthSumatra"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="6209108"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -194,6 +222,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="South Sumatra Mines"/>
 				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
 				<property name="vecPosition" value="[103.745903015, -2.92404842377, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -201,6 +230,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="South Oil Field"/>
 				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
 				<property name="vecPosition" value="[101.804138184, -0.474070072174, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="10"/>
@@ -208,8 +238,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Jambi"/>
 				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
 				<property name="vecPosition" value="[103.699996948, -1.60000002384, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Jambi"/>
 				<property name="strPortForRegion" value="Karimata Strait"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -221,6 +253,7 @@
 			<property name="strName" value="West Borneo"/>
 			<property name="strOwner" value="Netherlands"/>
 			<property name="strController" value="Netherlands"/>
+			<property name="sidName" value="SID.Game.Region.Name.WestBorneo"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="802447"/>
 			<property name="nFortification" value="1"/>
@@ -231,6 +264,7 @@
 			<property name="strName" value="Banda Islands"/>
 			<property name="strOwner" value="Netherlands"/>
 			<property name="strController" value="Netherlands"/>
+			<property name="sidName" value="SID.Game.Region.Name.BandaIslands"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="125024"/>
 			<property name="strCulture" value="Melanesian"/>
@@ -240,6 +274,7 @@
 			<property name="strName" value="Celebes"/>
 			<property name="strOwner" value="Netherlands"/>
 			<property name="strController" value="Netherlands"/>
+			<property name="sidName" value="SID.Game.Region.Name.Celebes"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="4231906"/>
 			<property name="nFortification" value="1"/>
@@ -248,8 +283,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Manado"/>
 				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
 				<property name="vecPosition" value="[124.839996338, 1.49000000954, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Manado"/>
 				<property name="strPortForRegion" value="Celebes Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -261,6 +298,7 @@
 			<property name="strName" value="Moluccas"/>
 			<property name="strOwner" value="Netherlands"/>
 			<property name="strController" value="Netherlands"/>
+			<property name="sidName" value="SID.Game.Region.Name.Moluccas"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="454105"/>
 			<property name="strCulture" value="Melanesian"/>
@@ -270,6 +308,7 @@
 			<property name="strName" value="West New Guinea"/>
 			<property name="strOwner" value="Netherlands"/>
 			<property name="strController" value="Netherlands"/>
+			<property name="sidName" value="SID.Game.Region.Name.WestNewGuinea"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="314271"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -279,15 +318,30 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="New Guinea Oil Field"/>
 				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
 				<property name="vecPosition" value="[139.502685547, -3.51399326324, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Hollandia"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
+				<property name="vecPosition" value="[140.523239136, -2.6039853096, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Hollandia"/>
+				<property name="strPortForRegion" value="Halmahera Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
 			</object>
 		</object>
 		<object type="Region" name="objGOs">
 			<property name="strName" value="Surinam"/>
 			<property name="strOwner" value="Netherlands"/>
 			<property name="strController" value="Netherlands"/>
+			<property name="sidName" value="SID.Game.Region.Name.Surinam"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="169471"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -296,9 +350,12 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Paramaribo"/>
 				<property name="strOwner" value="Netherlands"/>
+				<property name="strController" value="Netherlands"/>
 				<property name="vecPosition" value="[-55.1699981689, 5.82999992371, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Paramaribo"/>
 				<property name="nPopulation" value="52705"/>
+				<property name="strPortForRegion" value="Amazon Mouth"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
 					<property name="nIPUs" value="7"/>

@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Finland"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Finland"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Finland"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Finland"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Finland"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Finland"/>
 		<property name="strHomelands" value="Finland"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>
@@ -13,6 +18,7 @@
 			<property name="strName" value="Karelia"/>
 			<property name="strOwner" value="Finland"/>
 			<property name="strController" value="Finland"/>
+			<property name="sidName" value="SID.Game.Region.Name.Karelia"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="831454"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -22,6 +28,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Karelia Mine"/>
 				<property name="strOwner" value="Finland"/>
+				<property name="strController" value="Finland"/>
 				<property name="vecPosition" value="[28.9529323578, 61.0541496277, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -31,6 +38,7 @@
 			<property name="strName" value="Laponia"/>
 			<property name="strOwner" value="Finland"/>
 			<property name="strController" value="Finland"/>
+			<property name="sidName" value="SID.Game.Region.Name.Laponia"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="143679"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -41,6 +49,7 @@
 			<property name="strName" value="Nylandia"/>
 			<property name="strOwner" value="Finland"/>
 			<property name="strController" value="Finland"/>
+			<property name="sidName" value="SID.Game.Region.Name.Nylandia"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="507708"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -49,8 +58,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Helsinki"/>
 				<property name="strOwner" value="Finland"/>
+				<property name="strController" value="Finland"/>
 				<property name="vecPosition" value="[25, 60.1300010681, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Helsinki"/>
 				<property name="nPopulation" value="283598"/>
 				<property name="strPortForRegion" value="Gulf of Finland"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -63,6 +74,7 @@
 			<property name="strName" value="Oulu"/>
 			<property name="strOwner" value="Finland"/>
 			<property name="strController" value="Finland"/>
+			<property name="sidName" value="SID.Game.Region.Name.Oulu"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="425278"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -73,6 +85,7 @@
 			<property name="strName" value="Satakunda"/>
 			<property name="strOwner" value="Finland"/>
 			<property name="strController" value="Finland"/>
+			<property name="sidName" value="SID.Game.Region.Name.Satakunda"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="549597"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -81,8 +94,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Turku"/>
 				<property name="strOwner" value="Finland"/>
+				<property name="strController" value="Finland"/>
 				<property name="vecPosition" value="[22.25, 60.4500007629, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Turku"/>
 				<property name="nPopulation" value="66654"/>
 				<property name="strPortForRegion" value="Northern Baltic"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -95,6 +110,7 @@
 			<property name="strName" value="Savonia"/>
 			<property name="strOwner" value="Finland"/>
 			<property name="strController" value="Finland"/>
+			<property name="sidName" value="SID.Game.Region.Name.Savonia"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="381100"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -105,6 +121,7 @@
 			<property name="strName" value="Tvastia"/>
 			<property name="strOwner" value="Finland"/>
 			<property name="strController" value="Finland"/>
+			<property name="sidName" value="SID.Game.Region.Name.Tvastia"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="389056"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -113,8 +130,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Tampere"/>
 				<property name="strOwner" value="Finland"/>
+				<property name="strController" value="Finland"/>
 				<property name="vecPosition" value="[23.75, 61.5, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Tampere"/>
 				<property name="nPopulation" value="60465"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -126,6 +145,7 @@
 			<property name="strName" value="Aland"/>
 			<property name="strOwner" value="Finland"/>
 			<property name="strController" value="Finland"/>
+			<property name="sidName" value="SID.Game.Region.Name.Aland"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="27375"/>
 			<property name="strCulture" value="Swedish"/>

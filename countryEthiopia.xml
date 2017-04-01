@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Ethiopia"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Ethiopia"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Ethiopia"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Ethiopia"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Ethiopia"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Ethiopia"/>
 		<property name="strHomelands" value="Ethiopia"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Ethiopia"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="Ethiopia"/>
 			<property name="strOwner" value="Ethiopia"/>
 			<property name="strController" value="Ethiopia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Ethiopia"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="7600000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -19,8 +25,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Addis Ababa"/>
 				<property name="strOwner" value="Ethiopia"/>
+				<property name="strController" value="Ethiopia"/>
 				<property name="vecPosition" value="[38.7000007629, 9.02999973297, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.AddisAbaba"/>
 				<property name="nPopulation" value="150000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -31,6 +39,7 @@
 		<object type="Army" name="objGOs">
 			<property name="strName" value="1st Army"/>
 			<property name="strOwner" value="Ethiopia"/>
+			<property name="vecPosition" value="[38.0465164185, 9.57884979248, 2.38418579102e-007]"/>
 			<property name="strRegion" value="Ethiopia"/>
 			<object type="UnitSummary" name="objUnits">
 				<property name="strName" value="Militia"/>

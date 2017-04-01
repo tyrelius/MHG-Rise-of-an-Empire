@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Denmark"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Denmark"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Denmark"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Denmark"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Denmark"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Denmark"/>
 		<property name="strHomelands" value="Denmark"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>
@@ -13,6 +18,7 @@
 			<property name="strName" value="Bornholm"/>
 			<property name="strOwner" value="Denmark"/>
 			<property name="strController" value="Denmark"/>
+			<property name="sidName" value="SID.Game.Region.Name.Bornholm"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="512447"/>
 			<property name="strCulture" value="Danish"/>
@@ -22,6 +28,7 @@
 			<property name="strName" value="Jutland"/>
 			<property name="strOwner" value="Denmark"/>
 			<property name="strController" value="Denmark"/>
+			<property name="sidName" value="SID.Game.Region.Name.Jutland"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="1367845"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -32,6 +39,7 @@
 			<property name="strName" value="Zealand"/>
 			<property name="strOwner" value="Denmark"/>
 			<property name="strController" value="Denmark"/>
+			<property name="sidName" value="SID.Game.Region.Name.Zealand"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="1793564"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -40,8 +48,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Copenhagen"/>
 				<property name="strOwner" value="Denmark"/>
+				<property name="strController" value="Denmark"/>
 				<property name="vecPosition" value="[12.3699998856, 55.6100006104, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Copenhagen"/>
 				<property name="nPopulation" value="843168"/>
 				<property name="strPortForRegion" value="Skagerrak Kattergat"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -55,6 +65,7 @@
 			<property name="strName" value="Godthab"/>
 			<property name="strOwner" value="Denmark"/>
 			<property name="strController" value="Denmark"/>
+			<property name="sidName" value="SID.Game.Region.Name.Godthab"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="15000"/>
 			<property name="strCulture" value="Greenlandic"/>
@@ -64,6 +75,7 @@
 			<property name="strName" value="Nordgronland"/>
 			<property name="strOwner" value="Denmark"/>
 			<property name="strController" value="Denmark"/>
+			<property name="sidName" value="SID.Game.Region.Name.Nordgronland"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="744"/>
 			<property name="strCulture" value="Greenlandic"/>
@@ -73,6 +85,7 @@
 			<property name="strName" value="Osterbygd"/>
 			<property name="strOwner" value="Denmark"/>
 			<property name="strController" value="Denmark"/>
+			<property name="sidName" value="SID.Game.Region.Name.Osterbygd"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="886"/>
 			<property name="strCulture" value="Greenlandic"/>
@@ -82,6 +95,7 @@
 			<property name="strName" value="Faroe Islands"/>
 			<property name="strOwner" value="Denmark"/>
 			<property name="strController" value="Denmark"/>
+			<property name="sidName" value="SID.Game.Region.Name.FaroeIslands"/>
 			<property name="strTerrain" value="Tundra"/>
 			<property name="nPopulation" value="256223"/>
 			<property name="strCulture" value="Scandinavian"/>

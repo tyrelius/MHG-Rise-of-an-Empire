@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Estonia"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Estonia"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Estonia"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Estonia"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Estonia"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Estonia"/>
 		<property name="strHomelands" value="Estonia"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Estonia"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="Harrien"/>
 			<property name="strOwner" value="Estonia"/>
 			<property name="strController" value="Estonia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Harrien"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="675848"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -20,8 +26,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Tallinn"/>
 				<property name="strOwner" value="Estonia"/>
+				<property name="strController" value="Estonia"/>
 				<property name="vecPosition" value="[24.7199993134, 59.4300003052, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Tallinn"/>
 				<property name="nPopulation" value="146500"/>
 				<property name="strPortForRegion" value="Gulf of Finland"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -34,6 +42,7 @@
 			<property name="strName" value="Wierland"/>
 			<property name="strOwner" value="Estonia"/>
 			<property name="strController" value="Estonia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Wierland"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="450565"/>
 			<property name="nTransInfrastructure" value="2"/>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MEPlayerData" name="">
+		<property name="strName" value="Vichy France"/>
+		<property name="strOwner" value="Vichy France"/>
+		<property name="strFoggees" value="Vichy France"/>
+		<property name="strHLPDefLists" value="Default"/>
+		<property name="strDipRelProcListName" value="Neutral"/>
+		<property name="strAITreatyEvalListName" value="Neutral_Isolationist"/>
+		<property name="eInternationalPosition" value="PLAYER_INTERNATIONAL_POSITION__NEUTRAL"/>
+		<property name="nInternationalInvolvement" value="1"/>
+		<property name="nAggressiveNature" value="1"/>
+		<property name="nMilitaryPosture" value="1"/>
+		<property name="nMilitaryDoctrine" value="1"/>
+		<property name="nDomesticPolicy" value="1"/>
+		<property name="nSciencePolicy" value="1"/>
+		<property name="nPoliticalStability" value="21"/>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="PreWarBattleships"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="AttritionWarfare"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="PreWarFighters"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="EarlyBombers"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="EarlyCruisers"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="EarlySubmarines"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="EarlyTanks"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="FieldArtillery"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="ManeuverWarfare"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+	</object>
+</objects>

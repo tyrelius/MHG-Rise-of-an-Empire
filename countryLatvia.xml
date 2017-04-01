@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Latvia"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Latvia"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Latvia"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Latvia"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Latvia"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Latvia"/>
 		<property name="strHomelands" value="Latvia"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Latvia"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="Courland"/>
 			<property name="strOwner" value="Latvia"/>
 			<property name="strController" value="Latvia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Courland"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="1365351"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -20,8 +26,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Riga"/>
 				<property name="strOwner" value="Latvia"/>
+				<property name="strController" value="Latvia"/>
 				<property name="vecPosition" value="[24.1299991608, 56.8800010681, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Riga"/>
 				<property name="nPopulation" value="385063"/>
 				<property name="strPortForRegion" value="Gulf of Riga"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -34,6 +42,7 @@
 			<property name="strName" value="Livonia"/>
 			<property name="strOwner" value="Latvia"/>
 			<property name="strController" value="Latvia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Livonia"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="585151"/>
 			<property name="nTransInfrastructure" value="2"/>

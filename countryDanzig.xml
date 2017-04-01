@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Danzig"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Danzig"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Danzig"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Danzig"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Danzig"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Danzig"/>
 		<property name="strHomelands" value="Danzig"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Danzig"/>
@@ -12,17 +17,20 @@
 			<property name="strName" value="Westerplatte"/>
 			<property name="strOwner" value="Danzig"/>
 			<property name="strController" value="Danzig"/>
+			<property name="sidName" value="SID.Game.Region.Name.Westerplatte"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="407000"/>
 			<property name="nTransInfrastructure" value="2"/>
 			<property name="nFortification" value="1"/>
-			<property name="strCulture" value="German"/>
+			<property name="strCulture" value="Polish-German"/>
 			<property name="nAgriculture" value="1"/>
 			<object type="City" name="objGOs">
 				<property name="strName" value="Danzig"/>
 				<property name="strOwner" value="Danzig"/>
+				<property name="strController" value="Danzig"/>
 				<property name="vecPosition" value="[18.7999992371, 53.8699989319, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Danzig"/>
 				<property name="nPopulation" value="266000"/>
 				<property name="strPortForRegion" value="Bornholm Basin"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -33,10 +41,7 @@
 		</object>
 		<object type="CultureSet" name="objCultureSet">
 			<object type="Culture" name="objCultures">
-				<property name="strCultureName" value="Polish"/>
-			</object>
-			<object type="Culture" name="objCultures">
-				<property name="strCultureName" value="German"/>
+				<property name="strCultureName" value="Polish-German"/>
 			</object>
 		</object>
 	</object>

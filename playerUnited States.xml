@@ -56,20 +56,13 @@
 			<property name="strName" value="BasicRegionLists"/>
 			<object type="RegionListParameter" name="objRegionLists">
 				<property name="strName" value="Historic"/>
-				<property name="strRegions" value="Guam"/>
 				<property name="strRegions" value="Wake Island"/>
-				<property name="strRegions" value="Luzon"/>
-				<property name="strRegions" value="Mindanao"/>
-				<property name="strRegions" value="Southern Tagalog"/>
-				<property name="strRegions" value="Visayas"/>
 				<property name="strRegions" value="American Samoa"/>
 				<property name="strRegions" value="Line Islands"/>
 				<property name="strRegions" value="Aleutian Islands"/>
 				<property name="strRegions" value="Canal Zone"/>
 				<property name="strRegions" value="Midway"/>
 				<property name="strRegions" value="Near Islands"/>
-				<property name="strRegions" value="Puerto Rico"/>
-				<property name="strRegions" value="US Virgin Islands"/>
 			</object>
 			<object type="RegionListParameter" name="objRegionLists">
 				<property name="strName" value="UnitedStatesGreenlandTrigger1939"/>
@@ -146,10 +139,6 @@
 		</object>
 		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
 			<property name="strName" value="GoalRefHistory38"/>
-		</object>
-		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
-			<property name="strProjectName" value="MountedInfantry"/>
-			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
 		</object>
 		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
 			<property name="strProjectName" value="FieldArtillery"/>
@@ -303,7 +292,7 @@
 			</object>
 			<object type="DipRelInitialValue" name="objDipRelInitialValues">
 				<property name="strTargetCountry" value="USSR"/>
-				<property name="nValue" value="375"/>
+				<property name="nValue" value="650"/>
 			</object>
 			<object type="DipRelInitialValue" name="objDipRelInitialValues">
 				<property name="strTargetCountry" value="Yugoslavia"/>
@@ -320,6 +309,10 @@
 			<object type="DipRelInitialValue" name="objDipRelInitialValues">
 				<property name="strTargetCountry" value="Nationalist Spain"/>
 				<property name="nValue" value="400"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Confederate States"/>
+				<property name="nValue" value="360"/>
 			</object>
 		</object>
 	</object>

@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="SpriteMap" name="">
+		<property name="strSelectionIndicatorSpriteName" value="Selection Indicator"/>
+
+		<object type="MKDKeySet" name="objMKDKeySet" fromFile="MKDKeySet.xml"/>
+		<object type="MKDTable" name="objMKDTable" fromFile="MKDTable.xml"/>
+
+		<object type="SpriteMapLayer" name="objLayers">
+			<property name="strName" value="Engagement Decals"/>
+			<property name="bIsFlat" value="true"/>
+		</object>
+
+		<object type="SpriteMapLayer" name="objLayers">
+			<property name="strName" value="Engagement Icons"/>
+		</object>
+		<object type="SpriteMapLayer" name="objLayers">
+			<property name="strName" value="Engagement Icons Bases"/>
+			<property name="bIsFlat" value="true"/>
+		</object>
+
+		<object type="SpriteMapLayer" name="objLayers">
+			<property name="strName" value="Factory Icons"/>
+		</object>
+
+		<object type="SpriteMapLayer" name="objLayers">
+			<property name="strName" value="Capital Cities"/>
+			<property name="bIsFlat" value="true"/>
+		</object>
+
+		<object type="SpriteMapLayer" name="objLayers">
+			<property name="strName" value="All Cities"/>
+		</object>
+
+		<object type="SpriteMapLayer" name="objLayers">
+			<property name="strName" value="City Lights"/>
+			<property name="bCastsShadows" value="false"/>
+		</object>
+
+		<object type="SpriteMapLayer" name="objLayers">
+			<property name="strName" value="Capital City Flags"/>
+		</object>
+
+		<object type="SpriteMapLayer" name="objLayers">
+			<property name="strName" value="Factory Smoke"/>
+			<property name="bUsesParticleEffects" value="true"/>
+			<property name="bCastsShadows" value="false"/>
+		</object>
+
+		<object type="SpriteMapLayer" name="objLayers">
+			<property name="strName" value="Damage Smoke"/>
+			<property name="bUsesParticleEffects" value="true"/>
+			<property name="bCastsShadows" value="true"/>
+		</object>
+
+		<object type="SpriteMapLayer" name="objLayers">
+			<property name="strName" value="All Cities Ground"/>
+			<property name="bIsFlat" value="true"/>
+		</object>
+
+		<object type="SpriteMapLayer" name="objLayers">
+			<property name="strName" value="Military Units"/>
+			<property name="bUsesSpriteData" value="true"/>
+		</object>
+
+		<object type="SpriteMapLayer" name="objLayers">
+			<property name="strName" value="Air Bases"/>
+		</object>
+
+		<object type="SpriteMapLayer" name="objLayers">
+			<property name="strName" value="Military Units Bases"/>
+			<property name="bUsesSpriteData" value="true"/>
+			<property name="bIsFlat" value="true"/>
+		</object>
+
+		<object type="SpriteMapLayer" name="objLayers">
+			<property name="strName" value="Producers"/>
+		</object>
+
+		<object type="SpriteMapLayer" name="objLayers">
+			<property name="strName" value="Producers Ground"/>
+			<property name="bIsFlat" value="true"/>
+		</object>
+
+	<!-- Capitals -->
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="Capital Cities"/>
+			<property name="otVisibleGOType" value="City"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.bCapital"/>
+				<property name="bShowSelection" value="false"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Small Capital Icon"/>
+				</object>
+			</object>
+		</object>
+
+	<!-- All Cities -->
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="All Cities"/>
+			<property name="otVisibleGOType" value="City"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="
+					{Object}input ISA City AND 
+					cast(String, input.eCityState) == 'CITY_STATE_NUKED'
+				"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Nuked City"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel GTE 3 AND input.bCapital AND exists(input.objPortForRegion)"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Advanced Capital Port City"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel GTE 3 AND input.bCapital"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Advanced Capital City"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel GTE 3 AND exists(input.objPortForRegion)"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Advanced Port City"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel GTE 3"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Advanced City"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel == 2 AND input.bCapital AND exists(input.objPortForRegion)"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Industrial Capital Port City"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel == 2 AND input.bCapital"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Industrial Capital City"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel == 2 AND exists(input.objPortForRegion)"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Industrial Port City"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel == 2"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Industrial City"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel LTE 1 AND input.bCapital AND exists(input.objPortForRegion)"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Pre-Industrial Capital Port City"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel LTE 1 AND input.bCapital"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Pre-Industrial Capital City"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel LTE 1 AND exists(input.objPortForRegion)"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Pre-Industrial Port City"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel LTE 1"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Pre-Industrial City"/>
+				</object>
+			</object>
+		</object>
+
+	<!-- City Lights -->
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="City Lights"/>
+			<property name="otVisibleGOType" value="City"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="
+					{Object}input ISA City AND 
+					(
+						cast(String, input.eCityState) == 'CITY_STATE_NUKED'
+						OR !exists(input.objPortForRegion)
+						OR sizeOf(input.objMovableGORefs) == 0
+					)
+				"/>
+				<!-- Show nothing for nuked cities, non-port cities, and cities with no ships in them -->
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel GTE 3"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Advanced City Light"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel == 2"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Industrial City Light"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel LTE 1"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Pre-Industrial City Light"/>
+				</object>
+			</object>
+		</object>
+	<!-- Capital City Flags -->
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="Capital City Flags"/>
+			<property name="otVisibleGOType" value="City"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.bCapital"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Nation Flag"/>
+				</object>
+			</object>
+		</object>
+
+	<!-- All Cities Smoke -->
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="Factory Smoke"/>
+			<property name="otVisibleGOType" value="City"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="
+					{Object}input ISA City AND 
+					input.nControllerID == {int}nViewCountryID AND
+					input.objFactory.nTechLevel GTE 3 AND 
+					exists(input.objFactory.objWorkOrder) AND 
+					!input.objFactory.objWorkOrder.bPaused
+				"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Advanced City Smoke"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="
+					{Object}input ISA City AND 
+					input.nControllerID == {int}nViewCountryID AND
+					input.objFactory.nTechLevel == 2 AND 
+					exists(input.objFactory.objWorkOrder) AND 
+					!input.objFactory.objWorkOrder.bPaused
+				"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Industrial City Smoke"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="
+					{Object}input ISA City AND 
+					input.nControllerID == {int}nViewCountryID AND
+					input.objFactory.nTechLevel LTE 1 AND 
+					exists(input.objFactory.objWorkOrder) AND 
+					!input.objFactory.objWorkOrder.bPaused
+				"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Pre-Industrial City Smoke"/>
+				</object>
+			</object>
+		</object>
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="Damage Smoke"/>
+			<property name="otVisibleGOType" value="City"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+			<object type="SpriteRule" name="objRules">
+				<object type="SpriteRefMKDTable" name="objSpriteRefs">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_CITY_DAMAGE_SMOKE"/>
+					</object>
+					<object type="MKDSRKCityDamage" name="objKeys">
+						<property name="strKeyName" value="CityDamageState"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- All Cities Ground -->
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="All Cities Ground"/>
+			<property name="otVisibleGOType" value="City"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel GTE 3"/>
+				<property name="bShowSelection" value="false"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Advanced City Ground"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel == 2"/>
+				<property name="bShowSelection" value="false"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Industrial City Ground"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA City AND input.objFactory.nTechLevel LTE 1"/>
+				<property name="bShowSelection" value="false"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Pre-Industrial City Ground"/>
+				</object>
+			</object>
+		</object>
+
+
+		<!--
+			Military Units
+		-->
+
+		<!-- Generic Units -->
+			<!-- Land Units -->
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="Military Units"/>
+			<property name="otVisibleGOType" value="Army"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+		<!-- Escort Groups -->
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA Unit AND !input.bIsOnLand AND input.nEscortMapEffectID GTE 0"/>
+				
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Generic Escort Group"/>
+				</object>
+			</object>
+
+		<!-- Transports -->
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA Unit AND !input.bIsOnLand"/>
+				
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Generic Transport"/>
+				</object>
+			</object>
+
+		<!-- Regular Land Units -->
+			<object type="SpriteRule" name="objRules">
+				<object type="SpriteRefMKDTable" name="objSpriteRefs">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_UNIT_TEMPLATES_LAND"/>
+					</object>
+					<object type="MKDSRKFirstUnitTemplate" name="objKeys">
+						<property name="strKeyName" value="UnitTemplate"/>
+						<property name="strOrderedListName" value="SpriteMapListLandUnits"/>
+					</object>
+				</object>
+			</object>
+		</object>
+			<!-- Air Units -->
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="Military Units"/>
+			<property name="otVisibleGOType" value="AirForce"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+
+		<!-- Escort Groups -->
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA Unit AND !input.bIsOnLand AND input.nEscortMapEffectID GTE 0"/>
+				
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Generic Escort Group"/>
+				</object>
+			</object>
+
+		<!-- Transports -->
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA Unit AND !input.bIsOnLand"/>
+				
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Generic Transport"/>
+				</object>
+			</object>
+			
+		<!-- Show nothing for air units involved in a map effect -->
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="
+					{Object}input ISA AirForce AND 
+					exists(input.objOrder) AND
+					cast(String, input.objOrder.eMapEffectState) == 'UOMFX_STATE_IN_MAP_EFFECT'
+				"/>
+			</object>
+
+		<!-- Regular Air Units -->
+			<object type="SpriteRule" name="objRules">
+				<object type="SpriteRefMKDTable" name="objSpriteRefs">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_UNIT_TEMPLATES_AIR"/>
+					</object>
+					<object type="MKDSRKFirstUnitTemplate" name="objKeys">
+						<property name="strKeyName" value="UnitTemplate"/>
+						<property name="strOrderedListName" value="SpriteMapListAirUnits"/>
+					</object>
+				</object>
+			</object>
+		</object>
+			<!-- Air Bases -->
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="Air Bases"/>
+			<property name="otVisibleGOType" value="AirForce"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA AirForce AND exists(input.objOrder) AND !(input.objOrder ISA UnitOrderMove) AND input.bIsOnLand"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Air Base"/>
+				</object>
+			</object>
+		</object>
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="Military Units Bases"/>
+			<property name="otVisibleGOType" value="AirForce"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA AirForce AND exists(input.objOrder)"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Air Base Ground"/>
+				</object>
+			</object>
+		</object>
+			<!-- Sea Units -->
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="Military Units"/>
+			<property name="otVisibleGOType" value="Fleet"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+		<!-- Regular Sea Units -->
+			<object type="SpriteRule" name="objRules">
+				<object type="SpriteRefMKDTable" name="objSpriteRefs">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_UNIT_TEMPLATES_SEA"/>
+					</object>
+					<object type="MKDSRKFirstUnitTemplate" name="objKeys">
+						<property name="strKeyName" value="UnitTemplate"/>
+						<property name="strOrderedListName" value="SpriteMapListSeaUnits"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+		<!--
+			Military Units Bases
+		-->
+		<!-- Generic Units -->
+			<!-- Land Units -->
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="Military Units Bases"/>
+			<property name="otVisibleGOType" value="Army"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+
+		<!-- Moving escort group -->
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA Unit AND !input.bIsOnLand AND input.nEscortMapEffectID GTE 0 AND input.objOrder ISA UnitOrderMove"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Generic Escort Group Wake"/>
+				</object>
+			</object>
+
+		<!-- Moving transport -->
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA Unit AND !input.bIsOnLand AND input.objOrder ISA UnitOrderMove"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Generic Transport Wake"/>
+				</object>
+			</object>
+
+		<!-- Non-moving transports and escort groups -->
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA MovableGO AND !input.bIsOnLand"/>
+			</object>
+
+		<!-- Regular Land Units -->
+			<object type="SpriteRule" name="objRules">
+				<object type="SpriteRefMKDTable" name="objSpriteRefs">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_UNIT_TEMPLATES_LAND_DECALS"/>
+					</object>
+					<object type="MKDSRKFirstUnitTemplate" name="objKeys">
+						<property name="strKeyName" value="UnitTemplate"/>
+						<property name="strOrderedListName" value="SpriteMapListLandUnits"/>
+					</object>
+				</object>
+			</object>
+		</object>
+			<!-- Sea Units -->
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="Military Units Bases"/>
+			<property name="otVisibleGOType" value="Fleet"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+		<!-- Moving Sea Units -->
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA Unit AND input.objOrder ISA UnitOrderMove"/>
+				<object type="SpriteRefMKDTable" name="objSpriteRefs">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_UNIT_TEMPLATES_SEA_WAKES"/>
+					</object>
+					<object type="MKDSRKFirstUnitTemplate" name="objKeys">
+						<property name="strKeyName" value="UnitTemplate"/>
+						<property name="strOrderedListName" value="SpriteMapListSeaUnits"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		
+		<!-- Producers -->
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="Producers"/>
+			<property name="otVisibleGOType" value="Producer"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA Producer AND input.strResource == 'Oil'"/>
+				<property name="bShowSelection" value="false"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Resource Oil"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA Producer AND input.strResource == 'Metals'"/>
+				<property name="bShowSelection" value="false"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Resource Metals"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA Producer AND input.strResource == 'Coal'"/>
+				<property name="bShowSelection" value="false"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Resource Coal"/>
+				</object>
+			</object>
+		</object>
+		
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="Producers Ground"/>
+			<property name="otVisibleGOType" value="Producer"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA Producer AND input.strResource == 'Oil'"/>
+				<property name="bShowSelection" value="false"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Resource Oil Ground"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA Producer AND input.strResource == 'Metals'"/>
+				<property name="bShowSelection" value="false"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Resource Metals Ground"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA Producer AND input.strResource == 'Coal'"/>
+				<property name="bShowSelection" value="false"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Resource Coal Ground"/>
+				</object>
+			</object>
+		</object>
+		
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="Factory Smoke"/>
+			<property name="otVisibleGOType" value="Producer"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA Producer AND input.strResource == 'Metals'"/>
+				<property name="bShowSelection" value="false"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Resource Metals Smoke"/>
+				</object>
+			</object>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA Producer AND input.strResource == 'Coal'"/>
+				<property name="bShowSelection" value="false"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Resource Coal Smoke"/>
+				</object>
+			</object>
+		</object>
+
+		<object type="SpriteMapping" name="objMappings">
+			<property name="strMapView" value="Damage Smoke"/>
+			<property name="otVisibleGOType" value="Producer"/>
+			<property name="strVisibleGOOwner" value=""/>
+			<property name="strVisibleGOName" value=""/>
+			<object type="SpriteRule" name="objRules">
+				<property name="expMatching" value="{Object}input ISA Producer AND input.nOutputLostToDamage GT 0"/>
+				<property name="bShowSelection" value="true"/>
+				<object type="SpriteRefName" name="objSpriteRefs">
+					<property name="strSpriteName" value="Damaged City Smoke with Fire"/>
+				</object>
+			</object>
+		</object>
+		
+	</object>
+</objects>

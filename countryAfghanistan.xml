@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Afghanistan"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Afghanistan"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Afghanistan"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Afghanistan"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Afghanistan"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Afghanistan"/>
 		<property name="strHomelands" value="Afghanistan"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Afghanistan"/>
@@ -12,14 +17,17 @@
 			<property name="strName" value="Afghanistan"/>
 			<property name="strOwner" value="Afghanistan"/>
 			<property name="strController" value="Afghanistan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Afghanistan"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="12000000"/>
 			<property name="strCulture" value="Afghani"/>
 			<object type="City" name="objGOs">
 				<property name="strName" value="Kabul"/>
 				<property name="strOwner" value="Afghanistan"/>
+				<property name="strController" value="Afghanistan"/>
 				<property name="vecPosition" value="[69.1800003052, 34.5200004578, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Kabul"/>
 				<property name="nPopulation" value="80000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

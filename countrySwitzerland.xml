@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Switzerland"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Switzerland"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Switzerland"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Switzerland"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Switzerland"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Switzerland"/>
 		<property name="strHomelands" value="Switzerland"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>
@@ -13,6 +18,7 @@
 			<property name="strName" value="Helvetia"/>
 			<property name="strOwner" value="Switzerland"/>
 			<property name="strController" value="Switzerland"/>
+			<property name="sidName" value="SID.Game.Region.Name.Helvetia"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="2489473"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -21,8 +27,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Bern"/>
 				<property name="strOwner" value="Switzerland"/>
+				<property name="strController" value="Switzerland"/>
 				<property name="vecPosition" value="[7.42999982834, 46.9500007629, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Bern"/>
 				<property name="nPopulation" value="111783"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -35,6 +43,7 @@
 			<property name="strName" value="Schwyz"/>
 			<property name="strOwner" value="Switzerland"/>
 			<property name="strController" value="Switzerland"/>
+			<property name="sidName" value="SID.Game.Region.Name.Schwyz"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="1575859"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -43,8 +52,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Zurich"/>
 				<property name="strOwner" value="Switzerland"/>
+				<property name="strController" value="Switzerland"/>
 				<property name="vecPosition" value="[8.72546768188, 47.347492218, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Zurich"/>
 				<property name="nPopulation" value="312600"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

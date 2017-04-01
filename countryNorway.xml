@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Norway"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Norway"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Norway"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Norway"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Norway"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Norway"/>
 		<property name="strHomelands" value="Norway"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>
@@ -13,6 +18,7 @@
 			<property name="strName" value="Agder"/>
 			<property name="strOwner" value="Norway"/>
 			<property name="strController" value="Norway"/>
+			<property name="sidName" value="SID.Game.Region.Name.Agder"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="282623"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -23,6 +29,7 @@
 			<property name="strName" value="Akershus"/>
 			<property name="strOwner" value="Norway"/>
 			<property name="strController" value="Norway"/>
+			<property name="sidName" value="SID.Game.Region.Name.Akershus"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="554261"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -31,8 +38,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Oslo"/>
 				<property name="strOwner" value="Norway"/>
+				<property name="strController" value="Norway"/>
 				<property name="vecPosition" value="[10.75, 59.9300003052, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Oslo"/>
 				<property name="nPopulation" value="253124"/>
 				<property name="strPortForRegion" value="Skagerrak Kattergat"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -45,6 +54,7 @@
 			<property name="strName" value="Finnsmark"/>
 			<property name="strOwner" value="Norway"/>
 			<property name="strController" value="Norway"/>
+			<property name="sidName" value="SID.Game.Region.Name.Finnsmark"/>
 			<property name="strTerrain" value="Tundra"/>
 			<property name="nPopulation" value="150775"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -55,6 +65,7 @@
 			<property name="strName" value="Nordland"/>
 			<property name="strOwner" value="Norway"/>
 			<property name="strController" value="Norway"/>
+			<property name="sidName" value="SID.Game.Region.Name.Nordland"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="186920"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -63,6 +74,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Nordland Mines"/>
 				<property name="strOwner" value="Norway"/>
+				<property name="strController" value="Norway"/>
 				<property name="vecPosition" value="[13.5083875656, 65.6781082153, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -70,6 +82,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Nordland Foundry"/>
 				<property name="strOwner" value="Norway"/>
+				<property name="strController" value="Norway"/>
 				<property name="vecPosition" value="[15.309882164, 66.8815917969, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="2"/>
@@ -79,6 +92,7 @@
 			<property name="strName" value="Opland"/>
 			<property name="strOwner" value="Norway"/>
 			<property name="strController" value="Norway"/>
+			<property name="sidName" value="SID.Game.Region.Name.Opland"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="280783"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -89,6 +103,7 @@
 			<property name="strName" value="Ostlandet"/>
 			<property name="strOwner" value="Norway"/>
 			<property name="strController" value="Norway"/>
+			<property name="sidName" value="SID.Game.Region.Name.Ostlandet"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="394881"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -99,6 +114,7 @@
 			<property name="strName" value="Trondelag"/>
 			<property name="strOwner" value="Norway"/>
 			<property name="strController" value="Norway"/>
+			<property name="sidName" value="SID.Game.Region.Name.Trondelag"/>
 			<property name="strTerrain" value="Tundra"/>
 			<property name="nPopulation" value="436026"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -107,6 +123,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Trondhjem Mines"/>
 				<property name="strOwner" value="Norway"/>
+				<property name="strController" value="Norway"/>
 				<property name="vecPosition" value="[12.7864360809, 64.5336532593, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -114,6 +131,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Trondhjem Foundry"/>
 				<property name="strOwner" value="Norway"/>
+				<property name="strController" value="Norway"/>
 				<property name="vecPosition" value="[11.5548000336, 63.0300140381, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -121,8 +139,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Trondhjem"/>
 				<property name="strOwner" value="Norway"/>
+				<property name="strController" value="Norway"/>
 				<property name="vecPosition" value="[9.75, 63.2000007629, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Trondhjem"/>
 				<property name="nPopulation" value="54135"/>
 				<property name="strPortForRegion" value="Vestfjord"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -135,6 +155,7 @@
 			<property name="strName" value="Vestlandet"/>
 			<property name="strOwner" value="Norway"/>
 			<property name="strController" value="Norway"/>
+			<property name="sidName" value="SID.Game.Region.Name.Vestlandet"/>
 			<property name="strTerrain" value="Tundra"/>
 			<property name="nPopulation" value="527745"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -143,8 +164,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Bergen"/>
 				<property name="strOwner" value="Norway"/>
+				<property name="strController" value="Norway"/>
 				<property name="vecPosition" value="[5.32999992371, 60.4199981689, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Bergen"/>
 				<property name="nPopulation" value="98546"/>
 				<property name="strPortForRegion" value="Vestfjord"/>
 				<property name="strInitialWorkOrder" value=""/>

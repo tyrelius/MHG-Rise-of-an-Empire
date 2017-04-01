@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Ukraine"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Ukraine"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Ukraine"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Ukraine"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Ukraine"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Ukraine"/>
 		<property name="strHomelands" value="Ukraine"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Ukraine"/>

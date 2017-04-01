@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Lithuania"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Lithuania"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Lithuania"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Lithuania"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Lithuania"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Lithuania"/>
 		<property name="strHomelands" value="Lithuania"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Lithuania"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="Aukstaitija"/>
 			<property name="strOwner" value="Lithuania"/>
 			<property name="strController" value="Lithuania"/>
+			<property name="sidName" value="SID.Game.Region.Name.Aukstaitija"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="1515921"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -20,8 +26,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Kaunas"/>
 				<property name="strOwner" value="Lithuania"/>
+				<property name="strController" value="Lithuania"/>
 				<property name="vecPosition" value="[23.9200000763, 54.8699989319, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Kaunas"/>
 				<property name="nPopulation" value="106794"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -33,6 +41,7 @@
 			<property name="strName" value="Samogitia"/>
 			<property name="strOwner" value="Lithuania"/>
 			<property name="strController" value="Lithuania"/>
+			<property name="sidName" value="SID.Game.Region.Name.Samogitia"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="1000508"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -41,8 +50,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Klaipeda"/>
 				<property name="strOwner" value="Lithuania"/>
+				<property name="strController" value="Lithuania"/>
 				<property name="vecPosition" value="[21.1200008392, 55.7200012207, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Klaipeda"/>
 				<property name="nPopulation" value="38545"/>
 				<property name="strPortForRegion" value="Northern Baltic"/>
 				<property name="strInitialWorkOrder" value=""/>

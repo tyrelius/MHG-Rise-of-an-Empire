@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Saudi Arabia"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.SaudiArabia"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.SaudiArabia"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.SaudiArabia"/>
+		<property name="sidPeople" value="SID.Game.Country.People.SaudiArabia"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.SaudiArabia"/>
 		<property name="strHomelands" value="Saudi Arabia"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Saudi Arabia"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="Hejaz"/>
 			<property name="strOwner" value="Saudi Arabia"/>
 			<property name="strController" value="Saudi Arabia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Hejaz"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="1350000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -19,6 +25,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Saudi Arabia Oil Field"/>
 				<property name="strOwner" value="Saudi Arabia"/>
+				<property name="strController" value="Saudi Arabia"/>
 				<property name="vecPosition" value="[41.8508872986, 22.1311302185, 0]"/>
 				<property name="strResource" value="Oil"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -26,8 +33,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Jeddah"/>
 				<property name="strOwner" value="Saudi Arabia"/>
+				<property name="strController" value="Saudi Arabia"/>
 				<property name="vecPosition" value="[39.1699981689, 21.5400009155, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Jeddah"/>
 				<property name="strPortForRegion" value="North Red Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -39,6 +48,7 @@
 			<property name="strName" value="Najd"/>
 			<property name="strOwner" value="Saudi Arabia"/>
 			<property name="strController" value="Saudi Arabia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Najd"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="600000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -46,8 +56,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Riyadh"/>
 				<property name="strOwner" value="Saudi Arabia"/>
+				<property name="strController" value="Saudi Arabia"/>
 				<property name="vecPosition" value="[46.7700004578, 24.6499996185, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Riyadh"/>
 				<property name="nPopulation" value="30000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

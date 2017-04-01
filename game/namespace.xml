@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <namespace name="Name Space" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<file name="scenarioDefs.xml"/>
+	<stringTable filename="stringTable.xml"/>
 </namespace>

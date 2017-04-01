@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Mongolia"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Mongolia"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Mongolia"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Mongolia"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Mongolia"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Mongolia"/>
 		<property name="strHomelands" value="Mongolia"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Mongolia"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="Mongolia"/>
 			<property name="strOwner" value="Mongolia"/>
 			<property name="strController" value="Mongolia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Mongolia"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="850000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -19,8 +25,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Urga"/>
 				<property name="strOwner" value="Mongolia"/>
+				<property name="strController" value="Mongolia"/>
 				<property name="vecPosition" value="[106.870002747, 47.9000015259, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Urga"/>
 				<property name="nPopulation" value="100000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

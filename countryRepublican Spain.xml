@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Republican Spain"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.RepublicanSpain"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.RepublicanSpain"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.RepublicanSpain"/>
+		<property name="sidPeople" value="SID.Game.Country.People.RepublicanSpain"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.RepublicanSpain"/>
 		<property name="strHomelands" value="Spain"/>
 		<property name="bColonialPower" value="true"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
@@ -14,6 +19,7 @@
 			<property name="strName" value="Navarre"/>
 			<property name="strOwner" value="Republican Spain"/>
 			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.Navarre"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="1300061"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -22,6 +28,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Navarre Foundry"/>
 				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
 				<property name="vecPosition" value="[-2.65552759171, 43.2064590454, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="5"/>
@@ -31,6 +38,7 @@
 			<property name="strName" value="Andalusia"/>
 			<property name="strOwner" value="Republican Spain"/>
 			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.Andalusia"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="3075114"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -39,6 +47,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Andalusia Mines"/>
 				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
 				<property name="vecPosition" value="[-4.95212459564, 38.2619247437, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -46,6 +55,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Andalusia Foundry"/>
 				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
 				<property name="vecPosition" value="[-4.32421779633, 37.140663147, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="5"/>
@@ -53,8 +63,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Seville"/>
 				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
 				<property name="vecPosition" value="[-5.98000001907, 37.4000015259, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Seville"/>
 				<property name="nPopulation" value="235761"/>
 				<property name="strPortForRegion" value="Gulf of Cadiz"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -67,6 +79,7 @@
 			<property name="strName" value="Aragon"/>
 			<property name="strOwner" value="Republican Spain"/>
 			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.Aragon"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="1046333"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -75,8 +88,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Zaragoza"/>
 				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
 				<property name="vecPosition" value="[-0.899999976158, 41.6500015259, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Zaragoza"/>
 				<property name="nPopulation" value="189062"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -88,6 +103,7 @@
 			<property name="strName" value="Asturias"/>
 			<property name="strOwner" value="Republican Spain"/>
 			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.Asturias"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="1231000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -96,6 +112,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Asturias Mines"/>
 				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
 				<property name="vecPosition" value="[-4.30975961685, 43.0865821838, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -103,6 +120,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Asturias Foundry"/>
 				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
 				<property name="vecPosition" value="[-6.33550691605, 43.3706359863, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="5"/>
@@ -112,6 +130,7 @@
 			<property name="strName" value="Balearic Islands"/>
 			<property name="strOwner" value="Republican Spain"/>
 			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.BalearicIslands"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="376735"/>
 			<property name="strCulture" value="Spanish"/>
@@ -121,6 +140,7 @@
 			<property name="strName" value="Canary Islands"/>
 			<property name="strOwner" value="Republican Spain"/>
 			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.CanaryIslands"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="270033"/>
 			<property name="strCulture" value="Spanish"/>
@@ -130,6 +150,7 @@
 			<property name="strName" value="Castile"/>
 			<property name="strOwner" value="Republican Spain"/>
 			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.Castile"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="3553000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -138,8 +159,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Madrid"/>
 				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
 				<property name="vecPosition" value="[-3.72000002861, 40.4199981689, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Madrid"/>
 				<property name="nPopulation" value="1048072"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -152,6 +175,7 @@
 			<property name="strName" value="Catalonia"/>
 			<property name="strOwner" value="Republican Spain"/>
 			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.Catalonia"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="2890000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -160,6 +184,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Catalonia Mines"/>
 				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
 				<property name="vecPosition" value="[1.20252323151, 42.369594574, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -167,8 +192,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Barcelona"/>
 				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
 				<property name="vecPosition" value="[2.17000007629, 41.4199981689, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Barcelona"/>
 				<property name="nPopulation" value="1148129"/>
 				<property name="strPortForRegion" value="Catalan Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -182,6 +209,7 @@
 			<property name="strName" value="Extremadura"/>
 			<property name="strOwner" value="Republican Spain"/>
 			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.Extremadura"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="1193664"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -192,6 +220,7 @@
 			<property name="strName" value="Galicia"/>
 			<property name="strOwner" value="Republican Spain"/>
 			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.Galicia"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="1481256"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -200,8 +229,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="La Coruna"/>
 				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
 				<property name="vecPosition" value="[-8.39999961853, 43.4700012207, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.LaCoruna"/>
 				<property name="nPopulation" value="71511"/>
 				<property name="strPortForRegion" value="Cantabrian Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -214,6 +245,7 @@
 			<property name="strName" value="Granada"/>
 			<property name="strOwner" value="Republican Spain"/>
 			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.Granada"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="1851000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -224,6 +256,7 @@
 			<property name="strName" value="Leon"/>
 			<property name="strOwner" value="Republican Spain"/>
 			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.Leon"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="2340562"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -232,6 +265,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Leon Mines"/>
 				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
 				<property name="vecPosition" value="[-5.44149541855, 40.8248023987, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -239,8 +273,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Burgos"/>
 				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
 				<property name="vecPosition" value="[-3.38000011444, 42.3499984741, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Burgos"/>
 				<property name="nPopulation" value="43445"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -252,6 +288,7 @@
 			<property name="strName" value="Valenciano"/>
 			<property name="strOwner" value="Republican Spain"/>
 			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.Valenciano"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="2465000"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -260,6 +297,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Valencia Mines"/>
 				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
 				<property name="vecPosition" value="[-1.39994812012, 37.9720840454, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="3"/>
@@ -267,8 +305,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Valencia"/>
 				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
 				<property name="vecPosition" value="[-0.40000000596, 39.4799995422, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Valencia"/>
 				<property name="nPopulation" value="352802"/>
 				<property name="strPortForRegion" value="Alboran Sea"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -281,6 +321,7 @@
 			<property name="strName" value="Rio del Oro"/>
 			<property name="strOwner" value="Republican Spain"/>
 			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.RioDelOro"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="35000"/>
 			<property name="strCulture" value="Afro-Arab"/>
@@ -290,6 +331,7 @@
 			<property name="strName" value="Spanish Guinea"/>
 			<property name="strOwner" value="Republican Spain"/>
 			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.SpanishGuinea"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="167000"/>
 			<property name="strCulture" value="Fang"/>
@@ -299,6 +341,7 @@
 			<property name="strName" value="Spanish Morocco"/>
 			<property name="strOwner" value="Republican Spain"/>
 			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.SpanishMorocco"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="20000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -417,6 +460,188 @@
 				<property name="strName" value="PreWarFighters"/>
 				<property name="nNumber" value="2"/>
 			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Luzon"/>
+			<property name="strOwner" value="Republican Spain"/>
+			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.Luzon"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="8665765"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Filipino"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Luzon Foundry"/>
+				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
+				<property name="vecPosition" value="[120.577056885, 15.7622756958, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Manila"/>
+				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
+				<property name="vecPosition" value="[120.970001221, 14.6199998856, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Manila"/>
+				<property name="nPopulation" value="355485"/>
+				<property name="strPortForRegion" value="South China Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="6"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Southern Tagalog"/>
+			<property name="strOwner" value="Republican Spain"/>
+			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.SouthernTagalog"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="225242"/>
+			<property name="strCulture" value="Filipino"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="South Tagalog Foundry"/>
+				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
+				<property name="vecPosition" value="[120.75177002, 13.4660024643, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Visayas"/>
+			<property name="strOwner" value="Republican Spain"/>
+			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.Visayas"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="4241383"/>
+			<property name="strCulture" value="Filipino"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Visayas Foundry"/>
+				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
+				<property name="vecPosition" value="[122.823677063, 9.73104190826, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Cebu"/>
+				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
+				<property name="vecPosition" value="[123.930000305, 10.279999733, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Cebu"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Mindanao"/>
+			<property name="strOwner" value="Republican Spain"/>
+			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.Mindanao"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="2244421"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Filipino"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Mindanao Foundry"/>
+				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
+				<property name="vecPosition" value="[124.654006958, 6.78537034988, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Davao"/>
+				<property name="strOwner" value="Republican Spain"/>
+				<property name="strController" value="Republican Spain"/>
+				<property name="vecPosition" value="[125.599998474, 7.07999992371, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Davao"/>
+				<property name="strPortForRegion" value="Philippine Trench"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="2nd Phillipine Army"/>
+			<property name="strOwner" value="Republican Spain"/>
+			<property name="strRegion" value="Mindanao"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Phillipine Army"/>
+			<property name="strOwner" value="Republican Spain"/>
+			<property name="strRegion" value="Luzon"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="Phillipine Air Wing"/>
+			<property name="strOwner" value="Republican Spain"/>
+			<property name="strRegion" value="Luzon"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="Malay Group"/>
+			<property name="strOwner" value="Republican Spain"/>
+			<property name="strRegion" value="Malay Sea"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="4"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Asiatic"/>
+			<property name="strOwner" value="Republican Spain"/>
+			<property name="strRegion" value="Luzon"/>
+			<property name="strCity" value="Manila"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="3"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Guam"/>
+			<property name="strOwner" value="Republican Spain"/>
+			<property name="strController" value="Republican Spain"/>
+			<property name="sidName" value="SID.Game.Region.Name.Guam"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="22137"/>
+			<property name="strCulture" value="Micronesian"/>
+			<property name="bColony" value="true"/>
 		</object>
 		<object type="CultureSet" name="objCultureSet">
 			<object type="Culture" name="objCultures">

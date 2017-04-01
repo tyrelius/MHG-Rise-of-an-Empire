@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Iceland"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Iceland"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Iceland"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Iceland"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Iceland"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Iceland"/>
 		<property name="strHomelands" value="Iceland"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Iceland"/>
@@ -12,14 +17,17 @@
 			<property name="strName" value="Lyoveldio"/>
 			<property name="strOwner" value="Iceland"/>
 			<property name="strController" value="Iceland"/>
+			<property name="sidName" value="SID.Game.Region.Name.Lyoveldio"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="108861"/>
 			<property name="strCulture" value="Scandinavian"/>
 			<object type="City" name="objGOs">
 				<property name="strName" value="Reykjavik"/>
 				<property name="strOwner" value="Iceland"/>
+				<property name="strController" value="Iceland"/>
 				<property name="vecPosition" value="[-21.9699993134, 64.1500015259, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Reykjavik"/>
 				<property name="nPopulation" value="35300"/>
 				<property name="strPortForRegion" value="Northern Atlantic"/>
 				<property name="strInitialWorkOrder" value=""/>

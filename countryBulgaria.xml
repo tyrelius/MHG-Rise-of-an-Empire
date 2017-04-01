@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Bulgaria"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Bulgaria"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Bulgaria"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Bulgaria"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Bulgaria"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Bulgaria"/>
 		<property name="strHomelands" value="Bulgaria"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>
@@ -13,6 +18,7 @@
 			<property name="strName" value="Eastern Rumelia"/>
 			<property name="strOwner" value="Bulgaria"/>
 			<property name="strController" value="Bulgaria"/>
+			<property name="sidName" value="SID.Game.Region.Name.EasternRumelia"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="2173044"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -21,6 +27,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="East Rumelia Mines"/>
 				<property name="strOwner" value="Bulgaria"/>
+				<property name="strController" value="Bulgaria"/>
 				<property name="vecPosition" value="[26.2653522491, 42.452129364, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -30,6 +37,7 @@
 			<property name="strName" value="Moesia"/>
 			<property name="strOwner" value="Bulgaria"/>
 			<property name="strController" value="Bulgaria"/>
+			<property name="sidName" value="SID.Game.Region.Name.Moesia"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="999181"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -40,6 +48,7 @@
 			<property name="strName" value="Sofya"/>
 			<property name="strOwner" value="Bulgaria"/>
 			<property name="strController" value="Bulgaria"/>
+			<property name="sidName" value="SID.Game.Region.Name.Sofya"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="1141659"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -48,6 +57,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Sofya Mines"/>
 				<property name="strOwner" value="Bulgaria"/>
+				<property name="strController" value="Bulgaria"/>
 				<property name="vecPosition" value="[23.5498447418, 41.7699356079, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -55,8 +65,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Sofia"/>
 				<property name="strOwner" value="Bulgaria"/>
+				<property name="strController" value="Bulgaria"/>
 				<property name="vecPosition" value="[23.2999992371, 42.6699981689, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Sofia"/>
 				<property name="nPopulation" value="287976"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -68,6 +80,7 @@
 			<property name="strName" value="Southern Dobruja"/>
 			<property name="strOwner" value="Bulgaria"/>
 			<property name="strController" value="Bulgaria"/>
+			<property name="sidName" value="SID.Game.Region.Name.SouthernDobruja"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="1022384"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -76,8 +89,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Varna"/>
 				<property name="strOwner" value="Bulgaria"/>
+				<property name="strController" value="Bulgaria"/>
 				<property name="vecPosition" value="[27.9500007629, 43.2000007629, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Varna"/>
 				<property name="nPopulation" value="69994"/>
 				<property name="strPortForRegion" value="Western Black Sea"/>
 				<property name="strInitialWorkOrder" value=""/>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MKDNode" name="objNodes">
+		<property name="strKey" value="SPRITE_MAP_TABLE_CARRIER_PLANES"/>
+		<property name="strSubNodeKeyName" value="CarrierFightersUpgradeLevel"/>
+
+		<object type="SpriteRefMKDTable" name="objDefault">
+			<object type="MKDSRKValue" name="objKeys">
+				<property name="strKeyName" value="SpriteMapTable"/>
+				<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_AIR"/>
+			</object>
+			<object type="MKDSRKSpriteMapMode" name="objKeys">
+				<property name="strKeyName" value="SpriteMapMode"/>
+			</object>
+			<object type="MKDSRKValue" name="objKeys">
+				<property name="strKeyName" value="TemplateAliasAir"/>
+				<property name="strKeyValue" value="ALIAS_AIR_CARRIER_FIGHTERS_BASIC"/>
+			</object>
+		</object>
+
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ImprovedCarrierFighters"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_AIR"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasAir"/>
+					<property name="strKeyValue" value="ALIAS_AIR_CARRIER_FIGHTERS_IMPROVED"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="AdvancedCarrierFighters"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_AIR"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasAir"/>
+					<property name="strKeyValue" value="ALIAS_AIR_CARRIER_FIGHTERS_ADVANCED"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</objects>

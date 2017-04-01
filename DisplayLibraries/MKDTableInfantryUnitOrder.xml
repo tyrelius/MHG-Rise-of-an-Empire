@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MKDNode" name="objNodes">
+		<property name="strKey" value="SPRITE_MAP_TABLE_INFANTRY_UNIT_ORDER"/>
+		<property name="strSubNodeKeyName" value="UnitOrder"/>
+
+		<object type="SpriteRefMKDTable" name="objDefault">
+			<object type="MKDSRKValue" name="objKeys">
+				<property name="strKeyName" value="SpriteMapTable"/>
+				<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+			</object>
+			<object type="MKDSRKSpriteMapMode" name="objKeys">
+				<property name="strKeyName" value="SpriteMapMode"/>
+			</object>
+			<object type="MKDSRKValue" name="objKeys">
+				<property name="strKeyName" value="TemplateAliasLand"/>
+				<property name="strKeyValue" value="ALIAS_LAND_INFANTRY"/>
+			</object>
+		</object>
+
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="None"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_INFANTRY_IDLE"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="UnitOrderMove"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_INFANTRY_MARCHING"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</objects>

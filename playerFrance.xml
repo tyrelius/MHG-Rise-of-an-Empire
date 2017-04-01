@@ -131,10 +131,6 @@
 			<property name="strName" value="GoalRefHistory40"/>
 		</object>
 		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
-			<property name="strProjectName" value="MountedInfantry"/>
-			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
-		</object>
-		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
 			<property name="strProjectName" value="EarlyTanks"/>
 			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
 		</object>

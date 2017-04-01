@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Kuwait"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Kuwait"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Kuwait"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Kuwait"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Kuwait"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Kuwait"/>
 		<property name="strHomelands" value="Kuwait"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Kuwait"/>
@@ -12,14 +17,17 @@
 			<property name="strName" value="Kuwait"/>
 			<property name="strOwner" value="Kuwait"/>
 			<property name="strController" value="Kuwait"/>
+			<property name="sidName" value="SID.Game.Region.Name.Kuwait"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="50000"/>
 			<property name="strCulture" value="Arabian"/>
 			<object type="City" name="objGOs">
 				<property name="strName" value="City of Kuwait"/>
 				<property name="strOwner" value="Kuwait"/>
+				<property name="strController" value="Kuwait"/>
 				<property name="vecPosition" value="[48, 29.2999992371, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.CityOfKuwait"/>
 				<property name="nPopulation" value="25000"/>
 				<property name="strPortForRegion" value="Persian Gulf"/>
 				<property name="strInitialWorkOrder" value=""/>

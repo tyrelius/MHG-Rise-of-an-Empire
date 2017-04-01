@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Burma"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Burma"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Burma"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Burma"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Burma"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Burma"/>
 		<property name="strHomelands" value="Burma"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Burma"/>

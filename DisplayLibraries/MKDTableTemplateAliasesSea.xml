@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MKDNode" name="objNodes">
+		<property name="strKey" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+		<property name="strSubNodeKeyName" value="TemplateAliasSea"/>
+
+	<!-- Early Carrier -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_SEA_CARRIER_EARLY"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier Wake"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Light Carrier -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_SEA_CARRIER_LIGHT"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Light Carrier"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Light Carrier Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Light Carrier"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Light Carrier Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier Wake"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Fleet Carrier -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_SEA_CARRIER_FLEET"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Fleet Carrier"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Fleet Carrier Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Fleet Carrier"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Fleet Carrier Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier Wake"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Super Carrier -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_SEA_CARRIER_SUPER"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Super Carrier"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Super Carrier Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Super Carrier"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Super Carrier Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Carrier Wake"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Basic Battleship -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_SEA_BATTLESHIP_BASIC"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Battleship"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Battleship Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Battleship"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Battleship Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Battleship"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Battleship Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Battleship"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Battleship Wake"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Fast Battleship -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_SEA_BATTLESHIP_FAST"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Fast Battleship"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Fast Battleship Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Battleship"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Battleship Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Fast Battleship"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Fast Battleship Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Battleship"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Battleship Wake"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Super Class Battleship -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_SEA_BATTLESHIP_SUPER_CLASS"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Battleship"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Battleship Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Battleship"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Battleship Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Battleship"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Battleship Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Battleship"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Battleship Wake"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Corvette Destroyer -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_SEA_DESTROYER_CORVETTE"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Corvette Destroyer"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Corvette Destroyer Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Destroyer"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Destroyer Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Corvette Destroyer"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Corvette Destroyer Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Destroyer"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Destroyer Wake"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Destroyer -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_SEA_DESTROYER_NORMAL"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Destroyer"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Destroyer Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Destroyer"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Destroyer Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Destroyer"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Destroyer Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Destroyer"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Destroyer Wake"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Escort Destroyer -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_SEA_DESTROYER_ESCORT"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Escort Destroyer"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Escort Destroyer Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Destroyer"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Destroyer Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Escort Destroyer"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Escort Destroyer Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Destroyer"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Destroyer Wake"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Early Cruiser -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_SEA_CRUISER_EARLY"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Cruiser"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Cruiser Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Cruiser"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Cruiser Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser Wake"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Battle Cruiser -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_SEA_CRUISER_BATTLE"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser Wake"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Heavy Cruiser -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_SEA_CRUISER_HEAVY"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Heavy Cruiser"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Heavy Cruiser Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Heavy Cruiser"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Heavy Cruiser Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser Wake"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Large Cruiser -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_SEA_CRUISER_LARGE"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Large Cruiser"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Large Cruiser Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Large Cruiser"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Large Cruiser Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Battle Cruiser Wake"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Early Submarine -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_SEA_SUBMARINE_EARLY"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Submarine Submerged"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Submarine Submerged Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Submarine Submerged"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Submarine Submerged Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Submarine Submerged"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Early Submarine Submerged Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Submarine Submerged"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Submarine Submerged Wake"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Basic Submarine -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_SEA_SUBMARINE_BASIC"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Submarine Submerged"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Submarine Submerged Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Submarine Submerged"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Submarine Submerged Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Submarine Submerged"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Submarine Submerged Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Submarine Submerged"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Submarine Submerged Wake"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Advanced Submarine -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_SEA_SUBMARINE_ADVANCED"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Submarine Submerged"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Submarine Submerged Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Submarine Submerged"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Submarine Submerged Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Submarine Submerged"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Advanced Submarine Submerged Wake"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<property name="strSubNodeKeyName" value="ShipVsWake"/>
+				
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="SHIP"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Submarine Submerged"/>
+					</object>
+				</object>
+				<object type="MKDNode" name="objNodes">
+					<property name="strKey" value="WAKE"/>
+					<object type="SpriteRefName" name="objDefault">
+						<property name="strSpriteName" value="Generic Basic Submarine Submerged Wake"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</objects>

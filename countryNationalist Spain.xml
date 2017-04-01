@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Nationalist Spain"/>
 		<property name="strGovType" value="Fascist"/>
+		<property name="sidName" value="SID.Game.Country.Name.NationalistSpain"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.NationalistSpain"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.NationalistSpain"/>
+		<property name="sidPeople" value="SID.Game.Country.People.NationalistSpain"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.NationalistSpain"/>
 		<property name="strHomelands" value="Spain"/>
 		<property name="bColonialPower" value="true"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>

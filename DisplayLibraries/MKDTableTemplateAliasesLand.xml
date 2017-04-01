@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MKDNode" name="objNodes">
+		<property name="strKey" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+		<property name="strSubNodeKeyName" value="TemplateAliasLand"/>
+
+	<!-- Partisans -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_PARTISANS"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefName" name="objDefault">
+					<property name="strSpriteName" value="Partisan Infantry"/>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefName" name="objDefault">
+					<property name="strSpriteName" value="Partisan Infantry"/>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefName" name="objDefault">
+					<property name="strSpriteName" value="Partisan Infantry"/>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefName" name="objDefault">
+					<property name="strSpriteName" value="Partisan Infantry"/>
+				</object>
+			</object>
+		</object>
+
+	<!-- Idle Partisans -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_PARTISANS_IDLE"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefName" name="objDefault">
+					<property name="strSpriteName" value="Idle Partisans"/>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefName" name="objDefault">
+					<property name="strSpriteName" value="Idle Partisans"/>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefName" name="objDefault">
+					<property name="strSpriteName" value="Idle Partisans"/>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefName" name="objDefault">
+					<property name="strSpriteName" value="Idle Partisans"/>
+				</object>
+			</object>
+		</object>
+
+	<!-- Marching Partisans -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_PARTISANS_MARCHING"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefName" name="objDefault">
+					<property name="strSpriteName" value="Marching Partisans"/>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefName" name="objDefault">
+					<property name="strSpriteName" value="Marching Partisans"/>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefName" name="objDefault">
+					<property name="strSpriteName" value="Marching Partisans"/>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefName" name="objDefault">
+					<property name="strSpriteName" value="Marching Partisans"/>
+				</object>
+			</object>
+		</object>
+
+	<!-- Infantry -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_INFANTRY"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Infantry"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Infantry"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Infantry"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Infantry"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Idle Infantry -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_INFANTRY_IDLE"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Idle Infantry"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Idle Infantry"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Idle Infantry"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Idle Infantry"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Marching Infantry -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_INFANTRY_MARCHING"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Marching Infantry"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Marching Infantry"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Marching Infantry"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Marching Infantry"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Early Tanks -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_ARMORED_EARLY"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Early Tanks"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Medium Tanks"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Early Tanks"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Medium Tanks"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Light Tanks -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_ARMORED_LIGHT"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Light Tanks"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Medium Tanks"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Light Tanks"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Medium Tanks"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Medium Tanks -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_ARMORED_MEDUM"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Medium Tanks"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Medium Tanks"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Medium Tanks"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Medium Tanks"/>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_ARMORED_HEAVY"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Heavy Tanks"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Medium Tanks"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Heavy Tanks"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Medium Tanks"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Advanced Tanks -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_ARMORED_ADVANCED"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Advanced Tanks"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Medium Tanks"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Advanced Tanks"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Medium Tanks"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Mounted Infantry -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_MOBILE_INFANTRY_MOUNTED"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Mounted Infantry"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Mounted Infantry"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Mounted Infantry"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Mounted Infantry"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Motorized Infantry -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_MOBILE_INFANTRY_MOTORIZED"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Motorized"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Motorized"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Motorized"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Motorized"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Mechanized Infantry -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_MOBILE_INFANTRY_MECHANIZED"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Mechanized"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Motorized"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Mechanized"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Motorized"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Field Artillery -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_ARTILLERY_FIELD"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Field Artillery"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Field Artillery"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Field Artillery"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Field Artillery"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	
+	<!-- Light Artillery -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_ARTILLERY_LIGHT"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Light Artillery"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Field Artillery"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Light Artillery"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Field Artillery"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	
+	<!-- Heavy Artillery -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_ARTILLERY_HEAVY"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Heavy Artillery"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Field Artillery"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Heavy Artillery"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Field Artillery"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Self-Propelled Artillery -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_ARTILLERY_SELF_PROPELLED"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Self-Propelled Artillery"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Field Artillery"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Self-Propelled Artillery"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Field Artillery"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Self-Propelled Artillery -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_ARTILLERY_ROCKET"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Rocket Artillery"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Field Artillery"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Rocket Artillery"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="Field Artillery"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Guided Missile -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_MISSILE_GUIDED"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="V1 Rocket"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="V1 Rocket"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="V1 Rocket"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="V1 Rocket"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- Ballistic Missile -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_MISSILE_BALLISTIC"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="V2 Rocket"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="V2 Rocket"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="V2 Rocket"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="V2 Rocket"/>
+					</object>
+				</object>
+			</object>
+		</object>
+
+	<!-- ICBM -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ALIAS_LAND_MISSILE_ICBM"/>
+			<property name="strSubNodeKeyName" value="SpriteMapMode"/>
+				
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_DEFAULT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="ICBM"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<object type="MKDSRKOwnerCountry" name="objKeys">
+						<property name="strKeyName" value="Country"/>
+					</object>
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="ICBM"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="ICBM"/>
+					</object>
+				</object>
+			</object>
+			<object type="MKDNode" name="objNodes">
+				<property name="strKey" value="SPRITE_MAP_MODE_LIMITED_BY_UNIT_AND_COUNTRY"/>
+				<object type="SpriteRefMKDTable" name="objDefault">
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="SpriteMapTable"/>
+						<property name="strKeyValue" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+					</object>
+					<!-- Don't put in a Country key so it uses the default country -->
+					<object type="MKDSRKValue" name="objKeys">
+						<property name="strKeyName" value="CountryAliasLand"/>
+						<property name="strKeyValue" value="ICBM"/>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</objects>

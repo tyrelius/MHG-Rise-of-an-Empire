@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Nicaragua"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Nicaragua"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Nicaragua"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Nicaragua"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Nicaragua"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Nicaragua"/>
 		<property name="strHomelands" value="Nicaragua"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Nicaragua"/>
@@ -13,6 +18,7 @@
 			<property name="strName" value="Nicaragua"/>
 			<property name="strOwner" value="Nicaragua"/>
 			<property name="strController" value="Nicaragua"/>
+			<property name="sidName" value="SID.Game.Region.Name.Nicaragua"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="1133572"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -20,8 +26,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Managua"/>
 				<property name="strOwner" value="Nicaragua"/>
+				<property name="strController" value="Nicaragua"/>
 				<property name="vecPosition" value="[-86.3000030518, 12.1000003815, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Managua"/>
 				<property name="nPopulation" value="32586"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

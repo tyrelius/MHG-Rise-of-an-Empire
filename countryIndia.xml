@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="India"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.India"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.India"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.India"/>
+		<property name="sidPeople" value="SID.Game.Country.People.India"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.India"/>
 		<property name="strHomelands" value="India"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MKDNode" name="objNodes">
+		<property name="strKey" value="SPRITE_MAP_TABLE_CITY_DAMAGE_SMOKE"/>
+		<property name="strSubNodeKeyName" value="CityDamageState"/>
+
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="CITY_DAMAGE_STATE_NUKED_LAST_TURN"/>
+			<object type="SpriteRefName" name="objDefault">
+				<property name="strSpriteName" value="Mushroom Cloud"/>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="CITY_DAMAGE_STATE_NUKED_PREVIOUSLY"/>
+			<object type="SpriteRefName" name="objDefault">
+				<property name="strSpriteName" value="Nuked City Smoke"/>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="CITY_DAMAGE_STATE_DAMAGED"/>
+			<object type="SpriteRefName" name="objDefault">
+				<property name="strSpriteName" value="Damaged City Smoke with Fire"/>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="CITY_DAMAGE_STATE_NONE"/>
+			<!-- Show no damage smoke if there is no damage -->
+		</object>
+	</object>
+</objects>

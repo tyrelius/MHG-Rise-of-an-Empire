@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Israel"/>
+		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Israel"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Israel"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Israel"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Israel"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Israel"/>
+		<property name="strHomelands" value="Israel"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Israel"/>
+		<property name="strCapital" value="Jerusalem"/>
+		<property name="strOriginalCapital" value="Jerusalem"/>
+		<property name="bSurrendered" value="true"/>
+		<object type="WarList" name="objWarList">
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Arabian"/>
+			</object>
+		</object>
+	</object>
+</objects>

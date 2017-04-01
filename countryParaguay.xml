@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Paraguay"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Paraguay"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Paraguay"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Paraguay"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Paraguay"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Paraguay"/>
 		<property name="strHomelands" value="Paraguay"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Paraguay"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="Paraguay"/>
 			<property name="strOwner" value="Paraguay"/>
 			<property name="strController" value="Paraguay"/>
+			<property name="sidName" value="SID.Game.Region.Name.Paraguay"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="931799"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -19,8 +25,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Asuncion"/>
 				<property name="strOwner" value="Paraguay"/>
+				<property name="strController" value="Paraguay"/>
 				<property name="vecPosition" value="[-57.2713623047, -25.0081920624, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Asuncion"/>
 				<property name="nPopulation" value="122966"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

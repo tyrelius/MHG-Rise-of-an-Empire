@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Bhutan"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Bhutan"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Bhutan"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Bhutan"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Bhutan"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Bhutan"/>
 		<property name="strHomelands" value="Bhutan"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Bhutan"/>
@@ -12,14 +17,17 @@
 			<property name="strName" value="Bhutan"/>
 			<property name="strOwner" value="Bhutan"/>
 			<property name="strController" value="Bhutan"/>
+			<property name="sidName" value="SID.Game.Region.Name.Bhutan"/>
 			<property name="strTerrain" value="Mountains"/>
 			<property name="nPopulation" value="300000"/>
 			<property name="strCulture" value="Tibetan"/>
 			<object type="City" name="objGOs">
 				<property name="strName" value="Punaka"/>
 				<property name="strOwner" value="Bhutan"/>
+				<property name="strController" value="Bhutan"/>
 				<property name="vecPosition" value="[89.7099990845, 27.5300006866, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Punaka"/>
 				<property name="nPopulation" value="5000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

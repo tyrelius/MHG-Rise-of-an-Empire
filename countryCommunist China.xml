@@ -3,16 +3,22 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Communist China"/>
 		<property name="strGovType" value="Communist"/>
+		<property name="sidName" value="SID.Game.Country.Name.CommunistChina"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.CommunistChina"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.CommunistChina"/>
+		<property name="sidPeople" value="SID.Game.Country.People.CommunistChina"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.CommunistChina"/>
 		<property name="strHomelands" value="China"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Communist China"/>
 		<property name="strCapital" value="Nanchang"/>
-		<property name="strOriginalCapital" value="Peiping"/>
+		<property name="strOriginalCapital" value="Nanchang"/>
 		<object type="Region" name="objGOs">
 			<property name="strName" value="Hubei"/>
 			<property name="strOwner" value="Communist China"/>
 			<property name="strController" value="Communist China"/>
+			<property name="sidName" value="SID.Game.Region.Name.Hubei"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="25541636"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -20,6 +26,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Hubei Mines"/>
 				<property name="strOwner" value="Communist China"/>
+				<property name="strController" value="Communist China"/>
 				<property name="vecPosition" value="[113.107337952, 31.4804210663, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="7"/>
@@ -27,12 +34,14 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Hankow"/>
 				<property name="strOwner" value="Communist China"/>
+				<property name="strController" value="Communist China"/>
 				<property name="vecPosition" value="[114.319999695, 30.5799999237, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Hankow"/>
 				<property name="nPopulation" value="777993"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="8"/>
+					<property name="nIPUs" value="10"/>
 				</object>
 			</object>
 		</object>
@@ -40,6 +49,7 @@
 			<property name="strName" value="Hunan"/>
 			<property name="strOwner" value="Communist China"/>
 			<property name="strController" value="Communist China"/>
+			<property name="sidName" value="SID.Game.Region.Name.Hunan"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="28293735"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -47,6 +57,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Hunan Mines"/>
 				<property name="strOwner" value="Communist China"/>
+				<property name="strController" value="Communist China"/>
 				<property name="vecPosition" value="[110.452423096, 27.3330802917, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="4"/>
@@ -54,6 +65,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Hunan Foundry"/>
 				<property name="strOwner" value="Communist China"/>
+				<property name="strController" value="Communist China"/>
 				<property name="vecPosition" value="[110.482322693, 28.7981948853, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="1"/>
@@ -61,12 +73,14 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Changsha"/>
 				<property name="strOwner" value="Communist China"/>
+				<property name="strController" value="Communist China"/>
 				<property name="vecPosition" value="[113, 28.1700000763, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Changsha"/>
 				<property name="nPopulation" value="607000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="8"/>
+					<property name="nIPUs" value="10"/>
 				</object>
 			</object>
 		</object>
@@ -74,6 +88,7 @@
 			<property name="strName" value="Jiangxi"/>
 			<property name="strOwner" value="Communist China"/>
 			<property name="strController" value="Communist China"/>
+			<property name="sidName" value="SID.Game.Region.Name.Jiangxi"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="15820403"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -81,6 +96,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Jiangxi Mines"/>
 				<property name="strOwner" value="Communist China"/>
+				<property name="strController" value="Communist China"/>
 				<property name="vecPosition" value="[116.412902832, 27.5168380737, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="4"/>
@@ -88,12 +104,14 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Nanchang"/>
 				<property name="strOwner" value="Communist China"/>
+				<property name="strController" value="Communist China"/>
 				<property name="vecPosition" value="[115.919998169, 28.7000007629, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Nanchang"/>
 				<property name="nPopulation" value="134000"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
-					<property name="nIPUs" value="4"/>
+					<property name="nIPUs" value="6"/>
 				</object>
 			</object>
 		</object>
@@ -103,7 +121,7 @@
 			<property name="strRegion" value="Jiangxi"/>
 			<object type="UnitSummary" name="objUnits">
 				<property name="strName" value="PreWarInfantry"/>
-				<property name="nNumber" value="5"/>
+				<property name="nNumber" value="7"/>
 			</object>
 		</object>
 		<object type="Army" name="objGOs">
@@ -112,7 +130,7 @@
 			<property name="strRegion" value="Hunan"/>
 			<object type="UnitSummary" name="objUnits">
 				<property name="strName" value="PreWarInfantry"/>
-				<property name="nNumber" value="2"/>
+				<property name="nNumber" value="4"/>
 			</object>
 		</object>
 		<object type="Army" name="objGOs">
@@ -121,7 +139,7 @@
 			<property name="strRegion" value="Hubei"/>
 			<object type="UnitSummary" name="objUnits">
 				<property name="strName" value="PreWarInfantry"/>
-				<property name="nNumber" value="2"/>
+				<property name="nNumber" value="4"/>
 			</object>
 		</object>
 		<object type="CultureSet" name="objCultureSet">

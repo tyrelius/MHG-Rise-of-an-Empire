@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Albania"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Albania"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Albania"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Albania"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Albania"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Albania"/>
 		<property name="strHomelands" value="Albania"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Albania"/>
@@ -12,14 +17,17 @@
 			<property name="strName" value="Illyria"/>
 			<property name="strOwner" value="Albania"/>
 			<property name="strController" value="Albania"/>
+			<property name="sidName" value="SID.Game.Region.Name.Illyria"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="1003124"/>
 			<property name="strCulture" value="Albanian"/>
 			<object type="City" name="objGOs">
 				<property name="strName" value="Tirana"/>
 				<property name="strOwner" value="Albania"/>
+				<property name="strController" value="Albania"/>
 				<property name="vecPosition" value="[19.8199996948, 41.3300018311, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Tirana"/>
 				<property name="nPopulation" value="57808"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

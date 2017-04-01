@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MKDKeySet" name="objMKDKeySet">
+		<object type="MKDKey" name="objKeys">
+			<property name="strKeyName" value="SpriteMapTable"/>
+			<property name="eMissingKeyBehavior" value="MKD_MISSING_KEY_BEHAVIOR_REQUIRE_ALL_KEYS"/>
+			<object type="MKDVList" name="objValidator">
+				<property name="strValidKeys" value="SPRITE_MAP_TABLE_CITY_DAMAGE_SMOKE"/>
+				<property name="strValidKeys" value="SPRITE_MAP_TABLE_UNIT_TEMPLATES_LAND"/>
+				<property name="strValidKeys" value="SPRITE_MAP_TABLE_UNIT_TEMPLATES_LAND_DECALS"/>
+				<property name="strValidKeys" value="SPRITE_MAP_TABLE_UNIT_TEMPLATES_LAND_COMBAT"/>
+				<property name="strValidKeys" value="SPRITE_MAP_TABLE_UNIT_TEMPLATES_AIR"/>
+				<property name="strValidKeys" value="SPRITE_MAP_TABLE_UNIT_TEMPLATES_PLANES"/>
+				<property name="strValidKeys" value="SPRITE_MAP_TABLE_UNIT_TEMPLATES_SEA"/>
+				<property name="strValidKeys" value="SPRITE_MAP_TABLE_UNIT_TEMPLATES_SEA_WAKES"/>
+				<property name="strValidKeys" value="SPRITE_MAP_TABLE_UNIT_TEMPLATES_SEA_COMBAT"/>
+				<property name="strValidKeys" value="SPRITE_MAP_TABLE_PARTISANS_UNIT_ORDER"/>
+				<property name="strValidKeys" value="SPRITE_MAP_TABLE_INFANTRY_UNIT_ORDER"/>
+				<property name="strValidKeys" value="SPRITE_MAP_TABLE_CARRIER_PLANES"/>
+				<property name="strValidKeys" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				<property name="strValidKeys" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_AIR"/>
+				<property name="strValidKeys" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_SEA"/>
+				<property name="strValidKeys" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_AIR"/>
+				<property name="strValidKeys" value="SPRITE_MAP_TABLE_COUNTRY_ALIASES_LAND"/>
+			</object>
+		</object>
+		<object type="MKDKey" name="objKeys">
+			<property name="strKeyName" value="TemplateAliasLand"/>
+			<property name="eMissingKeyBehavior" value="MKD_MISSING_KEY_BEHAVIOR_REQUIRE_ALL_KEYS"/>
+			<object type="MKDVList" name="objValidator">
+				<property name="strValidKeys" value="ALIAS_LAND_PARTISANS"/>
+				<property name="strValidKeys" value="ALIAS_LAND_PARTISANS_IDLE"/>
+				<property name="strValidKeys" value="ALIAS_LAND_PARTISANS_MARCHING"/>
+				<property name="strValidKeys" value="ALIAS_LAND_INFANTRY"/>
+				<property name="strValidKeys" value="ALIAS_LAND_INFANTRY_IDLE"/>
+				<property name="strValidKeys" value="ALIAS_LAND_INFANTRY_MARCHING"/>
+				<property name="strValidKeys" value="ALIAS_LAND_ARMORED_EARLY"/>
+				<property name="strValidKeys" value="ALIAS_LAND_ARMORED_LIGHT"/>
+				<property name="strValidKeys" value="ALIAS_LAND_ARMORED_MEDUM"/>
+				<property name="strValidKeys" value="ALIAS_LAND_ARMORED_HEAVY"/>
+				<property name="strValidKeys" value="ALIAS_LAND_ARMORED_ADVANCED"/>
+				<property name="strValidKeys" value="ALIAS_LAND_MOBILE_INFANTRY_MOUNTED"/>
+				<property name="strValidKeys" value="ALIAS_LAND_MOBILE_INFANTRY_MOTORIZED"/>
+				<property name="strValidKeys" value="ALIAS_LAND_MOBILE_INFANTRY_MECHANIZED"/>
+				<property name="strValidKeys" value="ALIAS_LAND_ARTILLERY_FIELD"/>
+				<property name="strValidKeys" value="ALIAS_LAND_ARTILLERY_LIGHT"/>
+				<property name="strValidKeys" value="ALIAS_LAND_ARTILLERY_HEAVY"/>
+				<property name="strValidKeys" value="ALIAS_LAND_ARTILLERY_SELF_PROPELLED"/>
+				<property name="strValidKeys" value="ALIAS_LAND_ARTILLERY_ROCKET"/>
+				<property name="strValidKeys" value="ALIAS_LAND_MISSILE_GUIDED"/>
+				<property name="strValidKeys" value="ALIAS_LAND_MISSILE_BALLISTIC"/>
+				<property name="strValidKeys" value="ALIAS_LAND_MISSILE_ICBM"/>
+			</object>
+		</object>
+		<object type="MKDKey" name="objKeys">
+			<property name="strKeyName" value="TemplateAliasAir"/>
+			<property name="eMissingKeyBehavior" value="MKD_MISSING_KEY_BEHAVIOR_REQUIRE_ALL_KEYS"/>
+			<object type="MKDVList" name="objValidator">
+				<property name="strValidKeys" value="ALIAS_AIR_FIGHTERS_BASIC"/>
+				<property name="strValidKeys" value="ALIAS_AIR_FIGHTERS_IMPROVED"/>
+				<property name="strValidKeys" value="ALIAS_AIR_FIGHTERS_ADVANCED"/>
+				<property name="strValidKeys" value="ALIAS_AIR_FIGHTERS_JET"/>
+				<property name="strValidKeys" value="ALIAS_AIR_BOMBERS_EARLY"/>
+				<property name="strValidKeys" value="ALIAS_AIR_BOMBERS_LIGHT"/>
+				<property name="strValidKeys" value="ALIAS_AIR_BOMBERS_MEDIUM"/>
+				<property name="strValidKeys" value="ALIAS_AIR_BOMBERS_HEAVY"/>
+				<property name="strValidKeys" value="ALIAS_AIR_BOMBERS_STRATEGIC"/>
+				<property name="strValidKeys" value="ALIAS_AIR_BOMBERS_ATOMIC"/>
+				<property name="strValidKeys" value="ALIAS_AIR_CARRIER_FIGHTERS_BASIC"/>
+				<property name="strValidKeys" value="ALIAS_AIR_CARRIER_FIGHTERS_IMPROVED"/>
+				<property name="strValidKeys" value="ALIAS_AIR_CARRIER_FIGHTERS_ADVANCED"/>
+			</object>
+		</object>
+		<object type="MKDKey" name="objKeys">
+			<property name="strKeyName" value="TemplateAliasSea"/>
+			<property name="eMissingKeyBehavior" value="MKD_MISSING_KEY_BEHAVIOR_REQUIRE_ALL_KEYS"/>
+			<object type="MKDVList" name="objValidator">
+				<property name="strValidKeys" value="ALIAS_SEA_CARRIER_EARLY"/>
+				<property name="strValidKeys" value="ALIAS_SEA_CARRIER_LIGHT"/>
+				<property name="strValidKeys" value="ALIAS_SEA_CARRIER_FLEET"/>
+				<property name="strValidKeys" value="ALIAS_SEA_CARRIER_SUPER"/>
+				<property name="strValidKeys" value="ALIAS_SEA_BATTLESHIP_BASIC"/>
+				<property name="strValidKeys" value="ALIAS_SEA_BATTLESHIP_FAST"/>
+				<property name="strValidKeys" value="ALIAS_SEA_BATTLESHIP_SUPER_CLASS"/>
+				<property name="strValidKeys" value="ALIAS_SEA_DESTROYER_CORVETTE"/>
+				<property name="strValidKeys" value="ALIAS_SEA_DESTROYER_NORMAL"/>
+				<property name="strValidKeys" value="ALIAS_SEA_DESTROYER_ESCORT"/>
+				<property name="strValidKeys" value="ALIAS_SEA_CRUISER_EARLY"/>
+				<property name="strValidKeys" value="ALIAS_SEA_CRUISER_BATTLE"/>
+				<property name="strValidKeys" value="ALIAS_SEA_CRUISER_HEAVY"/>
+				<property name="strValidKeys" value="ALIAS_SEA_CRUISER_LARGE"/>
+				<property name="strValidKeys" value="ALIAS_SEA_SUBMARINE_EARLY"/>
+				<property name="strValidKeys" value="ALIAS_SEA_SUBMARINE_BASIC"/>
+				<property name="strValidKeys" value="ALIAS_SEA_SUBMARINE_ADVANCED"/>
+			</object>
+		</object>
+		<object type="MKDKey" name="objKeys">
+			<property name="strKeyName" value="CountryAliasLand"/>
+			<property name="eMissingKeyBehavior" value="MKD_MISSING_KEY_BEHAVIOR_REQUIRE_ALL_KEYS"/>
+			<object type="MKDVList" name="objValidator">
+				<property name="strValidKeys" value="Infantry"/>
+				<property name="strValidKeys" value="Idle Infantry"/>
+				<property name="strValidKeys" value="Marching Infantry"/>
+				<property name="strValidKeys" value="Mounted Infantry"/>
+				<property name="strValidKeys" value="Mechanized"/>
+				<property name="strValidKeys" value="Motorized"/>
+				<property name="strValidKeys" value="Early Tanks"/>
+				<property name="strValidKeys" value="Light Tanks"/>
+				<property name="strValidKeys" value="Medium Tanks"/>
+				<property name="strValidKeys" value="Heavy Tanks"/>
+				<property name="strValidKeys" value="Advanced Tanks"/>
+				<property name="strValidKeys" value="Field Artillery"/>
+				<property name="strValidKeys" value="Light Artillery"/>
+				<property name="strValidKeys" value="Heavy Artillery"/>
+				<property name="strValidKeys" value="Rocket Artillery"/>
+				<property name="strValidKeys" value="Self-Propelled Artillery"/>
+				<property name="strValidKeys" value="V1 Rocket"/>
+				<property name="strValidKeys" value="V2 Rocket"/>
+				<property name="strValidKeys" value="ICBM"/>
+			</object>
+		</object>
+		<object type="MKDKey" name="objKeys">
+			<property name="strKeyName" value="CountryAliasAir"/>
+			<!--<property name="eMissingKeyBehavior" value="MKD_MISSING_KEY_BEHAVIOR_REQUIRE_ALL_KEYS"/>-->
+			<property name="eMissingKeyBehavior" value="MKD_MISSING_KEY_BEHAVIOR_MISSING_KEYS_ALLOWED"/>
+			<object type="MKDVList" name="objValidator">
+				<property name="strValidKeys" value="Basic Fighters"/>
+				<property name="strValidKeys" value="Improved Fighters"/>
+				<property name="strValidKeys" value="Jet Fighters"/>
+				<property name="strValidKeys" value="Advanced Fighters"/>
+				<property name="strValidKeys" value="Basic Carrier Fighters"/>
+				<property name="strValidKeys" value="Improved Carrier Fighters"/>
+				<property name="strValidKeys" value="Advanced Carrier Fighters"/>
+				<property name="strValidKeys" value="Early Bombers"/>
+				<property name="strValidKeys" value="Light Bombers"/>
+				<property name="strValidKeys" value="Medium Bombers"/>
+				<property name="strValidKeys" value="Heavy Bombers"/>
+				<property name="strValidKeys" value="Strategic Bombers"/>
+			</object>
+		</object>
+		<object type="MKDKey" name="objKeys">
+			<property name="strKeyName" value="UnitOrder"/>
+			<object type="MKDVUnitOrder" name="objValidator">
+			</object>
+		</object>
+		<object type="MKDKey" name="objKeys">
+			<property name="strKeyName" value="Country"/>
+			<property name="eInvalidKeyBehavior" value="MKD_INVALID_KEY_BEHAVIOR_REMOVE"/>
+			<property name="eMissingKeyBehavior" value="MKD_MISSING_KEY_BEHAVIOR_MISSING_KEYS_ALLOWED"/>
+			<object type="MKDVCountry" name="objValidator">
+			</object>
+		</object>
+		<object type="MKDKey" name="objKeys">
+			<property name="strKeyName" value="UnitTemplate"/>
+			<property name="eInvalidKeyBehavior" value="MKD_INVALID_KEY_BEHAVIOR_REMOVE"/>
+			<object type="MKDVUnitTemplate" name="objValidator">
+			</object>
+		</object>
+		<object type="MKDKey" name="objKeys">
+			<property name="strKeyName" value="SpriteMapMode"/>
+			<property name="eMissingKeyBehavior" value="MKD_MISSING_KEY_BEHAVIOR_REQUIRE_ALL_KEYS"/>
+			<object type="MKDVEnum" name="objValidator">
+				<property name="strEnumName" value="SpriteMapMode"/>
+			</object>
+		</object>
+		<object type="MKDKey" name="objKeys">
+			<property name="strKeyName" value="CityDamageState"/>
+			<property name="eMissingKeyBehavior" value="MKD_MISSING_KEY_BEHAVIOR_REQUIRE_ALL_KEYS"/>
+			<object type="MKDVEnum" name="objValidator">
+				<property name="strEnumName" value="CityDamageState"/>
+			</object>
+		</object>
+		<object type="MKDKey" name="objKeys">
+			<property name="strKeyName" value="CarrierFightersUpgradeLevel"/>
+			<property name="eMissingKeyBehavior" value="MKD_MISSING_KEY_BEHAVIOR_REQUIRE_ALL_KEYS"/>
+			<object type="MKDVList" name="objValidator">
+				<property name="strValidKeys" value="ImprovedCarrierFighters"/>
+				<property name="strValidKeys" value="AdvancedCarrierFighters"/>
+			</object>
+		</object>
+		<object type="MKDKey" name="objKeys">
+			<property name="strKeyName" value="ShipVsWake"/>
+			<property name="eMissingKeyBehavior" value="MKD_MISSING_KEY_BEHAVIOR_REQUIRE_ALL_KEYS"/>
+			<object type="MKDVList" name="objValidator">
+				<property name="strValidKeys" value="SHIP"/>
+				<property name="strValidKeys" value="WAKE"/>
+			</object>
+		</object>
+	</object>
+</objects>

@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Yemen"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Yemen"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Yemen"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Yemen"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Yemen"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Yemen"/>
 		<property name="strHomelands" value="Yemen"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Yemen"/>
@@ -12,14 +17,17 @@
 			<property name="strName" value="Yemen"/>
 			<property name="strOwner" value="Yemen"/>
 			<property name="strController" value="Yemen"/>
+			<property name="sidName" value="SID.Game.Region.Name.Yemen"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="3500000"/>
 			<property name="strCulture" value="Arabian"/>
 			<object type="City" name="objGOs">
 				<property name="strName" value="San&apos;a"/>
 				<property name="strOwner" value="Yemen"/>
+				<property name="strController" value="Yemen"/>
 				<property name="vecPosition" value="[44.2299995422, 15.3999996185, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.SanA"/>
 				<property name="nPopulation" value="22500"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -31,6 +39,7 @@
 			<property name="strName" value="Asir"/>
 			<property name="strOwner" value="Yemen"/>
 			<property name="strController" value="Yemen"/>
+			<property name="sidName" value="SID.Game.Region.Name.Asir"/>
 			<property name="strTerrain" value="Desert"/>
 			<property name="nPopulation" value="1050000"/>
 			<property name="nTransInfrastructure" value="1"/>

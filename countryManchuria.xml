@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Manchuria"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Manchuria"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Manchuria"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Manchuria"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Manchuria"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Manchuria"/>
 		<property name="strHomelands" value="Manchuria"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>

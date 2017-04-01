@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Czechoslovakia"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Czechoslovakia"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Czechoslovakia"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Czechoslovakia"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Czechoslovakia"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Czechoslovakia"/>
 		<property name="strHomelands" value="Czechoslovakia"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>
@@ -13,6 +18,7 @@
 			<property name="strName" value="Bohemia"/>
 			<property name="strOwner" value="Czechoslovakia"/>
 			<property name="strController" value="Czechoslovakia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Bohemia"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="7109376"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -22,6 +28,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Bohemia Mines"/>
 				<property name="strOwner" value="Czechoslovakia"/>
+				<property name="strController" value="Czechoslovakia"/>
 				<property name="vecPosition" value="[15.371307373, 49.8150749207, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="19"/>
@@ -29,6 +36,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Bohemia Foundry"/>
 				<property name="strOwner" value="Czechoslovakia"/>
+				<property name="strController" value="Czechoslovakia"/>
 				<property name="vecPosition" value="[15.75253582, 50.4803581238, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="5"/>
@@ -36,8 +44,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Prague"/>
 				<property name="strOwner" value="Czechoslovakia"/>
+				<property name="strController" value="Czechoslovakia"/>
 				<property name="vecPosition" value="[14.4300003052, 50.0999984741, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Prague"/>
 				<property name="nPopulation" value="848823"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -50,6 +60,7 @@
 			<property name="strName" value="Moravia"/>
 			<property name="strOwner" value="Czechoslovakia"/>
 			<property name="strController" value="Czechoslovakia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Moravia"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="3565010"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -59,6 +70,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Moravia Mines"/>
 				<property name="strOwner" value="Czechoslovakia"/>
+				<property name="strController" value="Czechoslovakia"/>
 				<property name="vecPosition" value="[17.2508487701, 50.1215553284, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="19"/>
@@ -66,8 +78,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Brno"/>
 				<property name="strOwner" value="Czechoslovakia"/>
+				<property name="strController" value="Czechoslovakia"/>
 				<property name="vecPosition" value="[16.6700000763, 49.2200012207, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Brno"/>
 				<property name="nPopulation" value="264925"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -80,6 +94,7 @@
 			<property name="strName" value="Sudetenland"/>
 			<property name="strOwner" value="Czechoslovakia"/>
 			<property name="strController" value="Czechoslovakia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Sudetenland"/>
 			<property name="strTerrain" value="Forest"/>
 			<property name="nPopulation" value="2945261"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -89,6 +104,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Sudetenland Mines"/>
 				<property name="strOwner" value="Czechoslovakia"/>
+				<property name="strController" value="Czechoslovakia"/>
 				<property name="vecPosition" value="[13.9821090698, 50.5894050598, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="16"/>
@@ -96,6 +112,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Sudetenland Foundry"/>
 				<property name="strOwner" value="Czechoslovakia"/>
+				<property name="strController" value="Czechoslovakia"/>
 				<property name="vecPosition" value="[12.8825721741, 50.077999115, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="4"/>
@@ -103,8 +120,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Plzen"/>
 				<property name="strOwner" value="Czechoslovakia"/>
+				<property name="strController" value="Czechoslovakia"/>
 				<property name="vecPosition" value="[13.4393119812, 50.2496414185, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Plzen"/>
 				<property name="nPopulation" value="114150"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -117,6 +136,7 @@
 			<property name="strName" value="Slovakia"/>
 			<property name="strOwner" value="Czechoslovakia"/>
 			<property name="strController" value="Czechoslovakia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Slovakia"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="3330000"/>
 			<property name="nTransInfrastructure" value="3"/>
@@ -126,6 +146,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Slovakia Mines"/>
 				<property name="strOwner" value="Czechoslovakia"/>
+				<property name="strController" value="Czechoslovakia"/>
 				<property name="vecPosition" value="[18.2556304932, 48.5336151123, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="6"/>
@@ -133,6 +154,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Slovakia Foundry"/>
 				<property name="strOwner" value="Czechoslovakia"/>
+				<property name="strController" value="Czechoslovakia"/>
 				<property name="vecPosition" value="[20.0860710144, 48.7685623169, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="6"/>
@@ -140,8 +162,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Bratislava"/>
 				<property name="strOwner" value="Czechoslovakia"/>
+				<property name="strController" value="Czechoslovakia"/>
 				<property name="vecPosition" value="[17.3898887634, 48.3025779724, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Bratislava"/>
 				<property name="nPopulation" value="123852"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">
@@ -153,6 +177,7 @@
 			<property name="strName" value="Ruthenia"/>
 			<property name="strOwner" value="Czechoslovakia"/>
 			<property name="strController" value="Czechoslovakia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Ruthenia"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="725000"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -161,6 +186,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Ruthenia Mines"/>
 				<property name="strOwner" value="Czechoslovakia"/>
+				<property name="strController" value="Czechoslovakia"/>
 				<property name="vecPosition" value="[23.6599292755, 48.3834114075, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="4"/>
@@ -168,8 +194,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Kosice"/>
 				<property name="strOwner" value="Czechoslovakia"/>
+				<property name="strController" value="Czechoslovakia"/>
 				<property name="vecPosition" value="[22.5398483276, 48.6277961731, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Kosice"/>
 				<property name="nPopulation" value="70232"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

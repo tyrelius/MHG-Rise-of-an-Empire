@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MKDNode" name="objNodes">
+		<property name="strKey" value="SPRITE_MAP_TABLE_UNIT_TEMPLATES_LAND_COMBAT"/>
+		<property name="strSubNodeKeyName" value="UnitTemplate"/>
+
+	<!-- Default -->
+		<object type="SpriteRefMKDTable" name="objDefault">
+			<object type="MKDSRKValue" name="objKeys">
+				<property name="strKeyName" value="SpriteMapTable"/>
+				<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+			</object>
+			<object type="MKDSRKSpriteMapMode" name="objKeys">
+				<property name="strKeyName" value="SpriteMapMode"/>
+			</object>
+			<object type="MKDSRKValue" name="objKeys">
+				<property name="strKeyName" value="TemplateAliasLand"/>
+				<property name="strKeyValue" value="ALIAS_LAND_INFANTRY"/>
+			</object>
+		</object>
+
+	<!-- Partisans -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="Partisans"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_PARTISANS"/>
+				</object>
+			</object>
+		</object>
+
+	<!-- Infantry -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="Militia"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_INFANTRY"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="PreWarInfantry"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_INFANTRY"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="SmallArmsInfantry"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_INFANTRY"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="AdvancedWeaponsInfantry"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_INFANTRY"/>
+				</object>
+			</object>
+		</object>
+
+	<!-- Armored -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="EarlyTank"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_ARMORED_EARLY"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="LightTank"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_ARMORED_LIGHT"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="MediumTank"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_ARMORED_MEDUM"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="HeavyTank"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_ARMORED_HEAVY"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="AdvancedTank"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_ARMORED_ADVANCED"/>
+				</object>
+			</object>
+		</object>
+
+	<!-- Mobile Infantry -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="Cavalry"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_MOBILE_INFANTRY_MOUNTED"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="MotorizedInfantry"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_INFANTRY"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="MotorizedInfantry2"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_INFANTRY"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="MotorizedInfantry3"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_INFANTRY"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="MechanizedInfantry"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_MOBILE_INFANTRY_MECHANIZED"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="MechanizedInfantry2"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_MOBILE_INFANTRY_MECHANIZED"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="MechanizedInfantry3"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_MOBILE_INFANTRY_MECHANIZED"/>
+				</object>
+			</object>
+		</object>
+
+	<!-- Artillery -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="FieldArtillery"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_ARTILLERY_FIELD"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="40mmGun"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_ARTILLERY_LIGHT"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="88mmGun"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_ARTILLERY_HEAVY"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="SelfPropelledArtillery"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_ARTILLERY_SELF_PROPELLED"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="RocketArtillery"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_ARTILLERY_ROCKET"/>
+				</object>
+			</object>
+		</object>
+
+	<!-- Missiles -->
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="GuidedMissile"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_MISSILE_GUIDED"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="BallisticMissile"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_MISSILE_BALLISTIC"/>
+				</object>
+			</object>
+		</object>
+		<object type="MKDNode" name="objNodes">
+			<property name="strKey" value="ICBM"/>
+			<object type="SpriteRefMKDTable" name="objDefault">
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="SpriteMapTable"/>
+					<property name="strKeyValue" value="SPRITE_MAP_TABLE_TEMPLATE_ALIASES_LAND"/>
+				</object>
+				<object type="MKDSRKSpriteMapMode" name="objKeys">
+					<property name="strKeyName" value="SpriteMapMode"/>
+				</object>
+				<object type="MKDSRKValue" name="objKeys">
+					<property name="strKeyName" value="TemplateAliasLand"/>
+					<property name="strKeyValue" value="ALIAS_LAND_MISSILE_ICBM"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</objects>

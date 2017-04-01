@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Liberia"/>
 		<property name="strGovType" value="Democratic"/>
+		<property name="sidName" value="SID.Game.Country.Name.Liberia"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Liberia"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Liberia"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Liberia"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Liberia"/>
 		<property name="strHomelands" value="Liberia"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Liberia"/>
@@ -12,14 +17,17 @@
 			<property name="strName" value="Liberia"/>
 			<property name="strOwner" value="Liberia"/>
 			<property name="strController" value="Liberia"/>
+			<property name="sidName" value="SID.Game.Region.Name.Liberia"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="1500000"/>
 			<property name="strCulture" value="Mande"/>
 			<object type="City" name="objGOs">
 				<property name="strName" value="Monrovia"/>
 				<property name="strOwner" value="Liberia"/>
+				<property name="strController" value="Liberia"/>
 				<property name="vecPosition" value="[-10.8000001907, 6.32999992371, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Monrovia"/>
 				<property name="nPopulation" value="10000"/>
 				<property name="strPortForRegion" value="Grain Coast"/>
 				<property name="strInitialWorkOrder" value=""/>

@@ -1,0 +1,2071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MESharedData" name="">
+		<object type="HistoricCountryTable" name="objHistoricCountryTable">
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Afghanistan"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Afghanistan"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Albania"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Illyria"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Argentina"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Andean Northwest"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Cuyo"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Gran Chaco"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Pampas"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Patagonia"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Australia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="New South Wales"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Northern Territory"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Queensland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="South Australia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tasmania"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Victoria"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Western Australia"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Belgium"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Flanders"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Wallonia"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Bhutan"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Bhutan"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Bolivia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Bolivia"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Brazil"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Amazonas"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Centro Oeste"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Nordeste"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Sudeste"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Sul"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Bulgaria"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Eastern Rumelia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Moesia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Sofya"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Southern Dobruja"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Canada"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Alberta"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Algoma"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Athabasca"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="British Columbia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Churchill River"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Cote Nord"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kitimat"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Laurentian"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Manitoba"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Nelson River"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Northern Ontario"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ontario"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Quebec"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Saskatchewan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Thunder Bay"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ungava"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Yukon"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Labrador"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Maritime Provinces"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Newfoundland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Northwest Territories"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Chile"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Magallanes"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Coquimbo"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Atacama"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="China"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Anhui"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Chahar"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Feng Tien"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Fujian"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Gansu"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Guangdong"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Guangxi"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Guizhou"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Hainan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Hebei"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Heilungkiang"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Henan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Hubei"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Hunan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Jehol"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Jiangsu"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Jiangxi"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kirin"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ningxia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Qinghai"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Shandong"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Shanghai Proper"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Shanxi"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Szechwan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Yunnan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Zhejiang"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Shaanxi"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Sinkiang"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Formosa"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Colombia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Caribbean Lowlands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Pacific Lowlands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Llanos"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Costa Rica"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Costa Rica"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Cuba"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Cuba"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Danzig"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Westerplatte"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Denmark"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Bornholm"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Jutland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Zealand"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Dominican Republic"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Dominican Republic"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Ecuador"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ecuador"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Egypt"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Lower Egypt"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Red Sea Coasts"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Sinai"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Southern Desert"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Suez Canal Zone"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Upper Egypt"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Western Desert"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Estonia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Harrien"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Wierland"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Finland"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Karelia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Laponia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Nylandia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Oulu"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Satakunda"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Savonia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tvastia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Aland"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="France"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Corsica"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Alsace Lorraine"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Brittany"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Burgundy"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Champagne"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Gascony"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Il de France"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="La Marche"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Languedoc"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Normandy"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Picardy"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Poitou"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Provence"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Germany"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Bavaria"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Brandenburg"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="East Prussia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Grenzmark"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Lower Saxony"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Hesse"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Mecklenburg"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Oldenburg"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Pomerania"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Rhineland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Saxony"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Schleswig Holstein"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Silesia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Westphalia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Wurttemberg"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Westerplatte"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Greece"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Aegean Islands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Crete"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ionian Islands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Macedonia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Peloponnesus"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Thessaly"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Thrace"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Dodecanse"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Guatemala"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Guatemala"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Haiti"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Haiti"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Honduras"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Honduras"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Hungary"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Magyar"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Maros"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ruthenia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Transylvania"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Banat"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Iceland"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Lyoveldio"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Iraq"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Iraq"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Ireland"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Connaught"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Leinster"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Munster"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ulster"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Northern Ireland"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Italy"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Istria"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Emilia Romagna"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Lazio Umbria"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Lombardy"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Marche"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Napoli"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Piedmont"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Puglia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Sardinia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Sicily"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Trentino"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tuscany"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Veneto"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Japan"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Bonin Islands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Chubu"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Chugoku"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Hokkaido"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Izu Islands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kansai"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kanto"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kyushu"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ryukyu Islands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Shikoku"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tohoku"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tushima Island"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Kuwait"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kuwait"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Latvia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Courland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Livonia"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Liberia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Liberia"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Lithuania"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Aukstaitija"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Samogitia"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Luxembourg"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Gutland"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Mexico"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Northern Mexico"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Central Mexico"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Yucatan"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Mongolia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Mongolia"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Nepal"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Nepal"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Netherlands"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Friesland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Holland"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="New Zealand"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="North Island"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="South Island"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Nicaragua"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Nicaragua"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Norway"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Agder"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Akershus"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Finnsmark"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Nordland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Opland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ostlandet"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Trondelag"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Vestlandet"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Oman"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Oman"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Panama"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Lower Isthmus"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Upper Isthmus"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Paraguay"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Paraguay"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Persia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Northern Persia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Southern Persia"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Peru"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Northern Peru"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Southern Peru"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Poland"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Bialystok"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Malopolskie"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Lodzkie"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Lublin"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Lwow"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Podesi"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Pomorze"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Wielkopolskie"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tarnopol"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Masovia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Wilno"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Westerplatte"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Portugal"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Alentejo"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Azores"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Estremadura"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Madeira Islands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Norte"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Romania"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Banat"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Bessarabia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Dobruja"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Moldovia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Transylvania"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Wallachia"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Salvador"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="El Salvador"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Saudi Arabia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Asir"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Hejaz"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Najd"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Siam"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Central Siam"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Isan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kra Isthmus"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Lanna"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="South Africa"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Basutoland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Cape Province"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Natal"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Orange Free State"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Transval"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Swaziland"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Spain"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Navarre"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Andalusia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Aragon"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Asturias"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Balearic Islands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Canary Islands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Castile"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Catalonia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Extremadura"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Galicia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Granada"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Leon"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Valenciano"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Sweden"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Gastrikland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Gotland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Jamtland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Lappland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Skane"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Smaland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Svealand"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Varmland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Vesterbotten"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Vestergotland"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Switzerland"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Helvetia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Schwyz"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Turkey"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Anatolia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Candar"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Cappadocia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Cilicia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Karaman"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kurdistan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Mardin"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Rumeli"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Sivas"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Trebizond"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Western Anatolia"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Tuva"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tannu Tuva"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="United Kingdom"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Northern Ireland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Cornwall"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="East Anglia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Lancashire"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Lincoln"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Midlands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Northumberland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Sussex"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Yorkshire"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Scotland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Wales"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="United States"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Colorado"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Connecticut"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Idaho"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Illinois"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Indiana"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Iowa"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kansas"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Maine"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Maryland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Massachusetts"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Michigan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Minnesota"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Missouri"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Montana"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Nebraska"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Nevada"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="New Hampshire"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="New Jersey"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="New York"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="North Dakota"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Northern California"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ohio"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Oregon"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Pennsylvania"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="South Dakota"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Southern California"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Utah"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Vermont"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Washington"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="West Virginia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Wisconsin"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Wyoming"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Hawaii"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Alaska"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Uruguay"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Uruguay"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="USSR"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Polatsk"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Turov"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Daghestan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ladoga Karelia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Circassia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Amur"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Archangelsk"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Astrakhan Oblast"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Chita"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Chukota"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Crimea"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ingermanland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Irkutsk Oblast"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kamchatka"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kola"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kuban"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kursk"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Magadan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Middle Volga"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Muscovy"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="North Sakhalin"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Novgorod"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Pechora"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Pskov"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Rostov Oblast"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ryazan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Siberia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Sikhote"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Smolensk Oblast"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tobolsk"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tomsk"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tver"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tyumen"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Urals"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Vladmir"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Volgograd"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Vologda"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Yakutsk"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Yenisisk"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Bactria"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kara Kum"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Semipalatinsk"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="South Caucasus"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ust Urt"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Chernigov"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Donetska"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Jedisan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kherson"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Podelia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Poltava"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ukraina"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tanna Tuva"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Venezuela"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Costa Central"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Guyana Highlands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Orinoco"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Yemen"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Yemen"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Yugoslavia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Croatia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Dalmatia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Serbia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Bosnia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Carniola"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Montenegro"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Czechoslovakia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Sudetenland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ruthenia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Slovakia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Bohemia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Moravia"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Austria"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tyrol"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ostmark"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Croatia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Croatia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Dalmatia"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Slovakia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Slovakia"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Algeria"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Northern Algeria"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Great Erg"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Burma"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Chin"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Shan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tenasserim"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Cambodia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Cambodia"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Ethiopia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Eritrea"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ethiopia"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="India"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Goa"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Assam"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Baluchistan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Bengal"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Andhra Pradesh"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Madras"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Mysore"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Gujarat"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Andaman Islands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Bihar Orissa"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Central India"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kashmir"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Punjab"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Rajputana"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="United Provinces"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Maharashtra"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Sind"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ceylon"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Indonesia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Dutch Timor"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="East Borneo"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Java"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Lesser Sunda"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="North Sumatra"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Riau Islands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="South Sumatra"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="West Borneo"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="East Timor"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Celebes"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Moluccas"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="West New Guinea"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Korea"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Gyeongsang"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Hamgyeong"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Jeju"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Jeolla"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Pyeongan"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Laos"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Laos"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Libya"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Cyrenacia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tripolitania"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Fezzan"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Malaysia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="East Malaysia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Malaya"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Manchuria"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Feng Tien"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Heilungkiang"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Jehol"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kirin"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Morocco"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Morocco"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Spanish Morocco"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Philippines"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Luzon"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Mindanao"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Southern Tagalog"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Visayas"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Syria"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Syria"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Tibet"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tibet"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Ukraine"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Donetska"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Jedisan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kherson"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Podelia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Poltava"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ukraina"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Crimea"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Vietnam"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Annam"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Cochin-China"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tonking"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Communist China"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Anhui"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Chahar"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Feng Tien"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Fujian"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Gansu"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Guangdong"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Guangxi"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Guizhou"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Hainan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Hebei"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Heilungkiang"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Henan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Hubei"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Hunan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Jehol"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Jiangsu"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Jiangxi"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kirin"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ningxia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Qinghai"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Shandong"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Shanghai Proper"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Shanxi"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Szechwan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Yunnan"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Zhejiang"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Shaanxi"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Sinkiang"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Formosa"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Nationalist Spain"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Navarre"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Andalusia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Aragon"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Asturias"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Balearic Islands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Canary Islands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Castile"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Catalonia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Extremadura"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Galicia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Granada"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Leon"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Valenciano"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Republican Spain"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Navarre"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Andalusia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Aragon"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Asturias"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Balearic Islands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Canary Islands"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Castile"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Catalonia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Extremadura"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Galicia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Granada"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Leon"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Valenciano"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Vichy France"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Burgundy"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="La Marche"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Languedoc"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Provence"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Quebec"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Quebec"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Laurentian"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Cote Nord"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ungava"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Newfoundland"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Labrador"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Newfoundland"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Maritime Provinces"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Confederate States of America"/>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Confederate States"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Virginia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Kentucky"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tennessee"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="North Carolina"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="South Carolina"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Georgia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Alabama"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Mississippi"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Florida"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Arkansas"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Louisiana"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Oklahoma"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Texas"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="New Mexico"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Arizona"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Northern Mexico"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Cuba"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Palestine"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Palestine"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Israel"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Palestine"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Jordan"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Jordan"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Lebanon"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Lebanon"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Abyssinia"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Eritrea"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Ethiopia"/>
+				</object>
+			</object>
+			<object type="HistoricCountry" name="objHistoricCountryList">
+				<property name="strCountry" value="Socialist Italy"/>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Istria"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Emilia Romagna"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Lazio Umbria"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Lombardy"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Marche"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Napoli"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Piedmont"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Puglia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Sardinia"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Sicily"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Trentino"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Tuscany"/>
+				</object>
+				<object type="NameRegionRefPair" name="objNameRegionRefPairs">
+					<property name="strRegion" value="Veneto"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</objects>

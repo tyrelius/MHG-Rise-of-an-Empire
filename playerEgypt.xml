@@ -22,6 +22,10 @@
 				<property name="strTargetCountry" value="Communist China"/>
 				<property name="nValue" value="0"/>
 			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Confederate States"/>
+				<property name="nValue" value="560"/>
+			</object>
 		</object>
 	</object>
 </objects>

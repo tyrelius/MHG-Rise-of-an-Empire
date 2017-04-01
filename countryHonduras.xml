@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Honduras"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Honduras"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Honduras"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Honduras"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Honduras"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Honduras"/>
 		<property name="strHomelands" value="Honduras"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Honduras"/>
@@ -12,6 +17,7 @@
 			<property name="strName" value="Honduras"/>
 			<property name="strOwner" value="Honduras"/>
 			<property name="strController" value="Honduras"/>
+			<property name="sidName" value="SID.Game.Region.Name.Honduras"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="962685"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -20,8 +26,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Tegucigalpa"/>
 				<property name="strOwner" value="Honduras"/>
+				<property name="strController" value="Honduras"/>
 				<property name="vecPosition" value="[-87.2300033569, 14.0799999237, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Tegucigalpa"/>
 				<property name="nPopulation" value="131229"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

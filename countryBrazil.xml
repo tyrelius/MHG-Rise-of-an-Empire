@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Brazil"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Brazil"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Brazil"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Brazil"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Brazil"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Brazil"/>
 		<property name="strHomelands" value="Brazil"/>
 		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
 		<property name="bNonPlayable" value="true"/>
@@ -13,14 +18,17 @@
 			<property name="strName" value="Amazonas"/>
 			<property name="strOwner" value="Brazil"/>
 			<property name="strController" value="Brazil"/>
+			<property name="sidName" value="SID.Game.Region.Name.Amazonas"/>
 			<property name="strTerrain" value="Jungle"/>
 			<property name="nPopulation" value="4987217"/>
 			<property name="strCulture" value="Brazilian"/>
 			<object type="City" name="objGOs">
 				<property name="strName" value="Manaus"/>
 				<property name="strOwner" value="Brazil"/>
+				<property name="strController" value="Brazil"/>
 				<property name="vecPosition" value="[-60.0099983215, -3.11999988556, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Manaus"/>
 				<property name="nPopulation" value="85566"/>
 				<property name="strPortForRegion" value="Amazon Mouth"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -33,6 +41,7 @@
 			<property name="strName" value="Centro Oeste"/>
 			<property name="strOwner" value="Brazil"/>
 			<property name="strController" value="Brazil"/>
+			<property name="sidName" value="SID.Game.Region.Name.CentroOeste"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="5402819"/>
 			<property name="nTransInfrastructure" value="1"/>
@@ -42,6 +51,7 @@
 			<property name="strName" value="Nordeste"/>
 			<property name="strOwner" value="Brazil"/>
 			<property name="strController" value="Brazil"/>
+			<property name="sidName" value="SID.Game.Region.Name.Nordeste"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="10390036"/>
 			<property name="strCulture" value="Brazilian"/>
@@ -49,8 +59,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Salvador"/>
 				<property name="strOwner" value="Brazil"/>
+				<property name="strController" value="Brazil"/>
 				<property name="vecPosition" value="[-38.5099983215, -13, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Salvador"/>
 				<property name="nPopulation" value="329823"/>
 				<property name="strPortForRegion" value="Pernambuco Coast"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -63,6 +75,7 @@
 			<property name="strName" value="Sudeste"/>
 			<property name="strOwner" value="Brazil"/>
 			<property name="strController" value="Brazil"/>
+			<property name="sidName" value="SID.Game.Region.Name.Sudeste"/>
 			<property name="strTerrain" value="Hills"/>
 			<property name="nPopulation" value="12468044"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -71,8 +84,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Sao Paulo"/>
 				<property name="strOwner" value="Brazil"/>
+				<property name="strController" value="Brazil"/>
 				<property name="vecPosition" value="[-46.6199989319, -23.5799999237, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.SaoPaulo"/>
 				<property name="nPopulation" value="879788"/>
 				<property name="strPortForRegion" value="Brazilian Coast"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -83,8 +98,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Rio de Janeiro"/>
 				<property name="strOwner" value="Brazil"/>
+				<property name="strController" value="Brazil"/>
 				<property name="vecPosition" value="[-43.2799987793, -22.8799991608, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.RioDeJaneiro"/>
 				<property name="nPopulation" value="1468621"/>
 				<property name="strPortForRegion" value="Brazilian Coast"/>
 				<property name="strInitialWorkOrder" value=""/>
@@ -98,6 +115,7 @@
 			<property name="strName" value="Sul"/>
 			<property name="strOwner" value="Brazil"/>
 			<property name="strController" value="Brazil"/>
+			<property name="sidName" value="SID.Game.Region.Name.Sul"/>
 			<property name="strTerrain" value="Plains"/>
 			<property name="nPopulation" value="8312029"/>
 			<property name="nTransInfrastructure" value="2"/>
@@ -106,6 +124,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Brazil Mines"/>
 				<property name="strOwner" value="Brazil"/>
+				<property name="strController" value="Brazil"/>
 				<property name="vecPosition" value="[-52.5758857727, -30.5517578125, 0]"/>
 				<property name="strResource" value="Coal"/>
 				<property name="nBaseOutputRate" value="2"/>
@@ -113,6 +132,7 @@
 			<object type="Producer" name="objGOs">
 				<property name="strName" value="Brazil Foundry"/>
 				<property name="strOwner" value="Brazil"/>
+				<property name="strController" value="Brazil"/>
 				<property name="vecPosition" value="[-54.537727356, -29.996055603, 0]"/>
 				<property name="strResource" value="Metals"/>
 				<property name="nBaseOutputRate" value="2"/>
@@ -120,8 +140,10 @@
 			<object type="City" name="objGOs">
 				<property name="strName" value="Curitiba"/>
 				<property name="strOwner" value="Brazil"/>
+				<property name="strController" value="Brazil"/>
 				<property name="vecPosition" value="[-49.2799987793, -25.4300003052, 0]"/>
 				<property name="nDirection" value="0"/>
+				<property name="sidName" value="SID.Game.City.Name.Curitiba"/>
 				<property name="nPopulation" value="100135"/>
 				<property name="strInitialWorkOrder" value=""/>
 				<object type="Factory" name="objFactory">

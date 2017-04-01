@@ -3,6 +3,11 @@
 	<object type="MECountry" name="">
 		<property name="strName" value="Malaysia"/>
 		<property name="strGovType" value="Authoritarian"/>
+		<property name="sidName" value="SID.Game.Country.Name.Malaysia"/>
+		<property name="sidPossessive" value="SID.Game.Country.Possessive.Malaysia"/>
+		<property name="sidAdjective" value="SID.Game.Country.Adjective.Malaysia"/>
+		<property name="sidPeople" value="SID.Game.Country.People.Malaysia"/>
+		<property name="sidAllianceName" value="SID.Game.Country.Alliance.Malaysia"/>
 		<property name="strHomelands" value="Malaysia"/>
 		<property name="bNonPlayable" value="true"/>
 		<property name="strFlagName" value="Malaysia"/>
