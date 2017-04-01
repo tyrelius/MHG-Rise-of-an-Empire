@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Hungary"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Hungary"/>
+		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Hungary"/>
+		<property name="strCapital" value="Budapest"/>
+		<property name="strOriginalCapital" value="Budapest"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Magyar"/>
+			<property name="strOwner" value="Hungary"/>
+			<property name="strController" value="Hungary"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="4553126"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Hungarian"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Magyar Mines"/>
+				<property name="strOwner" value="Hungary"/>
+				<property name="vecPosition" value="[17.1787757874, 47.3108444214, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="11"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Magyar Foundry"/>
+				<property name="strOwner" value="Hungary"/>
+				<property name="vecPosition" value="[19.309173584, 46.5483856201, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Budapest"/>
+				<property name="strOwner" value="Hungary"/>
+				<property name="vecPosition" value="[19.0499992371, 47.5, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="1051804"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="29"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Maros"/>
+			<property name="strOwner" value="Hungary"/>
+			<property name="strController" value="Hungary"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="4553126"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Hungarian"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Maros Mines"/>
+				<property name="strOwner" value="Hungary"/>
+				<property name="vecPosition" value="[21.8416290283, 47.9615135193, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="7"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Maros Foundry"/>
+				<property name="strOwner" value="Hungary"/>
+				<property name="vecPosition" value="[20.6082401276, 46.758026123, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="2"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Hungary"/>
+			<property name="strRegion" value="Magyar"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Hungarian"/>
+			</object>
+		</object>
+	</object>
+</objects>

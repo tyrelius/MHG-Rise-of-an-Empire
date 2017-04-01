@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Nationalist Spain"/>
+		<property name="strGovType" value="Fascist"/>
+		<property name="strHomelands" value="Spain"/>
+		<property name="bColonialPower" value="true"/>
+		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Nationalist Spain"/>
+		<property name="strCapital" value="Burgos"/>
+		<property name="strOriginalCapital" value="Madrid"/>
+		<property name="bSurrendered" value="true"/>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Spanish"/>
+			</object>
+		</object>
+	</object>
+</objects>

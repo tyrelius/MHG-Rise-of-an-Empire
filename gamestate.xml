@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="GameState" name="">
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Afghanistan"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#30302EFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Albania"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#C65437FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Argentina"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#C5F0EFFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Australia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#3F908AFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Austria"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#A8A130FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Belgium"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#E7A4C9FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Bhutan"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#F3F3D1FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Bolivia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#CCCD39FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Brazil"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#47902AFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Bulgaria"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#AAD171FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Burma"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#599055FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Canada"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#D88D8EFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Chile"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#4D458DFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="China"/>
+			<property name="bNonPlayable" value="false"/>
+			<property name="colCountryColor" value="#336C9FFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Colombia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#CDBD39FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Communist China"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#9F3B39FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Costa Rica"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#B86D6CFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Cuba"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#C4BF64FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Czechoslovakia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#7BABD3FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Danzig"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#D2A74FFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Denmark"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#D4595AFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Dominican Republic"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#A47837FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Ecuador"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#D69FBDFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Egypt"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#EBEBEBFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Estonia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#D9F3F4FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Finland"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#32839DFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="France"/>
+			<property name="bNonPlayable" value="false"/>
+			<property name="colCountryColor" value="#3EC0C8FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Germany"/>
+			<property name="bNonPlayable" value="false"/>
+			<property name="colCountryColor" value="#91918DFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Greece"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#3E3EC8FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Guatemala"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#BB3AB3FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Haiti"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#572A28FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Honduras"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#C0EFEDFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Hungary"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#267348FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Iceland"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#4A3680FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="India"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#CD9139FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Indonesia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#CF4865FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Iraq"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#3C90C0FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Ireland"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#205D21FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Italy"/>
+			<property name="bNonPlayable" value="false"/>
+			<property name="colCountryColor" value="#35AD31FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Japan"/>
+			<property name="bNonPlayable" value="false"/>
+			<property name="colCountryColor" value="#E5E59BFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Korea"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#73529CFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Kuwait"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#83DFB8FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Latvia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#E9C1ABFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Liberia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#ACADE7FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Lithuania"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#E8F2CBFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Luxembourg"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#6BC073FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Malaysia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#D2517CFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Manchuria"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#AB9D91FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Mexico"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#2C8A41FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Mongolia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#ADE4DFFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Nationalist Spain"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#D2A74FFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Nepal"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#546E36FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Netherlands"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#D58A59FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="New Zealand"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#8E3DA8FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Nicaragua"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#8B89B8FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Norway"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#264174FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Oman"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#9C452DFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Panama"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#34A786FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Paraguay"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#E1B38AFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Persia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#1F5C54FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Peru"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#92483EFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Philippines"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#DBBBDBFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Poland"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#FFFFFFFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Portugal"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#1F5B36FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Republican Spain"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#662561FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Romania"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#9B5294FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Salvador"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#2C2C97FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Saudi Arabia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#9EB37BFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Siam"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#3C3DC0FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="South Africa"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#E5D198FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Sweden"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#CCCD39FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Switzerland"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#E09B84FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Turkey"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#B9AE89FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Tuva"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#33A465FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="United Kingdom"/>
+			<property name="bNonPlayable" value="false"/>
+			<property name="colCountryColor" value="#675F57FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="United States"/>
+			<property name="bNonPlayable" value="false"/>
+			<property name="colCountryColor" value="#3B3BB9FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Uruguay"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#7F8A91FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="USSR"/>
+			<property name="bNonPlayable" value="false"/>
+			<property name="colCountryColor" value="#CD3E39FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Venezuela"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#251C4DFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Yemen"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#976B68FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Yugoslavia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="colCountryColor" value="#29677CFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Algeria"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#B7D14CFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Cambodia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#EAF4F9FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Croatia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#D45954FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Ethiopia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#677EA7FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Laos"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#CF4843FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Libya"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#533F6CFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Morocco"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#C87350FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Slovakia"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#8489DBFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Syria"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#447B54FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Tibet"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#EFEFBEFF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Ukraine"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#ECECB4FF"/>
+		</object>
+		<object type="Player" name="objPlayers">
+			<property name="strName" value="Vietnam"/>
+			<property name="bNonPlayable" value="true"/>
+			<property name="bAIDisabled" value="true"/>
+			<property name="colCountryColor" value="#A8CD39FF"/>
+		</object>
+		<object type="AllianceManager" name="objAllianceManager">
+			<object type="Alliance" name="objAllAlliances">
+				<property name="strDisplayName" value="British Alliance"/>
+				<property name="strINITAllianceName" value="british_alliance"/>
+				<object type="AllianceMember" name="objAllMembers">
+					<property name="bOwner" value="true"/>
+					<property name="bPrincipal" value="true"/>
+					<property name="strINITCountryName" value="United Kingdom"/>
+				</object>
+				<object type="AllianceMember" name="objAllMembers">
+					<property name="strINITCountryName" value="Australia"/>
+				</object>
+				<object type="AllianceMember" name="objAllMembers">
+					<property name="strINITCountryName" value="Canada"/>
+				</object>
+				<object type="AllianceMember" name="objAllMembers">
+					<property name="strINITCountryName" value="New Zealand"/>
+				</object>
+				<object type="AllianceMember" name="objAllMembers">
+					<property name="strINITCountryName" value="South Africa"/>
+				</object>
+				<object type="AllianceMember" name="objAllMembers">
+					<property name="strINITCountryName" value="Saudi Arabia"/>
+				</object>
+			</object>
+		</object>
+	</object>
+</objects>

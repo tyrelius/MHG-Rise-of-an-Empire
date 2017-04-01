@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Egypt"/>
+		<property name="strGovType" value="Democratic"/>
+		<property name="strHomelands" value="Egypt"/>
+		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Egypt"/>
+		<property name="strCapital" value="Cairo"/>
+		<property name="strOriginalCapital" value="Cairo"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Lower Egypt"/>
+			<property name="strOwner" value="Egypt"/>
+			<property name="strController" value="Egypt"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="6999094"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Egyptian"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Egyptian Coal Mines"/>
+				<property name="strOwner" value="Egypt"/>
+				<property name="vecPosition" value="[31.5367202759, 31.0358543396, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Cairo"/>
+				<property name="strOwner" value="Egypt"/>
+				<property name="vecPosition" value="[31.6764583588, 30.2175674438, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="1307000"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Alexandria"/>
+				<property name="strOwner" value="Egypt"/>
+				<property name="vecPosition" value="[29.9500007629, 31.2199993134, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="685736"/>
+				<property name="strPortForRegion" value="Levantine Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Red Sea Coasts"/>
+			<property name="strOwner" value="Egypt"/>
+			<property name="strController" value="Egypt"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="9906"/>
+			<property name="strCulture" value="Egyptian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Sinai"/>
+			<property name="strOwner" value="Egypt"/>
+			<property name="strController" value="Egypt"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="29951"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Egyptian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Southern Desert"/>
+			<property name="strOwner" value="Egypt"/>
+			<property name="strController" value="Egypt"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="29092"/>
+			<property name="strCulture" value="Egyptian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Upper Egypt"/>
+			<property name="strOwner" value="Egypt"/>
+			<property name="strController" value="Egypt"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="6417385"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Egyptian"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Faiyum"/>
+				<property name="strOwner" value="Egypt"/>
+				<property name="vecPosition" value="[30.8299999237, 29.3199996948, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="63582"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Western Desert"/>
+			<property name="strOwner" value="Egypt"/>
+			<property name="strController" value="Egypt"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="52544"/>
+			<property name="strCulture" value="Egyptian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Egypt"/>
+			<property name="strRegion" value="Lower Egypt"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Egyptian"/>
+			</object>
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Arabian"/>
+			</object>
+		</object>
+	</object>
+</objects>

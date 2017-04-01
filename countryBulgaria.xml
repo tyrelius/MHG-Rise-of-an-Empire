@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Bulgaria"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Bulgaria"/>
+		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Bulgaria"/>
+		<property name="strCapital" value="Sofia"/>
+		<property name="strOriginalCapital" value="Sofia"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Eastern Rumelia"/>
+			<property name="strOwner" value="Bulgaria"/>
+			<property name="strController" value="Bulgaria"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="2173044"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Bulgarian"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="East Rumelia Mines"/>
+				<property name="strOwner" value="Bulgaria"/>
+				<property name="vecPosition" value="[26.2653522491, 42.452129364, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Moesia"/>
+			<property name="strOwner" value="Bulgaria"/>
+			<property name="strController" value="Bulgaria"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="999181"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Bulgarian"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Sofya"/>
+			<property name="strOwner" value="Bulgaria"/>
+			<property name="strController" value="Bulgaria"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="1141659"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Bulgarian"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Sofya Mines"/>
+				<property name="strOwner" value="Bulgaria"/>
+				<property name="vecPosition" value="[23.5498447418, 41.7699356079, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Sofia"/>
+				<property name="strOwner" value="Bulgaria"/>
+				<property name="vecPosition" value="[23.2999992371, 42.6699981689, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="287976"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="6"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Southern Dobruja"/>
+			<property name="strOwner" value="Bulgaria"/>
+			<property name="strController" value="Bulgaria"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="1022384"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Bulgarian"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Varna"/>
+				<property name="strOwner" value="Bulgaria"/>
+				<property name="vecPosition" value="[27.9500007629, 43.2000007629, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="69994"/>
+				<property name="strPortForRegion" value="Western Black Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Bulgaria"/>
+			<property name="strRegion" value="Sofya"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Bulgarian"/>
+			</object>
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Slavic"/>
+			</object>
+		</object>
+	</object>
+</objects>

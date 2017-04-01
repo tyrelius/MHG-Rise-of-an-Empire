@@ -1,0 +1,2145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="United Kingdom"/>
+		<property name="strGovType" value="Democratic"/>
+		<property name="strHomelands" value="United Kingdom"/>
+		<property name="bIsScored" value="true"/>
+		<property name="bColonialPower" value="true"/>
+		<property name="eCountryType" value="COUNTRYTYPE_PLAYABLE"/>
+		<property name="bCanPlay" value="true"/>
+		<property name="bNonPlayable" value="false"/>
+		<property name="strFlagName" value="United Kingdom"/>
+		<property name="strCapital" value="London"/>
+		<property name="strOriginalCapital" value="London"/>
+		<property name="nTransportCredits" value="16"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Northern Ireland"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="1279753"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="North Ireland Mines"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-7.38210678101, 54.4988555908, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="83"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="North Ireland Foundry"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-6.75714540482, 54.9849319458, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="10"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Belfast"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-5.92000007629, 54.5800018311, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="415151"/>
+				<property name="strPortForRegion" value="Irish Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="21"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Shetlands"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="20500"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Cornwall"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2474000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="English"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Bristol"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-2.57999992371, 51.4500007629, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="397012"/>
+				<property name="strPortForRegion" value="Irish Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="34"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="East Anglia"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2138698"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="English"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="East Anglia Mines"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[0.466577529907, 52.313659668, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="53"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Lancashire"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="6128000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="English"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Lancashire Mines"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-2.53637075424, 53.9640007019, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="53"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Liverpool"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-2.86999988556, 53.2849998474, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="859200"/>
+				<property name="strPortForRegion" value="Irish Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="41"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Manchester"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-2.18000006676, 53.5400009155, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="766333"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="40"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Lincoln"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="3773000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="English"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Lincoln Foundry"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-0.599957466125, 52.5719833374, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="16"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Midlands"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="3433000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="English"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Midlands Mines"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-2.58711433411, 52.1907539368, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="53"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Midlands Foundry"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-3.05804443359, 52.7663345337, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="15"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Birmingham"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-1.83000004292, 52.5, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="1011500"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="41"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Northumberland"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2571000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="English"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Northumberland Mines"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-3.27623796463, 54.6173171997, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="106"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Northumberland Foundry"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-2.4315533638, 55.1106719971, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="32"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Newcastle"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-1.58000004292, 54.9799995422, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="292700"/>
+				<property name="strPortForRegion" value="Dogger Bank"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="41"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Sussex"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="5224435"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="English"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="London"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-0.170000001788, 51.5, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="8474900"/>
+				<property name="strPortForRegion" value="English Channel"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="48"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Yorkshire"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="834813"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="English"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Yorkshire Mines"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-0.894411087036, 54.1040153503, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="53"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Yorkshire Foundry"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-0.423315048218, 53.8946876526, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="21"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Leeds"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-1.53999996185, 53.7999992371, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="480862"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="36"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Scotland"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="4245000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="Scottish"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Scotland Mines"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-4.67594766617, 57.0848083496, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="80"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Glasgow"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-4.25, 55.8800010681, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="1088417"/>
+				<property name="strPortForRegion" value="Irish Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="31"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Edinburgh"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-3.18000006676, 55.9500007629, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="558100"/>
+				<property name="strPortForRegion" value="Dogger Bank"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="22"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Lyness"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-3.03999996185, 58.8800010681, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="21700"/>
+				<property name="strPortForRegion" value="Fair Isle"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="9"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Wales"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2161000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="Welsh"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Wales Mines"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-4.76943302155, 51.8824882507, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="53"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Wales Foundry"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-3.78272223473, 53.145778656, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="9"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Cardiff"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-3.49000000954, 51.6500015259, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="223589"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="9"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Sudan"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="5945591"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Afro-Arab"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Khartoum"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[32.5299987793, 15.5500001907, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Gold Coast"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="3613876"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Akan"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Accra"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-0.25, 5.55000019073, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="71016"/>
+				<property name="strPortForRegion" value="Bight of Benin"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="St. Helena"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="4341"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="bColony" value="true"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="South Yemen"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="600000"/>
+			<property name="strCulture" value="Arabian"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Aden"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[45.0499992371, 12.779999733, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="43338"/>
+				<property name="strPortForRegion" value="South Red Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Jordan"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="300000"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Arabian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Palestine"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="1383320"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Arabian"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Jerusalem"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[35, 31.7700004578, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="125000"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Socotra"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="12000"/>
+			<property name="strCulture" value="Arabian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Trucial States"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="215000"/>
+			<property name="strCulture" value="Arabian"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Bahrain Oil Field"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[50.5884017944, 26.2100906372, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="3"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Assam"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="9247857"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Assamese"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Assam Mines"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[94.4696731567, 27.9728469849, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Assam Oil Field"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[93.8567199707, 25.2593917847, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Baluchistan"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="868617"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Baloch"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Kenya"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="3261522"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Bantu"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Nairobi"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[36.8300018311, -1.27999997139, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="50000"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Tanganyika"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="5258068"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Bantu"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Dar es Salaam"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[39.2700004578, -6.82000017166, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strPortForRegion" value="East African coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Uganda"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="3686695"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Bantu"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Bengal"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="51087338"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Bengali"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Bengal Mines"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[90.3938369751, 24.4303188324, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="19"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Calcutta"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[88.3300018311, 22.5, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="1485582"/>
+				<property name="strPortForRegion" value="Mouths of the Ganges"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="6"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Chin"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="14667146"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Burmese"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Chin Oil Field"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[94.8810653687, 19.7143001556, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Rangoon"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[96.1600036621, 16.7800006866, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="400415"/>
+				<property name="strPortForRegion" value="Gulf of Martaban"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Shan"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="1506337"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Burmese"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Mandalay"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[96.0599975586, 21.9500007629, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="6"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Tenasserim"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="1598498"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Burmese"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Bahamas"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="66219"/>
+			<property name="strCulture" value="Caribbean"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Bermuda"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="30552"/>
+			<property name="strCulture" value="Caribbean"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="British Guiana"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="310933"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Caribbean"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Georgetown"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-58.1699981689, 6.76999998093, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="66601"/>
+				<property name="strPortForRegion" value="Orinoco Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Jamaica"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="858118"/>
+			<property name="strCulture" value="Caribbean"/>
+			<property name="bColony" value="true"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Kingston"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-76.8000030518, 17.9699993134, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="62707"/>
+				<property name="strPortForRegion" value="Western Caribbean"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Leeward Isles"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="122221"/>
+			<property name="strCulture" value="Caribbean"/>
+			<property name="bColony" value="true"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Trinidad"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="448253"/>
+			<property name="strCulture" value="Caribbean"/>
+			<property name="bColony" value="true"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Trinidad Oil Field"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-60.6031532288, 11.2245769501, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="8"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Port of Spain"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-61.5200004578, 10.6300001144, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="76384"/>
+				<property name="strPortForRegion" value="Orinoco Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Windward Isles"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="389590"/>
+			<property name="strCulture" value="Caribbean"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Nyasaland"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="1622926"/>
+			<property name="strCulture" value="Chewa"/>
+			<property name="bColony" value="true"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Kowloon"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="988191"/>
+			<property name="strCulture" value="Chinese"/>
+			<property name="bColony" value="true"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Hong Kong"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[114.13999939, 22.1100006104, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="966341"/>
+				<property name="strPortForRegion" value="Guangdong Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="3"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Andhra Pradesh"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="14436148"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Dravidian"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Hyderabad Mines"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[79.0079879761, 18.5425987244, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="2"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Hyderabad"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[78.4300003052, 17.3199996948, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="466894"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="5"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Madras"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="47193602"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Dravidian"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Cochin"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[76.2300033569, 10.0100002289, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strPortForRegion" value="Malabarian Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Mysore"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="6557502"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Dravidian"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Mysore Foundry"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[76.3393936157, 14.6306600571, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Bangalore"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[77.5800018311, 12.9600000381, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="248334"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="8"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Suez Canal Zone"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="125075"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Egyptian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Falklands"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="2399"/>
+			<property name="strCulture" value="English"/>
+			<property name="bColony" value="true"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Gibraltar Proper"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="21372"/>
+			<property name="nFortification" value="2"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Gibraltar"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-5.42769908905, 36.232963562, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="21372"/>
+				<property name="strPortForRegion" value="Alboran Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Seychelles"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="27444"/>
+			<property name="strCulture" value="French"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Cyprus"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="369091"/>
+			<property name="strCulture" value="Greek"/>
+			<property name="bColony" value="true"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Nicosia"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[33.3699989319, 35.1699981689, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="24965"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Gujarat"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="13702000"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Gujarati"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Surat"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[72.8199996948, 21.2000007629, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strPortForRegion" value="Gulf of Culch"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="9"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="British Honduras"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="56071"/>
+			<property name="strCulture" value="Hispanic"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Andaman Islands"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="16168"/>
+			<property name="strCulture" value="Indo-Aryan"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Bihar Orissa"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="42329588"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Indo-Aryan"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Bihar Orissa Mines"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[85.7419204712, 21.7287921906, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="38"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Bihar Orissa Foundry"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[84.5160064697, 20.7346057892, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="7"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Central India"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="17990397"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Indo-Aryan"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Central India Mines"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[81.0480651855, 20.7915420532, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="8"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Bhopal"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[77.4100036621, 23.2299995422, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Kashmir"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="3646243"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Indo-Aryan"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Punjab"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="9600000"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Indo-Aryan"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Punjab Mines"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[71.8549346924, 32.7275352478, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Lahore"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[74.3600006104, 31.5599994659, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="429747"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Rajputana"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="11225712"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Indo-Aryan"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="New Delhi"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[76.8499984741, 27.6100006104, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="447442"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="9"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="United Provinces"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="49614833"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Indo-Aryan"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Lucknow"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[80.9000015259, 26.8299999237, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="274659"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="East Malaysia"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="270223"/>
+			<property name="strCulture" value="Malaysian"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="East Malaysia Oil Field"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[114.548591614, 3.76004981995, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Malaya"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="2425291"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Malaysian"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Malaya Mines"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[102.386505127, 5.05310630798, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Malaya Foundry"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[103.050437927, 2.24780464172, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="4"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Kuala Lumpur"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[101.699996948, 3.17000007629, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="114219"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="3"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Singapore Island"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="651486"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Chinese"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Singapore"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[103.849998474, 1.27999997139, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="587000"/>
+				<property name="strPortForRegion" value="Singapore Strait"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Malta"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="262165"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Maltese"/>
+			<property name="bColony" value="true"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Valletta"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[14.529999733, 35.9000015259, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="51898"/>
+				<property name="strPortForRegion" value="Gulf of Gabes"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Gambia"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="199520"/>
+			<property name="strCulture" value="Mande"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Sierra Leone"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="103378"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Mande"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Sierra Leone Foundry"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[-11.642408371, 8.00043010712, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Maharashtra"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="26398997"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Marathi"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Bombay"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[72.8499984741, 18.9300003052, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="1161383"/>
+				<property name="strPortForRegion" value="Gulf of Culch"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Fiji"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="201086"/>
+			<property name="strCulture" value="Melanesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Papua"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="276306"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Melanesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Solomon Islands"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="44113"/>
+			<property name="strCulture" value="Melanesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Gilbert Islands"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="31292"/>
+			<property name="strCulture" value="Micronesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Nauru Island"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="3097"/>
+			<property name="strCulture" value="Micronesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Cook Islands"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="12246"/>
+			<property name="strCulture" value="Polynesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Phoenix Islands"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="62"/>
+			<property name="strCulture" value="Polynesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Tonga"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="32790"/>
+			<property name="strCulture" value="Polynesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Tuvalu"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="10000"/>
+			<property name="strCulture" value="Polynesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Wallis Futuna"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="7172"/>
+			<property name="strCulture" value="Polynesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Western Samoa"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="55946"/>
+			<property name="strCulture" value="Polynesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Sind"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="3887070"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Sindhi"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Karachi"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[67.0299987793, 24.8500003815, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="263565"/>
+				<property name="strPortForRegion" value="Indus Delta"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Ceylon"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="5306863"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Sinhalese"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Colombo"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[79.8700027466, 6.92000007629, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="284155"/>
+				<property name="strPortForRegion" value="Gulf of Manna"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="8"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Somaliland"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="344700"/>
+			<property name="strCulture" value="Somali"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Bechuanaland"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="265756"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="South African"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Northern Rhodesia"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="1376325"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="South African"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Southern Rhodesia"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="1303775"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="South African"/>
+			<property name="bColony" value="true"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Rhodesia Mines"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[29.4290390015, -18.0552062988, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="2"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Salisbury"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[31.0499992371, -17.8299999237, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="32846"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Mauritius"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="410920"/>
+			<property name="strCulture" value="Indo-Aryan"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Port Louis"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[57.5, -20.1700000763, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="55912"/>
+				<property name="strPortForRegion" value="Madagascar Basin"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Nigeria"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="20190771"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Yoruba"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Nigeria Mines"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[8.05180263519, 7.55401039124, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="8"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Ibadan"/>
+				<property name="strOwner" value="United Kingdom"/>
+				<property name="vecPosition" value="[3.93000006676, 7.38000011444, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="386907"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="New Hebrides"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="40000"/>
+			<property name="strCulture" value="Melanesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Labrador"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="4716"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Newfoundland"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strController" value="United Kingdom"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="289588"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="2"/>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="China Command"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Kowloon"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="Eastern Command"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="East Anglia"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyTank"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="London District"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Sussex"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="Northern Command"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Northumberland"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="Scottish Command"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Scotland"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="Southern Command"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Cornwall"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="Western Command"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Lancashire"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="Egypt Army"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Lower Egypt"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="Malta Garrison"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Malta"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Indian Army"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Tenasserim"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="2nd Indian Army"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Bihar Orissa"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="3rd Indian Army"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Bengal"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Militia"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="4th Indian Army"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Madras"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Militia"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="5th Indian Army"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Maharashtra"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="6th Indian Army"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Gujarat"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="7th Indian Army"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Rajputana"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Militia"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="8th Indian Army"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Punjab"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="3rd Fleet"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Arabian Sea"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="6"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="4th Fleet"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Bay Bengal"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCarrier"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="9"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="5"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="5th Fleet"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Levantine Sea"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="5"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="Home Fleet"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Scotland"/>
+			<property name="strCity" value="Lyness"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCarrier"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="8"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="3"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="Rosyth Command"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Fair Isle"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCarrier"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="6"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="Nore Command"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Sussex"/>
+			<property name="strCity" value="London"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="Portsmouth Cmd"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Celtic Sea"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCarrier"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="5"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="Western Command"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Lancashire"/>
+			<property name="strCity" value="Liverpool"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="Humber Force"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Northumberland"/>
+			<property name="strCity" value="Newcastle"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="Channel Force"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="English Channel"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCarrier"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="Northern Patrol"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Scotland"/>
+			<property name="strCity" value="Lyness"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="1st Air Force"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Upper Egypt"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="1st Indian Air Force"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Baluchistan"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="11th Fighter Group"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Sussex"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="3"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="13th Fighter Group"/>
+			<property name="strOwner" value="United Kingdom"/>
+			<property name="strRegion" value="Scotland"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="3"/>
+			</object>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Belgium"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
+			<property name="nWarSensitivity" value="75"/>
+			<property name="nEmbargoSensitivity" value="95"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Netherlands"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="75"/>
+			<property name="nEmbargoSensitivity" value="95"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Ireland"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
+			<property name="nWarSensitivity" value="75"/>
+			<property name="nEmbargoSensitivity" value="95"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Greece"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
+			<property name="nWarSensitivity" value="20"/>
+			<property name="nEmbargoSensitivity" value="75"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Egypt"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
+			<property name="nWarSensitivity" value="70"/>
+			<property name="nEmbargoSensitivity" value="90"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Portugal"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="35"/>
+			<property name="nEmbargoSensitivity" value="35"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Switzerland"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
+			<property name="nEmbargoSensitivity" value="40"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="United States"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="50"/>
+			<property name="nEmbargoSensitivity" value="90"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Norway"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
+			<property name="nWarSensitivity" value="35"/>
+			<property name="nEmbargoSensitivity" value="80"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Iceland"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
+			<property name="nWarSensitivity" value="35"/>
+			<property name="nEmbargoSensitivity" value="70"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Finland"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
+			<property name="nEmbargoSensitivity" value="45"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Iraq"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="50"/>
+			<property name="nEmbargoSensitivity" value="90"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Persia"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="10"/>
+			<property name="nEmbargoSensitivity" value="40"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Canada"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="50"/>
+			<property name="nEmbargoSensitivity" value="90"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Bhutan"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="10"/>
+			<property name="nEmbargoSensitivity" value="40"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="France"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="75"/>
+			<property name="nEmbargoSensitivity" value="95"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Poland"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="65"/>
+			<property name="nEmbargoSensitivity" value="90"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Czechoslovakia"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
+			<property name="nWarSensitivity" value="10"/>
+			<property name="nEmbargoSensitivity" value="40"/>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="English"/>
+			</object>
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Scottish"/>
+			</object>
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Welsh"/>
+			</object>
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Anglo-Celtic"/>
+			</object>
+		</object>
+	</object>
+</objects>

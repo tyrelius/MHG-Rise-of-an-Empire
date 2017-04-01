@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Australia"/>
+		<property name="strGovType" value="Democratic"/>
+		<property name="strHomelands" value="Australia"/>
+		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Australia"/>
+		<property name="strCapital" value="Canberra"/>
+		<property name="strOriginalCapital" value="Canberra"/>
+		<property name="nTransportCredits" value="1"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="New South Wales"/>
+			<property name="strOwner" value="Australia"/>
+			<property name="strController" value="Australia"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="2681736"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="South Wales Mines"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[143.499069214, -30.8585186005, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="8"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="South Wales Foundry"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[148.384094238, -32.5480880737, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="3"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Canberra"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[149.130004883, -35.2999992371, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="9787"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Sydney"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[151.169998169, -33.9199981689, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="1311000"/>
+				<property name="strPortForRegion" value="Botany Bay"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="8"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Northern Territory"/>
+			<property name="strOwner" value="Australia"/>
+			<property name="strController" value="Australia"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="4800"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Northern Territory Mines"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[135.24130249, -21.6597042084, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="8"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="North Territory Foundry"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[131.445526123, -21.6597042084, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="2"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Darwin"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[130.729995728, -12.3800001144, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strPortForRegion" value="Arafura Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Queensland"/>
+			<property name="strOwner" value="Australia"/>
+			<property name="strController" value="Australia"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="948000"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Queensland Mines"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[142.214294434, -21.1208877563, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="5"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Queensland Foundry"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[141.335113525, -23.7571601868, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="3"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Brisbane"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[153, -27.5, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="336000"/>
+				<property name="strPortForRegion" value="Botany Bay"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="South Australia"/>
+			<property name="strOwner" value="Australia"/>
+			<property name="strController" value="Australia"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="581000"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="South Australia Mines"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[134.940216064, -29.0048542023, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="6"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="South Australia Foundry"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[138.585571289, -29.7457103729, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="2"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Adelaide"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[138.600006104, -34.9300003052, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="330000"/>
+				<property name="strPortForRegion" value="Great Australian Bight"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="3"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Tasmania"/>
+			<property name="strOwner" value="Australia"/>
+			<property name="strController" value="Australia"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="228000"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Tasmania Foundry"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[145.485610962, -41.3141212463, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Hobart"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[147.300003052, -42.9000015259, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="62740"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Victoria"/>
+			<property name="strOwner" value="Australia"/>
+			<property name="strController" value="Australia"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="1820000"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Victoria Foundry"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[144.074142456, -36.6601829529, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Melbourne"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[144.970001221, -37.75, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="1077000"/>
+				<property name="strPortForRegion" value="Bass Strait"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="8"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Western Australia"/>
+			<property name="strOwner" value="Australia"/>
+			<property name="strController" value="Australia"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="439000"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="West Australia Mines"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[118.917633057, -24.7703132629, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="11"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="West Australia Foundry"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[123.34475708, -25.2997283936, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="3"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Perth"/>
+				<property name="strOwner" value="Australia"/>
+				<property name="vecPosition" value="[115.819999695, -31.9699993134, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="228000"/>
+				<property name="strPortForRegion" value="Geelvink Channel"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="3"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Military District"/>
+			<property name="strOwner" value="Australia"/>
+			<property name="strRegion" value="Queensland"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Fleet"/>
+			<property name="strOwner" value="Australia"/>
+			<property name="strRegion" value="Victoria"/>
+			<property name="strCity" value="Melbourne"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Anglo-Celtic"/>
+			</object>
+		</object>
+	</object>
+</objects>

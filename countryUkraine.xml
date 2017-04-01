@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Ukraine"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Ukraine"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Ukraine"/>
+		<property name="strCapital" value="Kiev"/>
+		<property name="strOriginalCapital" value="Kiev"/>
+		<property name="bSurrendered" value="true"/>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Ukrainian"/>
+			</object>
+		</object>
+	</object>
+</objects>

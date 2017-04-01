@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Netherlands"/>
+		<property name="strGovType" value="Democratic"/>
+		<property name="strHomelands" value="Netherlands"/>
+		<property name="bColonialPower" value="true"/>
+		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Netherlands"/>
+		<property name="strCapital" value="Amsterdam"/>
+		<property name="strOriginalCapital" value="Amsterdam"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Friesland"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strController" value="Netherlands"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="4578199"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Dutch"/>
+			<property name="nAgriculture" value="3"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Friesland Mines"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="vecPosition" value="[6.9195432663, 53.0846252441, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="15"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Friesland Foundry"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="vecPosition" value="[5.85060691833, 53.1220016479, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Holland"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strController" value="Netherlands"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="3896307"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Dutch"/>
+			<property name="nAgriculture" value="3"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Holland Mines"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="vecPosition" value="[5.86158227921, 51.5160675049, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="15"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Holland Foundry"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="vecPosition" value="[4.06008720398, 51.8524475098, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Amsterdam"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="vecPosition" value="[4.90000009537, 52.3499984741, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="731645"/>
+				<property name="strPortForRegion" value="North Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="49"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Dutch Timor"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strController" value="Netherlands"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="1657376"/>
+			<property name="strCulture" value="Indonesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="East Borneo"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strController" value="Netherlands"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="1366214"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Indonesian"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="East Bomeo Mines"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="vecPosition" value="[114.806045532, -1.64722204208, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Borneo Oil Field"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="vecPosition" value="[116.563812256, 1.04175376892, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="2"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Banjarmasin"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="vecPosition" value="[114.580001831, -3.32999992371, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strPortForRegion" value="Java Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Java"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strController" value="Netherlands"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="41718364"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Indonesian"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Batavia"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="vecPosition" value="[106.75, -6.13000011444, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="437000"/>
+				<property name="strPortForRegion" value="Karimata Strait"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="9"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Lesser Sunda"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strController" value="Netherlands"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="5775367"/>
+			<property name="strCulture" value="Indonesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="North Sumatra"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strController" value="Netherlands"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="2045645"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Indonesian"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="North Sumatra Mines"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="vecPosition" value="[97.8178634644, 3.65323662758, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="North Oil Field"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="vecPosition" value="[99.6955718994, 1.92740774155, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="12"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Riau Islands"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strController" value="Netherlands"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="298225"/>
+			<property name="strCulture" value="Malaysian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="South Sumatra"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strController" value="Netherlands"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="6209108"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Indonesian"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="South Sumatra Mines"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="vecPosition" value="[103.745903015, -2.92404842377, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="South Oil Field"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="vecPosition" value="[101.804138184, -0.474070072174, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="10"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Jambi"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="vecPosition" value="[103.699996948, -1.60000002384, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strPortForRegion" value="Karimata Strait"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="3"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="West Borneo"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strController" value="Netherlands"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="802447"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Indonesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Banda Islands"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strController" value="Netherlands"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="125024"/>
+			<property name="strCulture" value="Melanesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Celebes"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strController" value="Netherlands"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="4231906"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Melanesian"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Manado"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="vecPosition" value="[124.839996338, 1.49000000954, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strPortForRegion" value="Celebes Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Moluccas"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strController" value="Netherlands"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="454105"/>
+			<property name="strCulture" value="Melanesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="West New Guinea"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strController" value="Netherlands"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="314271"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Melanesian"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="New Guinea Oil Field"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="vecPosition" value="[139.502685547, -3.51399326324, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Surinam"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strController" value="Netherlands"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="169471"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Indo-Aryan"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Paramaribo"/>
+				<property name="strOwner" value="Netherlands"/>
+				<property name="vecPosition" value="[-55.1699981689, 5.82999992371, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="52705"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="7"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Colonial Army"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strRegion" value="Java"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="Amersfoort Army"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strRegion" value="Friesland"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="Arnhem Army"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strRegion" value="Holland"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Fleet"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strRegion" value="Holland"/>
+			<property name="strCity" value="Amsterdam"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="5"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="5"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="1st Air Force"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strRegion" value="Holland"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="2nd Air Force"/>
+			<property name="strOwner" value="Netherlands"/>
+			<property name="strRegion" value="Java"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Dutch"/>
+			</object>
+		</object>
+	</object>
+</objects>

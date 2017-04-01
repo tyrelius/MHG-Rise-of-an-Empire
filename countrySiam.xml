@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Siam"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Siam"/>
+		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Siam"/>
+		<property name="strCapital" value="Bangkok"/>
+		<property name="strOriginalCapital" value="Bangkok"/>
+		<property name="nTransportCredits" value="2"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Central Siam"/>
+			<property name="strOwner" value="Siam"/>
+			<property name="strController" value="Siam"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="3742441"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Thai"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Bangkok"/>
+				<property name="strOwner" value="Siam"/>
+				<property name="vecPosition" value="[100.5, 13.7299995422, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="685000"/>
+				<property name="strPortForRegion" value="Gulf of Siam"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="3"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Isan"/>
+			<property name="strOwner" value="Siam"/>
+			<property name="strController" value="Siam"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="5805984"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Laotian"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Kra Isthmus"/>
+			<property name="strOwner" value="Siam"/>
+			<property name="strController" value="Siam"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="1909690"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Thai"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Phuket"/>
+				<property name="strOwner" value="Siam"/>
+				<property name="vecPosition" value="[98.3799972534, 7.88000011444, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strPortForRegion" value="Straits of Malacca"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Lanna"/>
+			<property name="strOwner" value="Siam"/>
+			<property name="strController" value="Siam"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="3005990"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Thai"/>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Siam"/>
+			<property name="strRegion" value="Central Siam"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Fleet"/>
+			<property name="strOwner" value="Siam"/>
+			<property name="strRegion" value="Gulf of Siam"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="1st Air Force"/>
+			<property name="strOwner" value="Siam"/>
+			<property name="strRegion" value="Lanna"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Thai"/>
+			</object>
+		</object>
+	</object>
+</objects>

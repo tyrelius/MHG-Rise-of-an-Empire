@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Croatia"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Croatia"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Croatia"/>
+		<property name="strCapital" value="Zagreb"/>
+		<property name="strOriginalCapital" value="Zagreb"/>
+		<property name="bSurrendered" value="true"/>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Croatian"/>
+			</object>
+		</object>
+	</object>
+</objects>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Belgium"/>
+		<property name="strGovType" value="Democratic"/>
+		<property name="strHomelands" value="Belgium"/>
+		<property name="bColonialPower" value="true"/>
+		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Belgium"/>
+		<property name="strCapital" value="Brussels"/>
+		<property name="strOriginalCapital" value="Brussels"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Flanders"/>
+			<property name="strOwner" value="Belgium"/>
+			<property name="strController" value="Belgium"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="4694000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Flemish"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Flanders Mines"/>
+				<property name="strOwner" value="Belgium"/>
+				<property name="vecPosition" value="[3.65005922318, 51.0507354736, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="51"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Flanders Foundry"/>
+				<property name="strOwner" value="Belgium"/>
+				<property name="vecPosition" value="[5.2394695282, 51.0758628845, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="4"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Brussels"/>
+				<property name="strOwner" value="Belgium"/>
+				<property name="vecPosition" value="[4.46908283234, 50.9886245728, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="900228"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="54"/>
+					<property name="nTechLevel" value="3"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Wallonia"/>
+			<property name="strOwner" value="Belgium"/>
+			<property name="strController" value="Belgium"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="2820000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="2"/>
+			<property name="strCulture" value="Walloon"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Wallonia Mines"/>
+				<property name="strOwner" value="Belgium"/>
+				<property name="vecPosition" value="[5.82074737549, 50.515247345, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="17"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Wallonia Foundry"/>
+				<property name="strOwner" value="Belgium"/>
+				<property name="vecPosition" value="[4.51661491394, 50.3053398132, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="8"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Belgian Congo"/>
+			<property name="strOwner" value="Belgium"/>
+			<property name="strController" value="Belgium"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="10066834"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Kongo"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Leopoldville"/>
+				<property name="strOwner" value="Belgium"/>
+				<property name="vecPosition" value="[15.4721250534, -4.5609498024, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="43000"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Colonial Army"/>
+			<property name="strOwner" value="Belgium"/>
+			<property name="strRegion" value="Belgian Congo"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="Army Area Brussels"/>
+			<property name="strOwner" value="Belgium"/>
+			<property name="strRegion" value="Flanders"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="Army Area Liege"/>
+			<property name="strOwner" value="Belgium"/>
+			<property name="strRegion" value="Wallonia"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="1st Air Force"/>
+			<property name="strOwner" value="Belgium"/>
+			<property name="strRegion" value="Flanders"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Flemish"/>
+			</object>
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Walloon"/>
+			</object>
+		</object>
+	</object>
+</objects>

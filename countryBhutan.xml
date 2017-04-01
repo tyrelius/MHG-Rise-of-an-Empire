@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Bhutan"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Bhutan"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Bhutan"/>
+		<property name="strCapital" value="Punaka"/>
+		<property name="strOriginalCapital" value="Punaka"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Bhutan"/>
+			<property name="strOwner" value="Bhutan"/>
+			<property name="strController" value="Bhutan"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="300000"/>
+			<property name="strCulture" value="Tibetan"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Punaka"/>
+				<property name="strOwner" value="Bhutan"/>
+				<property name="vecPosition" value="[89.7099990845, 27.5300006866, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="5000"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Tibetan"/>
+			</object>
+		</object>
+	</object>
+</objects>

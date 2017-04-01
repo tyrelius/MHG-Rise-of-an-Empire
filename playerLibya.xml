@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MEPlayerData" name="">
+		<property name="strOwner" value="Libya"/>
+		<property name="strFoggees" value="Libya"/>
+		<property name="strHLPDefLists" value="Default"/>
+		<property name="strDipRelProcListName" value="Neutral"/>
+		<property name="strAITreatyEvalListName" value="Neutral_Isolationist"/>
+		<property name="eInternationalPosition" value="PLAYER_INTERNATIONAL_POSITION__NEUTRAL"/>
+		<property name="nInternationalInvolvement" value="1"/>
+		<property name="nAggressiveNature" value="1"/>
+		<property name="nMilitaryPosture" value="1"/>
+		<property name="nMilitaryDoctrine" value="5"/>
+		<property name="nDomesticPolicy" value="1"/>
+		<property name="nSciencePolicy" value="0"/>
+		<property name="nPoliticalStability" value="21"/>
+		<object type="MEAIData" name="objAIData">
+		</object>
+		<object type="DipRelInitialValueList" name="objDipRelInitialValueList">
+			<property name="nDefault" value="500"/>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Communist China"/>
+				<property name="nValue" value="0"/>
+			</object>
+		</object>
+	</object>
+</objects>

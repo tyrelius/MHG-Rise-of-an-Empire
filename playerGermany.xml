@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MEPlayerData" name="">
+		<property name="strOwner" value="Germany"/>
+		<property name="strFoggees" value="Germany"/>
+		<property name="strHLPDefLists" value="Default"/>
+		<property name="strHLPDefLists" value="Playable"/>
+		<property name="strPLPDefLists" value="Playable"/>
+		<property name="strHLPInitialValueListBundleName" value="Germany"/>
+		<property name="strDipRelProcListName" value="Expansionist"/>
+		<property name="strAITreatyEvalListName" value="Expansionist_Interventionist"/>
+		<property name="eInternationalPosition" value="PLAYER_INTERNATIONAL_POSITION__EXPANSIONIST"/>
+		<property name="nInternationalInvolvement" value="27"/>
+		<property name="nAggressiveNature" value="24"/>
+		<property name="nMilitaryPosture" value="25"/>
+		<property name="nMilitaryDoctrine" value="15"/>
+		<property name="nDomesticPolicy" value="21"/>
+		<property name="nSciencePolicy" value="30"/>
+		<property name="nPoliticalStability" value="18"/>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title2"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Conquer a country by occupying all its regions or proposing a Peace Treaty that forces its surrender."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalConquerCountry"/>
+			<property name="strTargetBlockName" value="GoalRefTarget2"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory2"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title3"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Conquer a country by occupying all its regions or proposing a Peace Treaty that forces its surrender."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalConquerCountry"/>
+			<property name="strTargetBlockName" value="GoalRefTarget3"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory3"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title4"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Conquer a country by occupying all its regions or proposing a Peace Treaty that forces its surrender."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalConquerCountry"/>
+			<property name="strTargetBlockName" value="GoalRefTarget4"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory4"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title5"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Gain control of the territories listed."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalAcquireRegions"/>
+			<property name="strTargetBlockName" value="GoalRefTarget5"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory5"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title6"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Conquer a country by occupying all its regions or proposing a Peace Treaty that forces its surrender."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalConquerCountry"/>
+			<property name="strTargetBlockName" value="GoalRefTarget6"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory6"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title7"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Conquer a country by occupying all its regions or proposing a Peace Treaty that forces its surrender."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalConquerCountry"/>
+			<property name="strTargetBlockName" value="GoalRefTarget7"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory7"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title8"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Conquer a country by occupying all its regions or proposing a Peace Treaty that forces its surrender."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalConquerCountry"/>
+			<property name="strTargetBlockName" value="GoalRefTarget8"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory8"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title9"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Gain control of the territories listed."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalAcquireRegions"/>
+			<property name="strTargetBlockName" value="GoalRefTarget9"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory9"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title10"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Gain control of the territories listed."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalAcquireRegions"/>
+			<property name="strTargetBlockName" value="GoalRefTarget10"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory10"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title11"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Gain control of the territories listed."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalAcquireRegions"/>
+			<property name="strTargetBlockName" value="GoalRefTarget11"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory11"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title12"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Gain control of the territories listed."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalAcquireRegions"/>
+			<property name="strTargetBlockName" value="GoalRefTarget12"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory12"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title13"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Support this country through financial aid, arms trades, and, possibly, your intervention in its war."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalHelpCountryWinWar"/>
+			<property name="strTargetBlockName" value="GoalRefTarget13"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory13"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title14"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Support this country through financial aid, arms trades, and, possibly, your intervention in its war."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalHelpCountryWinWar"/>
+			<property name="strTargetBlockName" value="GoalRefTarget14"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory14"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="MEAIData" name="objAIData">
+			<object type="WarPlan" name="objWarPlans">
+				<property name="strName" value="Germany1"/>
+				<property name="nWeight" value="100"/>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Austria"/>
+					<property name="strTargetCountries" value="Austria"/>
+					<property name="dateTrigger" value="09/01/1938"/>
+					<property name="dateExpires" value="12/01/1938"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Czechoslovakia"/>
+					<property name="strTargetCountries" value="Czechoslovakia"/>
+					<property name="dateTrigger" value="12/01/1938"/>
+					<property name="dateExpires" value="09/01/1939"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="DanzigPoland"/>
+					<property name="strTargetCountries" value="Danzig"/>
+					<property name="strTargetCountries" value="Poland"/>
+					<property name="dateTrigger" value="09/01/1939"/>
+					<property name="dateExpires" value="03/01/1940"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Denmark"/>
+					<property name="strTargetRegionList" value="GermanyDenmarkDesired1939"/>
+					<property name="strPrereqOperations" value="DanzigPoland"/>
+					<property name="dateExpires" value="06/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Norway"/>
+					<property name="strTargetCountries" value="Norway"/>
+					<property name="strPrereqOperations" value="Denmark"/>
+					<property name="dateExpires" value="06/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="LowCountries"/>
+					<property name="strTargetCountries" value="Netherlands"/>
+					<property name="strTargetCountries" value="Belgium"/>
+					<property name="strTargetCountries" value="Luxembourg"/>
+					<property name="strTargetCountries" value="France"/>
+					<property name="strPrereqOperations" value="Norway"/>
+					<property name="dateExpires" value="06/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Yugoslavia"/>
+					<property name="strTargetCountries" value="Yugoslavia"/>
+					<property name="strPrereqOperations" value="LowCountries"/>
+					<property name="dateExpires" value="06/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="USSR"/>
+					<property name="strTargetCountries" value="USSR"/>
+					<property name="dateTrigger" value="03/01/1941"/>
+					<property name="dateExpires" value="12/01/1942"/>
+				</object>
+			</object>
+			<object type="WarPlan" name="objWarPlans">
+				<property name="strName" value="Germany2"/>
+				<property name="nWeight" value="80"/>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Austria"/>
+					<property name="strTargetCountries" value="Austria"/>
+					<property name="dateTrigger" value="09/01/1938"/>
+					<property name="dateExpires" value="12/01/1938"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Czechoslovakia"/>
+					<property name="strTargetCountries" value="Czechoslovakia"/>
+					<property name="dateTrigger" value="12/01/1938"/>
+					<property name="dateExpires" value="09/01/1939"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Denmark"/>
+					<property name="strTargetRegionList" value="GermanyDenmarkDesired1939"/>
+					<property name="dateTrigger" value="03/01/1939"/>
+					<property name="dateExpires" value="03/01/1940"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="DanzigPoland"/>
+					<property name="strTargetCountries" value="Danzig"/>
+					<property name="strTargetCountries" value="Poland"/>
+					<property name="dateTrigger" value="09/01/1939"/>
+					<property name="dateExpires" value="03/01/1940"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Norway"/>
+					<property name="strTargetCountries" value="Norway"/>
+					<property name="strPrereqOperations" value="DanzigPoland"/>
+					<property name="dateExpires" value="06/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Netherlands"/>
+					<property name="strTargetRegionList" value="GermanyNetherlandsDesired1939"/>
+					<property name="strPrereqOperations" value="DanzigPoland"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Belgium"/>
+					<property name="strTargetRegionList" value="GermanyBelgiumDesired1939"/>
+					<property name="strPrereqOperations" value="DanzigPoland"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Luxembourg"/>
+					<property name="strTargetCountries" value="Luxembourg"/>
+					<property name="strPrereqOperations" value="DanzigPoland"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="France"/>
+					<property name="strTargetRegionList" value="GermanyNorthernFranceDesired1939"/>
+					<property name="strPrereqOperations" value="DanzigPoland"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Yugoslavia"/>
+					<property name="strTargetCountries" value="Yugoslavia"/>
+					<property name="strPrereqOperations" value="France"/>
+					<property name="dateExpires" value="06/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="USSR"/>
+					<property name="strTargetCountries" value="USSR"/>
+					<property name="dateTrigger" value="03/01/1941"/>
+					<property name="dateExpires" value="12/01/1942"/>
+				</object>
+			</object>
+			<object type="WarPlan" name="objWarPlans">
+				<property name="strName" value="Germany3"/>
+				<property name="nWeight" value="75"/>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Danzig"/>
+					<property name="strTargetCountries" value="Danzig"/>
+					<property name="dateTrigger" value="09/01/1937"/>
+					<property name="dateExpires" value="09/01/1938"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Austria"/>
+					<property name="strTargetCountries" value="Austria"/>
+					<property name="dateTrigger" value="09/01/1938"/>
+					<property name="dateExpires" value="12/01/1938"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Czechoslovakia"/>
+					<property name="strTargetCountries" value="Czechoslovakia"/>
+					<property name="dateTrigger" value="12/01/1938"/>
+					<property name="dateExpires" value="09/01/1939"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Denmark"/>
+					<property name="strTargetRegionList" value="GermanyDenmarkDesired1939"/>
+					<property name="dateTrigger" value="03/01/1939"/>
+					<property name="dateExpires" value="03/01/1940"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Norway"/>
+					<property name="strTargetCountries" value="Norway"/>
+					<property name="strPrereqOperations" value="Denmark"/>
+					<property name="dateExpires" value="03/01/1940"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Poland"/>
+					<property name="strTargetCountries" value="Poland"/>
+					<property name="strPrereqOperations" value="Norway"/>
+					<property name="dateExpires" value="03/01/1940"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Sweden"/>
+					<property name="strTargetCountries" value="Sweden"/>
+					<property name="strPrereqOperations" value="Poland"/>
+					<property name="dateExpires" value="06/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Netherlands"/>
+					<property name="strTargetRegionList" value="GermanyNetherlandsDesired1939"/>
+					<property name="strPrereqOperations" value="Sweden"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Belgium"/>
+					<property name="strTargetRegionList" value="GermanyBelgiumDesired1939"/>
+					<property name="strPrereqOperations" value="Netherlands"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Luxembourg"/>
+					<property name="strTargetCountries" value="Luxembourg"/>
+					<property name="strPrereqOperations" value="Belgium"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="France"/>
+					<property name="strTargetRegionList" value="GermanyNorthernFranceDesired1939"/>
+					<property name="strPrereqOperations" value="Luxembourg"/>
+				</object>
+			</object>
+			<object type="WarPlan" name="objWarPlans">
+				<property name="strName" value="Germany4"/>
+				<property name="nWeight" value="75"/>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Austria"/>
+					<property name="strTargetCountries" value="Austria"/>
+					<property name="dateTrigger" value="09/01/1937"/>
+					<property name="dateExpires" value="12/01/1938"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Czechoslovakia"/>
+					<property name="strTargetCountries" value="Czechoslovakia"/>
+					<property name="dateTrigger" value="03/01/1938"/>
+					<property name="dateExpires" value="09/01/1939"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Danzig"/>
+					<property name="strTargetCountries" value="Danzig"/>
+					<property name="dateTrigger" value="06/01/1938"/>
+					<property name="dateExpires" value="09/01/1938"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Luxembourg"/>
+					<property name="strTargetCountries" value="Luxembourg"/>
+					<property name="strPrereqOperations" value="Danzig"/>
+					<property name="dateExpires" value="09/01/1938"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Denmark"/>
+					<property name="strTargetRegionList" value="GermanyDenmarkDesired1939"/>
+					<property name="strPrereqOperations" value="Luxembourg"/>
+					<property name="dateExpires" value="03/01/1940"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Lithuania"/>
+					<property name="strTargetCountries" value="Lithuania"/>
+					<property name="strPrereqOperations" value="Denmark"/>
+					<property name="dateExpires" value="03/01/1940"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Poland"/>
+					<property name="strTargetCountries" value="Poland"/>
+					<property name="strPrereqOperations" value="Lithuania"/>
+					<property name="dateExpires" value="03/01/1940"/>
+				</object>
+			</object>
+			<object type="WarPlan" name="objWarPlans">
+				<property name="strName" value="Germany5"/>
+				<property name="nWeight" value="90"/>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Austria"/>
+					<property name="strTargetCountries" value="Austria"/>
+					<property name="dateTrigger" value="09/01/1938"/>
+					<property name="dateExpires" value="12/01/1938"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Czechoslovakia"/>
+					<property name="strTargetCountries" value="Czechoslovakia"/>
+					<property name="dateTrigger" value="12/01/1938"/>
+					<property name="dateExpires" value="09/01/1939"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="DanzigPoland"/>
+					<property name="strTargetCountries" value="Danzig"/>
+					<property name="strTargetCountries" value="Poland"/>
+					<property name="dateTrigger" value="09/01/1939"/>
+					<property name="dateExpires" value="03/01/1940"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Denmark"/>
+					<property name="strTargetRegionList" value="GermanyDenmarkDesired1939"/>
+					<property name="strPrereqOperations" value="DanzigPoland"/>
+					<property name="dateExpires" value="06/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Norway"/>
+					<property name="strTargetCountries" value="Norway"/>
+					<property name="strPrereqOperations" value="Denmark"/>
+					<property name="dateExpires" value="06/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Yugoslavia"/>
+					<property name="strTargetCountries" value="Yugoslavia"/>
+					<property name="strPrereqOperations" value="Norway"/>
+					<property name="dateExpires" value="06/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="USSR"/>
+					<property name="strTargetCountries" value="USSR"/>
+					<property name="strPrereqOperations" value="Yugoslavia"/>
+					<property name="dateExpires" value="12/01/1942"/>
+				</object>
+			</object>
+			<object type="WarPlan" name="objWarPlans">
+				<property name="strName" value="Germany6"/>
+				<property name="nWeight" value="75"/>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Austria"/>
+					<property name="strTargetCountries" value="Austria"/>
+					<property name="dateTrigger" value="09/01/1938"/>
+					<property name="dateExpires" value="12/01/1938"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Czechoslovakia"/>
+					<property name="strTargetCountries" value="Czechoslovakia"/>
+					<property name="dateTrigger" value="12/01/1938"/>
+					<property name="dateExpires" value="09/01/1939"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Hungary"/>
+					<property name="strTargetCountries" value="Hungary"/>
+					<property name="strPrereqOperations" value="Czechoslovakia"/>
+					<property name="dateExpires" value="12/01/1940"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Romania"/>
+					<property name="strTargetCountries" value="Romania"/>
+					<property name="strPrereqOperations" value="Hungary"/>
+					<property name="dateExpires" value="03/01/1941"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Bulgaria"/>
+					<property name="strTargetCountries" value="Bulgaria"/>
+					<property name="strPrereqOperations" value="Romania"/>
+					<property name="dateExpires" value="06/01/1941"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Lithuania"/>
+					<property name="strTargetCountries" value="Lithuania"/>
+					<property name="strPrereqOperations" value="Bulgaria"/>
+					<property name="dateExpires" value="09/01/1941"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Danzig"/>
+					<property name="strTargetCountries" value="Danzig"/>
+					<property name="strPrereqOperations" value="Lithuania"/>
+					<property name="dateExpires" value="09/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Poland"/>
+					<property name="strTargetCountries" value="Poland"/>
+					<property name="strPrereqOperations" value="Danzig"/>
+					<property name="dateExpires" value="12/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Denmark"/>
+					<property name="strTargetRegionList" value="GermanyDenmarkDesired1939"/>
+					<property name="strPrereqOperations" value="Poland"/>
+					<property name="dateExpires" value="12/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="USSR"/>
+					<property name="strTargetCountries" value="USSR"/>
+					<property name="strPrereqOperations" value="Denmark"/>
+					<property name="dateExpires" value="12/01/1943"/>
+				</object>
+			</object>
+			<object type="ForceAllegiancePlan" name="objForceAllegiancePlans">
+				<property name="strWarTriggerCountryA" value="Germany"/>
+				<property name="strWarTriggerCountryB" value="Poland"/>
+				<property name="strTargetCountries" value="Hungary"/>
+				<property name="strTargetCountries" value="Romania"/>
+				<property name="strTargetCountries" value="Bulgaria"/>
+				<property name="strTargetCountries" value="Yugoslavia"/>
+				<property name="nMinTreatyInterval" value="2"/>
+				<property name="nMaxTreatyInterval" value="3"/>
+				<property name="nMinTreatyCount" value="1"/>
+				<property name="nMaxTreatyCount" value="2"/>
+				<property name="nDeclareWarPct" value="100"/>
+			</object>
+		</object>
+		<object type="NamedParameterBlock" name="objParameterBlocks">
+			<property name="strName" value="BasicRegionLists"/>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="Historic"/>
+				<property name="strRegions" value="Ostmark"/>
+				<property name="strRegions" value="Tyrol"/>
+				<property name="strRegions" value="Bohemia"/>
+				<property name="strRegions" value="Moravia"/>
+				<property name="strRegions" value="Sudetenland"/>
+				<property name="strRegions" value="Slovakia"/>
+			</object>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="GermanyNetherlandsDesired1939"/>
+				<property name="strRegions" value="Holland"/>
+				<property name="strRegions" value="Friesland"/>
+			</object>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="GermanyBelgiumDesired1939"/>
+				<property name="strRegions" value="Wallonia"/>
+				<property name="strRegions" value="Flanders"/>
+			</object>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="GermanyNorthernFranceDesired1939"/>
+				<property name="strRegions" value="Picardy"/>
+				<property name="strRegions" value="Alsace Lorraine"/>
+				<property name="strRegions" value="Normandy"/>
+				<property name="strRegions" value="Brittany"/>
+				<property name="strRegions" value="Poitou"/>
+				<property name="strRegions" value="Il de France"/>
+				<property name="strRegions" value="Champagne"/>
+				<property name="strRegions" value="Gascony"/>
+			</object>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="GermanyEastAngliaDesired1939"/>
+				<property name="strRegions" value="East Anglia"/>
+			</object>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="GermanyWesternUSSRDesired1939"/>
+				<property name="strRegions" value="Kola"/>
+				<property name="strRegions" value="Ladoga Karelia"/>
+				<property name="strRegions" value="Ingermanland"/>
+				<property name="strRegions" value="Pskov"/>
+				<property name="strRegions" value="Polatsk"/>
+				<property name="strRegions" value="Turov"/>
+				<property name="strRegions" value="Podelia"/>
+				<property name="strRegions" value="Jedisan"/>
+				<property name="strRegions" value="Crimea"/>
+				<property name="strRegions" value="Kherson"/>
+				<property name="strRegions" value="Ukraina"/>
+				<property name="strRegions" value="Poltava"/>
+				<property name="strRegions" value="Smolensk Oblast"/>
+				<property name="strRegions" value="Tver"/>
+				<property name="strRegions" value="Novgorod"/>
+				<property name="strRegions" value="Vologda"/>
+				<property name="strRegions" value="Archangelsk"/>
+				<property name="strRegions" value="Muscovy"/>
+				<property name="strRegions" value="Chernigov"/>
+				<property name="strRegions" value="Kursk"/>
+				<property name="strRegions" value="Rostov Oblast"/>
+				<property name="strRegions" value="Kuban"/>
+			</object>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="GermanyDenmarkDesired1939"/>
+				<property name="strRegions" value="Bornholm"/>
+				<property name="strRegions" value="Jutland"/>
+				<property name="strRegions" value="Zealand"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget2"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Poland"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryBName"/>
+				<property name="strValue" value="Germany"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget3"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Austria"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryBName"/>
+				<property name="strValue" value="Germany"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget4"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Czechoslovakia"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryBName"/>
+				<property name="strValue" value="Germany"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget5"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Germany"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="RegionList"/>
+				<property name="strValue" value="GermanyDenmarkDesired1939"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget6"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Danzig"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryBName"/>
+				<property name="strValue" value="Germany"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget7"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Norway"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryBName"/>
+				<property name="strValue" value="Germany"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget8"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Luxembourg"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryBName"/>
+				<property name="strValue" value="Germany"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget9"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Germany"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="RegionList"/>
+				<property name="strValue" value="GermanyNetherlandsDesired1939"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget10"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Germany"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="RegionList"/>
+				<property name="strValue" value="GermanyBelgiumDesired1939"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget11"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Germany"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="RegionList"/>
+				<property name="strValue" value="GermanyNorthernFranceDesired1939"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget12"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Germany"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="RegionList"/>
+				<property name="strValue" value="GermanyWesternUSSRDesired1939"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget13"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Finland"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryBName"/>
+				<property name="strValue" value="USSR"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget14"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Nationalist Spain"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryBName"/>
+				<property name="strValue" value="Republican Spain"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory2"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory3"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory4"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory5"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory6"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory7"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory8"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory9"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory10"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory11"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory12"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory13"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory14"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="MountedInfantry"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="FieldArtillery"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="PreWarBattleships"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="EarlyCruisers"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="PreWarFighters"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="EarlySubmarines"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="ManeuverWarfare"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="Infiltration"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="AttritionWarfare"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="Corvettes"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="DipRelInitialValueList" name="objDipRelInitialValueList">
+			<property name="nDefault" value="500"/>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Argentina"/>
+				<property name="nValue" value="900"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Australia"/>
+				<property name="nValue" value="300"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Austria"/>
+				<property name="nValue" value="900"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Belgium"/>
+				<property name="nValue" value="300"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Bulgaria"/>
+				<property name="nValue" value="850"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Canada"/>
+				<property name="nValue" value="300"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Chile"/>
+				<property name="nValue" value="620"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="China"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Czechoslovakia"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Denmark"/>
+				<property name="nValue" value="740"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Egypt"/>
+				<property name="nValue" value="200"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Finland"/>
+				<property name="nValue" value="820"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="France"/>
+				<property name="nValue" value="300"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Greece"/>
+				<property name="nValue" value="375"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Hungary"/>
+				<property name="nValue" value="900"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Iraq"/>
+				<property name="nValue" value="600"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Ireland"/>
+				<property name="nValue" value="200"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Italy"/>
+				<property name="nValue" value="900"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Japan"/>
+				<property name="nValue" value="820"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Lithuania"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Netherlands"/>
+				<property name="nValue" value="300"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="New Zealand"/>
+				<property name="nValue" value="300"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Norway"/>
+				<property name="nValue" value="300"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Persia"/>
+				<property name="nValue" value="600"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Poland"/>
+				<property name="nValue" value="200"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Portugal"/>
+				<property name="nValue" value="580"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Romania"/>
+				<property name="nValue" value="850"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Siam"/>
+				<property name="nValue" value="820"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Sweden"/>
+				<property name="nValue" value="800"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Switzerland"/>
+				<property name="nValue" value="580"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Turkey"/>
+				<property name="nValue" value="820"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="United Kingdom"/>
+				<property name="nValue" value="200"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="United States"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="USSR"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Venezuela"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Yugoslavia"/>
+				<property name="nValue" value="600"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Communist China"/>
+				<property name="nValue" value="0"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Republican Spain"/>
+				<property name="nValue" value="250"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Nationalist Spain"/>
+				<property name="nValue" value="660"/>
+			</object>
+		</object>
+	</object>
+</objects>

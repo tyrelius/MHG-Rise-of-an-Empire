@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Peru"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Peru"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Peru"/>
+		<property name="strCapital" value="Lima"/>
+		<property name="strOriginalCapital" value="Lima"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Northern Peru"/>
+			<property name="strOwner" value="Peru"/>
+			<property name="strController" value="Peru"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="3900000"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Hispanic"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Southern Peru"/>
+			<property name="strOwner" value="Peru"/>
+			<property name="strController" value="Peru"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="2600000"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Hispanic"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Peru Mines"/>
+				<property name="strOwner" value="Peru"/>
+				<property name="vecPosition" value="[-74.0400085449, -10.3061485291, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Peru Oil Field"/>
+				<property name="strOwner" value="Peru"/>
+				<property name="vecPosition" value="[-71.8722381592, -12.6458492279, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="8"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Peru Foundry"/>
+				<property name="strOwner" value="Peru"/>
+				<property name="vecPosition" value="[-73.5615997314, -11.8833913803, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="2"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Lima"/>
+				<property name="strOwner" value="Peru"/>
+				<property name="vecPosition" value="[-77, -12, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="380708"/>
+				<property name="strPortForRegion" value="Peruvian Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="5"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Arequipa"/>
+				<property name="strOwner" value="Peru"/>
+				<property name="vecPosition" value="[-71.5199966431, -16.3999996185, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Peru"/>
+			<property name="strRegion" value="Southern Peru"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Fleet"/>
+			<property name="strOwner" value="Peru"/>
+			<property name="strRegion" value="Peruvian Coast"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Hispanic"/>
+			</object>
+		</object>
+	</object>
+</objects>

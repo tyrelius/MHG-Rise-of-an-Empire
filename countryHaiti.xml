@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Haiti"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Haiti"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Haiti"/>
+		<property name="strCapital" value="Port-au-Prince"/>
+		<property name="strOriginalCapital" value="Port-au-Prince"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Haiti"/>
+			<property name="strOwner" value="Haiti"/>
+			<property name="strController" value="Haiti"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="3000000"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Creole"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Port-au-Prince"/>
+				<property name="strOwner" value="Haiti"/>
+				<property name="vecPosition" value="[-72.3300018311, 18.5499992371, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="115000"/>
+				<property name="strPortForRegion" value="Western Caribbean"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Creole"/>
+			</object>
+		</object>
+	</object>
+</objects>

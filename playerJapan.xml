@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MEPlayerData" name="">
+		<property name="strOwner" value="Japan"/>
+		<property name="strFoggees" value="Japan"/>
+		<property name="strHLPDefLists" value="Default"/>
+		<property name="strHLPDefLists" value="Playable"/>
+		<property name="strPLPDefLists" value="Playable"/>
+		<property name="strHLPInitialValueListBundleName" value="Japan"/>
+		<property name="strDipRelProcListName" value="Expansionist"/>
+		<property name="strAITreatyEvalListName" value="Expansionist_Interventionist"/>
+		<property name="eInternationalPosition" value="PLAYER_INTERNATIONAL_POSITION__EXPANSIONIST"/>
+		<property name="nInternationalInvolvement" value="24"/>
+		<property name="nAggressiveNature" value="24"/>
+		<property name="nMilitaryPosture" value="25"/>
+		<property name="nMilitaryDoctrine" value="25"/>
+		<property name="nDomesticPolicy" value="21"/>
+		<property name="nSciencePolicy" value="21"/>
+		<property name="nPoliticalStability" value="18"/>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title22"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Gain control of the territories listed."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalAcquireRegions"/>
+			<property name="strTargetBlockName" value="GoalRefTarget22"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory22"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title23"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Gain control of the territories listed."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalAcquireRegions"/>
+			<property name="strTargetBlockName" value="GoalRefTarget23"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory23"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title24"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Gain control of the territories listed."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalAcquireRegions"/>
+			<property name="strTargetBlockName" value="GoalRefTarget24"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory24"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title25"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Gain control of the territories listed."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalAcquireRegions"/>
+			<property name="strTargetBlockName" value="GoalRefTarget25"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory25"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title26"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Gain control of the territories listed."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalAcquireRegions"/>
+			<property name="strTargetBlockName" value="GoalRefTarget26"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory26"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title27"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Gain control of the territories listed."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalAcquireRegions"/>
+			<property name="strTargetBlockName" value="GoalRefTarget27"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory27"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title28"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Gain control of the territories listed."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalAcquireRegions"/>
+			<property name="strTargetBlockName" value="GoalRefTarget28"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory28"/>
+			<property name="bDelayEval" value="true"/>
+			<property name="nNextEvalTurn" value="2"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="MEAIData" name="objAIData">
+			<object type="WarPlan" name="objWarPlans">
+				<property name="strName" value="Japan1"/>
+				<property name="nWeight" value="100"/>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="China"/>
+					<property name="strTargetCountries" value="China"/>
+					<property name="dateTrigger" value="06/01/1937"/>
+					<property name="dateExpires" value="12/01/1940"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Indo-China"/>
+					<property name="strTargetRegionList" value="JapanDesiredSoutheastAsia1939"/>
+					<property name="strWarTriggerCountriesA" value="United Kingdom"/>
+					<property name="dateExpires" value="12/01/1941"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="MalaysiaBurma"/>
+					<property name="strTargetRegionList" value="JapanDesiredUKAsianColonies1939"/>
+					<property name="strPrereqOperations" value="Indo-China"/>
+					<property name="dateExpires" value="12/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="EastIndies"/>
+					<property name="strTargetRegionList" value="JapanDesiredEastIndies1939"/>
+					<property name="strPrereqOperations" value="MalaysiaBurma"/>
+					<property name="dateExpires" value="12/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Burma"/>
+					<property name="strTargetCountries" value="Burma"/>
+					<property name="strPrereqOperations" value="EastIndies"/>
+					<property name="dateExpires" value="12/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Philippines"/>
+					<property name="strTargetRegionList" value="Philippines"/>
+					<property name="strPrereqOperations" value="Burma"/>
+					<property name="dateExpires" value="12/01/1942"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Oceania"/>
+					<property name="strTargetRegionList" value="JapanDesiredPacificIslands1939"/>
+					<property name="strPrereqOperations" value="Philippines"/>
+					<property name="dateExpires" value="12/01/1943"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Australia"/>
+					<property name="strTargetCountries" value="Australia"/>
+					<property name="strPrereqOperations" value="Oceania"/>
+					<property name="dateExpires" value="12/01/1943"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="NewZealand"/>
+					<property name="strTargetCountries" value="New Zealand"/>
+					<property name="strPrereqOperations" value="Australia"/>
+					<property name="dateExpires" value="12/01/1943"/>
+				</object>
+			</object>
+			<object type="WarPlan" name="objWarPlans">
+				<property name="strName" value="Japan2"/>
+				<property name="nWeight" value="100"/>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="China"/>
+					<property name="strTargetCountries" value="China"/>
+					<property name="dateTrigger" value="06/01/1937"/>
+					<property name="dateExpires" value="12/01/1940"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Indo-China"/>
+					<property name="strTargetRegionList" value="JapanDesiredSoutheastAsia1939"/>
+					<property name="strWarTriggerCountriesA" value="United Kingdom"/>
+					<property name="dateExpires" value="12/01/1941"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Siam"/>
+					<property name="strTargetCountries" value="Siam"/>
+					<property name="strPrereqOperations" value="Indo-China"/>
+					<property name="dateExpires" value="12/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="EastIndies"/>
+					<property name="strTargetRegionList" value="JapanDesiredEastIndies1939"/>
+					<property name="strPrereqOperations" value="Siam"/>
+					<property name="dateExpires" value="12/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="MalaysiaBurma"/>
+					<property name="strTargetRegionList" value="JapanDesiredUKAsianColonies1939"/>
+					<property name="strPrereqOperations" value="EastIndies"/>
+					<property name="dateExpires" value="12/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Burma"/>
+					<property name="strTargetCountries" value="Burma"/>
+					<property name="strPrereqOperations" value="MalaysiaBurma"/>
+					<property name="dateExpires" value="12/01/1941"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="India"/>
+					<property name="strTargetCountries" value="India"/>
+					<property name="strPrereqOperations" value="Burma"/>
+					<property name="dateExpires" value="12/01/1942"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Australia"/>
+					<property name="strTargetCountries" value="Australia"/>
+					<property name="strPrereqOperations" value="India"/>
+					<property name="dateExpires" value="12/01/1943"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="NewZealand"/>
+					<property name="strTargetCountries" value="New Zealand"/>
+					<property name="strPrereqOperations" value="Australia"/>
+					<property name="dateExpires" value="12/01/1943"/>
+				</object>
+			</object>
+			<object type="WarPlan" name="objWarPlans">
+				<property name="strName" value="Japan3"/>
+				<property name="nWeight" value="100"/>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="China"/>
+					<property name="strTargetCountries" value="China"/>
+					<property name="dateTrigger" value="06/01/1937"/>
+					<property name="dateExpires" value="12/01/1940"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="USSR"/>
+					<property name="strTargetCountries" value="USSR"/>
+					<property name="strWarTriggerCountriesA" value="USSR"/>
+					<property name="dateExpires" value="12/01/1945"/>
+					<property name="bSuppressesAggression" value="true"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Mongolia"/>
+					<property name="strTargetCountries" value="Mongolia"/>
+					<property name="strPrereqOperations" value="USSR"/>
+					<property name="dateExpires" value="12/01/1945"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="EastIndies"/>
+					<property name="strTargetRegionList" value="JapanDesiredEastIndies1939"/>
+					<property name="strPrereqOperations" value="Mongolia"/>
+					<property name="dateTrigger" value="06/01/1938"/>
+					<property name="dateExpires" value="12/01/1945"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="MalaysiaBurma"/>
+					<property name="strTargetRegionList" value="JapanDesiredUKAsianColonies1939"/>
+					<property name="strPrereqOperations" value="EastIndies"/>
+					<property name="strWarTriggerCountriesA" value="United Kingdom"/>
+					<property name="dateExpires" value="12/01/1945"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Philippines"/>
+					<property name="strTargetRegionList" value="Philippines"/>
+					<property name="strPrereqOperations" value="MalaysiaBurma"/>
+					<property name="dateExpires" value="12/01/1945"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Oceania"/>
+					<property name="strTargetRegionList" value="JapanDesiredPacificIslands1939"/>
+					<property name="strPrereqOperations" value="Philippines"/>
+					<property name="dateExpires" value="12/01/1945"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="Australia"/>
+					<property name="strTargetCountries" value="Australia"/>
+					<property name="strPrereqOperations" value="Oceania"/>
+					<property name="dateExpires" value="12/01/1945"/>
+				</object>
+				<object type="WarPlanOperation" name="objOperations">
+					<property name="strName" value="India"/>
+					<property name="strTargetCountries" value="India"/>
+					<property name="strPrereqOperations" value="Australia"/>
+					<property name="dateExpires" value="12/01/1945"/>
+				</object>
+			</object>
+			<object type="ForceAllegiancePlan" name="objForceAllegiancePlans">
+				<property name="strWarTriggerCountryA" value="United Kingdom"/>
+				<property name="strWarTriggerCountryB" value="Germany"/>
+				<property name="strTargetCountries" value="Siam"/>
+				<property name="nMinTreatyInterval" value="2"/>
+				<property name="nMaxTreatyInterval" value="3"/>
+				<property name="nMinTreatyCount" value="1"/>
+				<property name="nMaxTreatyCount" value="2"/>
+				<property name="nDeclareWarPct" value="100"/>
+			</object>
+		</object>
+		<object type="NamedParameterBlock" name="objParameterBlocks">
+			<property name="strName" value="BasicRegionLists"/>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="Historic"/>
+				<property name="strRegions" value="Formosa"/>
+				<property name="strRegions" value="Kuril"/>
+				<property name="strRegions" value="Karafuto"/>
+				<property name="strRegions" value="Gyeongsang"/>
+				<property name="strRegions" value="Hamgyeong"/>
+				<property name="strRegions" value="Jeju"/>
+				<property name="strRegions" value="Jeolla"/>
+				<property name="strRegions" value="Pyeongan"/>
+				<property name="strRegions" value="Caroline Islands"/>
+				<property name="strRegions" value="Marianas Islands"/>
+				<property name="strRegions" value="Marshall Islands"/>
+				<property name="strRegions" value="Palau"/>
+			</object>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="JapanDesiredEastIndies1939"/>
+				<property name="strRegions" value="West New Guinea"/>
+				<property name="strRegions" value="Moluccas"/>
+				<property name="strRegions" value="Dutch Timor"/>
+				<property name="strRegions" value="Lesser Sunda"/>
+				<property name="strRegions" value="Java"/>
+				<property name="strRegions" value="South Sumatra"/>
+				<property name="strRegions" value="North Sumatra"/>
+				<property name="strRegions" value="Riau Islands"/>
+				<property name="strRegions" value="West Borneo"/>
+				<property name="strRegions" value="East Borneo"/>
+				<property name="strRegions" value="Celebes"/>
+			</object>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="Philippines"/>
+				<property name="strRegions" value="Luzon"/>
+				<property name="strRegions" value="Southern Tagalog"/>
+				<property name="strRegions" value="Visayas"/>
+				<property name="strRegions" value="Mindanao"/>
+			</object>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="JapanDesiredUKAsianColonies1939"/>
+				<property name="strRegions" value="East Malaysia"/>
+				<property name="strRegions" value="Malaya"/>
+				<property name="strRegions" value="Singapore Island"/>
+				<property name="strRegions" value="Kowloon"/>
+				<property name="strRegions" value="Shan"/>
+				<property name="strRegions" value="Chin"/>
+				<property name="strRegions" value="Assam"/>
+				<property name="strRegions" value="Bengal"/>
+			</object>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="JapanDesiredPacificIslands1939"/>
+				<property name="strRegions" value="Hawaii"/>
+				<property name="strRegions" value="Near Islands"/>
+				<property name="strRegions" value="Aleutian Islands"/>
+				<property name="strRegions" value="Wake Island"/>
+				<property name="strRegions" value="Guam"/>
+				<property name="strRegions" value="Midway"/>
+				<property name="strRegions" value="Gilbert Islands"/>
+				<property name="strRegions" value="Tuvalu"/>
+				<property name="strRegions" value="Wallis Futuna"/>
+				<property name="strRegions" value="Western Samoa"/>
+				<property name="strRegions" value="American Samoa"/>
+				<property name="strRegions" value="Cook Islands"/>
+				<property name="strRegions" value="Tonga"/>
+				<property name="strRegions" value="New Caledonia"/>
+				<property name="strRegions" value="Fiji"/>
+				<property name="strRegions" value="Phoenix Islands"/>
+				<property name="strRegions" value="New Hebrides"/>
+				<property name="strRegions" value="Nauru Island"/>
+			</object>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="JapanDesiredPapua1939"/>
+				<property name="strRegions" value="Papua"/>
+			</object>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="JapanDesiredSoutheastAsia1939"/>
+				<property name="strRegions" value="Cochin-China"/>
+				<property name="strRegions" value="Cambodia"/>
+				<property name="strRegions" value="Laos"/>
+				<property name="strRegions" value="Tonking"/>
+				<property name="strRegions" value="Annam"/>
+			</object>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="JapanDesiredChina1939"/>
+				<property name="strRegions" value="Heilungkiang"/>
+				<property name="strRegions" value="Kirin"/>
+				<property name="strRegions" value="Jehol"/>
+				<property name="strRegions" value="Feng Tien"/>
+				<property name="strRegions" value="Chahar"/>
+				<property name="strRegions" value="Hebei"/>
+				<property name="strRegions" value="Shanxi"/>
+				<property name="strRegions" value="Shandong"/>
+				<property name="strRegions" value="Jiangsu"/>
+				<property name="strRegions" value="Shanghai Proper"/>
+				<property name="strRegions" value="Zhejiang"/>
+				<property name="strRegions" value="Formosa"/>
+				<property name="strRegions" value="Fujian"/>
+				<property name="strRegions" value="Guangdong"/>
+				<property name="strRegions" value="Guangxi"/>
+				<property name="strRegions" value="Jiangxi"/>
+				<property name="strRegions" value="Hunan"/>
+				<property name="strRegions" value="Hubei"/>
+				<property name="strRegions" value="Henan"/>
+				<property name="strRegions" value="Hainan"/>
+				<property name="strRegions" value="Anhui"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget22"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Japan"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="RegionList"/>
+				<property name="strValue" value="JapanDesiredEastIndies1939"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget23"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Japan"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="RegionList"/>
+				<property name="strValue" value="Philippines"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget24"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Japan"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="RegionList"/>
+				<property name="strValue" value="JapanDesiredUKAsianColonies1939"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget25"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Japan"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="RegionList"/>
+				<property name="strValue" value="JapanDesiredPacificIslands1939"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget26"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Japan"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="RegionList"/>
+				<property name="strValue" value="JapanDesiredPapua1939"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget27"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Japan"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="RegionList"/>
+				<property name="strValue" value="JapanDesiredSoutheastAsia1939"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget28"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="Japan"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="RegionList"/>
+				<property name="strValue" value="JapanDesiredChina1939"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory22"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory23"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory24"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory25"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory26"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory27"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory28"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="MountedInfantry"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="FieldArtillery"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="PreWarFighters"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="PreWarBattleships"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="EarlyCarriers"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="EarlyCruisers"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="BattleCruisers"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="Destroyers"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="EarlyBombers"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="EarlySubmarines"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="DipRelInitialValueList" name="objDipRelInitialValueList">
+			<property name="nDefault" value="500"/>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Australia"/>
+				<property name="nValue" value="175"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Austria"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Belgium"/>
+				<property name="nValue" value="400"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Bulgaria"/>
+				<property name="nValue" value="660"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Canada"/>
+				<property name="nValue" value="300"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="China"/>
+				<property name="nValue" value="100"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Czechoslovakia"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Denmark"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Egypt"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Finland"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="France"/>
+				<property name="nValue" value="300"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Germany"/>
+				<property name="nValue" value="740"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Greece"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Hungary"/>
+				<property name="nValue" value="820"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Iraq"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Ireland"/>
+				<property name="nValue" value="300"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Italy"/>
+				<property name="nValue" value="740"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Netherlands"/>
+				<property name="nValue" value="400"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Norway"/>
+				<property name="nValue" value="400"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Poland"/>
+				<property name="nValue" value="300"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Portugal"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Romania"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Siam"/>
+				<property name="nValue" value="820"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Sweden"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Switzerland"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Turkey"/>
+				<property name="nValue" value="740"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="United Kingdom"/>
+				<property name="nValue" value="400"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="United States"/>
+				<property name="nValue" value="475"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="USSR"/>
+				<property name="nValue" value="350"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Yugoslavia"/>
+				<property name="nValue" value="400"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Communist China"/>
+				<property name="nValue" value="0"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Republican Spain"/>
+				<property name="nValue" value="350"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Nationalist Spain"/>
+				<property name="nValue" value="600"/>
+			</object>
+		</object>
+	</object>
+</objects>

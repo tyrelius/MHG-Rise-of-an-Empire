@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Ecuador"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Ecuador"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Ecuador"/>
+		<property name="strCapital" value="Quito"/>
+		<property name="strOriginalCapital" value="Quito"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Ecuador"/>
+			<property name="strOwner" value="Ecuador"/>
+			<property name="strController" value="Ecuador"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="2756552"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Hispanic"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Ecuador Oil Field"/>
+				<property name="strOwner" value="Ecuador"/>
+				<property name="vecPosition" value="[-79.5524597168, -1.25282716751, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Quito"/>
+				<property name="strOwner" value="Ecuador"/>
+				<property name="vecPosition" value="[-78.5, -0.230000004172, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="118350"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Galapagos"/>
+			<property name="strOwner" value="Ecuador"/>
+			<property name="strController" value="Ecuador"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2868"/>
+			<property name="strCulture" value="Hispanic"/>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Ecuador"/>
+			<property name="strRegion" value="Ecuador"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Hispanic"/>
+			</object>
+		</object>
+	</object>
+</objects>

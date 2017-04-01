@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MEPlayerData" name="">
+		<property name="strOwner" value="Greece"/>
+		<property name="strFoggees" value="Greece"/>
+		<property name="strHLPDefLists" value="Default"/>
+		<property name="strDipRelProcListName" value="Neutral"/>
+		<property name="strAITreatyEvalListName" value="Neutral_Isolationist"/>
+		<property name="eInternationalPosition" value="PLAYER_INTERNATIONAL_POSITION__NEUTRAL"/>
+		<property name="nInternationalInvolvement" value="3"/>
+		<property name="nAggressiveNature" value="3"/>
+		<property name="nMilitaryPosture" value="5"/>
+		<property name="nMilitaryDoctrine" value="5"/>
+		<property name="nDomesticPolicy" value="10"/>
+		<property name="nSciencePolicy" value="10"/>
+		<property name="nPoliticalStability" value="27"/>
+		<object type="MEAIData" name="objAIData">
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="MountedInfantry"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="Corvettes"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="DipRelInitialValueList" name="objDipRelInitialValueList">
+			<property name="nDefault" value="500"/>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Bulgaria"/>
+				<property name="nValue" value="250"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="France"/>
+				<property name="nValue" value="660"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Germany"/>
+				<property name="nValue" value="375"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Hungary"/>
+				<property name="nValue" value="400"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Italy"/>
+				<property name="nValue" value="300"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Romania"/>
+				<property name="nValue" value="400"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Turkey"/>
+				<property name="nValue" value="250"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="United Kingdom"/>
+				<property name="nValue" value="740"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Yugoslavia"/>
+				<property name="nValue" value="300"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Communist China"/>
+				<property name="nValue" value="0"/>
+			</object>
+		</object>
+	</object>
+</objects>

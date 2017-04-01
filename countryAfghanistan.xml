@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Afghanistan"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Afghanistan"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Afghanistan"/>
+		<property name="strCapital" value="Kabul"/>
+		<property name="strOriginalCapital" value="Kabul"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Afghanistan"/>
+			<property name="strOwner" value="Afghanistan"/>
+			<property name="strController" value="Afghanistan"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="12000000"/>
+			<property name="strCulture" value="Afghani"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Kabul"/>
+				<property name="strOwner" value="Afghanistan"/>
+				<property name="vecPosition" value="[69.1800003052, 34.5200004578, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="80000"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Afghanistan"/>
+			<property name="strRegion" value="Afghanistan"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Militia"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="3"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Afghani"/>
+			</object>
+		</object>
+	</object>
+</objects>

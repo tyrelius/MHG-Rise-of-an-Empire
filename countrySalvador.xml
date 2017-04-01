@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Salvador"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Salvador"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Salvador"/>
+		<property name="strCapital" value="San Salvador"/>
+		<property name="strOriginalCapital" value="San Salvador"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="El Salvador"/>
+			<property name="strOwner" value="Salvador"/>
+			<property name="strController" value="Salvador"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="1597549"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Hispanic"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="San Salvador"/>
+				<property name="strOwner" value="Salvador"/>
+				<property name="vecPosition" value="[-89.1699981689, 13.6700000763, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="99877"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Hispanic"/>
+			</object>
+		</object>
+	</object>
+</objects>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Switzerland"/>
+		<property name="strGovType" value="Democratic"/>
+		<property name="strHomelands" value="Switzerland"/>
+		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Switzerland"/>
+		<property name="strCapital" value="Bern"/>
+		<property name="strOriginalCapital" value="Bern"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Helvetia"/>
+			<property name="strOwner" value="Switzerland"/>
+			<property name="strController" value="Switzerland"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="2489473"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="Swiss"/>
+			<property name="nAgriculture" value="3"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Bern"/>
+				<property name="strOwner" value="Switzerland"/>
+				<property name="vecPosition" value="[7.42999982834, 46.9500007629, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="111783"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="14"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Schwyz"/>
+			<property name="strOwner" value="Switzerland"/>
+			<property name="strController" value="Switzerland"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="1575859"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="Swiss"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Zurich"/>
+				<property name="strOwner" value="Switzerland"/>
+				<property name="vecPosition" value="[8.72546768188, 47.347492218, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="312600"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="17"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Military District"/>
+			<property name="strOwner" value="Switzerland"/>
+			<property name="strRegion" value="Helvetia"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="Helvetia Air Group"/>
+			<property name="strOwner" value="Switzerland"/>
+			<property name="strRegion" value="Helvetia"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Swiss"/>
+			</object>
+		</object>
+	</object>
+</objects>

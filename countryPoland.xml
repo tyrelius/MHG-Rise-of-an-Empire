@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Poland"/>
+		<property name="strGovType" value="Democratic"/>
+		<property name="strHomelands" value="Poland"/>
+		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Poland"/>
+		<property name="strCapital" value="Warsaw"/>
+		<property name="strOriginalCapital" value="Warsaw"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Bialystok"/>
+			<property name="strOwner" value="Poland"/>
+			<property name="strController" value="Poland"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="1643485"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Polish"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Bialystok Foundry"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[24.2979202271, 53.2023887634, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Malopolskie"/>
+			<property name="strOwner" value="Poland"/>
+			<property name="strController" value="Poland"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="2296842"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Polish"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Krakow Mines"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[21.1329936981, 49.8048591614, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="5"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Krakow Foundry"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[18.838142395, 50.2982177734, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Krakow"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[19.9200000763, 50.0499992371, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="237532"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="10"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Lodzkie"/>
+			<property name="strOwner" value="Poland"/>
+			<property name="strController" value="Poland"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="5570026"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Polish"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Lodz Mines"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[18.175863266, 52.2429771423, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="19"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Lodz Foundry"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[18.4823417664, 51.5627479553, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Lodz"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[19.4699993134, 51.8199996948, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="653402"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="13"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Lublin"/>
+			<property name="strOwner" value="Poland"/>
+			<property name="strController" value="Poland"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2467266"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Polish"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Lublin Oil Field"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[23.7343826294, 50.676361084, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Lublin Foundry"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[23.2260780334, 51.9396476746, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Lwow"/>
+			<property name="strOwner" value="Poland"/>
+			<property name="strController" value="Poland"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="3127811"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Polish"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Lwow Mines"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[22.0088443756, 50.3242492676, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="5"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Lvov"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[24, 49.8300018311, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="316461"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="9"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Podesi"/>
+			<property name="strOwner" value="Poland"/>
+			<property name="strController" value="Poland"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="3216246"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Polish"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Podesi Oil Field"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[24.6050453186, 51.9498558044, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Pomorze"/>
+			<property name="strOwner" value="Poland"/>
+			<property name="strController" value="Poland"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="1086259"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Polish"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Pomorze Mines"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[18.0972919464, 54.0595588684, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="3"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Gdynia"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[18.3799991608, 54.7900009155, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="137100"/>
+				<property name="strPortForRegion" value="Bornholm Basin"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="7"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Wielkopolskie"/>
+			<property name="strOwner" value="Poland"/>
+			<property name="strController" value="Poland"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="2114251"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Polish"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Pozan Mines"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[16.2135696411, 52.3125114441, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="19"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Pozan Foundry"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[17.8431396484, 53.1497192383, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Poznan"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[16.8799991608, 52.4199981689, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="268800"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="7"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Tarnopol"/>
+			<property name="strOwner" value="Poland"/>
+			<property name="strController" value="Poland"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="3079851"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Polish"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Tarnopol Oil Field"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[26.0178356171, 48.2348861694, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Masovia"/>
+			<property name="strOwner" value="Poland"/>
+			<property name="strController" value="Poland"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="3709589"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="Polish"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Warsaw Mines"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[19.7971458435, 53.1390113831, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="3"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Warsaw Foundry"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[19.0122623444, 52.7876815796, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Warsaw"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[21, 52.25, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="1225451"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="17"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Wilno"/>
+			<property name="strOwner" value="Poland"/>
+			<property name="strController" value="Poland"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2332049"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="Polish"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Vilnus"/>
+				<property name="strOwner" value="Poland"/>
+				<property name="vecPosition" value="[25.3199996948, 54.6800003052, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="207750"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="5"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="Brzesc Army"/>
+			<property name="strOwner" value="Poland"/>
+			<property name="strRegion" value="Podesi"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="Krakow Army"/>
+			<property name="strOwner" value="Poland"/>
+			<property name="strRegion" value="Malopolskie"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="5"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="Poznan Army"/>
+			<property name="strOwner" value="Poland"/>
+			<property name="strRegion" value="Wielkopolskie"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="5"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="Warsaw Army"/>
+			<property name="strOwner" value="Poland"/>
+			<property name="strRegion" value="Masovia"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Fleet"/>
+			<property name="strOwner" value="Poland"/>
+			<property name="strRegion" value="Westerplatte"/>
+			<property name="strCity" value="Danzig"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="1st Air Force"/>
+			<property name="strOwner" value="Poland"/>
+			<property name="strRegion" value="Masovia"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="7"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Polish"/>
+			</object>
+		</object>
+	</object>
+</objects>

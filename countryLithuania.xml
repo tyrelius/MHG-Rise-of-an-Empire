@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Lithuania"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Lithuania"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Lithuania"/>
+		<property name="strCapital" value="Kaunas"/>
+		<property name="strOriginalCapital" value="Kaunas"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Aukstaitija"/>
+			<property name="strOwner" value="Lithuania"/>
+			<property name="strController" value="Lithuania"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="1515921"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Lithuanian"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Kaunas"/>
+				<property name="strOwner" value="Lithuania"/>
+				<property name="vecPosition" value="[23.9200000763, 54.8699989319, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="106794"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="3"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Samogitia"/>
+			<property name="strOwner" value="Lithuania"/>
+			<property name="strController" value="Lithuania"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="1000508"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Lithuanian"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Klaipeda"/>
+				<property name="strOwner" value="Lithuania"/>
+				<property name="vecPosition" value="[21.1200008392, 55.7200012207, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="38545"/>
+				<property name="strPortForRegion" value="Northern Baltic"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="3"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Lithuania"/>
+			<property name="strRegion" value="Samogitia"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="1st Air Force"/>
+			<property name="strOwner" value="Lithuania"/>
+			<property name="strRegion" value="Aukstaitija"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Lithuanian"/>
+			</object>
+		</object>
+	</object>
+</objects>

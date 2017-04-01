@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Kuwait"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Kuwait"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Kuwait"/>
+		<property name="strCapital" value="City of Kuwait"/>
+		<property name="strOriginalCapital" value="City of Kuwait"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Kuwait"/>
+			<property name="strOwner" value="Kuwait"/>
+			<property name="strController" value="Kuwait"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="50000"/>
+			<property name="strCulture" value="Arabian"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="City of Kuwait"/>
+				<property name="strOwner" value="Kuwait"/>
+				<property name="vecPosition" value="[48, 29.2999992371, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="25000"/>
+				<property name="strPortForRegion" value="Persian Gulf"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Arabian"/>
+			</object>
+		</object>
+	</object>
+</objects>

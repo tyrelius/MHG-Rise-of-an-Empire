@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Costa Rica"/>
+		<property name="strGovType" value="Democratic"/>
+		<property name="strHomelands" value="Costa Rica"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Costa Rica"/>
+		<property name="strCapital" value="San Jose"/>
+		<property name="strOriginalCapital" value="San Jose"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Costa Rica"/>
+			<property name="strOwner" value="Costa Rica"/>
+			<property name="strController" value="Costa Rica"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="591862"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Hispanic"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="San Jose"/>
+				<property name="strOwner" value="Costa Rica"/>
+				<property name="vecPosition" value="[-84.0800018311, 9.93000030518, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="63635"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Hispanic"/>
+			</object>
+		</object>
+	</object>
+</objects>

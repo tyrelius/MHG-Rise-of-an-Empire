@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Norway"/>
+		<property name="strGovType" value="Democratic"/>
+		<property name="strHomelands" value="Norway"/>
+		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Norway"/>
+		<property name="strCapital" value="Oslo"/>
+		<property name="strOriginalCapital" value="Oslo"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Agder"/>
+			<property name="strOwner" value="Norway"/>
+			<property name="strController" value="Norway"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="282623"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Norwegian"/>
+			<property name="nAgriculture" value="2"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Akershus"/>
+			<property name="strOwner" value="Norway"/>
+			<property name="strController" value="Norway"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="554261"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Norwegian"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Oslo"/>
+				<property name="strOwner" value="Norway"/>
+				<property name="vecPosition" value="[10.75, 59.9300003052, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="253124"/>
+				<property name="strPortForRegion" value="Skagerrak Kattergat"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="6"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Finnsmark"/>
+			<property name="strOwner" value="Norway"/>
+			<property name="strController" value="Norway"/>
+			<property name="strTerrain" value="Tundra"/>
+			<property name="nPopulation" value="150775"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Norwegian"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Nordland"/>
+			<property name="strOwner" value="Norway"/>
+			<property name="strController" value="Norway"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="186920"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Norwegian"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Nordland Mines"/>
+				<property name="strOwner" value="Norway"/>
+				<property name="vecPosition" value="[13.5083875656, 65.6781082153, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Nordland Foundry"/>
+				<property name="strOwner" value="Norway"/>
+				<property name="vecPosition" value="[15.309882164, 66.8815917969, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="2"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Opland"/>
+			<property name="strOwner" value="Norway"/>
+			<property name="strController" value="Norway"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="280783"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Norwegian"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Ostlandet"/>
+			<property name="strOwner" value="Norway"/>
+			<property name="strController" value="Norway"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="394881"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Norwegian"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Trondelag"/>
+			<property name="strOwner" value="Norway"/>
+			<property name="strController" value="Norway"/>
+			<property name="strTerrain" value="Tundra"/>
+			<property name="nPopulation" value="436026"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Norwegian"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Trondhjem Mines"/>
+				<property name="strOwner" value="Norway"/>
+				<property name="vecPosition" value="[12.7864360809, 64.5336532593, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Trondhjem Foundry"/>
+				<property name="strOwner" value="Norway"/>
+				<property name="vecPosition" value="[11.5548000336, 63.0300140381, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="3"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Trondhjem"/>
+				<property name="strOwner" value="Norway"/>
+				<property name="vecPosition" value="[9.75, 63.2000007629, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="54135"/>
+				<property name="strPortForRegion" value="Vestfjord"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Vestlandet"/>
+			<property name="strOwner" value="Norway"/>
+			<property name="strController" value="Norway"/>
+			<property name="strTerrain" value="Tundra"/>
+			<property name="nPopulation" value="527745"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Norwegian"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Bergen"/>
+				<property name="strOwner" value="Norway"/>
+				<property name="vecPosition" value="[5.32999992371, 60.4199981689, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="98546"/>
+				<property name="strPortForRegion" value="Vestfjord"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="Oslo Army"/>
+			<property name="strOwner" value="Norway"/>
+			<property name="strRegion" value="Akershus"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Fleet"/>
+			<property name="strOwner" value="Norway"/>
+			<property name="strRegion" value="Skagerrak Kattergat"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="1st Air Force"/>
+			<property name="strOwner" value="Norway"/>
+			<property name="strRegion" value="Trondelag"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Scandinavian"/>
+			</object>
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Norwegian"/>
+			</object>
+		</object>
+	</object>
+</objects>

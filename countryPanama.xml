@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Panama"/>
+		<property name="strGovType" value="Democratic"/>
+		<property name="strHomelands" value="Panama"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Panama"/>
+		<property name="strCapital" value="Panama City"/>
+		<property name="strOriginalCapital" value="Panama City"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Lower Isthmus"/>
+			<property name="strOwner" value="Panama"/>
+			<property name="strController" value="Panama"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="233729"/>
+			<property name="strCulture" value="Hispanic"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Panama City"/>
+				<property name="strOwner" value="Panama"/>
+				<property name="vecPosition" value="[-78.9421920776, 9.25853157043, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="82827"/>
+				<property name="strPortForRegion" value="Gulf of Panama"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Upper Isthmus"/>
+			<property name="strOwner" value="Panama"/>
+			<property name="strController" value="Panama"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="233729"/>
+			<property name="strCulture" value="Hispanic"/>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Hispanic"/>
+			</object>
+		</object>
+	</object>
+</objects>

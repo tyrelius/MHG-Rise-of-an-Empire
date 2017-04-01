@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Brazil"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Brazil"/>
+		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Brazil"/>
+		<property name="strCapital" value="Rio de Janeiro"/>
+		<property name="strOriginalCapital" value="Rio de Janeiro"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Amazonas"/>
+			<property name="strOwner" value="Brazil"/>
+			<property name="strController" value="Brazil"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="4987217"/>
+			<property name="strCulture" value="Brazilian"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Manaus"/>
+				<property name="strOwner" value="Brazil"/>
+				<property name="vecPosition" value="[-60.0099983215, -3.11999988556, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="85566"/>
+				<property name="strPortForRegion" value="Amazon Mouth"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Centro Oeste"/>
+			<property name="strOwner" value="Brazil"/>
+			<property name="strController" value="Brazil"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="5402819"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Brazilian"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Nordeste"/>
+			<property name="strOwner" value="Brazil"/>
+			<property name="strController" value="Brazil"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="10390036"/>
+			<property name="strCulture" value="Brazilian"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Salvador"/>
+				<property name="strOwner" value="Brazil"/>
+				<property name="vecPosition" value="[-38.5099983215, -13, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="329823"/>
+				<property name="strPortForRegion" value="Pernambuco Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Sudeste"/>
+			<property name="strOwner" value="Brazil"/>
+			<property name="strController" value="Brazil"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="12468044"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Brazilian"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Sao Paulo"/>
+				<property name="strOwner" value="Brazil"/>
+				<property name="vecPosition" value="[-46.6199989319, -23.5799999237, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="879788"/>
+				<property name="strPortForRegion" value="Brazilian Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="9"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Rio de Janeiro"/>
+				<property name="strOwner" value="Brazil"/>
+				<property name="vecPosition" value="[-43.2799987793, -22.8799991608, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="1468621"/>
+				<property name="strPortForRegion" value="Brazilian Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="13"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Sul"/>
+			<property name="strOwner" value="Brazil"/>
+			<property name="strController" value="Brazil"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="8312029"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Brazilian"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Brazil Mines"/>
+				<property name="strOwner" value="Brazil"/>
+				<property name="vecPosition" value="[-52.5758857727, -30.5517578125, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="2"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Brazil Foundry"/>
+				<property name="strOwner" value="Brazil"/>
+				<property name="vecPosition" value="[-54.537727356, -29.996055603, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="2"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Curitiba"/>
+				<property name="strOwner" value="Brazil"/>
+				<property name="vecPosition" value="[-49.2799987793, -25.4300003052, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="100135"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Brazil"/>
+			<property name="strRegion" value="Sul"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Fleet"/>
+			<property name="strOwner" value="Brazil"/>
+			<property name="strRegion" value="Amazon Mouth"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Uruguay"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="70"/>
+			<property name="nEmbargoSensitivity" value="90"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Venezuela"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="70"/>
+			<property name="nEmbargoSensitivity" value="90"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Peru"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="70"/>
+			<property name="nEmbargoSensitivity" value="90"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="United States"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="60"/>
+			<property name="nEmbargoSensitivity" value="90"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Chile"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="60"/>
+			<property name="nEmbargoSensitivity" value="90"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Argentina"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="60"/>
+			<property name="nEmbargoSensitivity" value="90"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Bolivia"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="60"/>
+			<property name="nEmbargoSensitivity" value="90"/>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Brazilian"/>
+			</object>
+		</object>
+	</object>
+</objects>

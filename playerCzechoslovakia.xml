@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MEPlayerData" name="">
+		<property name="strOwner" value="Czechoslovakia"/>
+		<property name="strFoggees" value="Czechoslovakia"/>
+		<property name="strHLPDefLists" value="Default"/>
+		<property name="strDipRelProcListName" value="StatusQuo"/>
+		<property name="strAITreatyEvalListName" value="StatusQuo_Isolationist"/>
+		<property name="eInternationalPosition" value="PLAYER_INTERNATIONAL_POSITION__STATUSQUO"/>
+		<property name="nInternationalInvolvement" value="12"/>
+		<property name="nAggressiveNature" value="1"/>
+		<property name="nMilitaryPosture" value="5"/>
+		<property name="nMilitaryDoctrine" value="1"/>
+		<property name="nDomesticPolicy" value="18"/>
+		<property name="nSciencePolicy" value="25"/>
+		<property name="nPoliticalStability" value="27"/>
+		<object type="MEAIData" name="objAIData">
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="EarlyTanks"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="FieldArtillery"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="PreWarFighters"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="EarlyBombers"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="DipRelInitialValueList" name="objDipRelInitialValueList">
+			<property name="nDefault" value="500"/>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Communist China"/>
+				<property name="nValue" value="0"/>
+			</object>
+		</object>
+	</object>
+</objects>

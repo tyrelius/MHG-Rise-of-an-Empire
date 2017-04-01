@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Yemen"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Yemen"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Yemen"/>
+		<property name="strCapital" value="San&apos;a"/>
+		<property name="strOriginalCapital" value="San&apos;a"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Yemen"/>
+			<property name="strOwner" value="Yemen"/>
+			<property name="strController" value="Yemen"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="3500000"/>
+			<property name="strCulture" value="Arabian"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="San&apos;a"/>
+				<property name="strOwner" value="Yemen"/>
+				<property name="vecPosition" value="[44.2299995422, 15.3999996185, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="22500"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Asir"/>
+			<property name="strOwner" value="Yemen"/>
+			<property name="strController" value="Yemen"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="1050000"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Arabian"/>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Yemen"/>
+			<property name="strRegion" value="Yemen"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Militia"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Arabian"/>
+			</object>
+		</object>
+	</object>
+</objects>

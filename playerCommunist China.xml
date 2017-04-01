@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MEPlayerData" name="">
+		<property name="strOwner" value="Communist China"/>
+		<property name="strFoggees" value="Communist China"/>
+		<property name="strHLPDefLists" value="Default"/>
+		<property name="strDipRelProcListName" value="StatusQuo"/>
+		<property name="strAITreatyEvalListName" value="StatusQuo_Isolationist"/>
+		<property name="eInternationalPosition" value="PLAYER_INTERNATIONAL_POSITION__STATUSQUO"/>
+		<property name="nInternationalInvolvement" value="3"/>
+		<property name="nAggressiveNature" value="3"/>
+		<property name="nMilitaryPosture" value="10"/>
+		<property name="nMilitaryDoctrine" value="1"/>
+		<property name="nDomesticPolicy" value="24"/>
+		<property name="nSciencePolicy" value="3"/>
+		<property name="nPoliticalStability" value="21"/>
+		<object type="MEAIData" name="objAIData">
+		</object>
+		<object type="NamedParameterBlock" name="objParameterBlocks">
+			<property name="strName" value="BasicRegionLists"/>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="Historic"/>
+				<property name="strRegions" value="Tibet"/>
+			</object>
+		</object>
+		<object type="DipRelInitialValueList" name="objDipRelInitialValueList">
+			<property name="nDefault" value="0"/>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="China"/>
+				<property name="nValue" value="0"/>
+			</object>
+		</object>
+	</object>
+</objects>

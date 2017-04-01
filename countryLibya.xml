@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Libya"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Libya"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Libya"/>
+		<property name="strCapital" value="Tripoli"/>
+		<property name="strOriginalCapital" value="Tripoli"/>
+		<property name="bSurrendered" value="true"/>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Arabian"/>
+			</object>
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Arab-Berber"/>
+			</object>
+		</object>
+	</object>
+</objects>

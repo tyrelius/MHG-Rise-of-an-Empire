@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Manchuria"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Manchuria"/>
+		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Manchuria"/>
+		<property name="strCapital" value="Mukden"/>
+		<property name="strOriginalCapital" value="Mukden"/>
+		<property name="bSurrendered" value="true"/>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Chinese"/>
+			</object>
+		</object>
+	</object>
+</objects>

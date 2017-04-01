@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Mongolia"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Mongolia"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Mongolia"/>
+		<property name="strCapital" value="Urga"/>
+		<property name="strOriginalCapital" value="Urga"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Mongolia"/>
+			<property name="strOwner" value="Mongolia"/>
+			<property name="strController" value="Mongolia"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="850000"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Mongolian"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Urga"/>
+				<property name="strOwner" value="Mongolia"/>
+				<property name="vecPosition" value="[106.870002747, 47.9000015259, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="100000"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Mongolian"/>
+			</object>
+		</object>
+	</object>
+</objects>

@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Germany"/>
+		<property name="strGovType" value="Fascist"/>
+		<property name="strHomelands" value="Germany"/>
+		<property name="bIsScored" value="true"/>
+		<property name="eCountryType" value="COUNTRYTYPE_PLAYABLE"/>
+		<property name="bCanPlay" value="true"/>
+		<property name="bNonPlayable" value="false"/>
+		<property name="strFlagName" value="Germany"/>
+		<property name="strCapital" value="Berlin"/>
+		<property name="strOriginalCapital" value="Berlin"/>
+		<property name="nTransportCredits" value="5"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Bavaria"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strController" value="Germany"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="9967000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="German"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Bavaria Oil Field"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[10.5497140884, 49.6867675781, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Munich"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[11.5799999237, 48.1300010681, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="735388"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="38"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Nuremberg"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[11.0799999237, 49.4500007629, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="10"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Brandenburg"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strController" value="Germany"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="14601778"/>
+			<property name="nTransInfrastructure" value="4"/>
+			<property name="strCulture" value="German"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Berlin"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[13.4200000763, 52.5299987793, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="4242501"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="48"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="East Prussia"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strController" value="Germany"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="2186000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="German"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="East Prussia Mines"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[22.1630420685, 54.6556854248, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="61"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Konigsberg"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[20.5, 54.6699981689, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="316072"/>
+				<property name="strPortForRegion" value="Northern Baltic"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="17"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Grenzmark"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strController" value="Germany"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="337578"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="German"/>
+			<property name="nAgriculture" value="2"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Lower Saxony"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strController" value="Germany"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="3458000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="German"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Hanover Foundry"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[10.4912071228, 53.0002059937, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="21"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Hanover"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[9.72999954224, 52.4000015259, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="443920"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="33"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Hesse"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strController" value="Germany"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="7906000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="German"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Frankfurt"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[8.75500011444, 50.2140007019, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="555857"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="23"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Mecklenburg"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strController" value="Germany"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="805213"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="German"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Mecklenburg Oil Field"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[11.5275917053, 53.5106315613, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Rostock"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[12.1499996185, 54.0999984741, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strPortForRegion" value="Skagerrak Kattergat"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="19"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Oldenburg"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strController" value="Germany"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="578000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="German"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Bremen"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[8.80000019073, 53.0800018311, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="323331"/>
+				<property name="strPortForRegion" value="North Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="16"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Pomerania"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strController" value="Germany"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="3008000"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="German"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Stettin"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[14.529999733, 53.4199981689, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="270747"/>
+				<property name="strPortForRegion" value="Skagerrak Kattergat"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="24"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Rhineland"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strController" value="Germany"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="3240000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="German"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Rhineland Mines"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[7.648396492, 50.4196128845, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="169"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Rhineland Foundry"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[7.67030525208, 49.4081726074, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="28"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Mainz"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[8.03699970245, 49.8460006714, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="142428"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="8"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Saxony"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strController" value="Germany"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="3618000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="German"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Saxony Mines"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[13.4279308319, 51.1386146545, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="102"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Saxony Foundry"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[11.7609863281, 50.8844604492, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="42"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Leipzig"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[12.4200000763, 51.3300018311, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="713470"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="37"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Schleswig Holstein"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strController" value="Germany"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="1589000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="German"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Schleswig Oil Field"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[9.28886318207, 54.3793411255, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Hamburg"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[9.64682388306, 53.961933136, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="1129307"/>
+				<property name="strPortForRegion" value="North Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="38"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Kiel"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[10.1300001144, 54.3300018311, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="218123"/>
+				<property name="strPortForRegion" value="Skagerrak Kattergat"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="34"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Silesia"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strController" value="Germany"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="4869000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="German"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Silesia Mines"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[18.0546607971, 50.7809906006, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="169"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Silesia Foundry"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[15.6252574921, 51.6854782104, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="42"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Breslau"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[17, 51.0999984741, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="625198"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="30"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Westphalia"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strController" value="Germany"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="5209000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="German"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Westphalia Mines"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[8.8429775238, 52.0102043152, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="169"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Westphalia Foundry"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[7.5049366951, 52.0774803162, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="28"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Essen"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[7.01000022888, 51.4599990845, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="33"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Wurttemberg"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strController" value="Germany"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="5399000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="German"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Wurttemburg Foundry"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[8.41826725006, 48.2257537842, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="7"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Stuttgart"/>
+				<property name="strOwner" value="Germany"/>
+				<property name="vecPosition" value="[9.19999980927, 48.7799987793, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="415028"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="22"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Corps"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strRegion" value="East Prussia"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="2nd Corps"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strRegion" value="Brandenburg"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="3rd Corps"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strRegion" value="Saxony"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="4th Corps"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strRegion" value="Bavaria"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="5th Corps"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strRegion" value="Schleswig Holstein"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="6th Corps"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strRegion" value="Wurttemberg"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="7th Corps"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strRegion" value="Silesia"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="High Seas Group 1"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strRegion" value="Schleswig Holstein"/>
+			<property name="strCity" value="Hamburg"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="High Seas Group 2"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strRegion" value="North Sea"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="High Seas Group 3"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strRegion" value="Norwegian Sea"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="Eastern Fleet"/>
+			<property name="strOwner" value="Germany"/>
+			<property name="strRegion" value="Pomerania"/>
+			<property name="strCity" value="Stettin"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Denmark"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="70"/>
+			<property name="nEmbargoSensitivity" value="90"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Danzig"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="80"/>
+			<property name="nEmbargoSensitivity" value="95"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Hungary"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="50"/>
+			<property name="nEmbargoSensitivity" value="75"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Netherlands"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nEmbargoSensitivity" value="75"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Luxembourg"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
+			<property name="nWarSensitivity" value="30"/>
+			<property name="nEmbargoSensitivity" value="75"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Italy"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="30"/>
+			<property name="nEmbargoSensitivity" value="75"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Sweden"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="50"/>
+			<property name="nEmbargoSensitivity" value="75"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Austria"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="80"/>
+			<property name="nEmbargoSensitivity" value="95"/>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="German"/>
+			</object>
+		</object>
+	</object>
+</objects>

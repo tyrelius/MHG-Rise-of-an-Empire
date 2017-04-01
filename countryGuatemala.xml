@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Guatemala"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Guatemala"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Guatemala"/>
+		<property name="strCapital" value="Guatemala City"/>
+		<property name="strOriginalCapital" value="Guatemala City"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Guatemala"/>
+			<property name="strOwner" value="Guatemala"/>
+			<property name="strController" value="Guatemala"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="2245593"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Hispanic"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Guatemala City"/>
+				<property name="strOwner" value="Guatemala"/>
+				<property name="vecPosition" value="[-90.3700027466, 14.6300001144, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="134400"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Guatemala"/>
+			<property name="strRegion" value="Guatemala"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Hispanic"/>
+			</object>
+		</object>
+	</object>
+</objects>

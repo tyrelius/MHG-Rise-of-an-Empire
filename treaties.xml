@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="TreatyList" name="">
+		<object type="TreatyAgreement" name="objGOs">
+			<property name="strName" value="British-Egyptian Military Access Agreement"/>
+			<property name="strToCountry" value="Egypt"/>
+			<property name="strFromCountry" value="United Kingdom"/>
+			<property name="eTreatyState" value="TREATY_RATIFIED"/>
+			<property name="strDateProposed" value="03/01/1934"/>
+			<property name="strDateRatified" value="03/01/1934"/>
+			<object type="MilAccessTerm" name="objGOs">
+				<property name="bToTerm" value="true"/>
+				<property name="strFromCountry" value="United Kingdom"/>
+				<property name="strToCountry" value="Egypt"/>
+				<property name="bLand" value="true"/>
+				<property name="bAir" value="true"/>
+				<property name="bSea" value="true"/>
+			</object>
+			<object type="MilAccessTerm" name="objGOs">
+				<property name="bToTerm" value="false"/>
+				<property name="strFromCountry" value="United Kingdom"/>
+				<property name="strToCountry" value="Egypt"/>
+				<property name="bLand" value="true"/>
+				<property name="bAir" value="true"/>
+				<property name="bSea" value="true"/>
+			</object>
+		</object>
+		<object type="TreatyAgreement" name="objGOs">
+			<property name="strName" value="British-Iraqi Military Access Agreement"/>
+			<property name="strToCountry" value="Iraq"/>
+			<property name="strFromCountry" value="United Kingdom"/>
+			<property name="eTreatyState" value="TREATY_RATIFIED"/>
+			<property name="strDateProposed" value="06/01/1933"/>
+			<property name="strDateRatified" value="06/01/1933"/>
+			<object type="MilAccessTerm" name="objGOs">
+				<property name="bToTerm" value="true"/>
+				<property name="strFromCountry" value="United Kingdom"/>
+				<property name="strToCountry" value="Iraq"/>
+				<property name="bLand" value="true"/>
+				<property name="bAir" value="true"/>
+				<property name="bSea" value="true"/>
+			</object>
+			<object type="MilAccessTerm" name="objGOs">
+				<property name="bToTerm" value="false"/>
+				<property name="strFromCountry" value="United Kingdom"/>
+				<property name="strToCountry" value="Iraq"/>
+				<property name="bLand" value="true"/>
+				<property name="bAir" value="true"/>
+				<property name="bSea" value="true"/>
+			</object>
+		</object>
+		<object type="TreatyAgreement" name="objGOs">
+			<property name="strName" value="Polish-Danzig Military Access Agreement"/>
+			<property name="strToCountry" value="Danzig"/>
+			<property name="strFromCountry" value="Poland"/>
+			<property name="eTreatyState" value="TREATY_RATIFIED"/>
+			<property name="strDateProposed" value="01/01/1922"/>
+			<property name="strDateRatified" value="06/01/1922"/>
+			<object type="MilAccessTerm" name="objGOs">
+				<property name="bToTerm" value="true"/>
+				<property name="strFromCountry" value="Poland"/>
+				<property name="strToCountry" value="Danzig"/>
+				<property name="bLand" value="true"/>
+				<property name="bAir" value="true"/>
+				<property name="bSea" value="true"/>
+			</object>
+			<object type="MilAccessTerm" name="objGOs">
+				<property name="bToTerm" value="false"/>
+				<property name="strFromCountry" value="Poland"/>
+				<property name="strToCountry" value="Danzig"/>
+				<property name="bLand" value="true"/>
+				<property name="bAir" value="true"/>
+				<property name="bSea" value="true"/>
+			</object>
+		</object>
+	</object>
+</objects>

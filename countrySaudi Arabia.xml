@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Saudi Arabia"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Saudi Arabia"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Saudi Arabia"/>
+		<property name="strCapital" value="Riyadh"/>
+		<property name="strOriginalCapital" value="Riyadh"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Hejaz"/>
+			<property name="strOwner" value="Saudi Arabia"/>
+			<property name="strController" value="Saudi Arabia"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="1350000"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Arabian"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Saudi Arabia Oil Field"/>
+				<property name="strOwner" value="Saudi Arabia"/>
+				<property name="vecPosition" value="[41.8508872986, 22.1311302185, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Jeddah"/>
+				<property name="strOwner" value="Saudi Arabia"/>
+				<property name="vecPosition" value="[39.1699981689, 21.5400009155, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strPortForRegion" value="North Red Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Najd"/>
+			<property name="strOwner" value="Saudi Arabia"/>
+			<property name="strController" value="Saudi Arabia"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="600000"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Arabian"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Riyadh"/>
+				<property name="strOwner" value="Saudi Arabia"/>
+				<property name="vecPosition" value="[46.7700004578, 24.6499996185, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="30000"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Saudi Arabia"/>
+			<property name="strRegion" value="Najd"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Saudi Arabia"/>
+			<property name="strRegion" value="Hejaz"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Militia"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Arabian"/>
+			</object>
+		</object>
+	</object>
+</objects>

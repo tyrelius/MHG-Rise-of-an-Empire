@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Honduras"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Honduras"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Honduras"/>
+		<property name="strCapital" value="Tegucigalpa"/>
+		<property name="strOriginalCapital" value="Tegucigalpa"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Honduras"/>
+			<property name="strOwner" value="Honduras"/>
+			<property name="strController" value="Honduras"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="962685"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Hispanic"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Tegucigalpa"/>
+				<property name="strOwner" value="Honduras"/>
+				<property name="vecPosition" value="[-87.2300033569, 14.0799999237, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="131229"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Hispanic"/>
+			</object>
+		</object>
+	</object>
+</objects>

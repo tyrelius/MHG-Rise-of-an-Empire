@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MEPlayerData" name="">
+		<property name="strOwner" value="United States"/>
+		<property name="strFoggees" value="United States"/>
+		<property name="strHLPDefLists" value="Default"/>
+		<property name="strHLPDefLists" value="Playable"/>
+		<property name="strPLPDefLists" value="Playable"/>
+		<property name="strHLPInitialValueListBundleName" value="United States"/>
+		<property name="strDipRelProcListName" value="StatusQuo"/>
+		<property name="strAITreatyEvalListName" value="StatusQuo_Isolationist"/>
+		<property name="eInternationalPosition" value="PLAYER_INTERNATIONAL_POSITION__STATUSQUO"/>
+		<property name="nInternationalInvolvement" value="3"/>
+		<property name="nAggressiveNature" value="9"/>
+		<property name="nMilitaryPosture" value="15"/>
+		<property name="nMilitaryDoctrine" value="25"/>
+		<property name="nDomesticPolicy" value="2"/>
+		<property name="nSciencePolicy" value="30"/>
+		<property name="nPoliticalStability" value="30"/>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title36"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Support this country through financial aid, arms trades, and, possibly, your intervention in its war."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalHelpCountryWinWar"/>
+			<property name="strTargetBlockName" value="GoalRefTarget36"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory36"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title37"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Support this country through financial aid, arms trades, and, possibly, your intervention in its war."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalHelpCountryWinWar"/>
+			<property name="strTargetBlockName" value="GoalRefTarget37"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory37"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="HistoricalGoalRef" name="objHistoricGoalRefs">
+			<property name="strName" value="Title38"/>
+			<property name="strDescription" value=""/>
+			<property name="strExplanation" value="Increase your military power.  Your military should be stronger than this country&apos;s."/>
+			<property name="bActive" value="true"/>
+			<property name="bAIOnly" value="true"/>
+			<property name="otGoalType" value="HGoalOverpowerCountry"/>
+			<property name="strTargetBlockName" value="GoalRefTarget38"/>
+			<property name="strHistoricBlockName" value="GoalRefHistory38"/>
+			<property name="nMaxDelay" value="0"/>
+		</object>
+		<object type="MEAIData" name="objAIData">
+		</object>
+		<object type="NamedParameterBlock" name="objParameterBlocks">
+			<property name="strName" value="BasicRegionLists"/>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="Historic"/>
+				<property name="strRegions" value="Guam"/>
+				<property name="strRegions" value="Wake Island"/>
+				<property name="strRegions" value="Luzon"/>
+				<property name="strRegions" value="Mindanao"/>
+				<property name="strRegions" value="Southern Tagalog"/>
+				<property name="strRegions" value="Visayas"/>
+				<property name="strRegions" value="American Samoa"/>
+				<property name="strRegions" value="Line Islands"/>
+				<property name="strRegions" value="Aleutian Islands"/>
+				<property name="strRegions" value="Canal Zone"/>
+				<property name="strRegions" value="Midway"/>
+				<property name="strRegions" value="Near Islands"/>
+				<property name="strRegions" value="Puerto Rico"/>
+				<property name="strRegions" value="US Virgin Islands"/>
+			</object>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="UnitedStatesGreenlandTrigger1939"/>
+				<property name="strRegions" value="Nordgronland"/>
+				<property name="strRegions" value="Godthab"/>
+				<property name="strRegions" value="Osterbygd"/>
+			</object>
+			<object type="RegionListParameter" name="objRegionLists">
+				<property name="strName" value="UnitedStatesUnitedKingdomTrigger1939"/>
+				<property name="strRegions" value="Northern Ireland"/>
+				<property name="strRegions" value="Shetlands"/>
+				<property name="strRegions" value="Scotland"/>
+				<property name="strRegions" value="Northumberland"/>
+				<property name="strRegions" value="Yorkshire"/>
+				<property name="strRegions" value="Lancashire"/>
+				<property name="strRegions" value="Wales"/>
+				<property name="strRegions" value="Midlands"/>
+				<property name="strRegions" value="Lincoln"/>
+				<property name="strRegions" value="East Anglia"/>
+				<property name="strRegions" value="Sussex"/>
+				<property name="strRegions" value="Cornwall"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget36"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="China"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryBName"/>
+				<property name="strValue" value="Japan"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget37"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="United Kingdom"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryBName"/>
+				<property name="strValue" value="Germany"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalTargetBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefTarget38"/>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryAName"/>
+				<property name="strValue" value="United States"/>
+			</object>
+			<object type="StringParameter" name="objStrings">
+				<property name="strName" value="CountryBName"/>
+				<property name="strValue" value="Japan"/>
+			</object>
+			<object type="VariableStringParameter" name="objVarStrings">
+				<property name="strName" value="TargetBranchNames"/>
+				<property name="strValues" value="Army"/>
+				<property name="strValues" value="Navy"/>
+				<property name="strValues" value="Air Force"/>
+			</object>
+			<object type="VariableIntParameter" name="objVarInts">
+				<property name="strName" value="TargetBranchCounts"/>
+				<property name="nValues" value="10"/>
+				<property name="nValues" value="10"/>
+				<property name="nValues" value="80"/>
+			</object>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory36"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory37"/>
+		</object>
+		<object type="HistoricalGoalComparisonBlock" name="objParameterBlocks">
+			<property name="strName" value="GoalRefHistory38"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="MountedInfantry"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="FieldArtillery"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="PreWarFighters"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="PreWarBattleships"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="EarlyCarriers"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="EarlyCruisers"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="BattleCruisers"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="EarlyBombers"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="Destroyers"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="ResearchProjectInitRef" name="objInitResearchRefs">
+			<property name="strProjectName" value="EarlySubmarines"/>
+			<property name="eResearchState" value="RESEARCH_COMPLETED"/>
+		</object>
+		<object type="DipRelInitialValueList" name="objDipRelInitialValueList">
+			<property name="nDefault" value="500"/>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Australia"/>
+				<property name="nValue" value="740"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Austria"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Belgium"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Brazil"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Bulgaria"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Canada"/>
+				<property name="nValue" value="740"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="China"/>
+				<property name="nValue" value="610"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Czechoslovakia"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Denmark"/>
+				<property name="nValue" value="660"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Egypt"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Finland"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="France"/>
+				<property name="nValue" value="740"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Germany"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Greece"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Hungary"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Ireland"/>
+				<property name="nValue" value="740"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Italy"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Japan"/>
+				<property name="nValue" value="450"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Netherlands"/>
+				<property name="nValue" value="580"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Norway"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Poland"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Portugal"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Romania"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Siam"/>
+				<property name="nValue" value="300"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Sweden"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Switzerland"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Turkey"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="United Kingdom"/>
+				<property name="nValue" value="820"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="USSR"/>
+				<property name="nValue" value="375"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Yugoslavia"/>
+				<property name="nValue" value="500"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Communist China"/>
+				<property name="nValue" value="0"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Republican Spain"/>
+				<property name="nValue" value="600"/>
+			</object>
+			<object type="DipRelInitialValue" name="objDipRelInitialValues">
+				<property name="strTargetCountry" value="Nationalist Spain"/>
+				<property name="nValue" value="400"/>
+			</object>
+		</object>
+	</object>
+</objects>

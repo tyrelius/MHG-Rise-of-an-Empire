@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Ethiopia"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Ethiopia"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Ethiopia"/>
+		<property name="strCapital" value="Addis Ababa"/>
+		<property name="strOriginalCapital" value="Addis Ababa"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Ethiopia"/>
+			<property name="strOwner" value="Ethiopia"/>
+			<property name="strController" value="Ethiopia"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="7600000"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Ethiopian"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Addis Ababa"/>
+				<property name="strOwner" value="Ethiopia"/>
+				<property name="vecPosition" value="[38.7000007629, 9.02999973297, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="150000"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Ethiopia"/>
+			<property name="strRegion" value="Ethiopia"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Militia"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="2nd Army"/>
+			<property name="strOwner" value="Ethiopia"/>
+			<property name="strRegion" value="Ethiopia"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Ethiopian"/>
+			</object>
+		</object>
+	</object>
+</objects>

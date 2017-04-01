@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Canada"/>
+		<property name="strGovType" value="Democratic"/>
+		<property name="strHomelands" value="Canada"/>
+		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Canada"/>
+		<property name="strCapital" value="Ottawa"/>
+		<property name="strOriginalCapital" value="Ottawa"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Alberta"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="716400"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Alberta Mines"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-115.65071106, 51.6846809387, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="10"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Alberta Oil Field"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-112.080718994, 51.5005836487, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Calgary"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-114.080001831, 51.0800018311, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="3"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Athabasca"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="79600"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Athabasca Mines"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-119.173805237, 55.9360656738, -9.53674316406e-007]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="8"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Athabasca Oil Field"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-111.640472412, 55.6193313599, 9.53674316406e-007]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="British Columbia"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="777100"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="British Columbia Foundry"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-121.749504089, 49.4894638062, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Vancouver"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-123.099998474, 49.2200012207, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="377000"/>
+				<property name="strPortForRegion" value="San Juan de Fuca Strait"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Kitimat"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="40900"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Kitimat Mines"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-123.823234558, 54.666519165, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="4"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Kitmat Oil Field"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-121.233467102, 58.9812164307, 9.53674316406e-007]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Manitoba"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="40900"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Winnipeg"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-97.1699981689, 49.8300018311, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="222000"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Nelson River"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="777100"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="2"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Maritime Provinces"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="159078"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Maritime Mines"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-66.4932022095, 47.1622009277, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="2"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Halifax"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-63.5800018311, 44.6300010681, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="59275"/>
+				<property name="strPortForRegion" value="Sohm Plain"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="5"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Northwest Territories"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Tundra"/>
+			<property name="nPopulation" value="12000"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="2"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Ontario"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="2272800"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Ottawa"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-75.7200012207, 45.4199981689, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="126872"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="3"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Toronto"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-79.3799972534, 43.6500015259, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="11"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Algoma"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="757600"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Algoma Foundry"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-83.2117767334, 46.7119598389, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Thunder Bay"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="568200"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Thunder Bay Foundry"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-87.3244476318, 49.4433059692, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="2"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Northern Ontario"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="189400"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="2"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Saskatchewan"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="806400"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Saskatchewan Mines"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-104.662536621, 52.111164093, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="6"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Saskatchewan Oil Field"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-109.246681213, 51.6314086914, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Churchill River"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="89600"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Churchill River Mines"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-106.056266785, 54.6374435425, -9.53674316406e-007]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="2"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Yukon"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Tundra"/>
+			<property name="nPopulation" value="5000"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Anglo-Celtic"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Quebec"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="1332800"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="French"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Quebec City"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-71.2099990845, 46.8100013733, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="130594"/>
+				<property name="strPortForRegion" value="Gulf of St. Lawrence"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="6"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Ungava"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="66640"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="French"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Ungava Foundry"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-77.9951019287, 51.7976608276, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Laurentian"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="1765960"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="French"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Laurentian Foundry"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-72.4649200439, 45.9194831848, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Montreal"/>
+				<property name="strOwner" value="Canada"/>
+				<property name="vecPosition" value="[-73.5999984741, 45.5, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="903000"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="11"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Cote Nord"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strController" value="Canada"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="166600"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="French"/>
+			<property name="nAgriculture" value="2"/>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strRegion" value="Quebec"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Fleet"/>
+			<property name="strOwner" value="Canada"/>
+			<property name="strRegion" value="Gulf of St. Lawrence"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Anglo-Celtic"/>
+			</object>
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="French"/>
+			</object>
+		</object>
+	</object>
+</objects>

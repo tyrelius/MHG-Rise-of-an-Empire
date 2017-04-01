@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Tibet"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Tibet"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Tibet"/>
+		<property name="strCapital" value="Lhasa"/>
+		<property name="strOriginalCapital" value="Lhasa"/>
+		<property name="bSurrendered" value="true"/>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Tibetan"/>
+			</object>
+		</object>
+	</object>
+</objects>

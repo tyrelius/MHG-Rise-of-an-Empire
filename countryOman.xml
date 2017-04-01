@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Oman"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Oman"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Oman"/>
+		<property name="strCapital" value="Muscat"/>
+		<property name="strOriginalCapital" value="Muscat"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Oman"/>
+			<property name="strOwner" value="Oman"/>
+			<property name="strController" value="Oman"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="500000"/>
+			<property name="strCulture" value="Arabian"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Muscat"/>
+				<property name="strOwner" value="Oman"/>
+				<property name="vecPosition" value="[58.6300010681, 23.6200008392, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="4500"/>
+				<property name="strPortForRegion" value="Gulf of Oman"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Arabian"/>
+			</object>
+		</object>
+	</object>
+</objects>

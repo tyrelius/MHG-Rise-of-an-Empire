@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MEGame" name="">
+		<property name="strScenario" value="Rise of the Reich"/>
+		<property name="strContentPack" value="Modern Europe"/>
+		<object type="GameState" name="objGameState" fromFile="gamestate.xml">
+		</object>
+		<object type="WorldMarket" name="objGOs">
+		</object>
+		<object type="GO" name="objGOs" fromFile="treaties.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="waterWorld.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryAfghanistan.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerAfghanistan.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryAlbania.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerAlbania.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryArgentina.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerArgentina.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryAustralia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerAustralia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryAustria.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerAustria.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryBelgium.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerBelgium.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryBhutan.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerBhutan.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryBolivia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerBolivia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryBrazil.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerBrazil.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryBulgaria.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerBulgaria.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryBurma.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerBurma.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryCanada.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerCanada.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryChile.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerChile.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryChina.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerChina.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryColombia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerColombia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryCommunist China.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerCommunist China.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryCosta Rica.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerCosta Rica.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryCuba.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerCuba.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryCzechoslovakia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerCzechoslovakia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryDanzig.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerDanzig.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryDenmark.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerDenmark.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryDominican Republic.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerDominican Republic.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryEcuador.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerEcuador.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryEgypt.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerEgypt.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryEstonia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerEstonia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryFinland.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerFinland.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryFrance.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerFrance.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryGermany.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerGermany.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryGreece.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerGreece.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryGuatemala.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerGuatemala.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryHaiti.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerHaiti.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryHonduras.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerHonduras.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryHungary.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerHungary.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryIceland.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerIceland.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryIndia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerIndia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryIndonesia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerIndonesia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryIraq.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerIraq.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryIreland.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerIreland.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryItaly.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerItaly.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryJapan.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerJapan.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryKorea.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerKorea.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryKuwait.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerKuwait.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryLatvia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerLatvia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryLiberia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerLiberia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryLithuania.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerLithuania.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryLuxembourg.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerLuxembourg.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryMalaysia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerMalaysia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryManchuria.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerManchuria.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryMexico.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerMexico.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryMongolia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerMongolia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryNationalist Spain.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerNationalist Spain.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryNepal.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerNepal.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryNetherlands.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerNetherlands.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryNew Zealand.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerNew Zealand.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryNicaragua.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerNicaragua.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryNorway.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerNorway.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryOman.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerOman.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryPanama.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerPanama.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryParaguay.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerParaguay.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryPersia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerPersia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryPeru.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerPeru.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryPhilippines.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerPhilippines.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryPoland.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerPoland.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryPortugal.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerPortugal.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryRepublican Spain.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerRepublican Spain.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryRomania.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerRomania.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countrySalvador.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerSalvador.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countrySaudi Arabia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerSaudi Arabia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countrySiam.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerSiam.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countrySouth Africa.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerSouth Africa.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countrySweden.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerSweden.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countrySwitzerland.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerSwitzerland.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryTurkey.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerTurkey.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryTuva.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerTuva.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryUnited Kingdom.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerUnited Kingdom.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryUnited States.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerUnited States.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryUruguay.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerUruguay.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryUSSR.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerUSSR.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryVenezuela.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerVenezuela.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryYemen.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerYemen.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryYugoslavia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerYugoslavia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryAlgeria.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerAlgeria.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryCambodia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerCambodia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryCroatia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerCroatia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryEthiopia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerEthiopia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryLaos.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerLaos.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryLibya.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerLibya.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryMorocco.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerMorocco.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countrySlovakia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerSlovakia.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countrySyria.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerSyria.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryTibet.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerTibet.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryUkraine.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerUkraine.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="countryVietnam.xml">
+		</object>
+		<object type="GO" name="objGOs" fromFile="playerVietnam.xml">
+		</object>
+		<object type="View" name="objViews">
+			<property name="strName" value="minor"/>
+			<property name="strAliases" value="Afghanistan"/>
+			<property name="strAliases" value="Albania"/>
+			<property name="strAliases" value="Argentina"/>
+			<property name="strAliases" value="Australia"/>
+			<property name="strAliases" value="Austria"/>
+			<property name="strAliases" value="Belgium"/>
+			<property name="strAliases" value="Bhutan"/>
+			<property name="strAliases" value="Bolivia"/>
+			<property name="strAliases" value="Brazil"/>
+			<property name="strAliases" value="Bulgaria"/>
+			<property name="strAliases" value="Burma"/>
+			<property name="strAliases" value="Canada"/>
+			<property name="strAliases" value="Chile"/>
+			<property name="strAliases" value="China"/>
+			<property name="strAliases" value="Colombia"/>
+			<property name="strAliases" value="Communist China"/>
+			<property name="strAliases" value="Costa Rica"/>
+			<property name="strAliases" value="Cuba"/>
+			<property name="strAliases" value="Czechoslovakia"/>
+			<property name="strAliases" value="Danzig"/>
+			<property name="strAliases" value="Denmark"/>
+			<property name="strAliases" value="Dominican Republic"/>
+			<property name="strAliases" value="Ecuador"/>
+			<property name="strAliases" value="Egypt"/>
+			<property name="strAliases" value="Estonia"/>
+			<property name="strAliases" value="Finland"/>
+			<property name="strAliases" value="France"/>
+			<property name="strAliases" value="Germany"/>
+			<property name="strAliases" value="Greece"/>
+			<property name="strAliases" value="Guatemala"/>
+			<property name="strAliases" value="Haiti"/>
+			<property name="strAliases" value="Honduras"/>
+			<property name="strAliases" value="Hungary"/>
+			<property name="strAliases" value="Iceland"/>
+			<property name="strAliases" value="India"/>
+			<property name="strAliases" value="Indonesia"/>
+			<property name="strAliases" value="Iraq"/>
+			<property name="strAliases" value="Ireland"/>
+			<property name="strAliases" value="Italy"/>
+			<property name="strAliases" value="Japan"/>
+			<property name="strAliases" value="Korea"/>
+			<property name="strAliases" value="Kuwait"/>
+			<property name="strAliases" value="Latvia"/>
+			<property name="strAliases" value="Liberia"/>
+			<property name="strAliases" value="Lithuania"/>
+			<property name="strAliases" value="Luxembourg"/>
+			<property name="strAliases" value="Malaysia"/>
+			<property name="strAliases" value="Manchuria"/>
+			<property name="strAliases" value="Mexico"/>
+			<property name="strAliases" value="Mongolia"/>
+			<property name="strAliases" value="Nationalist Spain"/>
+			<property name="strAliases" value="Nepal"/>
+			<property name="strAliases" value="Netherlands"/>
+			<property name="strAliases" value="New Zealand"/>
+			<property name="strAliases" value="Nicaragua"/>
+			<property name="strAliases" value="Norway"/>
+			<property name="strAliases" value="Oman"/>
+			<property name="strAliases" value="Panama"/>
+			<property name="strAliases" value="Paraguay"/>
+			<property name="strAliases" value="Persia"/>
+			<property name="strAliases" value="Peru"/>
+			<property name="strAliases" value="Philippines"/>
+			<property name="strAliases" value="Poland"/>
+			<property name="strAliases" value="Portugal"/>
+			<property name="strAliases" value="Republican Spain"/>
+			<property name="strAliases" value="Romania"/>
+			<property name="strAliases" value="Salvador"/>
+			<property name="strAliases" value="Saudi Arabia"/>
+			<property name="strAliases" value="Siam"/>
+			<property name="strAliases" value="South Africa"/>
+			<property name="strAliases" value="Sweden"/>
+			<property name="strAliases" value="Switzerland"/>
+			<property name="strAliases" value="Turkey"/>
+			<property name="strAliases" value="Tuva"/>
+			<property name="strAliases" value="United Kingdom"/>
+			<property name="strAliases" value="United States"/>
+			<property name="strAliases" value="Uruguay"/>
+			<property name="strAliases" value="USSR"/>
+			<property name="strAliases" value="Venezuela"/>
+			<property name="strAliases" value="Yemen"/>
+			<property name="strAliases" value="Yugoslavia"/>
+			<property name="strAliases" value="Algeria"/>
+			<property name="strAliases" value="Cambodia"/>
+			<property name="strAliases" value="Croatia"/>
+			<property name="strAliases" value="Ethiopia"/>
+			<property name="strAliases" value="Laos"/>
+			<property name="strAliases" value="Libya"/>
+			<property name="strAliases" value="Morocco"/>
+			<property name="strAliases" value="Slovakia"/>
+			<property name="strAliases" value="Syria"/>
+			<property name="strAliases" value="Tibet"/>
+			<property name="strAliases" value="Ukraine"/>
+			<property name="strAliases" value="Vietnam"/>
+		</object>
+	</object>
+</objects>

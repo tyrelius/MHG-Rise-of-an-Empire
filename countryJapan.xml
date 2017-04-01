@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Japan"/>
+		<property name="strGovType" value="Fascist"/>
+		<property name="strHomelands" value="Japan"/>
+		<property name="bIsScored" value="true"/>
+		<property name="eCountryType" value="COUNTRYTYPE_PLAYABLE"/>
+		<property name="bCanPlay" value="true"/>
+		<property name="bNonPlayable" value="false"/>
+		<property name="strFlagName" value="Japan"/>
+		<property name="strCapital" value="Tokyo"/>
+		<property name="strOriginalCapital" value="Tokyo"/>
+		<property name="nTransportCredits" value="13"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Feng Tien"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="12300691"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Chinese"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Feng Tien Mines"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[121.486045837, 41.7414474487, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="4"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Feng Tien Foundry"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[123.166381836, 40.3959846497, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Mukden"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[123.430000305, 41.8300018311, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="527241"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="25"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Port Arthur"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[121.239997864, 38.8100013733, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="135126"/>
+				<property name="strPortForRegion" value="Gulf of China"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="8"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Heilungkiang"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="3672777"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Chinese"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Heilungkiang Mines"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[126.007873535, 49.5994758606, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="4"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Heilungkiang Foundry"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[122.106819153, 48.3500289917, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Jehol"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="2054305"/>
+			<property name="strCulture" value="Chinese"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Jehol Mines"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[118.572479248, 43.5529060364, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="4"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Jehol Foundry"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[121.737350464, 43.5379562378, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Kirin"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="8725397"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Chinese"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Kirin Mines"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[126.484107971, 43.1620941162, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="4"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Kirin Foundry"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[128.622055054, 43.0232658386, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Harbin"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[126.680000305, 45.75, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="458379"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="9"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Bonin Islands"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="176576"/>
+			<property name="strCulture" value="Japanese"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Chubu"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="10603052"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="2"/>
+			<property name="strCulture" value="Japanese"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Chubu Mines"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[136.955459595, 36.2770652771, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="3"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Nagoya"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[136.979995728, 35.3199996948, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="907400"/>
+				<property name="strPortForRegion" value="Inland Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="21"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Chugoku"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="5718000"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="nFortification" value="2"/>
+			<property name="strCulture" value="Japanese"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Chugoku Mines"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[133.841522217, 35.0542564392, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="4"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Hiroshima"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[132.449996948, 34.2799987793, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="310118"/>
+				<property name="strPortForRegion" value="Inland Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="17"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Hokkaido"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="3273000"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Japanese"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Hokkaido Mines"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[142.319976807, 44.6152915955, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="32"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Hokkaido Oil Field"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[144.218643188, 43.4790763855, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Hokkaido Foundry"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[143.015151978, 42.5073165894, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Sapporo"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[141.350006104, 43.0800018311, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="196539"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="9"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Izu Islands"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="176576"/>
+			<property name="strCulture" value="Japanese"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Kansai"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="12293520"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="2"/>
+			<property name="strCulture" value="Japanese"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Osaka"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[135.5, 34.6699981689, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="2989874"/>
+				<property name="strPortForRegion" value="Inland Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="41"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Kanto"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="16866000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="2"/>
+			<property name="strCulture" value="Japanese"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Kanto Mines"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[139.084899902, 36.6252479553, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="3"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Kanto Foundry"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[140.340713501, 36.5654449463, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Tokyo"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[139.5, 35.75, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="5875667"/>
+				<property name="strPortForRegion" value="Sagami Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="46"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Yokohama"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[140.100006104, 35.2599983215, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="620300"/>
+				<property name="strPortForRegion" value="Sagami Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="18"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Kyushu"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="9937000"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Japanese"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Kyushu Mines"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[131.115737915, 31.7458457947, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="67"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Kumamoto"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[130.720001221, 32.5900001526, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="187382"/>
+				<property name="strPortForRegion" value="East China Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="14"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Nagasaki"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[129.910003662, 33.0400009155, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="204600"/>
+				<property name="strPortForRegion" value="East China Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="11"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Ryukyu Islands"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="2118909"/>
+			<property name="strCulture" value="Japanese"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Shikoku"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="3337000"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Japanese"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Shikoku Mines"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[134.049545288, 33.9220123291, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="4"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Tohoku"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="7165000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="Japanese"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Tohoku Mines"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[140.714859009, 37.3405456543, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="3"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Tohoku Oil Field"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[141.118515015, 40.4726028442, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Tohoku Foundry"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[140.31867981, 38.4991836548, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Niigata"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[139.029998779, 37.9599990845, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="134992"/>
+				<property name="strPortForRegion" value="Sea of Japan"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="8"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Tushima Island"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="176576"/>
+			<property name="strCulture" value="Japanese"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Kuril"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="2000"/>
+			<property name="strCulture" value="Russian"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Formosa"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="5212719"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Chinese"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Formosa Mines"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[121.171676636, 24.1870670319, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="3"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Taihoku"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[121.370002747, 25.0200004578, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="274157"/>
+				<property name="strPortForRegion" value="Taiwan Strait"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="5"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Karafuto"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="331943"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Japanese"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Karafuto Mines"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[142.634872437, 49.236415863, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="6"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Gyeongsang"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="7104807"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Korean"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Gyeongsang Mines"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[128.329421997, 37.8985862732, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Pusan"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[129.029998779, 35.0800018311, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="163814"/>
+				<property name="strPortForRegion" value="Korean Strait"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Hamgyeong"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="2416071"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Korean"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Hamgyeong Mines"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[127.689163208, 40.3964118958, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="3"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Hamgyeong Foundry"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[129.430862427, 42.0259780884, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Jeju"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="200000"/>
+			<property name="strCulture" value="Korean"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Jeolla"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="7832286"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Korean"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Jeolla Mines"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[127.044944763, 35.158416748, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Seoul"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[127, 37.5299987793, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="404200"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="3"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Pyeongan"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="4694672"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Korean"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Pyeongan Mines"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[126.289520264, 38.5618743896, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="5"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Pyeongan Foundry"/>
+				<property name="strOwner" value="Japan"/>
+				<property name="vecPosition" value="[125.332710266, 40.1690177917, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Caroline Islands"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="30915"/>
+			<property name="strCulture" value="Micronesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Marianas Islands"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="44025"/>
+			<property name="strCulture" value="Micronesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Marshall Islands"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="10446"/>
+			<property name="strCulture" value="Micronesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Palau"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strController" value="Japan"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="12768"/>
+			<property name="strCulture" value="Micronesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Kyushu"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="2nd Army"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Jehol"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="3rd Army"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Feng Tien"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="4th Army"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Kanto"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="5th Army"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Jeolla"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="6th Army"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Tohoku"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="7th Army"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Kirin"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="8th Army"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Heilungkiang"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Fleet"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Chugoku"/>
+			<property name="strCity" value="Hiroshima"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="8"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="8"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="2nd Fleet"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Guangdong Coast"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCarrier"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="5"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="3rd Fleet"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Formosa"/>
+			<property name="strCity" value="Taihoku"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCarrier"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="5"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="4th Fleet"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="East Central Pacific"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="5"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="6th Fleet"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Western Central Pacific"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="4"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="China Fleet"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Yellow Sea"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="Interior Fleet"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Kanto"/>
+			<property name="strCity" value="Tokyo"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="1st Air Force"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Kanto"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="2nd Air Force"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Feng Tien"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="3rd Air Force"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Tohoku"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="4th Air Force"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Kyushu"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="5th Air Force"/>
+			<property name="strOwner" value="Japan"/>
+			<property name="strRegion" value="Heilungkiang"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Japanese"/>
+			</object>
+		</object>
+	</object>
+</objects>

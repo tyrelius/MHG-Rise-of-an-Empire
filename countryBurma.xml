@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Burma"/>
+		<property name="strGovType" value="Democratic"/>
+		<property name="strHomelands" value="Burma"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Burma"/>
+		<property name="strCapital" value="Rangoon"/>
+		<property name="strOriginalCapital" value="Rangoon"/>
+		<property name="bSurrendered" value="true"/>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Burmese"/>
+			</object>
+		</object>
+	</object>
+</objects>

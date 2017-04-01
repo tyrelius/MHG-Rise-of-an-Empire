@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Portugal"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Portugal"/>
+		<property name="bColonialPower" value="true"/>
+		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Portugal"/>
+		<property name="strCapital" value="Lisbon"/>
+		<property name="strOriginalCapital" value="Lisbon"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Alentejo"/>
+			<property name="strOwner" value="Portugal"/>
+			<property name="strController" value="Portugal"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="1200660"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Portuguese"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Azores"/>
+			<property name="strOwner" value="Portugal"/>
+			<property name="strController" value="Portugal"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="284755"/>
+			<property name="strCulture" value="Portuguese"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Estremadura"/>
+			<property name="strOwner" value="Portugal"/>
+			<property name="strController" value="Portugal"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="3817469"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Portuguese"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Lisbon"/>
+				<property name="strOwner" value="Portugal"/>
+				<property name="vecPosition" value="[-9.13000011444, 38.7299995422, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="594390"/>
+				<property name="strPortForRegion" value="Iberian Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="8"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Madeira Islands"/>
+			<property name="strOwner" value="Portugal"/>
+			<property name="strController" value="Portugal"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="249771"/>
+			<property name="strCulture" value="Portuguese"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Norte"/>
+			<property name="strOwner" value="Portugal"/>
+			<property name="strController" value="Portugal"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="585456"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Portuguese"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Norte Mines"/>
+				<property name="strOwner" value="Portugal"/>
+				<property name="vecPosition" value="[-6.85205554962, 41.5481414795, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Oporto"/>
+				<property name="strOwner" value="Portugal"/>
+				<property name="vecPosition" value="[-8.57999992371, 41.1699981689, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="232280"/>
+				<property name="strPortForRegion" value="Iberian Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Angola"/>
+			<property name="strOwner" value="Portugal"/>
+			<property name="strController" value="Portugal"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="3225015"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Bantu"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Luanda"/>
+				<property name="strOwner" value="Portugal"/>
+				<property name="vecPosition" value="[13.2299995422, -8.82999992371, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="17800"/>
+				<property name="strPortForRegion" value="Congolese Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Mozambique"/>
+			<property name="strOwner" value="Portugal"/>
+			<property name="strController" value="Portugal"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="4028746"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Bantu"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Lourenco Marques"/>
+				<property name="strOwner" value="Portugal"/>
+				<property name="vecPosition" value="[32.5800018311, -25.9699993134, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="42779"/>
+				<property name="strPortForRegion" value="Agulhas Current"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Macao Peninsula"/>
+			<property name="strOwner" value="Portugal"/>
+			<property name="strController" value="Portugal"/>
+			<property name="strTerrain" value="Mountains"/>
+			<property name="nPopulation" value="374737"/>
+			<property name="strCulture" value="Chinese"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Macao"/>
+				<property name="strOwner" value="Portugal"/>
+				<property name="vecPosition" value="[113.550003052, 22.2000007629, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="157715"/>
+				<property name="strPortForRegion" value="Guangdong Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="3"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Goa"/>
+			<property name="strOwner" value="Portugal"/>
+			<property name="strController" value="Portugal"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="584000"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Dravidian"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Nova-Goa"/>
+				<property name="strOwner" value="Portugal"/>
+				<property name="vecPosition" value="[73.8300018311, 15.4799995422, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="24000"/>
+				<property name="strPortForRegion" value="Koncan Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Guinea"/>
+			<property name="strOwner" value="Portugal"/>
+			<property name="strController" value="Portugal"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="390403"/>
+			<property name="strCulture" value="Fulani"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="East Timor"/>
+			<property name="strOwner" value="Portugal"/>
+			<property name="strController" value="Portugal"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="463796"/>
+			<property name="strCulture" value="Melanesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Cape Verde"/>
+			<property name="strOwner" value="Portugal"/>
+			<property name="strController" value="Portugal"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="156923"/>
+			<property name="strCulture" value="Portuguese"/>
+			<property name="bColony" value="true"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Military District"/>
+			<property name="strOwner" value="Portugal"/>
+			<property name="strRegion" value="Estremadura"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Fleet"/>
+			<property name="strOwner" value="Portugal"/>
+			<property name="strRegion" value="Estremadura"/>
+			<property name="strCity" value="Lisbon"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="Norte Air Group"/>
+			<property name="strOwner" value="Portugal"/>
+			<property name="strRegion" value="Norte"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Portuguese"/>
+			</object>
+		</object>
+	</object>
+</objects>

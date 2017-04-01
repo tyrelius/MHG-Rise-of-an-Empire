@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Greece"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Greece"/>
+		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Greece"/>
+		<property name="strCapital" value="Athens"/>
+		<property name="strOriginalCapital" value="Athens"/>
+		<property name="nTransportCredits" value="1"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Aegean Islands"/>
+			<property name="strOwner" value="Greece"/>
+			<property name="strController" value="Greece"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="823863"/>
+			<property name="strCulture" value="Greek"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Crete"/>
+			<property name="strOwner" value="Greece"/>
+			<property name="strController" value="Greece"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="386427"/>
+			<property name="strCulture" value="Greek"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Ionian Islands"/>
+			<property name="strOwner" value="Greece"/>
+			<property name="strController" value="Greece"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="213157"/>
+			<property name="strCulture" value="Greek"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Macedonia"/>
+			<property name="strOwner" value="Greece"/>
+			<property name="strController" value="Greece"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="1411769"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Greek"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Salonika"/>
+				<property name="strOwner" value="Greece"/>
+				<property name="vecPosition" value="[22.9300003052, 40.6300010681, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="236524"/>
+				<property name="strPortForRegion" value="Aegean Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Peloponnesus"/>
+			<property name="strOwner" value="Greece"/>
+			<property name="strController" value="Greece"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="1257930"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Greek"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Thessaly"/>
+			<property name="strOwner" value="Greece"/>
+			<property name="strController" value="Greece"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="2407243"/>
+			<property name="nTransInfrastructure" value="2"/>
+			<property name="strCulture" value="Greek"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Thessaly Mines"/>
+				<property name="strOwner" value="Greece"/>
+				<property name="vecPosition" value="[22.6257839203, 39.5837669373, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Athens"/>
+				<property name="strOwner" value="Greece"/>
+				<property name="vecPosition" value="[23.7299995422, 38, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="392781"/>
+				<property name="strPortForRegion" value="Aegean Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="7"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Thrace"/>
+			<property name="strOwner" value="Greece"/>
+			<property name="strController" value="Greece"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="308879"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Greek"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Thrace Foundry"/>
+				<property name="strOwner" value="Greece"/>
+				<property name="vecPosition" value="[25.3078460693, 41.1710739136, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="Athens Army"/>
+			<property name="strOwner" value="Greece"/>
+			<property name="strRegion" value="Peloponnesus"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="5"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Fleet"/>
+			<property name="strOwner" value="Greece"/>
+			<property name="strRegion" value="Thessaly"/>
+			<property name="strCity" value="Athens"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Corvette"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="1st Air Group"/>
+			<property name="strOwner" value="Greece"/>
+			<property name="strRegion" value="Thrace"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Greek"/>
+			</object>
+		</object>
+	</object>
+</objects>

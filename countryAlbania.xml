@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Albania"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Albania"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Albania"/>
+		<property name="strCapital" value="Tirana"/>
+		<property name="strOriginalCapital" value="Tirana"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Illyria"/>
+			<property name="strOwner" value="Albania"/>
+			<property name="strController" value="Albania"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="1003124"/>
+			<property name="strCulture" value="Albanian"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Tirana"/>
+				<property name="strOwner" value="Albania"/>
+				<property name="vecPosition" value="[19.8199996948, 41.3300018311, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="57808"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Albania"/>
+			<property name="strRegion" value="Illyria"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Albanian"/>
+			</object>
+		</object>
+	</object>
+</objects>

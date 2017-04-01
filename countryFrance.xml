@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="France"/>
+		<property name="strGovType" value="Democratic"/>
+		<property name="strHomelands" value="France"/>
+		<property name="bIsScored" value="true"/>
+		<property name="bColonialPower" value="true"/>
+		<property name="eCountryType" value="COUNTRYTYPE_PLAYABLE"/>
+		<property name="bCanPlay" value="true"/>
+		<property name="bNonPlayable" value="false"/>
+		<property name="strFlagName" value="France"/>
+		<property name="strCapital" value="Paris"/>
+		<property name="strOriginalCapital" value="Paris"/>
+		<property name="nTransportCredits" value="10"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Corsica"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="322854"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Corsican"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Alsace Lorraine"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2882000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="3"/>
+			<property name="strCulture" value="French"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Alsace Lorraine Mines"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[6.76438903809, 48.2203941345, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="68"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Alsace Lorraine Foundry"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[5.34236478806, 48.9547348022, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="93"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Strasbourg"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[7.47498989105, 48.5480613708, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="193119"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="13"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Brittany"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="3513079"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="French"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Brest"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[-4.48000001907, 48.3899993896, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="79342"/>
+				<property name="strPortForRegion" value="Bay of Biscay"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="17"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Saint-Nazaire"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[-2.21000003815, 47.2700004578, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="40488"/>
+				<property name="strPortForRegion" value="Bay of Biscay"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="19"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Burgundy"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Forest"/>
+			<property name="nPopulation" value="4707000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="2"/>
+			<property name="strCulture" value="French"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Burgundy Foundry"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[6.41779613495, 45.8827590942, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="15"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Lyons"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[4.82999992371, 45.7700004578, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="570622"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="8"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Champagne"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="1769000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="2"/>
+			<property name="strCulture" value="French"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Champagne Mines"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[4.33657741547, 48.8136787415, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="11"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Champagne Foundry"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[5.14803266525, 48.083366394, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="8"/>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Gascony"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2861000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="French"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Bordeaux"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[-0.569999992847, 44.8300018311, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="258348"/>
+				<property name="strPortForRegion" value="Bay of Biscay"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="18"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Il de France"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="8473999"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="French"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Il de France Mines"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[0.865272521973, 47.3350257874, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="6"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Il de France Foundry"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[2.21769809723, 46.9833946228, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="8"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Paris"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[2.32999992371, 48.8699989319, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="2829746"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="64"/>
+					<property name="nTechLevel" value="3"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="La Marche"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2009000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="French"/>
+			<property name="nAgriculture" value="2"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Languedoc"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="2790000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="French"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Toulouse"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[1.42999994755, 43.6199989319, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="213220"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="8"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Normandy"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2319000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="1"/>
+			<property name="strCulture" value="French"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Normandy Oil Field"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[-1.13894176483, 48.9991569519, 0]"/>
+				<property name="strResource" value="Oil"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Normandy Foundry"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[1.31288576126, 49.6420135498, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="23"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Cherbourg"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[-1.61000001431, 49.6300010681, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="37461"/>
+				<property name="strPortForRegion" value="English Channel"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="10"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Picardy"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="4787000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="2"/>
+			<property name="strCulture" value="French"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Picardy Mines"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[2.1162109375, 50.5723762512, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="6"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Lille"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[3.40146160126, 50.0354042053, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="200575"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="23"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Poitou"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="3600249"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="strCulture" value="French"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Nantes"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[-1.01460075378, 46.9392967224, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="195185"/>
+				<property name="strPortForRegion" value="Bay of Biscay"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="12"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Provence"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="2938000"/>
+			<property name="nTransInfrastructure" value="3"/>
+			<property name="nFortification" value="2"/>
+			<property name="strCulture" value="French"/>
+			<property name="nAgriculture" value="2"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Provence Foundry"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[6.55370187759, 44.7971191406, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="8"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Marseilles"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[5.36999988556, 43.2999992371, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="914232"/>
+				<property name="strPortForRegion" value="Catalan Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="37"/>
+					<property name="nTechLevel" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Chad"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="1432555"/>
+			<property name="strCulture" value="Afro-Arab"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Mauritania"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="380000"/>
+			<property name="strCulture" value="Afro-Arab"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Ivory Coast"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="3850737"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Akan"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Abidjan"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[-4.01999998093, 5.32000017166, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="17476"/>
+				<property name="strPortForRegion" value="Grain Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Northern Algeria"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="5787747"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Arab-Berber"/>
+			<property name="bColony" value="true"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Algeria Foundry"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[1.77862262726, 35.3816223145, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="7"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Algiers"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[3, 36.8300018311, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="264232"/>
+				<property name="strPortForRegion" value="Maghreb Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="8"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Oran"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[-0.629999995232, 35.7000007629, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="200671"/>
+				<property name="strPortForRegion" value="Alboran Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="5"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Great Erg"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="1446936"/>
+			<property name="strCulture" value="Arab-Berber"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Tunisia"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="2395108"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Arabian"/>
+			<property name="bColony" value="true"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Tunis Foundry"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[8.82661437988, 34.5321655273, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="3"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Tunis"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[10.220000267, 36.8300018311, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="219578"/>
+				<property name="strPortForRegion" value="Maghreb Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="6"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Ubangi Shari"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="833916"/>
+			<property name="strCulture" value="Banda"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Cameroon"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="2381737"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Bantu"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Gabon"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="409739"/>
+			<property name="strCulture" value="Bantu"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Cambodia"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="3046432"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Cambodian"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Cambodia Mines"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[104.305152893, 13.904504776, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Phnom-Penh"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[104.919998169, 11.5799999237, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="102678"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Lesser Antilles"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="566857"/>
+			<property name="strCulture" value="Caribbean"/>
+			<property name="bColony" value="true"/>
+			<property name="nAgriculture" value="1"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="French Guiana"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="22169"/>
+			<property name="strCulture" value="Creole"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Cayenne"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[-52.2999992371, 4.92000007629, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="10744"/>
+				<property name="strPortForRegion" value="Amazon Mouth"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Togo Dahomey"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2088567"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Ewe"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Lome"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[1.35000002384, 6.17000007629, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="114106"/>
+				<property name="strPortForRegion" value="Bight of Benin"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Reunion"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="197933"/>
+			<property name="strCulture" value="French"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="French Guinea"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Hills"/>
+			<property name="nPopulation" value="2011130"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Fulani"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Niger"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="1733705"/>
+			<property name="strCulture" value="Hausa"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Middle Congo"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="746605"/>
+			<property name="strCulture" value="Kongo"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Brazzaville"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[15.2127799988, -4.05742835999, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="47000"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Laos"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="1011695"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Laotian"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Laos Mines"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[105.41998291, 17.3916931152, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Vientiane"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[102.620002747, 18.1399993896, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="30000"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="5"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Madagascar"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="3797936"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Malagasy"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Antananarivo"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[47.5, -18.8700008392, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="119823"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="French Sudan"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="3569016"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Mande"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Bamako"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[-7.98000001907, 12.6700000763, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="22000"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="New Caledonia"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="53245"/>
+			<property name="strCulture" value="Melanesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Morocco"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="5874888"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Arab-Berber"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Morocco Mines"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[-7.8592710495, 30.5804977417, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Morocco Foundry"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[-8.30030155182, 32.3595695496, 0]"/>
+				<property name="strResource" value="Metals"/>
+				<property name="nBaseOutputRate" value="4"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Casablanca"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[-7.57999992371, 33.5299987793, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="257430"/>
+				<property name="strPortForRegion" value="Moroccan Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="7"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Upper Volta"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="3000243"/>
+			<property name="strCulture" value="Mossi"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Ouagadougou"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[-1.66999995708, 12.3299999237, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="14172"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="French Somaliland"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="44240"/>
+			<property name="strCulture" value="Somali"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Annam"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="5656126"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Vietnamese"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Annam Mines"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[108.390731812, 12.695684433, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="2"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Hue"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[107.580001831, 16.4699993134, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="16712"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="1"/>
+				</object>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Da Nang"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[108.220001221, 16.0499992371, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strPortForRegion" value="Vietnam Coast"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Cochin-China"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="4615968"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Vietnamese"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Cochin-China Mines"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[105.39515686, 9.46199893951, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="1"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Saigon"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[106.669998169, 10.75, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="110577"/>
+				<property name="strPortForRegion" value="Mekong Delta"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="4"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Tonking"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="8858720"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Vietnamese"/>
+			<property name="bColony" value="true"/>
+			<object type="Producer" name="objGOs">
+				<property name="strName" value="Tonking Mines"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[104.138427734, 21.8650779724, 0]"/>
+				<property name="strResource" value="Coal"/>
+				<property name="nBaseOutputRate" value="2"/>
+			</object>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Hanoi"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[105.870002747, 21.2000007629, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="142020"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Senegal"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="1697671"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Wolof"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Dakar"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[-17.4500007629, 14.6899995804, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strPortForRegion" value="Cape Blanca"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="3"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Tuamotu Archipelago"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Jungle"/>
+			<property name="nPopulation" value="4346"/>
+			<property name="strCulture" value="Polynesian"/>
+			<property name="bColony" value="true"/>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Lebanon"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="525957"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Arabian"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Beruit"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[35.4799995422, 33.9700012207, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="strPortForRegion" value="Levantine Sea"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="2"/>
+				</object>
+			</object>
+		</object>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Syria"/>
+			<property name="strOwner" value="France"/>
+			<property name="strController" value="France"/>
+			<property name="strTerrain" value="Desert"/>
+			<property name="nPopulation" value="1170680"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Arabian"/>
+			<property name="bColony" value="true"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Damascus"/>
+				<property name="strOwner" value="France"/>
+				<property name="vecPosition" value="[36.3199996948, 33.5, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="193912"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="3"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Alsace Lorraine"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyTank"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Colonial Army"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Chad"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="2nd Army"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Il de France"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="2nd Colonial Army"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Morocco"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="3rd Army"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Languedoc"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="3rd Colonial Army"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Tunisia"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="4th Army"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Gascony"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="4th Colonial Army"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Niger"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="5th Colonial Army"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Annam"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="6th Army"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Burgundy"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="6th Colonial Army"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Syria"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="7th Army"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Normandy"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="7th Colonial Army"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Ubangi Shari"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="French Foreign Legion"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Northern Algeria"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Cavalry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="FieldArtillery"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st High Seas"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Maghreb Coast"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="2"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="2nd High Seas"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Provence"/>
+			<property name="strCity" value="Marseilles"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="5"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="4th Light Attack"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Tunisia"/>
+			<property name="strCity" value="Tunis"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Raiding Force"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Poitou"/>
+			<property name="strCity" value="Nantes"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCarrier"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="4"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Northern"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="English Channel"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarBattleship"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="Destroyer"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Caribbean"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Eastern Caribbean"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Levant"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Levantine Sea"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="1"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="1st Far East"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Cochin-China"/>
+			<property name="strCity" value="Saigon"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="3"/>
+			</object>
+		</object>
+		<object type="Fleet" name="objGOs">
+			<property name="strName" value="Morocco Group"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Moroccan Coast"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlyCruiser"/>
+				<property name="nNumber" value="3"/>
+			</object>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="EarlySubmarine"/>
+				<property name="nNumber" value="3"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="21st Fighter Group"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Picardy"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="22nd Fighter Group"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Champagne"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="24th Fighter Group"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Burgundy"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="3"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="25th Fighter Group"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Il de France"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="3"/>
+			</object>
+		</object>
+		<object type="AirForce" name="objGOs">
+			<property name="strName" value="1st African Group"/>
+			<property name="strOwner" value="France"/>
+			<property name="strRegion" value="Northern Algeria"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarFighters"/>
+				<property name="nNumber" value="2"/>
+			</object>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Belgium"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="70"/>
+			<property name="nEmbargoSensitivity" value="90"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Luxembourg"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="30"/>
+			<property name="nEmbargoSensitivity" value="75"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="United Kingdom"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="50"/>
+			<property name="nEmbargoSensitivity" value="75"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Poland"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="65"/>
+			<property name="nEmbargoSensitivity" value="90"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Netherlands"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_INVASION"/>
+			<property name="nWarSensitivity" value="10"/>
+			<property name="nEmbargoSensitivity" value="35"/>
+		</object>
+		<object type="TriggerCountry" name="objTriggerCountries">
+			<property name="strName" value="Czechoslovakia"/>
+			<property name="eTriggerType" value="COUNTRY_TRIGGER_WAR"/>
+			<property name="nWarSensitivity" value="10"/>
+			<property name="nEmbargoSensitivity" value="35"/>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="French"/>
+			</object>
+		</object>
+	</object>
+</objects>

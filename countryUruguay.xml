@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="Uruguay"/>
+		<property name="strGovType" value="Authoritarian"/>
+		<property name="strHomelands" value="Uruguay"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="Uruguay"/>
+		<property name="strCapital" value="Montevideo City"/>
+		<property name="strOriginalCapital" value="Montevideo City"/>
+		<property name="nTransportCredits" value="6"/>
+		<object type="Region" name="objGOs">
+			<property name="strName" value="Uruguay"/>
+			<property name="strOwner" value="Uruguay"/>
+			<property name="strController" value="Uruguay"/>
+			<property name="strTerrain" value="Plains"/>
+			<property name="nPopulation" value="2066986"/>
+			<property name="nTransInfrastructure" value="1"/>
+			<property name="strCulture" value="Hispanic"/>
+			<property name="nAgriculture" value="1"/>
+			<object type="City" name="objGOs">
+				<property name="strName" value="Montevideo City"/>
+				<property name="strOwner" value="Uruguay"/>
+				<property name="vecPosition" value="[-56.1699981689, -34.9199981689, 0]"/>
+				<property name="nDirection" value="0"/>
+				<property name="nPopulation" value="682664"/>
+				<property name="strPortForRegion" value="Rio de La Plata"/>
+				<property name="strInitialWorkOrder" value=""/>
+				<object type="Factory" name="objFactory">
+					<property name="nIPUs" value="5"/>
+				</object>
+			</object>
+		</object>
+		<object type="Army" name="objGOs">
+			<property name="strName" value="1st Army"/>
+			<property name="strOwner" value="Uruguay"/>
+			<property name="strRegion" value="Uruguay"/>
+			<object type="UnitSummary" name="objUnits">
+				<property name="strName" value="PreWarInfantry"/>
+				<property name="nNumber" value="1"/>
+			</object>
+		</object>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Hispanic"/>
+			</object>
+		</object>
+	</object>
+</objects>

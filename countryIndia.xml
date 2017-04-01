@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<object type="MECountry" name="">
+		<property name="strName" value="India"/>
+		<property name="strGovType" value="Democratic"/>
+		<property name="strHomelands" value="India"/>
+		<property name="eCountryType" value="COUNTRYTYPE_FEATURED"/>
+		<property name="bNonPlayable" value="true"/>
+		<property name="strFlagName" value="India"/>
+		<property name="strCapital" value="New Delhi"/>
+		<property name="strOriginalCapital" value="New Delhi"/>
+		<property name="bSurrendered" value="true"/>
+		<object type="CultureSet" name="objCultureSet">
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Indo-Aryan"/>
+			</object>
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Gujarati"/>
+			</object>
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Sinhalese"/>
+			</object>
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Marathi"/>
+			</object>
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Dravidian"/>
+			</object>
+			<object type="Culture" name="objCultures">
+				<property name="strCultureName" value="Assamese"/>
+			</object>
+		</object>
+	</object>
+</objects>
