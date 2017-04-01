@@ -17,7 +17,7 @@
 
 #### New Nations
 | Nations            | Free at Start | Can Be Freed |
-|:------------------ |:-------------:|:------------:|
+| :----------------- | :-----------: | :----------: |
 | Vichy France       |   | X |
 | Socialist Italy    |   | X |
 | Confederate States | X |   |
