@@ -15,9 +15,10 @@
 
 #### Newly Freeable Nations
 - Vichy France
+- Socialist Italy
+- Confederate States of America
 - Quebec
 - Newfoundland
-- Socialist Italy
 - Abyssinia
 - Palestine
 - Israel
