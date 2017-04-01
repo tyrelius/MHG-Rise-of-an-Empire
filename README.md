@@ -1,4 +1,4 @@
-![Rise of an Empire A Scenario for Making History The Calm and the Storm Gold Edition](https://github.com/tyrelius/MHG-Rise-of-an-Empire/tree/master/art_files/monument_battle.png "Rise of an Empire")
+![Rise of an Empire A Scenario for Making History The Calm and the Storm Gold Edition](https://raw.githubusercontent.com/tyrelius/MHG-Rise-of-an-Empire/master/art_files/monument_battle.png "Rise of an Empire")
 
 # Rise of an Empire
 ### A Scenario for Making History: The Calm and the Storm Gold Edition
@@ -13,17 +13,19 @@
 - Version 0.4.0
   - (Legacy Edition)
 
-#### Newly Freeable Nations
-- Vichy France
-- Socialist Italy
-- Confederate States of America
-- Quebec
-- Newfoundland
-- Abyssinia
-- Palestine
-- Israel
-- Jordan
-- Lebanon
+#### New Nations
+| Nations            | Free at Start | Can Be Freed |
+|:------------------ |:-------------:|:------------:|
+| Vichy France       |   | X |
+| Socialist Italy    |   | X |
+| Confederate States | X |   |
+| Quebec             |   | X |
+| Newfoundland       |   | X |
+| Abyssinia          |   | X |
+| Palestine          |   | X |
+| Israel             |   | X |
+| Jordan             |   | X |
+| Lebanon            |   | X |
 
 ## Story:
 ### The American Civil War
@@ -42,3 +44,7 @@ Story: 1861, South Carolina and other states cede from the United States. By 186
 
 
 As democracies struggle to recover from economic depression, leaders in Germany, Italy, and Japan have begun expanding their powers.  Will their actions destroy the world&apos;s fragile peace?&#010;&#010;Japan has occupied Chinese Manchuria since 1931.  Italy recently conquered Ethiopia. Nazi Germany has resumed military expansion and marched into the Rhineland, officially a demilitarized zone.  Focused on economic troubles, Britain, France, and the United States have done little to protest these aggressions.  Formerly shunned as a Communist threat, the USSR has grown popular as a potential counterweight to German power. &#010;&#010;In Spain, the Nationalists have attacked the Republican government.  How will the world respond to this civil war?
+
+The world struggles in the grip of a global depression.  The 19th century empires of Europe have disintegrated, and the power vacuum they left behind has given rise to new, radical ideologies that threaten to destabilize all of Europe.  The UK struggles to maintain its dispersed colonies, the United States and France turn inwards to restructure their economies, and the Soviet Union consolidates its internal power though ruthless oppression and widespread famine.   &#010;&#010;Meanwhile, a new leader comes to power in Germany.   Eager to reverse a decade of deprivation, and determined to vacate the Treaty of Versailles, Germany is poised to remilitarize and expand its borders.  Who will fall victim to its quest for empire?  
+
+In the 1930s, conflicts separated the world&apos;s major nations into three camps. &#010;&#010;1) Germany, Italy, Japan, and Nationalist Spain wanted to overthrow the world order using diplomacy, threats, and/or force. &#010;&#010;2) The USSR, China, and Republican Spain strove to preserve the status quo through the same means. &#010;&#010;3) Britain, France, and the US objected to the aggressiveness of the first group, but resisted alignment with the second.  &#010;&#010;Only the USSR helped the Spanish Republican government in its civil war. Britain and France stayed neutral.  Their citizens did not want bloodshed, while their governments did not want alliance with the Soviets. &#010;&#010;Germany and Italy sent &quot;volunteer&quot; brigades to test military technologies and tactics. On March 28 1939, victorious Nationalist forces entered Madrid.&#010;&#010;Germany&apos;s swift occupation of Austria on March 12, 1938, shocked the West. This Anschluss was justified by the rhetoric of self-determination; ethnic Germans had the right to unite under the Nazi flag.  &#010;&#010;Western statesmen sought to appease Germany through diplomacy. These efforts culminated at the Munich Conference of September 1938, when Britain, France, and Italy transferred the Sudetenland--an ethnically German region in Czechoslovakia--to Germany, despite Czechoslovakian and Soviet opposition. Britain announced that the Sudetenland transfer would bring peace to Europe. &#010;&#010;This idealism shattered in March 1939, when Germany annexed half of Czechoslovakia and turned the other half into a puppet state.&#010; &#010;Japan&apos;s territorial aggressions proved equally blatant. Chinese patriotism pushed the unwilling Nationalist government into battle. In July 1937, a skirmish set off the Sino-Japanese War. &#010;&#010;By the spring of 1939, the world has seen Fascist victories in Austria, Czechoslovakia, and Spain, and Japanese successes in China. Totalitarian states are on the march; the balance of global power has shifted into their hands.

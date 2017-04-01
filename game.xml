@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects name="Object Load" version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<object type="MEGame" name="">
-		<property name="strScenario" value="Rise of the Reich (Red Edition)"/>
+		<property name="strScenario" value="Rise of an Empire"/>
 		<property name="strContentPack" value="Modern Europe"/>
 		<object type="GameState" name="objGameState" fromFile="gamestate.xml">
 		</object>
