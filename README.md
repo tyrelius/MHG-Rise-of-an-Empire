@@ -5,13 +5,15 @@
 
 #### Version History
 - Version 0.1.0
-  - (Vichy Edition)
+  - Vichy Edition
 - Version 0.2.0
-  - (CSA Edition)
+  - CSA Edition
 - Version 0.3.0
-  - (Red Edition)
+  - Red Edition
 - Version 0.4.0
-  - (Legacy Edition)
+  - Pre-Legacy Edition
+- Version 0.5.0
+  - Legacy Edition
 
 #### New Nations
 | Nations            | Free at Start | Can Be Freed |
@@ -40,14 +42,31 @@ In Europe, the British are also against the idea of war. The ambitions of Napole
 
 Realizing that Washington could not intervene in Mexico as long as the Confederacy controlled Texas, France invaded Mexico in December, 1861. With the aid of the French and Spanish, the French take initial control of the main Mexican port of Veracruz, but when the Spanish and British realize that the French ambition is to conquer Mexico, they withdraw their forces. In the ensuing war, the United States declares support for the democratically elected government of the Mexican Republic, and the Confederate States offers support to the French cause of establishing the Second Mexican Empire as a monarchist ally in the Western Hemisphere. Mexico is drawn into the larger conflict of the American Civil War, with conservatives in Mexico supporting the French forces, while liberals support the republican government-in-exile. With the inability to maintain a policy of neutrality between the U.S.A. and C.S.A. while waging open war in Mexico against forces supported by the U.S. government, the French send forces to aid the Confederates in breaking the Northern blockade. When the Northern blockade is broken in late 1862, the British begin shipping humanitarian aid to both of the American governments, and with the aid of the French, begin negotiations for a ceasefire. French forces take control of Mexico City in the Summer of 1863 and proclaim a Catholic Empire, offering the crown to the Austrian Prince Maximilian, the younger brother of Austrian Emperor Francis Joseph I. Maximilian I of Mexico is crowned in the Spring of 1864, and the Mexican government-in-exile is disbanded.
 
-With negotiations opened between the U.S. and C.S. governments, and fears of the war spreading into other parts of the Western Hemisphere, threatening the security of not only the remaining territorial claims of European powers, but the balance of power in Europe itself, the remaining European powers declare diplomatic recognition of the Confederate States and find a de facto establishment of independence, eliminating the U.S. position that the Southern states are nothing more than rebels. A ceasefire is declared in July of 1863, a week after French forces capture Mexico City. Official hostilities are resolved with the Treaty of Mexico City in the Summer of 1864, ending the war and opening diplomatic relations between the U.S. and C.S. governments. All seceded states will remain a part of the C.S.A.; the U.S.A. is allowed to admit West Virginia as a state; the Indian territory is granted to the C.S.A. due to support of the Confederacy by the natives living there; the New Mexico Territory is split between both nations, with the western half becoming the Union territory of Arizona; the remaining border states of Delaware, Maryland, Kentucky, and Missouri are to hold public referendums within one year to decide whether to join the Union or the Confederacy. Maryland and Kentucky join the Confederacy in 1865, while Delaware votes overwhelmingly to remain in the Union, as did Missouri, though by a narrow margin. Everything else north of the 37th Latitude would remain U.S. territory. The treaty also stipulated that the Confederacy must abolish slavery within 25 years; failure to do so would result in the immediate termination of trade agreements between the C.S.A. and European nations, who were quickly finding other places to source cotton from, such as Egypt.
+With negotiations opened between the U.S. and C.S. governments, and fears of the war spreading into other parts of the Western Hemisphere, threatening the security of not only the remaining territorial claims of European powers, but the balance of power in Europe itself, the remaining European powers declare diplomatic recognition of the Confederate States and find a de facto establishment of independence, eliminating the U.S. position that the Southern states are nothing more than rebels. A ceasefire is declared in July of 1863, a week after French forces capture Mexico City. Official hostilities are resolved with the Treaty of Mexico City in the Summer of 1864, ending the war and opening diplomatic relations between the U.S. and C.S. governments. All seceded states will remain a part of the C.S.A.; the U.S.A. is allowed to admit West Virginia as a state; the Indian territory is granted to the C.S.A. due to support of the Confederacy by the natives living there; the New Mexico Territory is split between both nations, with the western half becoming the Union territory of Arizona; the remaining border states of Delaware, Maryland, Kentucky, and Missouri are to hold public referendums within one year to decide whether to join the Union or the Confederacy. Maryland and Kentucky join the Confederacy in 1865, while Delaware votes overwhelmingly to remain in the Union, as did Missouri, though by a narrow margin. Everything else north of the 37th Latitude would remain U.S. territory. The treaty also stipulated that the Confederacy must abolish slavery within 25 years; failure to do so would result in the immediate termination of trade agreements between the C.S.A. and European nations, who were quickly finding other places to source cotton from, such as Egypt. To assist in the effort, the Treaty of Monrovia was signed in 1867 between the C.S.A. and Liberia to provide a new home for formerly disenfranchised people as the abolition of slavery was phased in.
 
-### End of the Victorian Era
-This section is next.
+### The Rise of the German Empire
+TODO
+
+### The Scramble for Africa
+TODO
+
+### Post-Victorian Asia
+TODO: include Australia
+
+### Western Civilization in the Western Hemisphere
+TODO
 
 ### The Great War
-This section is also next.
+TODO
 
+### The Red Scare
+TODO
+
+### The Roaring Twenties
+TODO
+
+### Black Tuesday
+TODO
 
 
 ### Notes for future use...
