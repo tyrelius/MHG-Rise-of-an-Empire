@@ -2,6 +2,7 @@
 
 # Rise of an Empire
 ### A Scenario for Making History: The Calm and the Storm Gold Edition
+https://tyrelius.github.io/Rise-of-an-Empire/
 
 #### Version History
 - Version 0.1.0
