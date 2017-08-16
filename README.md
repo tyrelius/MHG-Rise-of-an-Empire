@@ -45,6 +45,8 @@ Realizing that Washington could not intervene in Mexico as long as the Confedera
 
 With negotiations opened between the U.S. and C.S. governments, and fears of the war spreading into other parts of the Western Hemisphere, threatening the security of not only the remaining territorial claims of European powers, but the balance of power in Europe itself, the remaining European powers declare diplomatic recognition of the Confederate States and find a de facto establishment of independence, eliminating the U.S. position that the Southern states are nothing more than rebels. A ceasefire is declared in July of 1863, a week after French forces capture Mexico City. Official hostilities are resolved with the Treaty of Mexico City in the Summer of 1864, ending the war and opening diplomatic relations between the U.S. and C.S. governments. All seceded states will remain a part of the C.S.A.; the U.S.A. is allowed to admit West Virginia as a state; the Indian territory is granted to the C.S.A. due to support of the Confederacy by the natives living there; the New Mexico Territory is split between both nations, with the western half becoming the Union territory of Arizona; the remaining border states of Delaware, Maryland, Kentucky, and Missouri are to hold public referendums within one year to decide whether to join the Union or the Confederacy. Maryland and Kentucky join the Confederacy in 1865, while Delaware votes overwhelmingly to remain in the Union, as did Missouri, though by a narrow margin. Everything else north of the 37th Latitude would remain U.S. territory. The treaty also stipulated that the Confederacy must abolish slavery within 25 years; failure to do so would result in the immediate termination of trade agreements between the C.S.A. and European nations, who were quickly finding other places to source cotton from, such as Egypt. To assist in the effort, the Treaty of Monrovia was signed in 1867 between the C.S.A. and Liberia to provide a new home for formerly disenfranchised people as the abolition of slavery was phased in.
 
+With Washington D.C. surrounded on all sides by foreign territory, the United States moves its capital to the historic roots of American freedom: Philadelphia. The federal district is then abolished and the land sold back to Virginia and Maryland, effective January 1st, 1867.
+
 ### The Rise of the German Empire
 TODO
 
@@ -56,6 +58,13 @@ TODO: include Australia
 
 ### Western Civilization in the Western Hemisphere
 TODO
+Dominican Republic (Santo Domingo) Samaná Bay
+1870 annexation approved to keep the CSA from invading.
+DR would not have gone to the CSA for help since they were a mostly colored nation and opposed to slavery.
+US supports annexation as protection from CSA rather than opposing US imperialism in the Caribbean.
+US pushes to annex Haiti next, another black nation in the Caribbean that could pose risk of CSA invasion.
+https://en.wikipedia.org/wiki/Annexation_of_Santo_Domingo
+https://en.wikipedia.org/wiki/Charles_Sumner#Dominican_Republic_annexation_treaty
 
 ### The Great War
 TODO
